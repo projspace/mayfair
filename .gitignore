@@ -20,3 +20,6 @@ downloads/*
 cache/search/*
 cache/smarty/*
 cache/temp/*
+
+# Debug Files
+debug*.txt
