@@ -1,0 +1,112 @@
+@charset "utf-8";
+/*.sign-up {
+    height: 200px;
+}
+.fsError {
+    display: none !important;
+}
+.fsPage input[type="text"], .fsPage input[type="email"] {
+    width:171px;
+    margin-bottom:7px;
+    font-size:13px;
+    color: #747474 !important;
+    border: 1px solid #aeb0b2 !important;
+    background: #FFF !important;
+    font-family: 'Gill Sans W01 Medium' !important;
+    font-weight: normal !important;
+}
+.fsSubmitButton {
+    width:108px;
+    font-size:13px;
+    padding:5px;
+    text-transform: uppercase;
+    line-height: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: #587b6f;
+    font-family: 'Gill Sans W01 Medium';
+    width: 108px;
+    font-size: 13px;
+    padding: 5px;
+}
+.fsForm .fsSubmit {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+}
+.fsForm {
+    background: none !important;
+    border: none !important;
+}
+input[type="email"] {
+    background: #FFFFFF;
+    font-size: 12px;
+    color: #747474;
+    border: 1px solid #aeb0b2;
+    padding: 5px 9px;
+    font-family: "Gill Sans";
+}
+.fsRowBody, .fsFieldFocused {
+    padding: 0 !important;
+}
+
+.footerSignUp .fsForm { margin-top: 0 !important; width: 210px; }
+.footerSignUp .fsPage { width: 177px; float: left; }
+.footerSignUp .fsFieldRow:first-child { display: none; }
+.footerSignUp input[type='email'] { width: 166px; margin: 2px 0 0 2px; height: 11px; padding: 6px 5px !important; border: none !important; }
+.footerSignUp .fsSubmit { width: 28px; height: 27px; float: left; }
+.footerSignUp .fsSubmitButton { width: 28px; height: 27px; }
+*/
+.fsError {
+    display: none !important;
+}
+
+.fsFieldFocused { background-color: transparent !important; }
+
+.fsPage input[type="text"], .fsPage input[type="email"] {
+    width:171px;
+    margin-bottom:7px;
+    font-size:13px;
+    color: #747474 !important;
+    border: 1px solid #aeb0b2 !important;
+    background: #FFF !important;
+    font-family: 'Gill Sans W01 Medium' !important;
+    font-weight: normal !important;
+}
+.fsSubmitButton {
+    width:108px;
+    font-size:13px;
+    padding:5px;
+    text-transform: uppercase;
+    line-height: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: #587b6f;
+    font-family: 'Gill Sans W01 Medium';
+    width: 108px;
+    font-size: 13px;
+    padding: 5px;
+}
+.fsForm .fsSubmit {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+}
+.fsBody .fsForm {
+    background: none !important;
+    border: none !important;
+}
+input[type="email"] {
+    background: #FFFFFF;
+    font-size: 12px;
+    color: #747474;
+    border: 1px solid #aeb0b2;
+    padding: 5px 9px;
+    font-family: "Gill Sans";
+}
+.fsRowBody, .fsFieldFocused {
+    padding: 0 !important;
+}
+.sign-up {
+    height: 200px;
+}

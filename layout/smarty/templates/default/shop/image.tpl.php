@@ -1,0 +1,2 @@
+<div style="text-align: center;"><img src="{$config.dir}images/product/{$type}{$image.id}.{$image.imagetype}" alt="{$image.product_name}"></div>
+<div style="text-align: center;"><a class="shopImageLink" style="cursor: pointer;" onclick="window.close();">Close Window</a></div>

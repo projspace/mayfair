@@ -1,0 +1,30 @@
+/* tags */
+body { font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 0.7em; color: #333333; background-color: #FFFFFF; margin: 0px; padding: 0px; text-align: center; height: 100%;}
+div { text-align: left;}
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 150%; color: #375F86; margin: 0px 0px 5px 0px;}
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 125%; color: #375F86; margin: 0px 0px 5px 0px;}
+h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 110%; color: #375F86; margin: 0px 0px 5px 0px;}
+img { border: none;}
+a { color: #375F86; text-decoration: underline; cursor: pointer;}
+a:hover { text-decoration: none;}
+
+/* classes */
+.padding { padding: 0px 0px;}
+.center { text-align: center; }
+.right { text-align: right; }
+/* header */
+#heading { width: 765px; height: 60px; margin: 0 auto;}
+#logo { width: 143px; height: 60px; float: left;}
+
+/* Page */
+#main { width: 765px; border-top: 1px solid #375F86; border-bottom: 1px solid #375F86; padding: 5px 0px; text-align: left; overflow: hidden; margin: auto;}
+
+/* Main content */
+#content { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; text-align: justify; float: left; width: 615px;}
+#content p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; padding: 0px; margin: 5px 0px 5px 0px; text-align: justify;}
+#content li { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; list-style-position: outside;}
+
+/* Page footer */
+#footer { width: 765px; margin: 0 auto; padding: 7px 0; font-size: 100%;}
+#copyright { float: left; font-size: 90%; color: #375F86; padding-left: 5px;}
+#back { float: right;}

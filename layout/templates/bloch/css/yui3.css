@@ -1,0 +1,51 @@
+/* Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+
+/* yui3 global: reset, fonts, base, grid */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}p,fieldset,table,pre{margin-bottom:1em;}input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+.yui3-g{letter-spacing:-0.31em;*letter-spacing:normal;word-spacing:-0.43em;}.yui3-u,.yui3-u-1,.yui3-u-1-2,.yui3-u-1-3,.yui3-u-2-3,.yui3-u-1-4,.yui3-u-3-4,.yui3-u-1-5,.yui3-u-2-5,.yui3-u-3-5,.yui3-u-4-5,.yui3-u-1-6,.yui3-u-5-6,.yui3-u-1-8,.yui3-u-3-8,.yui3-u-5-8,.yui3-u-7-8,.yui3-u-1-12,.yui3-u-5-12,.yui3-u-7-12,.yui3-u-11-12,.yui3-u-1-24,.yui3-u-5-24,.yui3-u-7-24,.yui3-u-11-24,.yui3-u-13-24,.yui3-u-17-24,.yui3-u-19-24,.yui3-u-23-24{display:inline-block;zoom:1;*display:inline;letter-spacing:normal;word-spacing:normal;vertical-align:top;}.yui3-u-1{display:block;}.yui3-u-1-2{width:50%;}.yui3-u-1-3{width:33.33333%;}.yui3-u-2-3{width:66.66666%;}.yui3-u-1-4{width:25%;}.yui3-u-3-4{width:75%;}.yui3-u-1-5{width:20%;}.yui3-u-2-5{width:40%;}.yui3-u-3-5{width:60%;}.yui3-u-4-5{width:80%;}.yui3-u-1-6{width:16.656%;}.yui3-u-5-6{width:83.33%;}.yui3-u-1-8{width:12.5%;}.yui3-u-3-8{width:37.5%;}.yui3-u-5-8{width:62.5%;}.yui3-u-7-8{width:87.5%;}.yui3-u-1-12{width:8.3333%;}.yui3-u-5-12{width:41.6666%;}.yui3-u-7-12{width:58.3333%;}.yui3-u-11-12{width:91.6666%;}.yui3-u-1-24{width:4.1666%;}.yui3-u-5-24{width:20.8333%;}.yui3-u-7-24{width:29.1666%;}.yui3-u-11-24{width:45.8333%;}.yui3-u-13-24{width:54.1666%;}.yui3-u-17-24{width:70.8333%;}.yui3-u-19-24{width:79.1666%;}.yui3-u-23-24{width:95.8333%;}
+
+/* yui3 context: reset, fonts */
+.yui3-cssreset html{color:#000;background:#FFF;}.yui3-cssreset body,.yui3-cssreset div,.yui3-cssreset dl,.yui3-cssreset dt,.yui3-cssreset dd,.yui3-cssreset ul,.yui3-cssreset ol,.yui3-cssreset li,.yui3-cssreset h1,.yui3-cssreset h2,.yui3-cssreset h3,.yui3-cssreset h4,.yui3-cssreset h5,.yui3-cssreset h6,.yui3-cssreset pre,.yui3-cssreset code,.yui3-cssreset form,.yui3-cssreset fieldset,.yui3-cssreset legend,.yui3-cssreset input,.yui3-cssreset textarea,.yui3-cssreset p,.yui3-cssreset blockquote,.yui3-cssreset th,.yui3-cssreset td{margin:0;padding:0;}.yui3-cssreset table{border-collapse:collapse;border-spacing:0;}.yui3-cssreset fieldset,.yui3-cssreset img{border:0;}.yui3-cssreset address,.yui3-cssreset caption,.yui3-cssreset cite,.yui3-cssreset code,.yui3-cssreset dfn,.yui3-cssreset em,.yui3-cssreset strong,.yui3-cssreset th,.yui3-cssreset var{font-style:normal;font-weight:normal;}.yui3-cssreset li{list-style:none;}.yui3-cssreset caption,.yui3-cssreset th{text-align:left;}.yui3-cssreset h1,.yui3-cssreset h2,.yui3-cssreset h3,.yui3-cssreset h4,.yui3-cssreset h5,.yui3-cssreset h6{font-size:100%;font-weight:normal;}.yui3-cssreset q:before,.yui3-cssreset q:after{content:'';}.yui3-cssreset abbr,.yui3-cssreset acronym{border:0;font-variant:normal;}.yui3-cssreset sup{vertical-align:text-top;}.yui3-cssreset sub{vertical-align:text-bottom;}.yui3-cssreset input,.yui3-cssreset textarea,.yui3-cssreset select{font-family:inherit;font-size:inherit;font-weight:inherit;}.yui3-cssreset input,.yui3-cssreset textarea,.yui3-cssreset select{*font-size:100%;}.yui3-cssreset legend{color:#000;}
+.yui3-cssfonts body,.yui3-cssfonts{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}.yui3-cssfonts select,.yui3-cssfonts input,.yui3-cssfonts button,.yui3-cssfonts textarea{font:99% arial,helvetica,clean,sans-serif;}.yui3-cssfonts table{font-size:inherit;font:100%;}.yui3-cssfonts pre,.yui3-cssfonts code,.yui3-cssfonts kbd,.yui3-cssfonts samp,.yui3-cssfonts tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+textarea { overflow: auto; } /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+sub, sup { font-size: 75%; line-height: 0; position: relative; }/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }/* j.mp/webkit-tap-highlight-color */
+
+
+button {  width: auto; overflow: visible; }/* Make buttons play nice in IE: www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }/* Bicubic resizing for non-native sized IMG: code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+
+
+.frimg{ float:right; margin: 0 0 8px 8px; clear: right; }
+.flimg{ float:left; margin: 0 8px 8px 0; clear: left; }
+fl{float:left;}
+fr{float:rightl}
+*{outline:0;}

@@ -1,0 +1,2 @@
+20				146		06/13/2012					2172776695	M5RJ0L		XXXX2222				688478006443					USD	23.00	4		fname lname	25 Housel Avenue			Lyndonville	NY	14098	US	1234567890	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			32.52		Y																						8
+20				146		06/13/2012					2172776695	M5RJ0L		XXXX2222				688478577127					USD	22.00	2		fname lname	25 Housel Avenue			Lyndonville	NY	14098	US	1234567890	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			32.52		Y																						8

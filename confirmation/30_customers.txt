@@ -1,0 +1,1617 @@
+30	2D0001		2 Dance Dancewear Limited	267 High Street	Kirkcaldy		Fife	**	KY11JH	UK 	
+30	4D0001		4 Dance	4 Thames Street		Walton on Thames	Surrey	**	KT12 2PU	UK 	
+30	4D0003		4Dance	Via Laura Mantegazza 57/C			Roma	**	00152	IT 	
+30	8B0001		Eightball GmbH	Hohestadter Strasse 38			Ochsenfurt	**	97199	DE 	
+30	8B0001	01    	Eightball GmbH	Hohestadter Strasse 38			Ochsenfurt	**	97199	DE 	
+30	A10001		A1 Unique	43 Station Road			Billingham	**	TS23 1AF	UK 	
+30	AA0001		A&A Dancewear	116c Park Crescent		Barry	Vale of Glamorgan	**	CF62 6HE	UK 	
+30	AA0002		A A D Sports Nation	79 Bis, Boulevard Picpus			Paris	**	75012	FR 	
+30	AA0003		Aartiss Nice S.A.R.L.	10 Rue Alphonse Karr			Nice	**	6000	FR 	
+30	AB0002		ABC Dance	26 Boulevard Lavoisier			Clermont-Ferrand	**	63000	FR 	
+30	AB0003		ABC Danse	15 allee de l ete			Saint Etienne	**	42000	FR 	
+30	AB0003	01    	ABC Danse	70 Rue Bergson			St Etienne	**	42000	FR 	
+30	AC0002		Act One	53 King Street	Melton Mowbray		Leicester	**	LE13 1XB	UK 	
+30	AC0003		Active Dancewear	98 Lee Lane	Horwich	Bolton	Lancashire	**	BL6 7AE	UK 	
+30	AC0004		Academia de Danca	Joana Reis - Loja da Joana	Rua Do Crasto 206		Porto	**	4150-241	PT 	
+30	AC0004	01    	ACADEMIA DE DANCA PORTO	JOANA  REIS LDA	RUA DO CRASTO 263A		PORTO	**	4150 - 245	PT 	
+30	AC0006		Accent on Dance Limited	319 Old Wakefield Road	Moldgreen		Huddlesfield	**	HD5 8AA	UK 	
+30	AD0001		A Dancers World	89 Lea Road	Abington	Northampton	Northamptonshire	**	NN1 4PE	UK 	
+30	AD0002		Adage SPRL	10 Rue Lonhienne			Liege	**	4000	BE 	
+30	AD0003		Adage	34 Rue du Marechal Foch			Le Vesinet	**	78110	FR 	
+30	AD0004		Adage	25 Cours Julien			Marseille	**	13006	FR 	
+30	AD0008		Adele's of Douglas	Unit 7 Villa Marina Arcade	Harris Promenade	Douglas	Isle Of Man	**	IMI 2HN	UK 	
+30	AD0009		Adrian McGill	7 Maplewood Park	Deans	Livingston	West Lothian,	**	EH54 8BB	UK 	
+30	AD0010		Adagio	C/Lorenzo Abrunedo 19 Bajo			Oviedo Asturias	**	33012	ES 	
+30	AE0001		Aequi-Libre	1 Passage de Vignieres			Annecy	**	74000	FR 	
+30	AF0002		AFFAIRS CONCEPT SL	C/ Ramón del Valle Inclán n9			Vigo (Pontevedra)	**	36203	ES 	
+30	AF0003		A for M Ballet Shop	Hohenfriedberger Str. 21			Dortmund	**	44141	DE 	
+30	AG0002		Dance in Love di Agate Stefano	Via Ruggero Settimo, 47			Castelvetrano (TP)	**	91022	IT 	
+30	AH0001		Silkkirumpu	Kirkkokatu 20			Oulu	**	90100	FI 	
+30	AH0001	01    	Silkkirumpu	Kirkkokatu 20			OULU	**	90100	FI 	
+30	AI0003		Aimilia Sitheri	79 Marathonos Ave			ATHENS	**	14569	GR 	
+30	AJ0001		Ajays Dancewear	13 Crossland way	Scawthorpe	Doncaster	S.Yorkshire	**	DN5 9EX	UK 	
+30	AK0001		Kim Araki	8 Southwoods Road	Syosset		New York	NY	NY11791	US 	
+30	AK0001	01    	BLOCK UK STORE	35 Drury Lane	Covent Garden		London	**	WC2B 5RH	UK 	
+30	AL0001		Aladdin	Kengate, South Stour Avenue		Ashford	Kent	**	TN23 7RS	UK 	
+30	AL0002		All for Dance	1a The Precinct	Portsmouth Road	Horndean	Hampshire	**	PO8 9LA	UK 	
+30	AL0002	01    	All For Dance	92 Elm Grove	Southsea		Hants	**	PO5 1LN	UK 	
+30	AL0003		All That Jazz	128 Sutherland Avenue	Mount Nod		Coventry	**	CV5 7NG	UK 	
+30	AL0004		Alexander Harr Theaterschuhe	Schubertstr. 30			Ravensburg	**	88214	DE 	
+30	AL0005		Alemana Dance Center	Otavankatu 19			Pori	**	28100	FI 	
+30	AL0006		Alldance	83, Rue St. Gery			Valenciennes	**	59300	FR 	
+30	AL0007		Allegro Ballettartikel	Spielleutstr. 18			Bremen	**	28717	DE 	
+30	AL0008		Alex Pagonis	58 Zaimi Str			Patras	**	26221	GR 	
+30	AL0010		All for Dance	Viale Giotto 11			Busto Arsizio (VA)	**	21052	IT 	
+30	AL0012		All Dance Sarl	10 Rue de Chabannes			Toulon	**	83000	FR 	
+30	AL0012	01    	Tout Pour La Danse	10 Rue de Chabannes			Toulon	**	83000	FR 	
+30	AL0013		A L'Entrechat Sarl	2 Rue de la Grosse Ecritoire			Reims	**	51100	FR 	
+30	AL0018		Alissa Dancewear	53 Station Road	Liss		Hampshire	**	GU33 7AA	UK 	
+30	AL0018	01    	Alissa Dancewear	53 Station Road	Liss		Hampshire	**	GU33 7AA	UK 	
+30	AL0019		Alista V.O.F	Havenstraat 77			Hilversum	**	1211 KH	NL 	
+30	AL0020		Alexandalexa.com	Lincoln Building, Unit L01	The Biscuit Factory, Tower Bdg Bus Comp	100 Clements Road	London	**	SE16 4DG	UK 	
+30	AL0020	01    	Alexandalexa.com	Unit E03,	Tower Bridge Business Complex	100 Clements Road	London	**	SE16 4DG	UK 	
+30	AM0001		American Dancewear OHG	Werkstr. 4			Harrislee	**	24955	DE 	
+30	AM0004		Ambico/ Far out	Myehof 249			Amsterdam	**	1106 HG	NL 	
+30	AN0001		And Sew to Dance	Unit 11 Cornwallis House	Howard Chase	Basildon	Essex	**	SS14 2EJ	UK 	
+30	AN0002		Antonio Pacelli	17 Hallmark Trading Estate		Wembley	Middlesex	**	HA9 0LB	UK 	
+30	AN0004		Anja Moden - Anja Reissing	Am Kohuesholz 28			Selm- Cappenberg	**	59379	DE 	
+30	AN0005		Anna  Burgwedel	Dr. Albert-David-Str. 19			Burgwedel	**	30938	DE 	
+30	AN0006		Anna Maria Davoudian	15 Georgouli Str.			Kalamata	**	24100	GR 	
+30	AN0007		Antares	via C.Amati , 30/32			Monza	**	20090	IT 	
+30	AN0008		Andrew Begg & Partners East	24-26 Upperkirkgate	Grampian		Aberdeen	**	AB10 1BA	UK 	
+30	AN0009		Anna Morales Molina (Tutus)	C/Portal Nou, 12-14			Terrassa	**	08221	ES 	
+30	AN0009	01    	Anna Morales Molina (Tutus)	C/Portal Nou No.12-14			Terrase (Barcelona)	**	08221	ES 	
+30	AN0010		DELFIN SPORT	C/Camilo Flamarion 12 Bajos			Elche (Novelda)	**	03201	ES 	
+30	AN0011		Angel & Devil Srl di Medici	Centro Commerciale Le Fontane	Strada Trasimeno Ovest - Olmo	p.Terra n°5/A	Perugia	**	06132	IT 	
+30	AN0011	01    	"Angel & Devil" Srl di Medici	Centro Commerciale Le Fontane	Strada Trasimeno Ovest Loc Olmo	p.Terra n°5/A	Perugia	**	06132	IT 	
+30	AN0012		Kokkolan Tanssitarvike	Annukka Kuusio	Korpintie 61		Kokkola	**	67600	FI 	
+30	AN0015		Anastasia Giazkoulidou	14 Patriarcou Ioakeim Str			Thessaloniki	**	54621	GR 	
+30	AN0016		Andrea Sport	Les iles cordées	ZAC Actisud		Veurey	**	38113	FR 	
+30	AN0019		Anabela, prodaja Vrhunske	Opreme ZA Pleasalce	ANA Velepic S.P	Puhova 2	Llublijana	**	1000	SI 	
+30	AN0019	01    	Anabela, Ana Velepi· s.p.	Brnciceva 13, lokal 51			Crunuce	**	1231	SI 	
+30	AN0022		Andreas Marquardt	Albert Schutz - Str 55			Rostock	**	18055	DE 	
+30	AN0025		Antoaneta Miltenova	3 Papakyriazi ATR			Kilkis	**	61100	GR 	
+30	AN0026		Anna Bonincontro	L'arte Della Danza	Di Anna Bonincontro	Via San Michele, 22	Vasto (CH)	**	66054	IT 	
+30	AN0026	01    	L'arte Della Danza	Di Anna Bonincontro	Via San Michele, 20		Vasto (CH)	**	66054	IT 	
+30	AR0001		Arabesque	661 Chesterfield Road	Woodseats		Sheffield	**	S8 0RY	UK 	
+30	AR0002		Arabesque	786 Wimbourne Road	Moordown	Bournemouth	Hampshire	**	BH9 2DX	UK 	
+30	AR0003		Arabesque	77 Queens Road		Buckhurst Hill	Essex	**	IG9 5BW	UK 	
+30	AR0004		Arts Centre Dancewear	221 Epsom Road	Merrow	Guildford	Surrey	**	GU1 2RE	UK 	
+30	AR0005		Artistes Theatre Shop Ltd	23 City Road			Chester	**	CH1 3AE	UK 	
+30	AR0006		Arabesque Ballettboutique	Maxglaner Hauptstrasse 32			Salzburg	**	5020	AT 	
+30	AR0013		Argirou Irini	32 Asklipiou Str.			Larisa	**	41222	GR 	
+30	AR0014		Aristomenis Zografos	45 Feron Street			Athens	**	10440	GR 	
+30	AR0015		Arabesque by Coppelia di Anna	Via del Trionfo 26			Arezzo (AR)	**	52100	IT 	
+30	AR0016		TRIUNFO store Napoli Sas	Via Nardones, 106 - 107			Napoli	**	80132	IT 	
+30	AR0017		Armazem de Artes - Loja TS	Rua do Canal 23			Lagos	**	8600-711	PT 	
+30	AR0018		Arabesque	19 Hospital Street			Perth	**	PH2 8HN	UK 	
+30	AR0019		Arabeska	Katarina Bartosova	Rovinka 76		 Senec	**	80041	SK 	
+30	AR0019	01    	Arabeska	Katarina bartošova	Riazanská 52		Bratislava	**	83103	SK 	
+30	AR0020		Arlequin Ballet SL	C/Aldamar 26			San Sebastian	**	20003	ES 	
+30	AR0021		Arabesque	Piazza Mercato 16			Ottaviano (Napoli)	**	80044	IT 	
+30	AR0024		Arts Centre Danceschool	Aberystwyth Arts Centre	Aberystwyth University	Penglais	Aberystwyth	**	SY23 3DE	UK 	
+30	AR0025		Artemis	34 Rue Du Cadet			Trazegnies	**	6183	BE 	
+30	AR0027		Arte Racoba	C/Periodista Francisco Hidalgo	Trillo local 5		Cordoba	**	14010	ES 	
+30	AR0028		Arabesque Dance Boutique	5 High Street	Ilfracombe		Devon	**	Ex34 9DF	UK 	
+30	AR0029		Arabesque	Via pacinotti 21/A	Porto Torres Prov		Sassari	**	07046	IT 	
+30	AR0030		Arenz Textilhandels GmbH	Brechthofer Str. 37			Raubach	**	56316	DE 	
+30	AR0031		Arabesque Ballettboutique	Frau Dirks	Schlossgarten 4		Hinte	**	26759	DE 	
+30	AR0032		Arabesque	Koetzer Weg 10			Gunzburg	**	89312	DE 	
+30	AR0033		Arabesque Dance Shop	Westring 4			Magdeburg	**	39110	DE 	
+30	AR0034		Arabesque Dancewear	Mashreq Bank Muroor road	Mezanine#1		Abu Dhabi	**		AE 	
+30	AR0034	01    	KMK Express Building	Murror road next to Y-tower	Nahyan Camp Area	Mezzanine #1 and Mezzanine #2	Abu Dhabi	**		AE 	
+30	AS0001		Aspire Dancewear	16 Westgate		Chichester	West Sussex	**	PO19 3EV	UK 	
+30	AS0006		Asami's Tanzboutique	Semmelstr 6			Wuerzburg	**	97070	DE 	
+30	AS0007		ASOS.com Ltd	Acct Dept	PO BOX 422		Southampton	**	SO30 9BW	UK 	
+30	AS0007	01    	ASOS.com Stock Delivery	Azimuth Building	Swallowdale Lane	Hemel Hemstead	Herts	**	HP2 7FZ	UK 	
+30	AS0008		Astidanza	Via Aliberti 27			Asti	**	14100	IT 	
+30	AT0003		Atelier Sport Danse Sarl	53 Rue Brauhauban			Tarbes	**	65000	FR 	
+30	AT0005		Attitude	25 Hills Road			Cambridge	**	CB2 1NW	UK 	
+30	AT0005	01    	25 Hills Road				Cambridge	**	CB2 1NW	UK 	
+30	AT0006		Attitude Diffusion	18 Rue des Croisiers			Caen	**	14000	FR 	
+30	AT0006	01    	Attitude Diffusion	12 rue de Clichy			Paris	**	75009	FR 	
+30	AT0006	02    	Attitude Diffusion	18 rue des Croisiers			Caen	**	14000	FR 	
+30	AT0006	03    	Attitude Diffusion	101 rue Gambetta			Lille	**	59000	FR 	
+30	AT0006	04    	Attitude Diffusion	10 RUE VICTOR HUGO			Rennes	**	35000	FR 	
+30	AT0006	05    	ATTITUDE DIFFUSION	5 RUE CHAVANNE			LYON	**	69001	FR 	
+30	AT0006	06    	ATTITUDE DIFFUSION	Passe  cabriole	10 Rue Alphonse Karr		Nice	**	6000	FR 	
+30	AT0007		A Tempo di Musica	Via Dell'Olivuzzo 8			Firenze	**	50143	IT 	
+30	AT0008		Atelier Della Danza	Largo Mercato Ovest, 1			Telese Terme	**	82037	IT 	
+30	AT0009		Attila Creazioni	di Bianco Michele	Via Guerinni, 23/B		Bologna	**	40143	IT 	
+30	AT0010		Attitudine	Corso Roma 138			San Giovanni Rotondo	**	71013	IT 	
+30	AT0011		Attitude	Veenestraat 16-18			Bunschoten-Spakenbur	**	3751 GH	NL 	
+30	AT0014		Attitude S.n.C di Grigoletto	E. Panfili P	Via Cairoli 2/A		Gubbio	**	06024	IT 	
+30	AT0014	01    	Attitude S.n.C	Grigoletto E. Panfili P	Cairoli 2/A		Gubbio	**	06024	IT 	
+30	AT0015		A tempo di danza	di Alessandra Ruina	VIA Erasmo Gattamelata n. 78		ROMA	**	00176	IT 	
+30	AU0002		Au Lac des Cygnes	13 Rue de la Republique			St. Etienne	**	42000	FR 	
+30	AV0001		Avant Scene	43 Rue Sere de Rivieres			Albi	**	81000	FR 	
+30	AV0002		AVA Boutique	64a Newton Road	Mumbles		Swansea	**	SA3 4BE	UK 	
+30	AY0001		Ayric Danse	11-13 Rue de Colmar			Cannes	**	6400	FR 	
+30	AZ0001		AZABACHE STYLO	C/ALHONDIGA ESQUINA	PLAZA DEL LINO, Nº 1		GRANADA	**	18001	ES 	
+30	AZ0001	01    	AZABACHE STYLO	C/ALHONDRA ESQUINA	PLAZA DEL LINO Nº 1		GRANADA	**	18001	ES 	
+30	BA0001		Bajako Tanzsport & Zubehor	Andrea Jansen	Jagerhausstrasse 57		Stolberg	**	52224	DE 	
+30	BA0001	01    	Bajako Tanzsport & Zubehor	Andrea Jansen  	Leuwstrasse 18		Stolberg	**	52224	DE 	
+30	BA0002		Backstage Dancewear	6 Market Street (Market Place)			Cleethorpes	**	DN35 8LY	UK 	
+30	BA0003		Backstage M.K. Ltd	175, High Street, 	Stoney Stratford	Milton Keynes	Bucks	**	MK11 1AP	UK 	
+30	BA0004		Baillando	12a The Corn Exchange		Maidstone	Kent	**	ME14 1HP	UK 	
+30	BA0005		Ballet Box	21 High Street		Caterham	Surrey	**	CR3 5UE	UK 	
+30	BA0006		Ballet Hoo	113 High Street		Godalming	Surrey	**	GU7 1AQ	UK 	
+30	BA0007		Barnums Dance	4 Bold Street		Warrington	Cheshire	**	WA1 1DR	UK 	
+30	BA0008		Ballerina & Likunta	Hameenkatu 29			Tampere	**	33200	FI 	
+30	BA0011		Bailando Dancewear & Shoes	Bismarckallee 2			Freiburg	**	79098	DE 	
+30	BA0012		Baile der Tanzladen	Kaiserstr. 1a			Bad Oeynhausen	**	32545	DE 	
+30	BA0013		Balance	Jakoberstr. 7			Augsburg	**	86152	DE 	
+30	BA0014		Ballerina Ballett Boutique	Jnh. Edward Podolanczuk	Odenkirchener Str. 18		Moenchengladbach	**	D-41236	DE 	
+30	BA0015		Ballerina Boutique	Bussenweg 2			Barsinghausen	**	30890	DE 	
+30	BA0016		Ballett & Tanzmode Rehberg	Iserlohner Str. 25a			Hagen	**	58119	DE 	
+30	BA0017		Ballettboutique No 1	Luitpoldstr. 1			Krumbach	**	86381	DE 	
+30	BA0018		Debuet	Hauptstr. 37			Twistetal	**	34477	DE 	
+30	BA0018	01    	Debuet	Irena Koslowa	Haupt St 37		Twistetal	**	34477	DE 	
+30	BA0021		Ballett Mode Laden	Hauptstraße 29			Starnberg	**	82319	DE 	
+30	BA0022		Dance-Outlet	Platanen Str 8			Langenselbold	**	63505	DE 	
+30	BA0023		Ballett Shop Gueldner	Sesenheimer Strasse 13			Berlin	**	10627	DE 	
+30	BA0024		Ballett Shop Wolters	Würselener Str. 23			Stolberg	**	52222	DE 	
+30	BA0025		Ballett u. Buehnentanzstudio	Staakener Str. 16			Berlin	**	13581	DE 	
+30	BA0027		Ballettbedarf Koenig	Am Bleichenanger 5			Kaufbeuren	**	87600	DE 	
+30	BA0028		Ballettboutique Anita	Truderinger Str. 284			Munchen	**	81825	DE 	
+30	BA0032		Ballettboutique Manuela Hutten	Nassauer Allee 42			Kleve	**	47533	DE 	
+30	BA0033		Ballettboutique Marita Erxlebe	Frau Marita Erxleben	Lindenstr. 20		Potsdam	**	14467	DE 	
+30	BA0034		Ballettboutique Sterago	Salierstr. 29			Pforzheim	**	75177	DE 	
+30	BA0035		Ballettboutique Waidacher	Wurzacher Strasse 47			Bad Waldsee	**	88339	DE 	
+30	BA0036		Ballettisimo	Expo Plaza 12			Hannover	**	30539	DE 	
+30	BA0036	01    	Ballettisimo	Stania Lupac	Hiratastr. 12		Sarstedt	**	D-31157	DE 	
+30	BA0038		Ballettgeschaeft Baron	Hufelandstr. 5			Berlin	**	10407	DE 	
+30	BA0041		Ballettmoden Dance Art	Nordfeld 3			Fritzlar	**	34560	DE 	
+30	BA0041	01    	Ballettmoden Danceart	Angela Wilkinson-Brueckner	Nordfeld 3		Fritzlar	**	34560	DE 	
+30	BA0044		Ballettschule Margot Cardiano	Markt Strasse 19a			Soest	**	59494	DE 	
+30	BA0045		Ballettshop Attitude	Gruenewaldstr. 28			Balingen	**	72336	DE 	
+30	BA0046		Ballettshop Classic	Munchener Str. 34			Landsberg am Lech	**	86899	DE 	
+30	BA0046	01    	Ballettshop Classic	Ludwig Ganghoferstr. 25			Landsberg	**	86899	DE 	
+30	BA0047		Ballet Boutique	Peder Skramsgade 10			Copenhagen	**	DK-1054	DK 	
+30	BA0048		Ballett-Shop im Olympiazentrum	Fliegende Holländer 21-23			Kiel	**	24159	DE 	
+30	BA0049		Ballettshop Kreiner	Einsteinstraße 9			Herzogenaurach	**	91074	DE 	
+30	BA0049	01    	Ballettshop Kreiner	Schuetzengraben 52			Herzogenaurach	**	91074	DE 	
+30	BA0052		Babar For Dance	Via D'Aronco 27			Udine	**	33100	IT 	
+30	BA0053		Baila Conmigo	di ferrari Brunella	Via Ponte Gregoriano, 14		Tivoli	**	00019	IT 	
+30	BA0055		Ballett -Boutique Graz	Schonaugasse 9			Graz Austria	**		AT 	
+30	BA0056		Ballando Ballando Shop	di Accorroni Teresa	Corso Stamira 26/A		Ancona	**	60122	IT 	
+30	BA0057		Ballet	Via Giuseppe Palombini 31			Roma	**	00155	IT 	
+30	BA0058		Balliamo Ballando	Vai Gioberti 89/R			Firenze	**	50100	IT 	
+30	BA0059		Balletshop Ballerina	Kwikstaartplein 11			Leiderdorp	**	2352 HS	NL 	
+30	BA0059	01    	Balletshop Ballerina	Fa Opdam	Haarlemmersttaat 56		Leiden	**	2312 GC	NL 	
+30	BA0060		Ballet Etc.	Rua Pascoal de Melo 125			Lisboa	**	1000-232	PT 	
+30	BA0061		Balletshop LDA	Av. Di Joao III	Edificio 2000 Loja14		Leiria	**	2400-163	PT 	
+30	BA0062		Bailarinas	Rizzuto Calogero	Avda. Concordia 26	Cantabria	Maliano (Spain)	**	39600	ES 	
+30	BA0067		Ballett Shop Mar AG	Romergasse 4			Zurich	**	8001	CH 	
+30	BA0067	01    	Ballet Shop Mar AG	c/o Nova Traffic AG	Embraport, Building F, Tor 47,	1st Floor	Embrach - Embraport	**	8423	CH 	
+30	BA0068		Backstage Dancewear	3 Gateside Street	Hamilton			**	ML3 7HT	UK 	
+30	BA0071		Backstage Ballett Boutique	Rothenburger Str. 30			Rottingen	**	97285	DE 	
+30	BA0075		Balletshop Garbsen	Henriettenweg 4			Garbsen	**	30827	DE 	
+30	BA0077		Ballet Studio Nicola	25 Avenue De L'Avenir			Kinshasa	**		CD 	
+30	BA0077	01    	COMEXAS Airfreight NV	Mme Bougois/Kinshasa	Building 744		Brucargo	**	1931	BE 	
+30	BA0080		Balletshop Katharina Freystein	Breite Strasse 9			Naunhof	**	04683	DE 	
+30	BA0083		Ballett Boutique Widmann	Schwarze Allee 60			Schwaebisch Gmuend	**	73525	DE 	
+30	BA0084		Les Ballets de Monte Carlo	Le Casino	1 Place du Casino		Monte Cralo	**	98000	MC 	
+30	BA0084	01    	Les Ballets de Monte Carlo	L'Atelier 5  Av. Paul Doumer	Le Casino Place 377		Beausoleil	**	06240	FR 	
+30	BA0085		Babydaze T/A Dancedaze	Unit 4	Hill Cottage Farm	Hogshaw	Bucks	**	MK18 2SQ	UK 	
+30	BA0087		Backstage di Mainardi Giorgia	Via A. Rosmini 27/29			Latina (LT)	**	04100	IT 	
+30	BA0088		Ballett- und Tanzbedarf	Andre Kleim	Bungertstr. 21		Essen	**	45239	DE 	
+30	BA0088	01    	Ballett- und Tanzbedarf	ANDRE KLEIM	Annastrasse 76		Essen	**	45130	DE 	
+30	BA0089		BAIRAMI Nectaria	40 Agias Paraskevis STR			Pireas	**	18539	GR 	
+30	BA0090		Bailador SNC	Via Asinari di Bernezzo, 47/B			Torino	**	10146	IT 	
+30	BA0091		Ballettboutique Schreieck	Mandelring 35			Neustadt	**	67433	DE 	
+30	BA0093		Balliamocisopra S.n.c	di Malpezzi Evelina e	Buzzacchino Marina	Via Gian Turco, 78	La Spezia	**	19126	IT 	
+30	BA0094		Baruch Hoffmann	Bloch Trade 2011	5 Tel Giborim st.		Tel Aviv	**	68105	IL 	
+30	BA0095		Ballettboutique Step by Step	Wilhelmstr. 15			Halbergmoos	**	85399	DE 	
+30	BA0096		Ballett am Rhein	Duesseldorf Duisburg - Ulrike Woerner	Niederkasseler Kirchweg 36		Duesseldorf	**	40547	DE 	
+30	BA0097		Ballettladen	ANNA COPAK	Hoersterstr. 34		Muenster	**	48143	DE 	
+30	BA0098		Ballett Point	Bahnhofstr. 13			Boetersen	**	27367	DE 	
+30	BA0099		Batemans Sports Ltd	2 Kendrick Street		Stroud	Gloucestershire	**	GL5 1AB	UK 	
+30	BE0001		Be Famous	1st Floor	22 Market Place	Penzance	Cornwall	**	TR18 2JD	UK 	
+30	BE0002		Beverley Dancewear	Within Beverley Music Centre	14 Norwood	Beverley	East Yorkshire	**	HU17 9EZ	UK 	
+30	BE0003		Ben Sport	4 Avenue De Thouars			Hannut	**	4280	BE 	
+30	BE0004		Benrather Ballettlaedchen	Frau Marion Rabimow	Dresdener Str 127		Dusseldorf	**	40595	DE 	
+30	BE0004	01    	Benrather Balletlaedchen	Dresdener Str. 127			Dusseldorf	**	40595	DE 	
+30	BE0007		Belinda King Creative Prod Ltd	Wardrobes Department	32 Victoria Road		Northampton	**	NN1 5ED	UK 	
+30	BE0008		Bespoke Dance Shoes	The Weston Centre	Weston Road	Crewe	Cheshire	**	CW1 6FL	UK 	
+30	BE0008	01    	Bespoke Dance Shoes	The Weston Centre	Weston Road	Crewe	Cheshire	**	CW1 6FL	UK 	
+30	BE0008	02    	Bespoke Dance Shoes	The Weston Centre	Weston Road	Crewe	Cheshire	**	CW1 6FL	UK 	
+30	BE0009		PROXY Sp.J.	ul. Slezna 27			Wroclaw	**	53-301	PL 	
+30	BE0012		Belseco Danse	76 avenue de la Victoire RN7			ORGON	**	13660	FR 	
+30	BE0013		Bella K.	Tanzbedarf/Tanzmode/Tanzschuhe	Wehler Weg 2		Hameln	**	31785	DE 	
+30	BE0013	01    	Bellabina Kulturell	Fischbeckerstrasse 14			Hameln	**	31785	DE 	
+30	BE0014		Beyond Borders Investments Ltd	PO Box 28822			Nicosia	**	2083	CY 	
+30	BE0014	01    	Beyond Borders Investments Ltd	3B Paridos STR			Nicosia	**	1027	CY 	
+30	BE0015		Berkhamsted Sports Ltd	250 High Street	Berkhamstead		Herts	**	HP4 1AQ	UK 	
+30	BE0016		Bernardo Ferrer Casanova	Rua Sao Luis 16 A			Faro	**	8000 285	PT 	
+30	BF0001		B.F.M. SRL	Via Giovanni Pascoli 129			Olgiate Olona (VA)	**	21057	IT 	
+30	BF0001	01    	Galleria Gallazzi	Via S. Antonio 4			Busto Arsizio (VA)	**	21052	IT 	
+30	BI0001		Biarritz Danse	9 Rue de la Maison Suisse			Biarritz	**	64200	FR 	
+30	BI0004		Billy London	Sharon Williams Wardrobe Dept	Victoria Palace Theatre	Allington Street	London	**	SW1E 5EA	UK 	
+30	BI0004	01    	Billy London	C/o Bloch Uk	35 Drury Lane	Covent Garden	London	**	WC2B 5RH	UK 	
+30	BI0005		Birmingham Royal Ballet	Birmingham Hippodrome	Thorpe Street		Birmingham	**	B5 4AU	UK 	
+30	BJ0001		BJE Banks 	512-514 Slade Road		Erdington	Birmingham	**	B23 7JE	UK 	
+30	BL0001		Blubarry's	107 Green Lane		Morden	Surrey	**	SM4 6SE	UK 	
+30	BL0002		Bloch UK Ltd - Retail store	35 Drury Lane	Covent Garden		London	**	WC2B 5RH	UK 	
+30	BL0003		Bloch Ecommerce Sales					**		UK 	
+30	BL0005		Blush Dance	1 Albemarle Street			South Shields	**	NE33 1LZ	UK 	
+30	BL0005	01    	Blush Dance	1 Albemarle Street			South Shields	**	NE33 1LZ	UK 	
+30	BL0006		Bloch Inc				Reno	**		US 	
+30	BL0009		BLOCH STAFF ACCOUNT	LOWER GROUND QUALITY HOUSE	6-9 QUALITY COURT	CHANCERY LANE	LONDON	**	WC2A 1HP	UK 	
+30	BL0010		BLOCH STAFF ACCOUNT (EUR)					**		UK 	
+30	BL0012		BLING IT ON LTD	Unit 5 Hamilton Rd Ind Est		Strathaven	South Lanarkshire	**	ML10 6UB	UK 	
+30	BL0013		Blue Banana Internet Ltd	Prince Albert House	Liskeard Business Park	Liskeard	Cornwall	**	PL14 3US	UK 	
+30	BO0001		Bobbie Ann's Western Wear	49 Canterbury Road	Hawkinge		Kent	**	CT18 7BP	UK 	
+30	BO0002		Body & Sole	43, St. Johns Street		Colchester	Essex	**	CO2 7AD	UK 	
+30	BO0003		Boo Boos Dancewear Ltd	40 Fleckney Road	Kibworth Beauchamp	Leicester	Leicestershire	**	LE8 OHE	UK 	
+30	BO0004		Born to Dance	163 Northgate			Darlington	**	DL1 1TZ	UK 	
+30	BO0005		Boogie Boots	Ostergade 24			Aabybro	**	9440	DK 	
+30	BO0006		Body Fun	10 Place Abel Surchamp			Libourne	**	33500	FR 	
+30	BO0007		Body Langage	8 Bd Raimbaldi			Nice	**	06000	FR 	
+30	BO0008		Bolero	40 Rue de Moscou			Paris	**	75008	FR 	
+30	BO0011		Boutique Giulietta Patou	Lindenallee 114			Karlsruhe	**	76189	DE 	
+30	BO0011	01    	Boutique Giulietta Patou	Lindenallee 114			Karlsruhe	**	76189	DE 	
+30	BO0012		Body Art	Via F. Cavallotti 17/B			Lecce (LE)	**	73100	IT 	
+30	BO0013		Bolero	Via Palmiro Togliatti 2			Genzano di Roma	**	00045	IT 	
+30	BO0014		Boutique de la Danse	Via Volta 2			Torino (TO)	**	10100	IT 	
+30	BO0015		Bosch Sport Velsen	Postbus 14			Velsen Noord	**	1950 AA	NL 	
+30	BO0015	01    	Bosch Sport Velsen B.V.	Hoofdstraat 182			Santpoort	**	2071 EM	NL 	
+30	BO0017		Bodies-In-Motion	50 Derby Road	Long Eaton		Nottingham	**	NG10 4QP	UK 	
+30	BO0023		Bop s.r.l.	Via Lucrezio Caro 68			Roma	**	00193	IT 	
+30	BO0031		Botteguccia di Orzan c	Corso Italia, 62/64			Gorizia	**	34170	IT 	
+30	BO0032		Boutique Passion Danse	Academia de FlamencoConchaCast	146 rue du Jardin Public		Bordeaux	**	33300	FR 	
+30	BO0032	01    	Boutique Passion Danse A.F.C.C	167 rue du Jardin Public			Bordeaux	**	33300	FR 	
+30	BO0033		Bonsanti Sport	Via Grande 29			Livorno	**	57123	IT 	
+30	BR0001		Broadway Dancewear	105/107 Church Street		Burbage	Leicestershire	**	LE10 2SE	UK 	
+30	BR0002		D&G di Giorgia Di Natale	Via XX SETTEMBRE 12			Palermo	**	90141	IT 	
+30	BR0005		Brewers Shoes Ltd	The Corner House	19 King Street	Sandwich	Kent	**	CT13 9BT	UK 	
+30	BR0005	01    	Brewer and Howard	14, King Street	Sandwich		Kent	**	CT13 9BT	UK 	
+30	BR0005	02    	Brewer & Howard	10 Harbour Street			Ramsgate	**	CT11 8HA	UK 	
+30	BR0006		Brincar as Estrelas	Artes Espectaculos Unipessoal	Av. MalHumbertoDelgado 529A-541		VilaNovadeFamalicao	**	4760	PT 	
+30	BR0006	01    	ETC. & TAL	Rua Adriano Pinto Basto,202210			VilaNovadeFamalicao	**	4760 114	PT 	
+30	BR0007		News International/Brand Alley	1 Virginia Street			London	**	E98 1XY	UK 	
+30	BR0007	01    	BrandAlley (UK) Ltd	C/o Prolog Logistics Limited	Phase 3 Chilton House	Sherwood Park	Nottingham	**	NG15 0DJ	UK 	
+30	BR0008		Broadwater Sports	37 Broadwater Street West			Worthing	**	BN14 9BY	UK 	
+30	BR0008	01    	Broadwater Sports	Unit 6 Royal Buildings	Marlborough Road	Lancing Business Park		**	BN15 8SJ	UK 	
+30	BU0001		Burleigh Academy	1 Spencer Road		Newport	South Wales	**	NP20 4LB	UK 	
+30	BU0001	01    	Burleigh Academy	Llanthewy Road			Newport	**	NP20 4LD	UK 	
+30	BU0003		Budo Fitness	22 rue Leon Guet			Le Mans	**	72100	FR 	
+30	BU0003	01    	BUDO FITNESS	25 rue des Acacias			Le Mans	**	72000	FR 	
+30	BU0006		Butterfly Wings Dancwear	117 Lane End	Chapeltown		Sheffield	**	S35 2UH	UK 	
+30	BV0001		BV Dance s.a.s di	Berardinelli B.e.C	Via Rafaello, 72/3		Pescara	**	65124	IT 	
+30	CA0001		Cabaret Dancewear	28 Burcott Gardens	New Haw	Addlestone	Surrey	**	KT15 2DE	UK 	
+30	CA0002		Candicole Dancewear	Shop 6 - Leyland Market Hall	Northcote Street off Hough Lane	Leyland	Lancashire	**	PR25 2AA	UK 	
+30	CA0004		Carillon	Via Angelo Scarsellini 14			Verona (VR)	**	37123	IT 	
+30	CA0005		Cat Studio	Piazza Ferreto 57			Venezia Mestre (VE)	**	30147	IT 	
+30	CA0006		CAMBRE	Dreef 34a			Breda	**	4813 EG	NL 	
+30	CA0007		Cabriole Dansa S.L	Pº Manuel Girona 50			Barcelona	**	08034	ES 	
+30	CA0009		Cristina Valldeperas Andujar	Casmiro	C/Joaquin Costa 57		Barcelona	**	08001	ES 	
+30	CA0013		Carnevale Tanzsportbedarf	Marianne Munstermann	Ardennestr.14		Duren	**	D-52355	DE 	
+30	CA0014		Canela	C/Picasso No3			Jaen	**	23400	ES 	
+30	CA0015		Cas Danse	16 rue de Chateaudun			Paris	**	75009	FR 	
+30	CA0015	01    	Paris Opera - Arnaud Dreyfus	Opera de Paris	8 rue Scribe		Paris	**	750009	FR 	
+30	CA0016		Carole Towler	1 Lyons Close	Slinfold	Horsham	West Sussex	**	RH13 0RZ	UK 	
+30	CA0021		Cardo Y Mora CB	Avenida Dos de Mayo 18			Ontinyent	**	46870	ES 	
+30	CA0024		Calzadora	Tanzschuhe aus Buenos Aires	Annakatrin Goepfert	Erich-Zeigner-Allee 34	Leipzig	**	04229	DE 	
+30	CA0025		Caroline Green School of Dance	& Drama	THE STUDIO (Behind LA Fitness)	CARRINGTON STREET	Derby	**	DE1 2ND	UK 	
+30	CA0026		Calix 2	Unit 72	County Mall Shopping Centre	Crawley	West Sussex	**	RH10 1FP	UK 	
+30	CA0027		Calzature Beppe	Via Mazzini 25			Spotorno(SV)	**	17028	IT 	
+30	CA0028		Carlos Pedro Goncalves Pinto	Rua 1 De Janeiro LT 28	Barrunchal		Sintra	**	2710-168	PT 	
+30	CA0028	01    	Vem Dancar	Praceta Natalia Correja, 181-A	C.Cmercial Mirasol, Loja 13	Buzano Parade	S.Domingos De Rana	**	2785 347	PT 	
+30	CC0001		CCA Group	AL Assaily Str	St Sarkis Blg, UGB	Jdeidet El Metn	Beirut	**		LB 	
+30	CC0002		CC Factory - Robert Groels	Sinjorendreef 23			Zoerse	**	2980	BE 	
+30	CD0001		C.D.M.   S.r.L.	Via Fratelli di Dio 12	Baggio		Milano	**	20152	IT 	
+30	CD0001	001   	Alvares (CDM)	Via Rismondo 9	Ang v.Majaniello		Milano	**	20152	IT 	
+30	CD0001	01    	ALVARES DANCE SHOES	VIA ALBERICO DA ROSCIATE N. 4	ANGOLO VIA CABELLA		MILANO	**	20152	IT 	
+30	CE0001		Centre Stage	32 Purley Way		Clacton on Sea	Essex	**	CO16 8YX	UK 	
+30	CE0002		Centre Stage	Coxeter House	21-27 Ock Street	Abingdon	Oxfordshire	**	OX14 5AJ	UK 	
+30	CE0003		Centre Stage	11 The Parade	St Helier	Jersey	Channel Islands	**	JE2 3QP	JE 	
+30	CE0004		Centro de Danza de Porto	Rue da Bouca 103-105			Porto	**	4050-121	PT 	
+30	CE0005		Cendryllon	4 rue Porte de Lyon			Chalon-sur-Saone	**	71100	FR 	
+30	CE0007		Centre Stage Dancewear	86 High Street		Linlithgow	West Lothian	**	EH49 7AQ	UK 	
+30	CE0007	01    	Centre Stage Dancewear	86 High Street	Linlithgow		West Lothian	**	EH49 7AQ	UK 	
+30	CE0008		Centrestage	5 Langden Brook Mews	Morecambe		Lancashire	**	LA3 3SN	UK 	
+30	CE0008	01    	55A Princes Crescent	Bare Lane	Morecambe		Lancashire	**	LA4 6BY	UK 	
+30	CE0009		C'est La Dance	Via Egnathia 20			72015 Fasano BR	**	72014	IT 	
+30	CH0001		Chameleon Dancewear	5 Meadow Road		Kettering	Northamptonshire	**	NN16 8TL	UK 	
+30	CH0002		Chancery Footwear	Unit 86 Bunting Road Ind Est		Northampton	Northamptonshire	**	NN2 6EE	UK 	
+30	CH0003		Charlotte's Dancewear	86 High Street		Byfleet	Surrey	**	KT14 7QW	UK 	
+30	CH0004		Chelsea Balletwear	6, Upper Cheyne Row			London	**	SW3 5JN	UK 	
+30	CH0005		Charpentier BVBA	Nationalestraat 134			Antwerpen	**	2000	BE 	
+30	CH0007		Chorelys	806 avenue Charles Prieur			Dammarie-les-Lys	**	77190	FR 	
+30	CH0008		Cheetah	Steeler Str. 323			Essen	**	45138	DE 	
+30	CH0009		Chrissy s Tanzladen GbR	Friesenstr. 6			Delmenhorst	**	27751	DE 	
+30	CH0010		Charalambia Kambouroglou	102 Riga Fereou St	Koutarelia		Volos	**	38333	GR 	
+30	CH0011		Choros	Georgia Mossiou	56 Ermou Str		Athens	**	10563	GR 	
+30	CH0012		Chi E Di Scena	Via L. Da Vinci 19	Pomigliano D'Arco		Napoli	**	80038	IT 	
+30	CH0013		Chore Graphie	Via Isonzo 3a			Francavilla F.NA	**	72021	IT 	
+30	CH0014		Thea Tiggelaar	Heimanslaan 35			Ede	**	6717 ZC	NL 	
+30	CH0017		Chorus Line	17 The Lawns	Hinckley		Leicestershire	**	LE10  1DY	UK 	
+30	CH0018		Chore Danse	AVENUE DE SPA 59		HEUSY	Belgium	**	4802	BE 	
+30	CH0018	01    	Chore Danse	Avenue De Spa 59	Heusy		Belgium	**	4802	BE 	
+30	CH0021		Mr S Neilson + Mrs L.J Neilson	T/A Charades Dancewear	193 Coalway Road	Penn	Wolverhampton	**	WV3 7ND	UK 	
+30	CH0025		Chorea	11 Passage du Commerce			Vichy	**	03200	FR 	
+30	CH0026		Cha Cha Cha	fine collection	Koenigsplatz 10		Paderborn	**	33098	DE 	
+30	CH0027		Choreography	Via Mons A Maddeo n 2			Crema (CR)	**	26013	IT 	
+30	CI0001		Cinderella Ballettshop	Von-Huenefeld - Str. 83			Langenfeld	**	40764	DE 	
+30	CI0001	01    	Cinderella  Ballettshop	Von- Huenefeld - Str. 83	Langenfeld		Germany	**	40764	DE 	
+30	CI0002		City Sport Oy	Kauppakatu 9-11			Kemi	**	94100	FI 	
+30	CI0002	01    	City Sport	Tehtaankatu 1			Oulu	**	90100	FI 	
+30	CI0003		Citta di Bologna	P.za Cavour, 56			La Spezia	**	19121	IT 	
+30	CL0004		CLASE ACCES S.L.	C/ BALMES, 82-84, LOCAL 3			Barcelona	**	08007	ES 	
+30	CL0005		Clever Co	4 Rue Robert			Lyon	**	69006	FR 	
+30	CL0005	01    	Aurélien CHOIZIT	73 rue Maurice Ravel	Residence Montmousseau Batiment CD		La Seyne Sur Mer	**	83500	FR 	
+30	CL0006		Clave loca Store	via Tolmino 52			Torino	**	10141	IT 	
+30	CM0001		CMDL	25 High Street		Ashford	Kent	**	TN24 8TH	UK 	
+30	CO0001		Coadycrew	6 Burma Avenue		Cheltenham	Gloucestershire	**	GL52 5LF	UK 	
+30	CO0001	01    	CoadyCrew	Coady Dance Studios	436 High Street	Cheltenham	Gloucester	**	GL50 3JA	UK 	
+30	CO0002		Cotswold Dance & Leisure	16 Commercial Street,		Cheltenham	Gloucestershire	**	GL50 5AU	UK 	
+30	CO0003		Colombine	Avenue de la Plante 17			Namur	**	5000	BE 	
+30	CO0004		Coppelia	29 Rue des Trois Rois			Mulhouse	**	68100	FR 	
+30	CO0005		Coppelia Cadence	22 Rue Pizay			Lyon	**	69001	FR 	
+30	CO0005	01    	Coppelia Cadence	22 Rue Pizay			Lyon	**	690001	FR 	
+30	CO0005	02    	Coppelia	Attention Elodie Girard	18 rue des Alpes		Valence	**	26000	FR 	
+30	CO0011		DANCE HOUSE S.N.C.	DI BOGGI ROBERTO & C.	VIA BORGO SANTA CATERINA N 64		Bergamo	**	24124	IT 	
+30	CO0012		Coppelia Store SnC	Via Orzinuovi 76			Brescia	**	25125	IT 	
+30	CO0012	01    	Coppelia Store SnC	Via Orzinuovi 76			Brescia (BS)	**	25125	IT 	
+30	CO0014		Coppelia	di Teresa Pecoraro	Via Ariosto 25/N		Palermo	**	90144	IT 	
+30	CO0014	01    	Coppelia	Via Ariosto 25/N			Palermo	**	90144	IT 	
+30	CO0016		Cose di Danza di Bella	Via Dei Fornaciai 1		Santa Maria Degli Angeli	Perugia (PG)	**	06088	IT 	
+30	CO0017		Condesso & Ca Lda - Novalma	Rua Santa Catarina 443			Porto	**	4000-452	PT 	
+30	CO0018		COPPELIA	TRINIDAD ALACID GARCIA	C/SALVADOR DE MADARIAGA N.10		Novelda (Alicante)	**	03660	ES 	
+30	CO0020		Couleurs de Danse	26 Rue Matabiau			Toulouse	**	31000	FR 	
+30	CO0022		Contors Dancewear	80 Huddersfield Road			West Yorkshire	**	HX5 9AA	UK 	
+30	CO0025		Commerciale Danza S. R.L	Viale Verona 6			Vicenza	**	36100	IT 	
+30	CO0027		Cowboyz & Angels	Fyrrevaengt 407			Billund	**	7190	DK 	
+30	CO0032		Commerciale: Coppelia SRL	Via Orzinuovi, 76			Brescia	**	25125	IT 	
+30	CO0032	01    	Piazza dell Esquilino 29/A				Roma	**	00185	IT 	
+30	CO0033		Lenka Takacova	Pod Devinem, 39			Praha 5	**	15000	CZ 	
+30	CO0033	01    	Lenka Takacova	Pod Devinem, 39			Praha 5	**	15000	CZ 	
+30	CO0036		Constanze Assmann	Tanzsache	Beltruptstr. 55		BREGENZ	**	6900	AT 	
+30	CO0037		Con Passione	Wichmannstr.13			Neuruppin	**	16816	DE 	
+30	CO0038		Come Una Volta... La Bottega	Del Cucito Di Rosa Lannes	Coro Dalmazia,122		Civitanova Marche	**	62012	IT 	
+30	CO0039		Cose di Danza	di Arrigoni Flavio	Via Piemonte, 40		RANICA	**	24020	IT 	
+30	CO0040		Barcelona Ballet	Emilia Corella	C/d Ortigosa 10-12		Barcelona	**	08003	ES 	
+30	CO0041		Coppelia C.B	C/Concepcion N21			Albecete	**	02002	ES 	
+30	CR0002		Creative Fashion	Hochstr. 40			Heinsberg	**	52525	DE 	
+30	CR0004		SARL CREATSPORT DIFFUSION	LIEUDIT FONTAILLON - Sport 2000	Route Nationale 5		Segny	**	01170	FR 	
+30	CU0001		C.U.L.T. Boutique	Hauptstr. 18			Linz	**	A-4040	AT 	
+30	CU0003		CUSTOMER SERVICES	LOWER GRND QUALITY HOUSE	6-9 QUALITY HOUSE	CHANCERY LANE	LONDON	**	WC2A 1HP	UK 	
+30	DA0001		Dance Ability	143 Effingham Street		Rotherham	South Yorkshire	**	S65 1BL	UK 	
+30	DA0002		Dance Attitude	8 Low Fold	Rawdon	Leeds	West Yorkshire	**	LS19 6DE	UK 	
+30	DA0003		Dance City Ltd	196A Walsall Wood Road		Albridge	West Midlands	**	WS9 8HB	UK 	
+30	DA0005		Dance Craze	5 Reeves Court		East Malling	Kent	**	ME19 6XL	UK 	
+30	DA0006		Dance Crazy Wearhouse	77D St.John s Street		Bury St Edmonds	Suffolk	**	IP33 1SQ	UK 	
+30	DA0007		Dance Direct UK	9 Hercules Way	Bowerhill,	Melksham	Wiltshire	**	SN12 6TS	UK 	
+30	DA0009		Danses Et Plage	19 rue Saint Julien			Angers	**	49100	FR 	
+30	DA0010		Dance Krazy	42 Bridwell Road, Weston Mill		Plymouth	Devon	**	PL5 1AB	UK 	
+30	DA0011		Dance in Style	Enville Road, 		Wall Heath	West Midlands	**	DY6 0JT	UK 	
+30	DA0012		Dance of Hitchin	102 Bancroft		Hitchin	Herts	**	SG5 1NB	UK 	
+30	DA0013		Dance On	86 Manor Street		Falkirk	Stirlingshire	**	FK1 1NB	UK 	
+30	DA0014		Dance on the Street	6 High Street		Kippax	Leeds	**	LS25 7AB	UK 	
+30	DA0015		Dance Partners	16 Long Drive		South Ruislip	Middlesex	**	HA4 0HG	UK 	
+30	DA0016		Dance Place, The	83 Victoria Place		Crewe	Cheshire	**	CW1 2JH	UK 	
+30	DA0017		Dance Reality LLP	68 Cotswold Way		Tilehurst	Reading	**	RG31 6SJ	UK 	
+30	DA0018		Dancescene	37 Warwick Street		Leamington Spa	Warwickshire	**	CV32 5JX	UK 	
+30	DA0019		Dance Studios - Linda Virgoe	Unit 12	Quedgeley Enterprise Centre	Quedgeley	Gloucestershire	**	GL2 4SA	UK 	
+30	DA0021		Dance Shop of Urmston, the	21 Station Road	Urmston	Manchester	Manchester	**	M41 9JG	UK 	
+30	DA0022		Dance Shop, The	217 Manchester Road	Swinton		Manchester	**	M27 4TY	UK 	
+30	DA0023		Dance Store, the	Unit 1, Tattershall Way, Fairf		Louth	Lincolnshire	**	LN11 0YZ	UK 	
+30	DA0024		Dance Supplies	20, Bridge Street		St Ives	Cambridgeshire	**	PE27 5EG	UK 	
+30	DA0025		Dance Togs	King Street Studios,	King Street	Newton Abbot	Devon	**	TQ12 2LG	UK 	
+30	DA0026		Dance Vibe Ltd	20a Fore Street		Ipswich	Suffolk	**	IP4 1JU	UK 	
+30	DA0027		Dance Workshop, the	132, Alcester Road		Moseley	Birmingham	**	B13 8EE	UK 	
+30	DA0028		Dalbys Ltd T/A	Danceland at Dalby's	268-270 London Road	Westcliff on Sea	Essex	**	SS0 7JG	UK 	
+30	DA0029		Dancemania Ltd	Unit 3 Benridge Park	Holyrood Close	Poole	Dorset	**	BH17 7BD	UK 	
+30	DA0030		Dancemania	124 Castlecroft Road		Castlecroft	Wolverhampton	**	WV3 8LU	UK 	
+30	DA0031		Dancerama	Pentire	Gweal-an-top	Redruth	Cornwall	**	TR15 2DS	UK 	
+30	DA0032		Dancerama	12 Upper May Day Green		Barnsley	South Yorkshire	**	S70 1SY	UK 	
+30	DA0033		Dancers Boutique	5 Sycamore Place	Hill Avenue	Amersham	Buckinghamshire	**	HP6 5BG	UK 	
+30	DA0034		Dancers Box	231 Bexley Road		Erith	Kent	**	DA8 4EU	UK 	
+30	DA0035		Dancers World & Swimscene	18 London Road	Blackwater	Camberley	Surrey	**	GU17 9AA	UK 	
+30	DA0036		Dancesport 	56 Russell Way	Metro Centre	Gateshead	Durham	**	NE11 9XX	UK 	
+30	DA0037		Dancers World Ltd	36A Main Street		Mexborough	South Yorkshire	**	S64 9DW	UK 	
+30	DA0038		Dancewear by G. Lois	16a Cyprus Road		Burgess Hill	West Sussex	**	RH15 8DX	UK 	
+30	DA0039		Dancewear too Giggles	201-203, High Road		Benfleet	Essex	**	SS7 5HY	UK 	
+30	DA0040		Dancewell	60 Cotham Hill		Bristol	Avon	**	BS6 6JX	UK 	
+30	DA0041		Danceworld	991 Christchurch Road, Boscome		Bournemouth	Dorset	**	BH7 6BB	UK 	
+30	DA0042		Danceworld Outfitters	The Laurels Ongar Road	Kelvedon Hatch 	Brentwood	Essex	**	CM15 0AA	UK 	
+30	DA0043		Dancia International Limited,	Crown House, Crown Place	Portslade	Brighton	Sussex	**	BN41 1SH	UK 	
+30	DA0045		Dancing Boutique	82 Victoria Road		Tunbridge Wells	Kent	**	TN1 2PW	UK 	
+30	DA0046		Dancing Mad	245 Station Road, Dunscroft		Doncaster	South Yorkshire	**	DN7 4DY	UK 	
+30	DA0047		Dancing in the Street/Starlite	Sleaford Enterprise Park	Pride Parkway	Sleaford	Lincolnshire	**	NG34 8GL	UK 	
+30	DA0049		Danza e Dintorni N.T.C	New Trade Company Di Furlan	Via Pastrengo, 28-30-32		Battipaglia (SA)	**	84091	IT 	
+30	DA0050		Dansezie	10 The Triangle		Bournemouth	Dorset	**	BH2 5RY	UK 	
+30	DA0051		Dapet Textiles	280/282 Chatsworth Road		Chesterfield	Derbyshire	**	S40 2BY	UK 	
+30	DA0052		Dance Flo Ballettboutique	Walfischgasse 11			Wien	**	1010	AT 	
+30	DA0053		Danceworld SPRL	47a Rue Gretry			Bruxelles	**	1000	BE 	
+30	DA0055		Dance Stop OY	Pitkakatu 35			Aanekoski	**	44150	FI 	
+30	DA0057		Bolero SARL Dam Sud	4 Rue Durand			Montpellier	**	34000	FR 	
+30	DA0059		Danse Boutiq'Avenue	34 Avenue du Marochal Foch			Marseille	**	13004	FR 	
+30	DA0060		Danse Compagnie	22 Rue Ravez			Bordeaux	**	33000	FR 	
+30	DA0062		Dakakni	Worpsweder Str. 7			Berlin	**	12169	DE 	
+30	DA0063		Dance Affairs Hamburg	Showroom Speicherstadt	Block V - Boden 3	Brooktorkai 11 (Blauer Flur)	Hamburg	**	20457	DE 	
+30	DA0063	01    	Dance Affairs Hamburg	Showroom Speicherdtadt	Block V - Boden 3	Brooktorkai 11 - Blauer Flur	Hamburg	**	20457	DE 	
+30	DA0064		Dance and Fun Shop	Erica Neumann	Barenstr.2		Ludwigsburg	**	71634	DE 	
+30	DA0065		Hamacher Handels GmbH & Co KG.	Schumanstr.3			Wuerselen	**	52146	DE 	
+30	DA0067		Dance Emotion	Humboldtstr. 3			Freiburg	**	79098	DE 	
+30	DA0068		Perfect Dance	Inh. Daniela Putschke	Klosterplatz 13		Goerlitz	**	02826	DE 	
+30	DA0069		Dance Feeling	Beim Hammerschmied 9			Leutkirch	**	88299	DE 	
+30	DA0070		Dance Fever	Renzburgerstr.41			Neumuenster	**	24534	DE 	
+30	DA0071		Tanz und Medien	Heike Stein	Augustastrasse 52		Siegburg	**	53721	DE 	
+30	DA0071	01    	Tanz und Medien	Heike Stein	Augustastrasse 52		Siegburg	**	53721	DE 	
+30	DA0072		Dance Line	Josef-Jägerhuber-Str. 7			Starnberg	**	82319	DE 	
+30	DA0073		Tanzboutique	Frau Vollm	Stuttgarter Str. 3		Asperg	**	71679	DE 	
+30	DA0074		Dance World	Beim Glaspalast 1			Augsburg	**	86153	DE 	
+30	DA0075		Dancer s Outfit GmbH	Westenhellweg 127			Dortmund	**	44137	DE 	
+30	DA0076		Dani s Tanzladchen	Hirschstrasse 13			Walldorf	**	69190	DE 	
+30	DA0078		Das Tanzkontor	Detmolder Str. 41			Paderborn	**	33100	DE 	
+30	DA0079		Das Tanzsportlaedchen	Maren Wolf	Einsteinstrasse 21		Weiterstadt	**	64331	DE 	
+30	DA0080		DA.L.BA. Snc	Corso Torino 11/A			Novara (NO)	**	28100	IT 	
+30	DA0081		Dance Attitude	Via Solari 43			Milano (MI)	**	20100	IT 	
+30	DA0082		Dance Cafe	Via Riviera san Pietro 129			Mira (VE)	**	30034	IT 	
+30	DA0083		Dance Dance	Via Salaria 255			Monterotondo (RM)	**	00015	IT 	
+30	DA0084		Dance Land By May B S.A.S	Corso Torino 31 B /R			Genova	**	16129	IT 	
+30	DA0084	01    	Dance Land by May B SaS	Corso Torino 31/B rosso			Genova	**	16129	IT 	
+30	DA0085		Dance Passion	Via Giovanni Tarchini 39			Olgiate Comasco (CO)	**	22077	IT 	
+30	DA0086		Dance Room	Via G. Bruno 45/47			Rimini (RN)	**	47900	IT 	
+30	DA0087		Dance Store	Via Tommaso Caravita 5			Napoli	**	80132	IT 	
+30	DA0088		Dance Village S.r.L.	Via Genova 19			Marina Di Carrara MS	**	54036	IT 	
+30	DA0089		Dance With Me	Via C Cattaneo 53			Lecco (LC)	**	23900	IT 	
+30	DA0090		Dancer	Via Borghetto, 2/G			Piacenza (PC)	**	29100	IT 	
+30	DA0091		Dancerie by Gandolfi Emanuela	Via Gazzuolo 51			Caste D'ario	**	46033	IT 	
+30	DA0092		Dancewear	Via Ghibelina 118			Messina (ME)	**	98123	IT 	
+30	DA0093		Danza & Danza	Viale Lincoln 132			Caserta (CE)	**	81100	IT 	
+30	DA0094		Danza Bazaar	Via Cavour 93			Roma (RM)	**	00100	IT 	
+30	DA0096		TECNODANZA	Di Mencarelli Emanuela	Via	San Francesco d'Assisi, 59-67	Ciampino (RM)	**	00043	IT 	
+30	DA0096	01    	Danza Fashion Fitness	Di Mencarelli Emanuela	via San Francesco d'Assisi, 59-67		Ciampino (RM)	**	00043	IT 	
+30	DA0097		Danza in Vetrina	Via Nazionale delle Puglie 12			Cimitile (NA)	**	80030	IT 	
+30	DA0099		Danza Prodotti Progetti S.R.L.	Via Fantoli 7			Milano (MI)	**	20138	IT 	
+30	DA0100		Danza Shop	Via G. D'Annunzio 7/B			Treviso	**	31100	IT 	
+30	DA0102		Danza SportLandia	P.le Milite Ignoto 13			Torino	**	10123	IT 	
+30	DA0103		Danza SportLandia	Via Ten Sbirolo 32			Pive Emanuele (Mi)	**	20090	IT 	
+30	DA0104		Danza Zerocento	Via S.Maria 78			Rovereto (TN)	**	38068	IT 	
+30	DA0105		Danzacreata	Viale Bognar 33/35			Pozzuoli (NA)	**	80078	IT 	
+30	DA0107		Danza Mania	Via Trieste 18/A			Civitavecchia (RM)	**	00053	IT 	
+30	DA0108		Danzando Danzando SaS	Via Risorgimento 34			Cattolica (RN)	**	47841	IT 	
+30	DA0113		Danca Attitude	Fife & Guadalupe, LDA	Rua D. Estefania 83B		Lisboa	**	1150-141	PT 	
+30	DA0114		Dancalegre Lda	Rua Isidoro Batista Lote 2 - L			Coimbra	**	3030-778	PT 	
+30	DA0115		Dance Apparel	Unit 5&6 Kirky Arcade	15 Cowgate	Kirkintilloch	Glasgow	**	G66 1HW	UK 	
+30	DA0117		Danceland	1154 Maryhill Road			Glasgow	**	G20 9TA	UK 	
+30	DA0118		Dancewear Edinburgh	182 Rose Street			Edinburgh	**	EH2 4BA	UK 	
+30	DA0119		Damaret  01	Jose Marquez Damaret	Ramblas 73 Pral.		Barcelona	**	08002	ES 	
+30	DA0121		Danza Tamayo	C/Veinte Metros 29			Valladolid	**	47005	ES 	
+30	DA0122		CANABALLET S.L.	C/Santiago Cuadrado 5		Sta.Cruz De Tenerife	CANARY ISLAND	**	38006	ES 	
+30	DA0122	01    	Danzate	C/Santiago Cuadrado 5			Sta.Cruz De Tenerife	**	38006	ES 	
+30	DA0123		Dansshopen AB	Nygatan 28	Box 1426		Orebro	**	701 14	SE 	
+30	DA0125		Dance Shop	Dance Art Studio	Postfach 2156		Luzern	**	6002	CH 	
+30	DA0127		Dance Store UK	Topfloor - Dance Junction	681 Maidstone Road	Rochester	Kent	**	ME1 3QJ	UK 	
+30	DA0129		Dancing Night	Via Varesina 79	Loc.Rebbio		Como	**	22100	IT 	
+30	DA0129	01    	Dancing Night	Via Varesina 79	Loc.Rebbio		Como	**		IT 	
+30	DA0131		Dancer Place	Via Plinio Il Vecchio 20	Castellamare Distabia		Napoli	**	80053	IT 	
+30	DA0132		Dance Store	8a Bellegrove Road		Welling	Kent	**	DA16 3PR	UK 	
+30	DA0132	01    	Welling Dancewear	8a Bellegrove Road		Welling	Kent	**	DA16 3PY	UK 	
+30	DA0133		Dama SNC	Di Carnovale -	Gepretti E Casabona	Via Roma 92	Paderno Dugnano (MI)	**	20037	IT 	
+30	DA0134		Danzapiu	di Antonella Petrosino	Via Cicalesi 41		Nocera Inferiore SA	**	84014	IT 	
+30	DA0135		Dancing & Co	BP6			Bordeaux Cedex	**	33038	FR 	
+30	DA0135	01    	Dance Direct	28 Rue Bossuet			Bordeaux	**	33800	FR 	
+30	DA0136		Dance Line Tanzboutique	Holunderweg 5			Baunatal	**	D-34225	DE 	
+30	DA0141		Dance Togs	29 Downlands Way	South Wonston	Winchester	Hants	**	S021 3HS	UK 	
+30	DA0143		Dance Scene	1531 Stratford Road	Hall Green		Birmingham	**	B28 9JA	UK 	
+30	DA0146		Dance With Me	44 Cinque Ports Street	Rye		East Sussex	**	TN31 7AN	UK 	
+30	DA0146	01    	Dance With Me	44 Cinque Ports Street	Rye		East Sussex	**	TN31 7AD	UK 	
+30	DA0148		Dance Attitud	Rue Rogier 94			Jumet	**	6040	BE 	
+30	DA0149		Dance Depot Ltd	Unit 3	Hortonwood 32		Telford	**	TF1 7EU	UK 	
+30	DA0152		Dance Gear	Merchant House	Beakes House	Bearwood	West Midlands	**	B67 5RS	UK 	
+30	DA0153		Dance Attitude	Residence Triana	Rue Colonnel Colanna D'Ornano		Ajaccio	**	20000	FR 	
+30	DA0157		Danskult.de	Blankensteinstr.2			Marbach	**	71672	DE 	
+30	DA0157	01    	Susanne Treu	Danskult.de	Marbacher Str. 10/1		Erdmannhausen	**	71729	DE 	
+30	DA0158		Dance Etc Ltd	419 Bentley Road	Bentley		Doncaster	**	DN5 9TJ	UK 	
+30	DA0159		Dance Wardrobe	106B High Street	Whitstable		Kent	**	CT5 1AZ	UK 	
+30	DA0161		Danceland	4 The Midway	Newcastle		Staffs	**	ST5 1AG	UK 	
+30	DA0162		Danza Shop	Via Monte Maiella 81			Ortona	**	66026	IT 	
+30	DA0164		Dance Central	127 Edleston Road	Crewe		Cheshire	**	CW2 7HP	UK 	
+30	DA0166		Danses et Passion	423 E rue Gustave Eiffel			Biganos	**	33380	FR 	
+30	DA0167		Danza 2008 D.O.O	Brezje Pri Grosupljem 85			Grosupljem	**	1290	SI 	
+30	DA0167	01    	TRGOVINA DANZA DIMENSIONE	BTC CITY	SMARTINSKA 152R HALA 5		 Ljubljana	**	1000	SI 	
+30	DA0169		Danceworld Studios	14 Hornsby Square	Basildon		Essex	**	SS15 6SD	UK 	
+30	DA0170		Degas di Raffaele Mattiello	Via Costantinopoli 2/B			Aversa (CE)	**	81031	IT 	
+30	DA0171		Dancing Dreams	69 Mowbray Road	Fens Estate		Hartlepool	**	TS25 2NA	UK 	
+30	DA0174		Dancewear by Odette	14 High Oak	Pensnett	Dudley	West Midlands	**	DY5 4LA	UK 	
+30	DA0175		SARL OMAJE	ANY DANSE	15 PLACE DU CAPITOLE		Toulouse	**	31000	FR 	
+30	DA0175	01    	ANY DANSE	15 Place du Capitole			Toulouse	**	31000	FR 	
+30	DA0176		Dance Essentials	1 Parkway, off Oldham Street	Denton		Manchester	**	M34 3SG	UK 	
+30	DA0177		Dance Delicious Ltd	311 Richmond Road	Kingston Upon Thames	Surrey		**	KT2 5QU	UK 	
+30	DA0177	01    	Dance Delicious	311 Richmond Road	Kingston pon Thames	Surrey		**	KT2 5QU	UK 	
+30	DA0179		Das Tutu	Hopfengarten 2			Braunschweig	**	38102	DE 	
+30	DA0180		Dance Up di Scala Adriano	Via Roma 184			Ragusa	**	97100	IT 	
+30	DA0183		DANSEA - ORCHESIS SAS	412 ROUTE DE TIRAGON			MOUANS SARTOUX	**	06370	FR 	
+30	DA0184		Dance Boutique	83 Great North Road	Grange Park		Newcastle Upon Tyne	**	NE3 2DQ	UK 	
+30	DA0185		Dance Magic	3-15 Kent Street			Grimsby	**	DN32 7DG	UK 	
+30	DA0187		Danza Yebra	C/Juan De Ajuriaguerra, 46	Bajo		Bilbao (Vizcaya)	**	48009	ES 	
+30	DA0189		Dance Store	di Baybusinova Kaysana	Via Vittorio, 14		Ponso (PD)	**	35040	IT 	
+30	DA0190		Danza Biella di Davide Vella	Via Nazario Sauro, 17/D			Biella (BI)	**	13900	IT 	
+30	DA0191		DanSpirit -Unipessoal, LDA	Rua da Mensagem, Urb	Dos Governos, Lote13 R/Ch Dto		Pombal	**	3100341	PT 	
+30	DA0191	01    	DanSpirit	Rua da Primavera, No14	2 Esq, Flandes		Pombal	**	3100 339	PT 	
+30	DA0193		Dance Vision	101B Bridgend Road	Aberkenfig		Bridgend	**	CF32 9AP	UK 	
+30	DA0194		Dancefit	The Bell House Dance Studio	St Marys Close		Alton/Hampshire	**	GU341EF	UK 	
+30	DA0195		Danzidea	Via 4 Passi , 33			Formigine (MO)	**	41043	IT 	
+30	DA0196		Dance Tree	30 Bowlers Croft		Basildon	Essex	**	SS14 3EE	UK 	
+30	DA0197		Dance By Design	15 Elders Street		Scarborough	North Yorkshire	**	YO11 1DZ	UK 	
+30	DA0198		Dance Road	Kuntsevskaya st 4/1/212			Moscow	**	121351	RU 	
+30	DA0199		Danzon Dancewear	Rappstr. 7			Tuebingen	**	72070	DE 	
+30	DA0200		dance4friends	Am Bienenbusch 4			Gerdau	**	29581	DE 	
+30	DA0201		Dancewear 365 Ltd	Unit 20D Arrow Close	George Stephenson Ind Est		Killingworth	**	NE12 6QN	UK 	
+30	DA0202		Dancerox Dancewear	Unit 4+5 Bolholt Ind Est	Walshaw Road		Bury	**	BL8 1PL	UK 	
+30	DA0203		Dance Apparel FZ LLC	C/o Tala George Nasra	Meadows 1, Street 6, Villa 1		Dubai	**		AE 	
+30	DA0203	01    	Kuehne + Nagel Ltd	Union Business Park	Florence Way	Rockingham Road	Uxbridge	**	UB8 2BS	UK 	
+30	DA0204		Dancewear	by Monika Klein International	Gschwendt 27		KLOSTERNEUBURG	**	3400	AT 	
+30	DA0205		Dance & System	di agate Maria Sondra	Via Giotto n.9		Busto Arsizio(VA)	**	21052	IT 	
+30	DA0206		Dance Mania	Via Verdi 57/c			Chiaravalle	**	60033	IT 	
+30	DA0207		Dance House Di Loana Simeone	Corso Italia 75/A			Busto Arsizio	**	21052	IT 	
+30	DA0208		Dance and Fight	di Monia Lombardelli	Via Fratelli Bandiera 79/B		Civitanova Marche	**	62012	IT 	
+30	DA0209		Dansesneakers ApS	Graevlingevej 24	Tranum		Brovst	**	DK 9460	DK 	
+30	DA0210		Dancers Attic	52 Broadwater Street East			Worthing	**	BN14 9AW	UK 	
+30	DC0001		D Comme Danse	6, rue de la Poele Percee			Chartres	**	28000	FR 	
+30	DC0002		DCBC LTD	The Stables	Westfield Road	Barton Upon Harbour	North Lincolnshire	**	DN18 5RH	UK 	
+30	DC0002	01    	DCBC  LTDC/o Rushby Dance &	Fitness Centre, Waters Edge	Maltkiln Road	Barton upon Humber	North Lincolnshire	**	DN18 5JR	UK 	
+30	DE0002		Deemon Dance Studios	Park Road		Barrow in Furness	Cumbria	**	LA14 4EQ	UK 	
+30	DE0003		Degage Dancewear	137/139 Sandgate Road		Folkstone	Kent	**	CT20 2BL	UK 	
+30	DE0004		Denise's Dancewear	Studio One	1a Telford Road	Ferndown Industrial estate	Dorset	**	BH21 7QN	UK 	
+30	DE0008		Demi Point	Neue ABC-Str. 10			Hamburg	**	20354	DE 	
+30	DE0008	01    	Demi Point 1	Frau Suse Steffen	Wellingsbuettlerweg 117		Hamburg	**	22391	DE 	
+30	DE0009		Der Ballettladen	Tulpenweg 3	Frau Marquart		Eggolsheim	**	91330	DE 	
+30	DE0010		Der Ballettshop Wild	Westtorgraben 25			Nurnberg	**	90429	DE 	
+30	DE0013		Degas di Elena Creti	Via F.A.D. D'Amelio 2/a			Lecce (LE)	**	73100	IT 	
+30	DE0017		DeDe Dress	Blaarthemseweg 6A			Veldhoven	**	5502 JV	NL 	
+30	DE0017	01    	DeDe Dress	Blaarthemseweg 6A			Veldhoven	**	5502 JV	NL 	
+30	DE0021		Dentro la Danza s.n.c	di Casali Mariana e De Sabato	Anna Maria,	Via Don A. Pedrinelli, 114	Carvico (BG)	**	24030	IT 	
+30	DE0021	01    	Dentro la Danza S.N .C	Via Spluga, 49			Cernusco Lombardone	**	23870	IT 	
+30	DE0022		De Silverstar	Nieuwastraat 35			Wellen	**	3832	BE 	
+30	DE0023		Der Ballettladen	Elbinger str. 13/2			Heilbronn	**	74078	DE 	
+30	DE0024		Den Norske Opera	C/o Eva Solberg	Po Box 8800	Youngstorget	Oslo	**		NO 	
+30	DE0025		Debbies Dancewear/Fancy Dress	7 Brookvale Road	Proirslee		Telford	**	TF2 9RL	UK 	
+30	DE0026		Des Danseuses A LA Mode	10 Rue Du Pont Du Moulin			L'Aigle	**	61300	FR 	
+30	DE0028		Demi-plie di grazia napolitano	via San Michele 45			Piano di Sorrento	**	80063	IT 	
+30	DE0029		Dexia S.r.l	Via Toti, 7			Montecatini Terme	**	51016	IT 	
+30	DE0029	01    	Dexia S.r.L	Piazza XX Settembre, 25			Montecatini Terme	**	51016	IT 	
+30	DE0030		DerTanzladen.de	Am Feldhof 73			Castrop-Rauxel	**	44577	DE 	
+30	DE0031		Nederlands Dans Theater	Schedeldoekshaven 60			DEN HAAG	**	2511 EN	NL 	
+30	DE0032		DEGAS BALLET SCP	C/ Muralla de Sant Llorenç 2-bis			MATARO (BARCELONA)	**	08302	ES 	
+30	DE0033		De Danswinkel	Kerkstraat 26			Haarlem	**	2011ZR	NL 	
+30	DE0033	01    	De Danswinkel -Maud Groenewoud	Kleine Houtweg 65.			Haarlem	**	2012 CC	NL 	
+30	DH0001		DHL Radlett Staff					**		UK 	
+30	DI0001		Disc 'n Roll	374 CHEMIN DES CHARMES			Millery	**	69390	FR 	
+30	DI0002		Die Tanzgarderobe	Dompfaffweg 32			Solingen	**	42659	DE 	
+30	DI0003		Die Tanzmaus	Koelner Landstr. 197			Duesseldorf	**	40591	DE 	
+30	DI0005		Dimitrova Ballettboutique	Ballett Center und Boutique	Holm 11		Flensburg	**	24937	DE 	
+30	DI0006		DIVA Ballettbedarf &Tanzzbehor	Muehlenweg 46a			Wuppertal	**	D-42275	DE 	
+30	DI0006	01    	DIVA Ballettbedarf&Tanzzubehor	U.Koch-Mehrin	Am Feldgen 34		Velbert	**	D-42553	DE 	
+30	DI0008		Dietro Le Quinte	Via Ann. Caccavello 3B/3D			Napoli (NA)	**	80129	IT 	
+30	DI0009		Diodance Lda	Rua Alto das Torres 934			Vila Nova de Gaia	**	4430-009	PT 	
+30	DI0011		Diagonale Danse	Pont-Bessieres 1			Lausanne	**	1005	CH 	
+30	DI0012		Direct Dancewear	Asiatic House	430 High Road	Willesden	London	**	NW10 2DA	UK 	
+30	DI0014		Diamante and Dance	6 Grange Way	Whitehall Ind Est	Colchester	Essex	**	CO2 8HG	UK 	
+30	DI0016		Diagonal'Sport EURL	17 Place Du Bourg			Rodez	**	12000	FR 	
+30	DI0017		Diamond Dance Twirl	34 Ascot Road			Portsmouth	**	PO3 6EY	UK 	
+30	DI0019		Diva Dancewear Ltd	107a Reddal Hill Road	Cradley Heath		West Midlands	**	B64 5JG	UK 	
+30	DI0020		Dimidea di Morrone Antonella	Via Macalle 24			Consenza	**	87100	IT 	
+30	DI0021		Dias & Oliveira -	Desportivos, Lda	Praca Luis De Camoes 125		Vila Do Conde	**	4480 719	PT 	
+30	DJ0001		Django	Hoofdstraat 12			Amstenrade	**	6436 CE	NL 	
+30	DO0002		Dordon Dancewear	4-6 Roman Way	Dordon		Tamworth	**	B78 1PJ	UK 	
+30	DO0004		Dom n Danse	2 Bis Rue Antoine			Metz	**	57000	FR 	
+30	DO0007		Doan	Via Trento n.5			Mattola (TA)	**	74017	IT 	
+30	DO0008		Dojs & Tojs AB	Apoteksvagen 4			Svardsjo	**	79023	SE 	
+30	DP0001		D'Pertinez 01	C/Espartenos 12			Madrid	**	28012	ES 	
+30	DR0004		Dragonfly Dancewear	St Patricks Place	St Patricks Street		Stafford	**	ST16 2PL	UK 	
+30	DS0001		Dsc Cote&Maria Barcelona S.L.	C/ M.Jacinto Verdaguer16,1a,2a	Esplugues de Llobregat		Barcelona	**	08950	ES 	
+30	DU0001		Dupont Dancewear	Memory Lane		Leicester	Leicestershire	**	LE1 3UL	UK 	
+30	DU0003		Duo Style	168 Bis Rue de Charonne			Paris	**	75011	FR 	
+30	DU0004		SAS Duboisport.MOD	Centre Cial du Val Lumiere			Vaux sur Mer	**	17640	FR 	
+30	DY0001		Dynamic	Viale XX Settembre 37-41-47			Sassuolo (MO)	**	41409	IT 	
+30	EC0001		Eccetera di Sgherri Barbara	Via Rosmini 3/A			Cecina(LI)	**	57023	IT 	
+30	EC0002		ECLADANSE	35 RUE DE L'EUROPE			VOIRON	**	38500	FR 	
+30	ED0001		Edmund van Groningen	Oude Ebbingestraat 51			Groningen	**	9712 HC	NL 	
+30	ED0002		E D Morgan & Son	Sole Heights	29 High Street	Romford	Essex	**	RM1 1JL	UK 	
+30	EG0001		E. Gandolfi Ltd	190 Mill Road		Wellingborough	Northamptonshire	**	NN8 1PR	UK 	
+30	EG0001	01    	E. Gandolfi Ltd	150 Marylebone Road			London	**	NW1 5PN	UK 	
+30	EG0002		SARL EG SPORT - Sport 2000	Rue de Saverne	C Cial Espace 2000		MARMOUTIER	**	67440	FR 	
+30	EH0001		Ehthymia Tsampazi	30 Karaiskaki Str			Thessaloniki	**	54641	GR 	
+30	EL0003		El Taller Del Tutu	JOSE ARMENDARIS S.L.	Franciso Vitoria 15	Pasaje Miraflores - Local 42	Zaragoza	**	50008	ES 	
+30	EL0004		Elce	Corraterie 14			Geneve	**	1204	CH 	
+30	EL0005		Elis Dance Sport	Lesnicka 58			Brno	**	61300	CZ 	
+30	EL0005	01    	Elis Dance Sport s.r.o.	Merhautova 13			Bmo	**	61300	CZ 	
+30	EL0008		Elite Dance Supplies	Unit 18 Anderstaff	Industrial Estate	Hawkins Lane, Burton-on-Trent	Staffordshire	**	DE14 1QH	UK 	
+30	EL0009		Eleni Vika	20 MICHAILITHI STR			Ioannina	**	45333	GR 	
+30	EL0009	01    	Eleni Vika	16 Aravantinou Street			Ionnina	**	45444	GR 	
+30	EL0010		Ellite Productions Ltd	The Dancer	8 Peterson Road		Wakefield	**	WF1 4EB	UK 	
+30	EL0011		JOSEP MARIA CASAS RUÉ	EL BARATO CREACIONS	C/Dom Bosco, 9-11		Reus	**	43203	ES 	
+30	EL0011	01    	EL Barato	C/Major, 21			Reus	**	53021	ES 	
+30	EM0003		Emilio Morales	"UN MUNDO DE DANZA"	C/CASTAÑOS, 38		Alicante	**	03001	ES 	
+30	EM0008		Emotion Dance	di Marangi Roberta	Via Pola 19,A		Massafra	**	74016	IT 	
+30	EM0009		Emma Snc	Via Veroli, 23			Palestrina	**	00036	IT 	
+30	EM0010		EMPIRE	Gl. Skolevej 25			Tappernoeje	**	4733	DK 	
+30	EN0003		Entrez dans la Danse	Residence Rue de Tuiliers	Central Parc		Aubagne	**	13400	FR 	
+30	EN0005		Encore	1B Standard Court	Standard Way		North Yorkshire	**	DL6 2XH	UK 	
+30	EN0008		Enti- Sport d.o.o	J. Neidhardta 6	Zagreb		Croatia	**	10000	HR 	
+30	EN0009		Enchanted Dancewear	Hall Park	Hall Lane	Lutterworth	Leicestershire	**	LE17 4LN	UK 	
+30	EN0010		English National Ballet	39 Jay Mews	Kensington		London	**	SW7 2ES	UK 	
+30	EN0010	01    	Julie Heggie - Shoe Supervisor	English National Ballet	Unit 3, Wheelbarrow Park	Pattenden Lane, Marden	Kent	**	TN12 9JQ	UK 	
+30	EN0011		En Danseuse	18 rue Victor Hugo			Brest	**	29200	FR 	
+30	ES0001		Espace Danse	Rue du Temple 58			La Louviere	**	7100	BE 	
+30	ES0006		Estrella Sanchez	Carril Del Picon, S/N			Granada	**	18002	ES 	
+30	ET0001		Etoile di Assunta Vitiello	Via Tenente Iorio, 16	(ex viale Buccino)		Scafati (SA)	**	84018	IT 	
+30	ET0002		Etolile di Onori Grazia	Via A Costa 12/B			Collegno	**	10093	IT 	
+30	ET0003		Etoile	Via Ferdinando ID' Aragona, 85			Santa Maria a Vico	**	81023	IT 	
+30	ET0004		Etiuda	Al.Slowackiego 23/2			Krakow	**	31-159	PL 	
+30	ET0004	01    	ETIUDA Irmina Halka	ul. Karmelicka 29	Cracovie		Pologne	**	31-131	PL 	
+30	ET0005		Etoile Articoli per la danza	Via Alcide De Gasperi, 75	San Giorgio Del Sannio		Benevento (BN)	**		IT 	
+30	ET0006		Etoile Dance Lodge Ltd	Unit 26 E-Net Park	Mill Road, Industrial Estate	Linlithgow	West Lothian	**	EH49 7SF	UK 	
+30	EU0002		Eurosportswear London Ltd	21 Radstock Avenue	Harrow		Middlesex	**	HA3 8PE	UK 	
+30	EU0002	01    	Solely For Children	6 Rose & Crown walk	Safron Walden		Essex	**	CB10 1JH	UK 	
+30	EU0005		EUROCARNAVAES, S.A.	Calle Gremio Tejedores Pasaje	Particular, Nave 2 y  9	Polígono Son Castelló	Palma de Mallorca	**	07009	ES 	
+30	EV0001		Evi Boutique SARL	40 Boulevard Soult			Mazamet	**	81200	FR 	
+30	EV0002		E.V.-A.S. Tanzschuh	Theaterstr. 83			Aachen	**	52062	DE 	
+30	EV0003		Event-Fashion-Show-Tanz-Manage	Grauensteinstr. 3			Weilmuenster	**	35789	DE 	
+30	EV0004		Evagelia Thimitropoulou	16 KONTOGIANNI STR			Chios	**	82100	GR 	
+30	EV0005		Evidanse	Residence Revinco	Batiment A1		Borgo	**	20290	FR 	
+30	EW0001		Ew Sko	Espedalen 90			Risskov	**	8240	DK 	
+30	EX0001		Express Dance Supply	1a Occupation Road		Peterborough	Cambridgeshire	**	PE1 2DH	UK 	
+30	EX0004		Excelsior Danza Srl	Via Ormea, 76/E			Torino	**	10125	IT 	
+30	EX0004	01    	Excelsior Danza S.r.l.	Via Ormea 76/E			Torino	**	10125	IT 	
+30	EX0005		Extreme Dance s.n.c.	Via Caduti sul Lavoro 26			Noventa Padovana PD	**	35027	IT 	
+30	EX0006		Excento	Willem II straat 82C			Tilburg	**	5038 EH	NL 	
+30	EX0007		Expo Sanchez	Elisabeth Sanchez	Pº Saladar 108		Denia (Alicante)	**	03700	ES 	
+30	EX0008		Excelsior Dance Supplies	83 Victoria Street		Crewe	Cheshire	**	CW1 2JH	UK 	
+30	FA0001		Fame	9-11 Denmark Street		Wokingham	Berkshire	**	RG40 2AY	UK 	
+30	FA0002		Fame of Surrey	4 Linkfield Corner		Redhill	Surrey	**	RH1 1BB	UK 	
+30	FA0003		Avica Bridal UK Ltd	T/A Fame US Dancewear	95 Vicarage Road	Watford	Hertfordshire	**	WD18 0EB	UK 	
+30	FA0004		Fancy Dance Shop	24 Cheltenham Parade			Harrogate	**	HG1 1DB	UK 	
+30	FA0004	01    	Fancy Dance Shop	56 Micklegate	York		N. Yorks	**	YO1 6LE	UK 	
+30	FA0007		Denise's Dancewear	T/A Fancy Pants	123 Main Street	Garforth	Leeds	**	LS25 1AF	UK 	
+30	FA0013		Fantasy Dance	Strada Tiberina Nord 26/P			Bosco (PG)	**	06080	IT 	
+30	FA0014		FAME	Boulevard de France 2			Monaco	**	98000	MC 	
+30	FA0015		Fagdance - Representacoes Lda	Rua de S.Gens 3386 M-Loja 19		Sra da Hora	Matosinhos	**	4460-409	PT 	
+30	FA0020		Fashion di Poretti	Daniela e Landonio Laura SNC	Via A Da Giussano 1/3		Legnano (MI)	**	20025	IT 	
+30	FA0022		Fa. Klose	Steinstr. 38			Hennef	**	53773	DE 	
+30	FE0001		Felix Dance & Leisurewear	37 Beach Road		Littlehampton	West Sussex	**	BN17 5JA	UK 	
+30	FE0002		Ferry's Dance Equipment	St. Georgsstr. 69a			Rosenheim	**	83024	DE 	
+30	FE0002	01    	Familie Huber	Birkenriedstrasse 15			Stephanskirchen	**	83071	DE 	
+30	FE0006		Feet Footwear Europe	And Export Trading	1 Rue Eugene Freyssinet BP80233	Fougeres	Cedex	**	35302	FR 	
+30	FE0006	01    	ASAP Communcations	5 Rue D Argot			Paris	**	75002	FR 	
+30	FE0007		Febbraio Fabio	Via. P. Abntero 5R			Genova	**	16154	IT 	
+30	FE0007	01    	Febbraio Fabio	via Finocchiaro Aprile 31	Portineria		Genova	**	16129	IT 	
+30	FE0010		F.E.E.T	Brand Bloch Att Judy Gueffen	1 rue Eugene Freyssinet	Javene	Fougeres	**	35302	FR 	
+30	FE0010	01    	Groupe Royer - JUDY GUEFFEN	1 rue eugene Freyssinet	Javene		Fougeres	**	35302	FR 	
+30	FE0011		Femme Sel	Via san Martino 172			Viareggio	**	55049	IT 	
+30	FI0001		First Stage	4 Bank Street		Sevenoaks	Kent	**	TN13 1AU	UK 	
+30	FI0001	01    	First Stage	4 A High street		East Grinstead	Sussex	**	RH19 3AS	UK 	
+30	FI0004		Tanzwelt Moda	Schwetzinger Str. 18			Ketsch	**	68775	DE 	
+30	FI0005		FITLAND DI PARENTE BENEDETTA	(ditta individuale)	LARGO FILIPPO MICHELI,18		Terni	**	05100	IT 	
+30	FI0006		Fitness & Fitness Snoopy Sport	Viale Roma 18			Massa (MS)	**	54100	IT 	
+30	FI0006	01    	Fitness & Fitness Snoopy Sport	Viale Roma 18			Massa (MS)	**	54100	IT 	
+30	FI0007		Fitness Line	Via Sestio Calvino 38-40-42			Cazzago S. Martino B	**	25046	IT 	
+30	FI0008		Fitness Store	Via E.di Marino 21			Cava De'Tirreni (SA)	**	84013	IT 	
+30	FI0009		Suomen Kansalisoopperan Saatio	Laskut / Invoices	PO Box 176	Helsinginkatu 58	Helsinki	**	00251	FI 	
+30	FI0009	01    	Finnish National Opera	Suomen Kansalisoopperan Saatio	Helsinginkatu 58		Helsinki	**	00260	FI 	
+30	FI0010		Fitness Line	Via Sestio Calvino  - Roma			Rome	**	00174	IT 	
+30	FI0012		Fiorilla - Domenico	Via Sacro Cuore 48/C			Modica	**	97015	IT 	
+30	FI0014		Firenze Dancewear	Wagenweg 14B			Haarlem	**	2012 ND	NL 	
+30	FI0014	01    	Firenze Dancewear	Wagenweg 14			Haarlem	**	2012 N D	NL 	
+30	FK0001		Foyer Ballett- und Tanzbedarf	Eichenauerstrasse 17			Kirchberg-Lendsiedel	**	74592	DE 	
+30	FL0001		Flashdance	44 Alexandra Road		Farnborough	Hampshire	**	GU14 6DA	UK 	
+30	FL0002		Flashdance	31 Hope Street		Hanley	Stoke on Trent	**	ST1 5BT	UK 	
+30	FL0006		Flash Dance	Bocade Est	Rond Point Route De Bagnols		Ales	**	30100	FR 	
+30	FL0007		Flash Dance/Le Point S.A.R.L.	17 Rue de la Pepiniere			Paris	**	75008	FR 	
+30	FL0008		Flic Flac	3 Rue Asile St. Joseph			Angers	**	49000	FR 	
+30	FL0009		Flashdance	Voorstraat 28			Utrecht	**	3512 AN	NL 	
+30	FL0010		Flevo Dancewear	Kabelstraat 9			Almere	**	1322 AD	NL 	
+30	FL0011		Flirts with Attitude Ltd	20 King Street	Great Yarmouth		Norfolk	**	NR30 2NZ	UK 	
+30	FL0012		F.lli Massabo' S.N.C	Via Felice Cascione.44	Porto Maurizio		Imperia (IM)	**	18100	IT 	
+30	FL0013		Flashdance	Via della Ginnastica 24			Trieste	**	34125	IT 	
+30	FL0014		Flashdance Srl	Via Casilina KM22,800			Roma	**	00040	IT 	
+30	FL0015		Flashdance	2 Brocket Road	Hoddesdon		Hertfordshire	**	EN11 8NZ	UK 	
+30	FL0017		FLEX-C/O SCOTT'S	2 CHURCH STREET	VENTNOR		ISLE OF WIGHT	**	PO38 1SW	UK 	
+30	FL0017	01    	FLEX-C/O SCOTT'S	2 CHURCH STREET		VENTNOR	ISLE OF WIGHT	**	PO38 1SW	UK 	
+30	FO0002		The Dance Shop	40/42 Lower Commercial Street		Harrogate	North Yorkshire	**	HG1 1TZ	UK 	
+30	FO0004		Footloose Dance Boutique	19 Cromwell Road	Hull	Hedon	East Yorkshire	**	HU12 8GF	UK 	
+30	FO0005		Footloose	91 Heol Llanishen Vach		Rhiwbina	Cardiff	**	CP14 6LB	UK 	
+30	FO0008		Footlights Dancewear	63 Market Street	Haddington		East Lothian	**	EH41 3JG	UK 	
+30	FO0010		Forse Che Si, Forse Che No	di Giovanna Spagna	Via Calvi, 73		Mantova	**	46100	IT 	
+30	FO0011		Fondazione Nazionalie	Della Danza	Via Della Constituzione 39		Reggio Emilia	**	42100	IT 	
+30	FO0012		Footloose	Unit 7/8 Kedleston House	Aspen Drive	Spondon	Derby	**	DE21 7SS	UK 	
+30	FO0013		Foyer de la Danse	Tanz-und Fitnessmode	Stiftsstrasse 13-15		Kerpen	**	50171	DE 	
+30	FO0015		Footstop	9D The Keys	Eagle Way, Great Warley	Brentwood	Essex	**	CM13 3BP	UK 	
+30	FO0016		Fournier J (Ets)	9 r Cruche d Or			LIMOGES	**	87000	FR 	
+30	FR0001		Pointes Dancewear	192 Gidlow Lane		Nr Wigan	Lancashire	**	WN6 7AW	UK 	
+30	FR0003		Tanzboutique Irina Nilova	Neuburger Strasse 102F			Passau	**	94036	DE 	
+30	FR0005		Frye Schuhe GmbH u. Co.Kg	Bielefelder Str. 6			Bad Iburg	**	49186	DE 	
+30	FR0006		Free Moviment	Via Tipoli 2			Terlizzi (BA)	**	70038	IT 	
+30	FR0007		Free Style	Via Re lerone 1 67/69			Siracusa (SR)	**	96100	IT 	
+30	FR0008		Free Wave Fashion	Oude Vismarkt 1-1a			Goes	**	4461 AE	NL 	
+30	FR0009		Frontier Gear	Fourwinds	St. Thomas Road	Hemsby	Great Yarmouth	**	NR29 4JB	UK 	
+30	FU0001		Funzone Fancy Dress & D/W	24 High Oaks		St Albans	Hertfordshire	**	AL3 6DL	UK 	
+30	FU0003		Fusion Dancewear	12 Leahurst Close		Norton	North Yorks	**	YO17 9DF	UK 	
+30	GA0002		Gabriele Lutz KG	Olgastr. 34			Stuttgart	**	70182	DE 	
+30	GA0009		M.Aurora Fátima Barquin Urien	(Attrezzo)	C/ IPARRAGUIRRE 51		BILBAO	**	48010	ES 	
+30	GA0009	01    	M. AURORA FÁTIMA BARQUÍN URIEN	(ATREZZO)	C/Iparraguirre, 51		Bilbao	**	48010	ES 	
+30	GA0010		GALARINA COMPLEMENTOS -	PARA EL BAILE S.L.	C/MIGUEL ANGEL, 107 BAJOS		BARCELONA	**	08028	ES 	
+30	GAR001		Gardeladen	Versandhandel fur Tanzsport	Wimmer	Woerth 61	Schwindegg	**	84419	DE 	
+30	GE0001		Gembec Dancewear	282 Ashby High Street		Scunthorpe	North Lincolnshire	**	DN16 2BX	UK 	
+30	GE0002		Gently Elephant	169 Brockley Road			London	**	SE4 2RS	UK 	
+30	GE0004		George Konstas Maya Stores	Dance & Ballet Outfit	2 Nikis Street	Syntagma	Athens	**	105 63	GR 	
+30	GE0005		Geles	C/ General San Martin	12 Bajos		Valencia	**	46004	ES 	
+30	GE0007		Georgia Panou	16 Aravantinou Str			Ioannina	**	45444	GR 	
+30	GE0009		George Rye & Sons Ltd	Lunar House	Unit 1, Easter Park	Baker Rd, Nelson Park West	Cramlington	**	NE23 1WQ	UK 	
+30	GE0011		Genport Koll STI	Anna Hayat Veort	Haci Mansur Sok 13/73	Nisantas	Istanbul	**		TR 	
+30	GE0012		George Kastamonitis/SmashSport	68 Methothiou Street			Corfu	**	49100	GR 	
+30	GE0013		Gemnidiamante	29 Doncaster Lane		Woodlands	Doncaster	**	DN67 7QP	UK 	
+30	GH0002		Ghost Academy of Performing Ar	Avenida de las Brisas, 5	Urbanización Villamartin		Orihuela Costa	**	03189	ES 	
+30	GH0002	01    	Ghost Academy	od Performing Arts	Avenida de las Brisas, 5	Urbanización Villamartin	Orihuela Costa	**	03189	ES 	
+30	GI0001		Gielow im Hof	Max-Weber-Platz 2			Munchen	**	81675	DE 	
+30	GI0002		Ginnic Sport	di Sciacca Nunzia	Via Felice Paradiso 56		Acireale (CT)	**	95024	IT 	
+30	GI0003		Giselle - A Loja de Bailarina	Largo Valverde 19			Cartaxo	**	2070-012	PT 	
+30	GI0004		Giro Dansa -	JOSE MARIA SEOANE	C/RUTLLA, 121 local		Girona	**	17003	ES 	
+30	GI0007		Gifted Dancer, The	Unit H7-9	Blackpole East	Blackpole Road	Worcester	**	WR3 8SG	UK 	
+30	GI0007	01    	Gifted Dancer, The	Unit H7-9	Blackpole East	Blackpole Road	Worcester	**	WR1 1DL	UK 	
+30	GI0009		Gianni Sport	U.S Franceso 121/125			Fiorano	**	41042	IT 	
+30	GI0010		Giparis Giakoumogiannakis	1Papthiamanti Str			Kifisia	**	14562	GR 	
+30	GI0010	01    	Dance Collections	1 Papathiamanti Str			Kifisia	**	14562	GR 	
+30	GL0001		Glamour Gear/Ipswich Dancewear	7 Norwich Road		Ipswich	Suffolk	**	IP1 2ET	UK 	
+30	GL0002		Glass Slipper	469 Halliwell Road		Bolton	Lancashire	**	BL1 8DB	UK 	
+30	GL0003		Glitz Dancewear + Fancydress	28 Bank St	Cheadle	Stoke on Trent	Staffordshire	**	ST10 1Nt	UK 	
+30	GL0005		Glace Danse	308 Crs Louis Lafayette			Lyon	**	69003	FR 	
+30	GL0006		Glitz 'N' Blitz Ltd	7 Dark Lane			Bedworth	**	CV12 0UK	UK 	
+30	GO0001		Goodie Two Shoes	26/26b Lawford Road	New Bilton	Rugby	Warwickshire	**	CV21 2DY	UK 	
+30	GO0004		Go Sport	Av. Mouzinho de Albuquerque	C. Commercial Euracini I, Lj 15		Povoa de Varzim	**	4490-409	PT 	
+30	GO0006		Gotta Dance	Arabesque School of Performing Arts	Quarry Lane	Chichester	West Sussex	**	PO19 8NY	UK 	
+30	GO0007		Gooch Sports & Leisure	The Corner Shop	Church Street	Newport	Gloucester	**	GL18 1PP	UK 	
+30	GO0008		Gotta Dance Dancewear	40 Moffat Road			Hartlepool	**	TS25 3QP	UK 	
+30	GO0008	01    	Gotta Dance Dancewear	253 Raby Road			Hartlepool	**	TS24 8EH	UK 	
+30	GR0004		Aileen Graham/Graham Dance Ltd	The Studios Part Millars Two	Southmills Road	Bishops Stortford	Herts	**	CM23 3DH	UK 	
+30	GR0004	01    	Graham Dance Ltd	The Studios Part Millars Two	Southmills Road	Bishops Stortford	Herts	**	CM23 3DH	UK 	
+30	GU0001		GUASCH	PLAZA SAN JOAN, 3			LLEIDA	**	25007	ES 	
+30	GY0001		GYM & FUN ERTL KG	Penzinger Strasse 44			Wien	**	1140	AT 	
+30	GY0002		Gymmy	Steenweg op Turnhout 67			Oud-Turnhout	**	2360	BE 	
+30	HA0001		Hall of Dance Ltd the	24 North Streeet		Ashby de la Zouch	Leicestershire	**	LE65 1HS	UK 	
+30	HA0003		Hardings Dancewear	81 Mansfield Road		Nottingham	Nottinghamshire	**	NG1 3FN	UK 	
+30	HA0004		Harlequin Workshop	1 Sandy Lane		Barrowford near Nelson	Lancashire	**	BB9 8NY	UK 	
+30	HA0006		Hase Ballett & Gymnastikmode	Altenaustr. 5			Braunschweig	**	38122	DE 	
+30	HA0010		Handelsvertretung Kaldewey	Herr Roman Kaldewey	Grosser Feldweg 19		Harpstedt	**	27243	DE 	
+30	HA0012		Olaf Schuhmann Sportartikel	Weinbergstr. 10			Buxheim	**	85114	DE 	
+30	HA0012	01    	Olaf Schuhmann Sportartikel	Pichlergaessechen 6			Laimstadt	**	93336	DE 	
+30	HA0013		Handelsagentur Andrea Kaldewey	Muehlenweg 65			Gross Ippener	**	27243	DE 	
+30	HA0014		Hacke & Spitze GmbH	Zossener Str. 32			Berlin	**	10961	DE 	
+30	HA0015		Hamsin Limited	T/A Love Those Shoes	35 Riverview, The Embankment	Vale Road, Heaton Mersey	Stockport	**	SK4 3GN	UK 	
+30	HB0001		H.B. Dancegear Ltd.	2 Dacre Street 	South Shields	Tyne & Wear	Durham	**	NE33 5QD	UK 	
+30	HD0001		H.D. Dance Supplies	Sitwell Business Centre	Unit 2 Heage Rd Ind Estate	Ripley	Derbyshire	**	DE5 3GH	UK 	
+30	HD0002		SARL HDV Sports	6 bd Carnot			St Cere	**	46400	FR 	
+30	HE0001		Heal & Dance Ltd	9 West High Street		Inverurie	Grampian	**	AB51 3SA	UK 	
+30	HE0002		Heart & Sole	131 Victoria Road		Netherfield	Nottinghamshire	**	NG4 2PD	UK 	
+30	HE0003		Heavenly Dance Shoes	5 Station Approach		Watford	Hertfordshire	**	WD19 7DT	UK 	
+30	HE0004		Hereford Dancewear	New Warehouse Studios	4 Premier Business Park	Faraday Road	Hereford	**	HR4 9NZ	UK 	
+30	HE0007		Het Balletwinkeltje	Swalmerstraat 67-69			Roermond	**	6041 CW	NL 	
+30	HE0008		Het Nationale Ballet	Dept Costume Can Yukova	Waterlooplein 22		Amsterdam	**	1011	NL 	
+30	HE0010		Head 2 Toe Dance Supplies	The Old Police Station	Bedlington		Northumberland	**	NE22 6HR	UK 	
+30	HI0001		Hi Kix Dance Attic	The Top Floor	1A Harvey Street	Torpoint	Cornwall	**	PL11 2BV	UK 	
+30	HI0003		Hillary Sport	Via Balbi 119r			Vigliano Biellese	**	13856	IT 	
+30	HI0005		Hip Hop	12 Longmarket Court		Canterbury	Kent	**	CT1 2JS	UK 	
+30	HO0002		Hot Harmony S.N.C.	via Archimede, 23	Gravina		Puglia (BA)	**	70024	IT 	
+30	HO0003		Hobby Horse	4 St. Johns Walk	Hessle		Hull	**	HU13 9HY	UK 	
+30	HO0006		Holbrooks Shoes Ltd	77 Wellington Hill West	Henleaze		Bristol	**	BS9 4SH	UK 	
+30	HS0001		H.S. Dancewear	Unit 1 East View Ind Est	Langwith Junction	Mansfield	Nottinghamshire	**	NG20 9AA	UK 	
+30	HS0002		Hsp Computer	Di Paolo Luini	c.s.o. Cobianchi. Is (VB)		Verbania (VB)	**	28921	IT 	
+30	HU0001		Hula Hoop	Via Marchese 25			Formigine (MO)	**	41043	IT 	
+30	IC0002		I.C.A.R.O.S. GmbH	Tanzquartier	Volkmannstr. 10		Seevetal	**	21220	DE 	
+30	IC0003		I colori della danza	Via g. Verga 58			San miniato basso	**	56028	IT 	
+30	IC0003	01    	I colori della danza	via tosco romagnola est 460			San miniato basso	**	56028	IT 	
+30	ID0001		Idea Danza	di Silvia Taschi	Via Jervis 43	Ivrea	Torino (TO)	**	10015	IT 	
+30	II0001		Il Ritmo della Danza	Via G Garibaldi 34			S. Giovanni Valdarno	**	52027	IT 	
+30	II0002		IL Tutu Verde	di llaria Gambassi	Corso Matteotti 34		Castelfiorentino	**	50051	IT 	
+30	IL0002		Il Ritmo del Successo	Via dell'Agnolo	72-74 Rosso		Firenze (FI)	**	50100	IT 	
+30	IM0001		Impordance Lda	Travessa Fernando Namora, no8	Pedroucos		Maia	**	4425 651	PT 	
+30	IN0001		Indigo	79 Parkfield Road		Coleshill	North Warwickshire	**	B46 3LD	UK 	
+30	IN0003		Instep Dance Shoes	Blake House Craft Centre		Braintree	Essex	**	CM77 6SH	UK 	
+30	IN0004		Instep Dancwear	2 Southey Hill	West Riding	Sheffield	Yorkshire	**	S5 8BD	UK 	
+30	IN0006		In Time S.A.R.L.	16 Rue de Chateaudun			Paris	**	75009	FR 	
+30	IN0007		Instyle Dance Fashion & Street	Frank obach	Bahnhofstr. 70		Neu-Isenburg	**	63263	DE 	
+30	IN0008		In Punta di Piedi	VIA CASTELLO 2			Sasso Marconi (BO)	**	40037	IT 	
+30	IN0009		In Dance	Via S. Antonio 81			Parabiago (MI)	**	20015	IT 	
+30	IN0010		InterDance	Kolner Str. 9			Dusseldorf	**	40211	DE 	
+30	IN0011		Instep Shoes	204 Christchurch Road	West Parley	Ferndown	Dorset	**	BH22 8SS	UK 	
+30	IN0011	01    	Instep Shoes c/o Dance World	991 Christchurch Road	Boscombe East		Bournemouth	**	BH7 6BB	UK 	
+30	IN0012		Inline Dancewear	22 Moor Park Road			Hereford	**	HR4 0RR	UK 	
+30	IN0013		In Punta Di Piedi	Di Gangale Daniela	Via Vico Vivaldi, 2	Arma Di Taggia	Imperia	**	18018	IT 	
+30	IN0015		Inspire: The future of dance	24 Station Street	Walsall		West Mids	**	WS2 9IZ	UK 	
+30	IN0016		Intzidou Evangelia	16 Nikiforou Foka Str			Thessaloniki	**	54622	GR 	
+30	IN0017		In Tune DancewearT/A Bojangles	11 Blackroot Road		Sutton Coldfield	West Midlands	**	B74 2QH	UK 	
+30	IN0017	01    	Intune Dancewear T/A Bojangles	Mrs R Brangwin	11 Blackroot Road	Sutton, Coldfield	West Midland	**	B74 2QH	UK 	
+30	IN0017	02    	Bojangles Dance	3 Wiltell Estate	Upper St John Street		Lichfield	**	WS14 9DX	UK 	
+30	IN0018		International Dance Supplies L	Harlequin House	Forde Court		Devon	**	TQ12 4BT	UK 	
+30	IN0019		Inspired Expressive Arts	Whyare Inspired Ltd	57 Rhylstone Way	Saffron Walden	Essex	**	CB11 3BR	UK 	
+30	IN0019	01    	Whyare Inspired Ltd	3 Central Arcade	Saffron Walden		Essex	**	CB10 1BR	UK 	
+30	IN0020		Intersport Lewes	53 Cliffe High Street		Lewes	East Sussex	**	BN7 2AN	UK 	
+30	IN0021		Innovation Dance Boutique	96-98 Pitshanger lane			London	**	W5 1QX	UK 	
+30	IN0022		Interdance Ltd	Tatyana Oleynik	Gurguliat 25 STR		Sofia	**	1000	BG 	
+30	IO0001		Ioanna Katsi	28 OCTOBER STR. NO 20			Larisa	**	42223	GR 	
+30	IR0001		Iritmi di Sara	Cannaregio 1783			Venezia	**	30121	IT 	
+30	IR0003		Iris Bademoden und Dessous	Karlstr 11			Penzberg	**	82377	DE 	
+30	IV0001		Iveta Kasparova	Nadrazni 1408			Otrokovice	**	76502	CZ 	
+30	JA0001		Jama Uneek	134 Cornwall Street		Plymouth	Devon	**	PL1 1NJ	UK 	
+30	JA0002		Janet's Dancewear Ltd	82 St. Jude's Road	Englefield Green	Egham	Surrey	**	TW20 0DF	UK 	
+30	JA0003		Jay Sports Ltd.	14 Wellington Parade	Blackfen Road	Sidcup	Kent	**	DA15 9NB	UK 	
+30	JA0005		Jazz Hot Dancewear	Dunedin	Wigmore Lane	Eythorne	Kent	**	CT15 4AW	UK 	
+30	JA0007		Jacqueline Ballettshop	Kirchplatz 8 B			Oberhaching	**	82041	DE 	
+30	JA0008		The South African Ballet	35 Drury Lane			London	**	WC2B 5RH	UK 	
+30	JA0008	01    	South African Ballet	The Sth African Ballet Theatre	Po Box 291990			NA		ZA 	
+30	JA0009		Jast Atan	u.l Siemienskiego 17/5			Wroclaw	**	50-228.	PL 	
+30	JA0010		Jade Heusen	C/o Bloch	35 Drury Lane	Covent Garden	London	**	WC2B 5RH	UK 	
+30	JA0011		COLT SERVICES s.r.o.	Rampova 5			Kosice	**	04001	SK 	
+30	JA0011	01    	COLT SERVICES s.r.o.	Rampová 5			Kosice	**	04001	SK 	
+30	JC0001		JC Dancewear	32 Brookfield Avenue	Swinton	Mexborough	South Yorkshire	**	S64 8LH	UK 	
+30	JD0002		J.D.M. di Marrese Tiziana	Via Buriasco 7			Peschiera Borromeo M	**	20068	IT 	
+30	JE0002		Jems Party Centre Ltd	10 Parkway		Chelmsford	Essex	**	CM2 0LD	UK 	
+30	JE0003		Jean F Sinclair Shoes	47  High Street	Carluke		Lanarkshire	**	ML8 4AL	UK 	
+30	JE0009		Jessica Welt Dancewear	Kevinstr. 18a			Konigswinter	**	53639	DE 	
+30	JE0010		Jennifer's Dancewear	Unit G3	Woodside Court	Sparkford	Somerset	**	BA22 7LH	UK 	
+30	JF0001		Frantisek Darena	Porici 13			Brno	**	639 00	CZ 	
+30	JF0001	01    	Jan Tomanek	U Lipy Svobody 1			Brno	**	60200	CZ 	
+30	JI0001		JIV Sport Ltd	Meremargi 6			Muraste	**	76905	EE 	
+30	JI0001	01    	JIV Sport ou	Pohiladu	Haabersti 3		Tallinn	**	13516	EE 	
+30	JO0002		Jouetta s Danscentrum	Fluitekruidstraat 75			Almere	**	1313 KT	NL 	
+30	JO0004		Joachim Schmidt	Aachener Str 312			Ketenis	**	B-4701	BE 	
+30	JT0001		JTG Agencies Ltd.	5 Lovett Road		Colney Hertfordshire	 London	**	AL2 1UE	UK 	
+30	JU0001		Julienne Dancewear Ltd	820 Wickham Road		Shirley	Croydon	**	CR0 8EB	UK 	
+30	JU0002		Jump & Jive	72 Wincheap		Canterbury	Kent	**	CT1 3RS	UK 	
+30	JU0003		Just Dancing	15 High Street	Whitton	Twickenham	Middlesex	**	TW2 7LA	UK 	
+30	JU0004		Jump In	Neubaugasse 49			Wien	**	1070	AT 	
+30	JU0005		Julia da Costa Cabral	Hermann-Koerner-Str. 10			Reinbek	**	21465	DE 	
+30	JU0006		Jump	Am Edelberg 1a			Enkirch	**	56850	DE 	
+30	JU0006	01    	Jump	Isa Keil	Am Edelberg 1A		Enkirch	**	56850	DE 	
+30	JU0007		Jump Tanzmoden	Wilhelmstrasse 8			Wiesbaden	**	65185	DE 	
+30	JU0007	01    	Jump Tanzmoden	Whihelmstrasse 8			Wiesbaden	**	65185	DE 	
+30	JU0008		Forever dance	Gymnastik-Turnen balletbedarf	Haupstr 36		Eurasburg	**	86495	DE 	
+30	JU0013		Just For Dance	Corso XXII Marzo, 268			Novara	**	28100	IT 	
+30	JU0014		Just4Dance	Arnhemsestraat 20			Amersfoort	**	3811LH	NL 	
+30	KA0001		Katie Gill Dance	Flat 14 The Woods	70 Talbot Road	Bournemouth	Dorset	**	BH9 2HJ	UK 	
+30	KA0002		Kathy's Dancewear	Alexandra Park Fishponds		Bristol	Gloucestershire	**	BS16 2BG	UK 	
+30	KA0003		Katz	47-49 Newdegate street		Nuneaton	Warwickshire	**	CV11 4ER	UK 	
+30	KA0004		Ka Danse	32 rue Gambetta			Brives la Gaillarde	**	19100	FR 	
+30	KA0005		Kapsis Periklis	1 Solomou Str.	Galatsi		 Athens	**	11147	GR 	
+30	KA0010		Kanella Alifragi	14 Aristofanous STR			Athens	**	10554	GR 	
+30	KA0011		Katisma	The Professional Danceshop	Schlossberg 25		Fieberbrunn	**	6391	AT 	
+30	KA0011	01    	Katisma	The Professional Danceshop	Jaegerstrasse 3a, Top 4		Salzburg	**	A-5020	AT 	
+30	KA0013		Kaliopi Brantitsa	125 Alkiviathou Str			Pireas	**	18532	GR 	
+30	KD0001		K Danse S.A.R.L.	12 Rue de la Savonnerie			Rouen	**	76000	FR 	
+30	KD0002		K'Danse	Boulevard. Paul Eluard	C.C Auchan Immeuble Top Sud		Martigues	**	13500	FR 	
+30	KD0003		SC KDanse	2 avenue des Cyclamens			Braine L'Alleud	**	1420	BE 	
+30	KD0003	01    	SPRL Baut Victor	12,Chaussee de Nivelles			Waterloo	**	1410	BE 	
+30	KE0001		Kelly Dancewear	10a, St John's Hill		Shrewsbury	Shropshire	**	SY1 1JD	UK 	
+30	KE0002		Kelly Marie Dancewear	Kelly Fawkes	Unit 2, Fishers Yard	Market Square, St. Neots	Cambridgeshire	**	PE19 2AF	UK 	
+30	KE0003		Kermesse Danza & Fitness	DI ANDREINA FRANCO	VIA CARULLI  12/a		Bari	**	70121	IT 	
+30	KI0001		Kingdom of Dance	42 Willow Grove			Harrogate	**	HG1 4HP	UK 	
+30	KI0002		Kitty's Closet	13A Victoria Road		Wellingborough	Northants	**	NN8 1HN	UK 	
+30	KI0004		Ki'Danse	42 Place des Martyrs	de Chateaubriand		Viry Chatillon	**	91170	FR 	
+30	KI0006		Kitri - Negozio Per La Danza	Via Delle Muratelle 20/22			Salerno	**	84133	IT 	
+30	KI0007		Kids Connection	14 Market Place		Hertford	Herts	**	SG14 1DQ	UK 	
+30	KI0008		Kizzies	Blackburn Villa	Mill Road	Blackburn	West Lothian	**	EH47 7JZ	UK 	
+30	KI0008	01    	Kizzies	107 West Main Street	Whitburn		West Lothian	**	EH47 0QE	UK 	
+30	KL0001		Klass Dance S.L	C/ Francisco de Quevedo, 16-18	Local	Granollers	Barcelona	**	08402	ES 	
+30	KL0002		Klass Dance S.L	c/ Rossellon 237			Barcelona	**	08402	ES 	
+30	KL0002	01    	Klass Dance Barcelona	c/ Rossellon 237			Barcelona	**	08008	ES 	
+30	KO0002		Koala Dance	Via R. D'Andreotto 9/D			Perugia Stazione PG	**	06124	IT 	
+30	KO0003		Konstanze Babion	Dipl. Designer Kostumgestaltun	Burgholzstraße 7 1/2		Grafing	**	85567	DE 	
+30	KR0002		Krouskou Irini	7 Charilaou Trikoupi STR			Alimos	**	17456	GR 	
+30	LA0001		La Danse	3 The Hopmarket	Foregate Strert	Worcester	Worcestershire	**	WR1 1DL	UK 	
+30	LA0004		Lamberts	12a The Atrium	Maylord Orchard	Hereford	Herefordshire	**	HR1 2DT	UK 	
+30	LA0005		Larabesko BVBA	Bagattenstraat 122			Ghent	**	9000	BE 	
+30	LA0006		La Boutique de la Danse	25 RUE LT COLONEL MAURY			Vannes	**	56000	FR 	
+30	LA0006	01    	LA BOUTIQUE DE LA DANSE	25 RUE LT COLONEL MAURY			Vannes	**	56000	FR 	
+30	LA0006	02    	LA BOUTIQUE DE LA DANSE	14 RUE JEAN-JAURES			NANTES	**	44000	FR 	
+30	LA0007		La Danse	30 Rue du Marechal Joffre			Bordeaux	**	33000	FR 	
+30	LA0008		La Bailarina	Querweg 4			Ellerau	**	25479	DE 	
+30	LA0009		La Dance	Schwerinerstr.48			Dresden	**	01067	DE 	
+30	LA0009	01    	La Dance	Carola Vogt	Rissweg 52		Dresden	**	01324	DE 	
+30	LA0010		La Danse Roehm EKBallettbedarf	Hollestr. 1G			Essen	**	45127	DE 	
+30	LA0011		La Danza	Jakobsbergstrasse 3			Mainz	**	55116	DE 	
+30	LA0012		La Mambita	Bettina Cabrera	Mariendorfer Damm 23		Berlin	**	12109	DE 	
+30	LA0012	01    	Frau Cabrera	La Mambita	Mariendorfer Damm 23	Germany	Berlin	**	12109	DE 	
+30	LA0013		La Pirouette	Minzenweg 7A			Ingolstadt-Gerolfing	**	85049	DE 	
+30	LA0014		Lamovida	Dieselstr. 4/2			Neu-Ulm	**	89231	DE 	
+30	LA0015		La Dance	Corso Umberto 406			Telese Terme	**	8010	IT 	
+30	LA0016		La Luna che Danza S.r.l.	Via Livorno 50	Galleria Berlinguer	Pineto	Teramo	**	64025	IT 	
+30	LA0017		La Maison De La Danse	di Giorgia Campagna	Via Tugini 42		Foggia	**	71100	IT 	
+30	LA0018		L'Angolo Della Danza	Di Laurenza Samantha	Via Don Davide Albertario 91		Carpi (MO)	**	41012	IT 	
+30	LA0019		La Danse	Kristian Augustsgt 7A			Oslo	**	0164	NO 	
+30	LA0019	01    	Universitetsgaten 8				Oslo	**	0164	NO 	
+30	LA0021		La Font Dansa 01	C/Tomas Ortuno 18			Benidorm	**	3500	ES 	
+30	LA0022		Las Zapatillas Rosa 01	Lealtad 3 Entlo			Santander-Cantabria	**	39002	ES 	
+30	LA0023		Grandplie - Laura Daubagna	C/POrtal de Elorriaga, 13 Bajo	(Esquina C/Bulevard de Salbura)	VITORIA - GASTEIZ	ALAVA	**	01003	ES 	
+30	LA0024		LUA espacio de DANZA	C/OLIVAR 17 - Local		San Fernando de Henares	Madrid	**	28830	ES 	
+30	LA0025		La Luna Che Danza	Viale Bovio 103	Galleria Muzii		Pescara	**	65124	IT 	
+30	LA0027		La Danse Boutique	Rabnusstrasse 12			Fulda	**	36037	DE 	
+30	LA0027	01    	La Danse Boutique	Herr Hoenscher	Bertholdstrasse 29		Petersberg	**	36100	DE 	
+30	LA0028		CABINET A.L.E.C	(André Lamy Expertise Comptable)	3 Allée des Corvées		TALANT	**	21240	FR 	
+30	LA0031		La Guardia	20 Rue Des Canettes			Paris	**	75006	FR 	
+30	LA0032		La Pointe Rose	28 rue de la paroisse			Fontainebleau	**	77300	FR 	
+30	LA0032	01    	La Pointe Rose	28 Rue de La Paroisse			Fontainebleau	**	77300	FR 	
+30	LA0034		La Pointe	24 Newchurch Road	Rawtenstall	Rossendale	Lancashire	**	BB4 7QX	UK 	
+30	LA0036		L Angolo Glamour	di Danza Fitness suc.	Via Dei Barberi 11		Grosseto	**	58100	IT 	
+30	LA0037		LA CAMELIA	Calle San Andrés, 33			LA CORUÑA - GALICIA	**	15003	ES 	
+30	LA0038		L ATELIER DANSE	6 Place de la Republique			Marignane	**	13700	FR 	
+30	LA0038	01    	L ATELIER DANSE	6 place de la Republique			Marignane	**	13700	FR 	
+30	LA0039		Lauwers Joris C.V.	Larstraat 98		MENEN	Lauwe	**	8930	BE 	
+30	LA0040		La Bayadere	Corso Umberto I 88 Cava De Tirreni			Cava De Tirreni (SA)	**	84013	UK 	
+30	LA0041		La Moda Di Giulia SRL	Cincovallazione Ostiense, 339	Sede Legale		Roma	**	00154	IT 	
+30	LA0041	01    	La Moda Di Guilia SRL	Via Cornelio Magni, 26			Roma	**	00154	IT 	
+30	LA0042		Latin Shoe Store	Buygersstraat 8			Leeuwarden	**	8934BB	NL 	
+30	LB0001		L.B.Danza	di Battaglia Laura	Corso Strada Nuova, 134		Pavia	**	27100	IT 	
+30	LD0001		L-Danse	10 rue Royale		Chapelle-lez-Herlaimont	Chapelle-lez-Herlaim	**	7160	BE 	
+30	LD0001	01    	L-Danse	Lionnard Marie Laurence	155 , Rue de Marchienne		Gozee	**	6534	BE 	
+30	LE0001		Let's Dance!	17 Shoplands		Welwyn Garden City	Hertfordshire	**	AL8 7HR	UK 	
+30	LE0003		Le Ballet	Ballett&Tanzboutique	Bundesallee 92		Berlin	**	12161	DE 	
+30	LE0004		Let s Dance	Slevogtstr. 18			Bremen	**	28209	DE 	
+30	LE0008		Papillon Retail BV	Lemelerbergweg 61/62			Amsterdam	**	1101 AW	NL 	
+30	LE0009		Le Papillon	Langestraat 1B			Alkmaar	**	1811	NL 	
+30	LE0010		L'Etoile	di De Lillo Alexandra	via Turati (ex Rione Ventrone)		Santa Maria Capua Ve	**	81055	IT 	
+30	LE0012		Lets Dance Dancewear	113 Bilston Street	Sedgley		West Midlands	**	DY3 1JE	UK 	
+30	LE0013		Let's Dance	Museumsstr 6			Rastatt	**	76437	DE 	
+30	LE0015		Let's Dance	3 George Street	Paisley		Strathclyde	**	PA1 2JB	UK 	
+30	LE0017		L'Entre Chats	10 Avenue Georges Clemenceau			Rueil Malmaison	**	92560	FR 	
+30	LE0020		Les Sabatilles Vermelles	C/Muralla Sant Domenec	No7 Bajos	Manresa	Barcelona	**	08240	ES 	
+30	LE0021		Le Tricot	Frau Lachmann	Monningstr 59		Mulheim	**	45478	DE 	
+30	LE0023		L’edera di Dagmar Shaegg	Corso del Popolo 18			Monfalcone (Go)	**	34074	IT 	
+30	LE0024		L etoile	Via delle contramine 4			Pesaro	**	61100	IT 	
+30	LE0025		Lemongrass Kft	Kut Utca 10	Solymar		Hungary	**	2083	HU 	
+30	LE0029		LE PLIE	C/ PINTOR MANUEL MALDONADO	Nº8 BAJO13		GRANADA	**	18007	ES 	
+30	LE0031		Les Sylphides	5 avenue Ampere	Mas Guerido		Cabestany	**	66330	FR 	
+30	LE0032		Let s dance	Dipl.-Kfm. Birgit Haedrich	Ludwigsplatz 5		Giessen	**	35390	DE 	
+30	LE0032	01    	Let s dance	Alfred-Bock-Strasse 55			Giessen	**	35394	DE 	
+30	LE0033		Le Comptoir de la Danse	4 rue LAZARE CARNOT			SETE	**	34200	FR 	
+30	LI0001		Limelight	216 High Street		Uckfield	East Sussex	**	TN22 1RE	UK 	
+30	LI0002		Linedance Krazy	112 Spring Platt	Pound Hill		West Sussex	**	 RH10 7DE	UK 	
+30	LI0003		Balletboutique Zimmermann	Hainholzweg 67			Hamburg	**	21077	DE 	
+30	LI0004		Livia Benevelli	128 Patission Str			Athens	**	11257	GR 	
+30	LI0005		Lilas	di Dovico Stefania Ditta	Via Veratti 15		Varese	**	21100	IT 	
+30	LI0006		Lineks Straus D.O.O.	Kadilnikova 3a			Ljubljana	**	1000	SI 	
+30	LI0007		Liberty Dance	46ter Cours Reverseaux			Saintes	**	17100	FR 	
+30	LI0008		Linda Janitzek	Boemmerstr 31			Bochum	**	44892	DE 	
+30	LI0012		Lil Devils Dancewear	T/A Act One	15 The Cedars	Tilehurst, Reading	Berks	**	RG31 6JW	UK 	
+30	LI0012	01    	Act One	12 Shaftesbury Road			Reading	**	RG30 2QP	UK 	
+30	LI0014		Lilli Braun	Linderstr 14			Damme	**	49401	DE 	
+30	LL0001		ll Bello Del Ballo	Emanuela Altomare	Via Giovanni XXIII 12	Fraz.Quarto Piacnza	Palermo	**	29020	IT 	
+30	LL0001	01    	ll Bello Del Ballo	di Emanuela Altomare	Via Cornegliana 67/C		Piacenza (PC)	**	29100	IT 	
+30	LO0001		Lola Triantafillia	Papagoustr 1			Alexandria Imathias	**	59300	GR 	
+30	LO0002		L'Ora di Danza	di Bellani Cristina	Via Magenta 55-57		Livorno	**	57125	IT 	
+30	LO0003		Lola Denis  02	C/Mendez Nunez 1			Malaga	**	29008	ES 	
+30	LO0007		Lo sport e l'hobby	Angiola Di  Molinaro	Corso diaz  152		Mercato San Severino	**	84085	IT 	
+30	LO0008		Look in Sport & Dancewear	ALLES Andrea Marco	Via Pontebuco 31	San Lazzaro -	 di Savena (BO)	**	40068	IT 	
+30	LO0008	01    	Look in Sport & Dancewear	di ALLES Andrea Marco	Via Vizzani 68/C		Bologna	**	40138	IT 	
+30	LU0004		Lukry Bootique	P.za Generale Cascio 9			Palermo	**	90100	IT 	
+30	LX0001		L X Diffusion	73 Rue de Clichy			Paris	**	75009	FR 	
+30	MA0003		Maha Schuhe Vertrieb GmbH	In der Teichmatt 2a			Maulburg	**	79689	DE 	
+30	MA0004		Maison de la Danse	Pestalozzistr. 43			Berlin	**	10627	DE 	
+30	MA0006		Max Ballettartikel	Wilhelmstr. 44			Aachen	**	52070	DE 	
+30	MA0006	01    	Peter Saacke	Monschauer Str. 51			Aachen	**	52076	DE 	
+30	MA0008		Magashop	Di Galbiati Gabriella	Via Dei Pini 3		Pieve Emainele	**	20090	IT 	
+30	MA0009		Elena de Carli	Via Numitore 5-7			Roma	**	00181	IT 	
+30	MA0010		Marcos P. Castro LDA 02	Avenida Da Republica 2208 7E-P			Vila Nova de Gaia	**	4430-196	PT 	
+30	MA0011		DANCESPAIN S.A.	(Madrid Menkes)	C/Mesonero Romanos 14		Madrid	**	28013	ES 	
+30	MA0012		Madrid Menkes 01 Oficinas	C/Juan De Olias 21			Madrid	**	28020	ES 	
+30	MA0013		Mallots Elva	Mª DOLORES CRUZ	C/Obispo Covarrubias 1		Zaragoza	**	50005	ES 	
+30	MA0015		Maria Romero Rodriguez	C/Santa Teresa 4			Cadiz	**	11010	ES 	
+30	MA0016		Proflamenco S. L.	C/Hileras 7			Madrid	**	28013	ES 	
+30	MA0017		William Mason	78-80 High Street	Dunbar		East Lothian	**	EH42 1JH	UK 	
+30	MA0023		Maillots Pavlova bvba	Spoorwegstraat 30			Brigge/St Michiels	**	8200	BE 	
+30	MA0029		Ma Danse	Les Moulins Du Prado	BAT C	90 Avenue De Mazargues	Marseille	**	13008	FR 	
+30	MA0033		MARINA KAPOLA	10 VRISIIDOS STR.			KALLITHEA	**	17676	GR 	
+30	MC0001		MCDance Snc	di Sordi Maria Grazia & C	Via Matteotti 8/10		Voghera	**	27058	IT 	
+30	MC0002		MC-Tanz	Constantin Henck	Hof Ratzbek 1		Wesenberg	**	23858	DE 	
+30	MC0005		MC Dancewear	Unit 7	Newport Market	Newport City Centre	South Wales	**	NP20 1DD	UK 	
+30	MC0005	01    	MC Dancewear	Unit 7	Newport Market	Newport City Centre		**	NP20 1DD	UK 	
+30	ME0001		Mercury Dance Academy LTD	The White House	Chapel Lane	Weymouth	Dorset	**	DT3 5NA	UK 	
+30	ME0002		Media Danse Boutique	57 Rue Grande Fusterie			Avignon	**	84000	FR 	
+30	ME0003		Meyer s Tanz-Sport-Bedarf	Bernsteinweg 18			Rostock	**	18119	DE 	
+30	ME0004		Menkes Bilbao SA 01	C/Gordoniz 4			Bilbao	**	48001	ES 	
+30	ME0005		Menkes Galicia Danza S.L.	Galacia Danza	Calle San Andres No 25 Plaz		La Coruna (Galicia)	**	15003	ES 	
+30	ME0006		Menkes Murcia Danza S.L. 01	C/Jimenez Baeza 6			Murcia	**	30004	ES 	
+30	ME0008		Menkes Sevilla  01	C/Cuna 19			Sevilla	**	41004	ES 	
+30	ME0009		Menkes Valencia SA 01	C/Convento Jerusalen 21			Valencia	**	46007	ES 	
+30	ME0010		Menkes Zaragoza	Santander Danza S.L.	Torre Nueva 35		Zaragoza	**	50003	ES 	
+30	ME0011		Menkes Barcelona	Gran Vía de les Corts Catalane	646 Bajos		Barcelona	**	08007	ES 	
+30	ME0013		Merceria Lenceria Olalla	Curros Enriquez, 15 BAJO			Lugo - Galicia	**	27004	ES 	
+30	ME0014		LINEA DANZA s.n.c	di Menchini E. & C.	Via Umbria, 35	San Benedetto del Tronto (AP)		**	63039	IT 	
+30	ME0014	01    	Linea Danza	di Menichini Emanuela	Via Umbria 35	San Benedetto Del Tronto		**	63039	IT 	
+30	ME0015		Meeting Point sas	di Bertera Amalia & C.	Via Fiume No 42		Riva del Garda (TN)	**	38066	IT 	
+30	ME0016		Meine Tanzwelt	Spiegelstr. 29			Zwickau	**	08056	DE 	
+30	ME0017		Merceria Note d' Incanto	di Milito Lucia Alba	Via Roma,16	Rassina- Castel Focognano (AR)	Castel Focognano AR	**	52016	IT 	
+30	MG0001		MG Calzature diVarapodio Maria	Via Cavour, 6			Ventimiglia (IM)	**	18039	IT 	
+30	MI0001		Midland Dance Supplies	51 The Avenue	Rubery Industrial	Rubery	Birmingham	**	B45 9AL	UK 	
+30	MI0002		Miloff Boutique	Kauppakatu 13			Seinajoki	**	60100	FI 	
+30	MI0003		Miss Julia	9 rue de Jerusalem			Tours	**	37000	FR 	
+30	MI0004		Mi Passion	Hoogbrugstraat 16			Maastricht	**	6221 CR	NL 	
+30	MI0012		MITJA PUNTA	MISS NEUS BALTRONS	C/ De la Plantera, 5		BLANES	**	17300	ES 	
+30	MI0013		Millennium Dance	92-93 Grainger Market			Newcastle-upon-Tyne	**	NE1 5QG	UK 	
+30	MO0002		Mouvements	38 Rue Marechal Joffre			Pau	**	64000	FR 	
+30	MO0003		Moda di Danza	Karl-Friedrich-Str. 14			Ettlingen	**	76725	DE 	
+30	MO0003	01    	Moda Di Danza	Aline Pahlmann	Karl-Weysser Strasse 8		Karlsruhe	**	76227	DE 	
+30	MO0004		Modern Line	Neustadt 26			Marburg	**	35037	DE 	
+30	MO0008		Mondo Ballo	di Ilaria di Floria		Via Petrarce N.83	Piombino (Livorno)	**	57025	IT 	
+30	MO0009		Mondo Danza	di Busato Cristina	Via Mazzini 37/39	Bagnacavallo	Ravenna	**	48012	IT 	
+30	MO0010		Mondo Danza	Corso Genova 219			Lavagna	**	16033	IT 	
+30	MO0011		Movimento di Tania Roppolo	Via Fone Citerna 90			Putignano 	**	7001	IT 	
+30	MO0015		Michal Pimek	Pavlovska 516/19			Brno	**	62300	CZ 	
+30	MO0015	01    	Michal Pimek  - Dance-shop	Orlí 27			Brno	**	60200	CZ 	
+30	MO0018		MoonDance di Bacchi Lucia e	Girelli Lidia s.n.c	Via Vittorio Veneto, 95		Viareggio(LU)	**	55049	IT 	
+30	MO0019		Move Online Retail	11 Stevenson Square			Manchester	**	M1 1DB	UK 	
+30	MO0019	01    	Move Online Retail	69 Manchester Road	Altrincham		Cheshire	**	WA14 4RH	UK 	
+30	MO0021		Movementz	Via Pisacane 33			Senigallia(an)	**	60019	IT 	
+30	MP0001		M&P Dance	di Sabrina Pettorossi	Via di Valle Schiola 84		Anzio, RM	**	00042	IT 	
+30	MR0001		Mr. Frog Dancewear	22-23 Byram Arcade		Huddersfield	West Yorkshire	**	HD1 1ND	UK 	
+30	MU0001		Guitarras & Mundo - Flamenco	Werner Waeckerlig	Traugottstr. 8		Zurich	**	8005	CH 	
+30	MU0005		Mundance	MACOBELDA, S.L.U.	C/ NA SAURINA DE ENTENZA, 47	ALCOY	ALICANTE	**	03803	ES 	
+30	MU0005	01    	Mundance	MACOBELDA S.L.U	C/ NA SAURINA DE ENTENZA Nº47	ALCOY	ALICANTE	**	03803	ES 	
+30	MU0006		Musikarte	Musikarte instrumentos, S.L	C/Corregidor	Antonio de Bobadilla, 16	Malaga	**	29006	ES 	
+30	MY0002		My Toys.de GmbH	Abteiling: KOB	Bergmannstr 72		Berlin	**	10961	DE 	
+30	MY0002	01    	My Toys.de GmbH	Deugro-Halle	Am Weiher 8		Langenselbold	**	63505	DE 	
+30	MY0002	02    	My Toys.de GmbH	Deugro-Halle	Am Weiher 8		Langenselbold	**	63505	DE 	
+30	MZ0001		Mzansi Productions	Dirk Badenhorst	14 Welgelegen	28 10th Street	Melville	**	2092	ZA 	
+30	NA0001		Nathalie Danse	1A Rue Lafon			Marseille	**	13006	FR 	
+30	NA0002		Highland Schoolwear	National Schoolwear	25 Academy Street		Inverness	**	IV1 1JN	UK 	
+30	NA0005		NadancePlus	Burg Uilkensstraat 2			BERGAMBACHT	**	2861AE	NL 	
+30	NA0005	01    	NadancePlus	Weegbree 5			BERGAMBACHT	**	2861SM	NL 	
+30	NB0001		NB Dancegear	2 Dacre Street	South Shields		Tyne & Wear	**	NE33 5QD	UK 	
+30	NE0001		Neumann´s Ballett-Eckchen	Frau Gabriele Neumann	Carl-Bertelsmann- Str. 41		Gutersloh	**	33332	DE 	
+30	NE0001	01    	Neumann's Ballett-Eckchen	Gabrielle Neumann	Usedomweg 14		Gutersloh	**	33334	DE 	
+30	NE0002		New Line Dance Products	Berliner Strasse 8			Frankfurt	**	60311	DE 	
+30	NE0003		Netti Dance Shop	Adria Sétany 4f			Budapest	**	1148	HU 	
+30	NE0004		Nelson Dance House	Via O. Capello 84			Casale Monferrato	**	15033	IT 	
+30	NE0006		New York Dance	Via Matteotti 66/68			Viterbo (VT)	**	01100	IT 	
+30	NE0007		Nehir Ayakkab· Tekstil San.	Ve Tic. Ltd. Sti.	Nisantasi Ihlamur Yolu	Tesvikiye - Sisli	 Istanbul	**		TR 	
+30	NI0001		Nico Sport	Ferdinand Bolstraat 146			Amsterdam	**	1072 LS	NL 	
+30	NI0002		Nicky Machaira	14 Dafnis St			Korythallos	**	18122	GR 	
+30	NI0003		Nira di Floriana Mura	Via Manno,34			Sassari	**	07100	IT 	
+30	NK0001		N Kornbluth Ltd	160A Bridport Road		Edmonton	London	**	N18 1SY	UK 	
+30	NO0001		No10 - Dance & Sport	Templestreet 16		Keighley	West Yorkshire	**	BD21 2AD	UK 	
+30	NO0003		Notarangelo Rita	Via Custoza 25			Ligano Sabbiadoro	**	33054	IT 	
+30	NO0003	01    	Notarangela Rita	Via Garibaldi 7			Latisana	**	33053	IT 	
+30	NO0005		Non Solo Danza	di Riggi Anna	Via Trapani, 4		Ribera (AG)	**	92016	IT 	
+30	NO0006		Non Solo Danza	di Montanari Olga	Via Aldo Moro 126		Bomporto (Modena)	**	41030	IT 	
+30	NO0007		Nonsolodanza	di Paola Grandi	VIA A. LOLLIO 5		Ferrara	**	44121	IT 	
+30	NO0007	01    	EFF& PI SRL	VIA RAGNO 14			Ferrara	**	44121	IT 	
+30	NO0008		Nonsolodanza	di Davide Di Silvestro	Via Giacomo Matteotti 6		Quarto (NA)	**	80010	IT 	
+30	NO0012		Non Solo Danza di A.Sacca	Via della Zecca, 11			Messina	**	98122	IT 	
+30	NU0001		NUNO ALBERTO FERREIRA PAULO	Rua Extremo de Fanzeres, 168			Gondomar	**	4510 561	PT 	
+30	NU0001	01    	NUNO ALBERTO FERREIRA PAULO	Rua Extremo de Fanzeres, 168			Gondomar	**	4510 561	PT 	
+30	OC0001		Octagon Studios	The Old Museum	28 High Street	Ely	Cambridgeshire	**	CB7 4JU	UK 	
+30	OD0002		Odette	Maria Jose Rubert Peris	C/Cervantes 33 Bajos		Castellon	**	12001	ES 	
+30	OD0003		Odette Wien e.U.	Argentinierstrasse 17			WIEN	**	1040	AT 	
+30	OF0001		Off Balance Dancewear	Gleissbuehlstr. 12, 1 Stock			Nuernberg	**	90402	DE 	
+30	OF0002		OFFICINA DEL BALLO	VIA AUGUSTO PASSAGLIA, 102	LOCALITA' BORGO GIANNOTTI		LUCCA (LU)	**	55100	IT 	
+30	OK0001		Oksana Design SnC	Via Della Doga 47			Narni (TR)	**	05035	IT 	
+30	OK0002		OK Sport e Danza	Via del Passetto 111			Fiorentino	**	47897	SM 	
+30	OL0001		OLYMPE	15 RUE D EN HAUT			OPPREBAIS	**	1315	BE 	
+30	OL0005		Oltredanza S.n.c.	di Lissa F. & S.	Castello 6251	Calle Lunga S.ta Maria Formos	Venezia	**	30122	IT 	
+30	OL0006		OLICA chaussures de danse	254 rue du Mont St Michel			Chambery	**	73000	FR 	
+30	ON0001		Onstage	Mariahilfstr. 28			Innsbruck	**	6020	AT 	
+30	ON0002		On Pointe Ltd	Gainsborough House	2 Sheen Road	Richmond	London	**	TW9 1AE	UK 	
+30	ON0004		OniGlobal Ic ve DisTicaret Ltd	Semsettingunaltay Cad	Ekinciler Is Merkezi	 Kadikoy	Istanbul	**		TR 	
+30	ON0005		One Stop Scouting Limited	Units 1&2	Beehive Business Centre	Beehive Lane	Chelmsford, Essex	**	CM2 9TE	UK 	
+30	ON0005	01    	One Stop Scouting Limited	Unit 2F	263 Siledy Road Industrial Est	Barrow Upon Soar	Leicestershire	**	LE12 8LP	UK 	
+30	ON0006		Only for Passion	di Bucci Federica	Largo Donatori del Sangue n.10		Montelabbate (PU)	**	61025	IT 	
+30	ON0006	01    	Only for Passion	di Bucci Federica	Largo Donatori del Sangue n, 10		Montelabbate	**	61025	IT 	
+30	ON0007		One Step Beyond	96 Belsize Lane			London	**	NW3 5BE	UK 	
+30	OP0002		Opera National du Rhin	BP 81165			Mulhouse	**	68053	FR 	
+30	OP0002	01    	Opera National du Rhin	Ballet de l'Opera	38 passage du Theatre		Mulhouse	**	68100	FR 	
+30	OP0003		Giada Rossi	Opera National de Bordeaux	Grand Theatre	Place de la Comedie BP90095	Bordeaux Cedex	**	33025	FR 	
+30	OR0001		Orient Point	Lowenberger Str. 42			Nurnberg-Altenfurt	**	90475	DE 	
+30	OR0002		Orgacim	58 Chemin de la Justice	Chatenay Malabry	Cedex Siren 300 344 389	RCS Nanterre	**	92297	FR 	
+30	OR0002	01    	Depot Orgacim-Orgacim-98	89 Rue de la porte Trivaux	Clamart	Siren 300344389	RCS	**	92140	FR 	
+30	OR0002	02    	Printemps Rayon 142	J C Monderer Tours Bercy 21	17 Bd Herte Loup		Tours	**	37000	FR 	
+30	OR0002	03    	JC Monderer Bourge	Fr Marais 11	22 Rud des Francs Bourgeois		Paris	**	75003	FR 	
+30	OR0002	05    	J C Monderer St Germain Soja18	2 Place Miche Debre			Paris	**	75006	FR 	
+30	OR0006		Original company, s.r.o.	Levin 34			Kraluv Dvur	**	267 01	CZ 	
+30	OR0006	01    	TC R.A.K. 	Ceska 56			Beroun	**	266 01	CZ 	
+30	OR0007		O Royaume de la Danse	17 rue du Littoral	Pommaris b		Port Frejus	**	83600	FR 	
+30	OR0007	01    	O Royaume de la Danse	17 rue du Littoral	Pommaris b		Port Frejus	**	83600	FR 	
+30	OS0002		Ostia Danza Srl	Via Cardinal Ginnasi 12			Ostiazido (RM)	**	00122	IT 	
+30	OT0001		Ottotempi S.a.S.	di Lurig Elisabetta & C.	Via Umbreto 1 82		Pandino (CR)	**	26025	IT 	
+30	OT0003		Otto Koci	Dubnickol 462/1			Praha 5	**	15900	CZ 	
+30	PA0001		Parkers	106 Deangate		Bolton	Lancashire	**	BL1 1BD	UK 	
+30	PA0002		Party Superstores Ltd	268 Lavender Hill		Clapham	London	**	SW11 1LJ	UK 	
+30	PA0003		Pas de Chat	The Old School House	31 Bulkington Avenue	Worthing	West Sussex	**	BN14 7NL	UK 	
+30	PA0004		Passion Danse	3 Rue Brulee			Strasbourg	**	67000	FR 	
+30	PA0005		Passion et Caprice de Danse	22 Avenue de Verdun			Cagnes sur Mer	**	6800	FR 	
+30	PA0006		Patinart C.B	C/Colombia 4, local	Coslada		Madrid	**	28823	ES 	
+30	PA0007		Pas de Deux	Untere Bahnhofstr.25			Germering	**	82110	DE 	
+30	PA0008		Pauls & Co	Streitzeuggasse 6			Koln	**	50667	DE 	
+30	PA0009		Pas de Bourree	Via Garibaldi 13			San Felice De Benaco	**	25010	IT 	
+30	PA0010		Paso Doble di Fabio Capra	Via GianTurco 78			La Spezia	**	19126	IT 	
+30	PA0011		Passi di Danza	Di Montalto Irene & C Snc	Via Porta a Mare 17		Pisa (PI)	**	56122	IT 	
+30	PA0013		Paraddy Studio	Witte de Withstraat 11a			Rotterdam	**	3012 BK	NL 	
+30	PA0016		Palmas	Leticia Diago Arevalo	C/TRAVESIA REAL, 3 (Local 3)	COLLADO VILLALBA (MADRID)	Madrid	**	28400	ES 	
+30	PA0017		Passoa 2	Passoa2 di Favaro Roberta	Via Flavia 65		Ladispoli (RM)	**	00055	IT 	
+30	PA0021		Paso Adelante- Non solo Danza	Via Stromboli (S.S. 18), 4			Amantea (CS)	**	87032	IT 	
+30	PA0024		Pat's Sports	Sport 2000	3/4 Place de la Capelle		Millau	**	12100	FR 	
+30	PA0025		Paris Opera	Financial Dept	120 Rue De Lyon		Paris	**	75012	FR 	
+30	PA0025	01    	Paris Opera	Dept Costumes Xavier Ronse	8 Rue de Scribe		Paris	**	75009	FR 	
+30	PA0026		Paco Olea.SL	San Miguel Pasaje Andalucia 12	Torremolinos		Malaga	**	29620	ES 	
+30	PA0028		Paula Gutierrez Danza	CL Francisco Bergamin 33, Bajo			Pamplona	**	31003	ES 	
+30	PA0029		Passi Di Danza di Testoni	Via Le Corbusier 4			Ravenna	**	48100	IT 	
+30	PA0030		Passi di Stelle di Margherita	Via Roma 21 Specchia			Lecce	**	73040	IT 	
+30	PA0031		Passione danza	Via Veneto 43			Castel Volturno (CE)	**	81030	IT 	
+30	PA0032		PAM Loisirs Boutique	Place du Barri			GRASSE	**	06130	FR 	
+30	PA0032	01    	PAM Loisirs Boutique	Place du Barri			GRASSE	**	06130	FR 	
+30	PA0033		Panthermou Konstantina	7 Miltiathou Street	Thafni		Athens	**	17235	GR 	
+30	PA0034		Palcoscenico di Maria Cira	Viale del Platani 35		San Sebastaino al Vesuvio		**	80040	IT 	
+30	PE0001		Perfect Pointe	131 St. Mary Church Road		Torquay	Devon	**	TQ1 3HW	UK 	
+30	PE0002		Peter Schaufuss Ballet	Spinderigade 11E			Vejle	**	DK 7100	DK 	
+30	PE0003		Petrouchka/De Meulenaere	Maastrichtersteenweg 107			Hasselt	**	3500	BE 	
+30	PE0004		Peter Maurer	Maximinstrasse 2a			Trier	**	54292	DE 	
+30	PE0005		Performer	di Scudieri Alfredo & C. S.a.S	Via Duca Degli Abruzzi n. 83		San Giovanni LaPunta	**	95037	IT 	
+30	PE0006		Petits Pas SAS di Letizia Fran	Via Cavour, 27			Recanati (Macerata)	**	62019	IT 	
+30	PE0007		Petits pas	di Ferri Federica	Piazza Matteott, 8		Salerno	**	84100	IT 	
+30	PE0014		Petit Rat	53 Avenue Leon Bollee			Le Mans	**	72000	FR 	
+30	PE0017		Sport 2000 - PETALL SAS	229 route de Cannes			Grasse	**	06130	FR 	
+30	PE0018		'Penelopes'	107 Bell Lane	Marston Green		Birmingham	**	B33 0HX	UK 	
+30	PE0018	01    	'Penelopes'	40 Bell Lane	Marston Green		Birmingham	**	B33 0HT	UK 	
+30	PE0019		Perpy s.r.l.	VIA COMPAGNETTO DA PRATO N. 2			PRATO	**	51018	IT 	
+30	PE0019	01    	Perpy s.r.l.	Corso Roma, 32			Montecatini	**	51018	IT 	
+30	PH0001		Philippa Roumelioti	P.J's The Dance Shop	Shop 1,	4 Steliou Mavromati Street,	Paphos	**	8020	CY 	
+30	PH0002		Philiane Solutions	Absoludanse	Rue du Postillon, 9		Uccle	**	B-1180	BE 	
+30	PH0002	01    	Absoludanse	Rue du Postillon, 9			Uccle	**	1180	BE 	
+30	PI0001		Pink Dancewear	8 Dyer Lane		Beverley	East Yorkshire	**	HU17 8AE	UK 	
+30	PI0002		Pink Pointes	1a, Suttons Lane		Hornchurch	Essex	**	RM12 6RD	UK 	
+30	PI0003		Pirouettes	The Enterprise Centre	Station Parade	Eastbourne	East Sussex	**	BN21 1BD	UK 	
+30	PI0004		Piruetti	Kauppakatu 14			Tampere	**	33210	FI 	
+30	PI0005		Pirouette	Mathiasstr. 11			Koln	**	50676	DE 	
+30	PI0006		P&I Worx Ltd	13 Agiou Andronikou Str	Nicosia	Cyprus		**	2054	CY 	
+30	PI0007		Pierrot Sports (SARL)	Sport 2000	11 Boulevard De La Liberation		Romans	**	26100	FR 	
+30	PI0008		Pionier Sport B.v.	IJsseldijk 355		Krimpen aan den IJssel		**	2922BK	NL 	
+30	PL0002		Plie Dancestores	A.Loupos and SIA OE	41 Ifikratous St.	Pagrati	Athens	**	11633	GR 	
+30	PL0003		Planet Dance (UK) Ltd	2nd Floor, Middle Mill	Carlington Mills	501 Bradford Road	Batley	**	WF17 8LL	UK 	
+30	PL0005		Ploom Anton	48-1-403 Koroleva Avenue			Saint Petersburg	**	197371	RU 	
+30	PL0005	01    	Denis Fadeev tel:+358468162862	Fish Trading House OY	Kurkelantie 5		Vaalimaa	**	49930	FI 	
+30	PO0001		Pointe Perfect Dancewear	1 Bolebridge Mews		Tamworth	Staffordshire	**	B79 7PA	UK 	
+30	PO0002		Porselli Norwich Dancewear	Unit 4, Frensham Road Sweet Br		Norwich	Norfolk	**	NR3 2BT	UK 	
+30	PO0003		Podium	V. Welderenstraat 107			Nijmegen	**	6511 MG	NL 	
+30	PO0003	01    	BINNENSTADSERVICE.NL	Voor Podium	WINKELSTEEGSEWEG 144		 NIJMEGEN	**	6534 AR	NL 	
+30	PO0004		Polvere di Stelle	Via Milano 38			Alessandria	**	15100	IT 	
+30	PO0007		Pointe Russe	108/3 Export Processing Zone	Ladkrabang Industrial Est Moo 4	Chalongkrung Road Ladkrabang	Bangkok	**	10520	TH 	
+30	PO0009		Pointes et Merveilles	24 rue Amiral de Grasse			Grasse	**	06130	FR 	
+30	PO0010		Por Alegria Danza SL	C/REPÚBLICA ARGENTINA 34			LEON	**	24004	ES 	
+30	PO0010	01    	Por Alegria Danza SL	C/ Republica Argentina 34			Leon	**	24004	ES 	
+30	PR0001		Prelude Dance	& Theatrical Supplies	32 Forge Road	Port Talbot	South Wales	**	SA12 1NU	UK 	
+30	PR0002		Pretty Sporty	2 The Green	High Street	Chalfont St Giles	Bucks	**	HP8 4QF	UK 	
+30	PR0003		Prima Dance	1 Canvey Road		Canvey Island	Essex	**	S58 0LL	UK 	
+30	PR0004		Pro Danse	Alte Schonhauser Str. 16			Berlin	**	10119	DE 	
+30	PR0006		Prodancer/Shop	C/California 14 Local 1	Las Palmas		Gran Canaria	**	35010	ES 	
+30	PR0007		Pretolani Dina	Viale Bologna 41			Forli	**	47100	IT 	
+30	PR0008		Premier Dancewear	45 Station Road		Birchington	Kent	**	CT7 9DJ	UK 	
+30	PR0012		PRiiLA Tanz	& Ballettausstatter	Koburger Str. 69		Markkleeberg	**	04416	DE 	
+30	PT0001		Puttmann Tanzschuh-Shop	Bekassinenweg 5a			Berlin- Heiligensee	**	13503	DE 	
+30	PU0001		Pulcinella	Aumuhlenweg 9			Wangen	**	88239	DE 	
+30	PU0003		Punto Fitness	di Stolfi Domenico	Via San Remo 64/65/66		Potenza	**	85100	IT 	
+30	PU0006		Pulsara Marketing Ltd	16 Sandford Road	Ranelagh		Dublin 6	**		IE 	
+30	PU0006	01    	Pulsara Marketing Limited	Unit 34 Millennium Business Pk	Cappagh Road		Dublin 11	**		IE 	
+30	PU0007		PUNTA TACCO SNC	Via P.Antero , 12			Genova	**	16154	IT 	
+30	PU0008		Pulsara Marketing Ltd	16 Sandford Road	Ranelagh		Dublin 6	**		IE 	
+30	PU0008	01    	Pulsara Marketing Limited	Unit 34 Millennium Business Pk	Cappagh Road		Dublin 11	**		IE 	
+30	QU0001		Quick & Step	Frau Annette Andrae	Bieberweg 1		Petersberg	**	36100	DE 	
+30	QU0001	01    	Quick & Step	Annette Andrae	Bieberweg 1		Petersberg	**	36100	DE 	
+30	QU0002		Quattroeffe S.a.S.	di Fabozzi Angelo & C.	Via Giotto 14		Trentola (CE)	**	81038	IT 	
+30	QU0003		Quick & Slow	di G. Tedeschi	Via XXV Aprile,43		Dairago (MI)	**	20020	IT 	
+30	QU0004		Quick Sport S.A.S.	di Grimaldi e C.	Via Palestrina 7		Parma (PR)	**	43100	IT 	
+30	QU0006		Danzificio Petrecca SRL	via De Ruggiero, 87			Napoli	**	80128	IT 	
+30	QU0006	01    	Danzificio Petrarca	via Coste di Cuma, 14			Arco Felice (NA)	**	80078	IT 	
+30	RA0002		Rainbow Dancewear	173 Rosemount Place			Aberdeen	**	AB25 2XP	UK 	
+30	RA0004		Razzle Dazzle - EM	3-5 Sagar Street		West Yorks	Castleford	**	WF10 1AG	UK 	
+30	RA0007		Razzle Dazzle Dance Costumes	Unit 18 Alliance Close	Attleborough Fields Ind Est	Nuneaton	Warks	**	CV11 6SD	UK 	
+30	RE0001		Regalo's Country & Western	256/258 Dickson Road		Blackpool	Lancashire	**	FY1 2JS	UK 	
+30	RE0002		Reflets Danse	18 rue Jean Monnet			BUSSY SAINT GEORGES	**	77600	FR 	
+30	RE0003		Rey Sport	43 Boulevard Soult			Albi	**	81000	FR 	
+30	RE0004		Reart SRL	Corso Garibaldi 49			Milano (MI)	**	20100	IT 	
+30	RE0005		Regazzetti S.R.L.	Via Teodorico 21			Milano (MI)	**	20100	IT 	
+30	RE0005	01    	Regazzetti Srl	Corso Europa 136			RHO  Milano (MI)	**	20017	IT 	
+30	RE0006		Ready to Dance	Parallelweg 9			De Steeg	**	6994 CA	NL 	
+30	RE0007		Reina Artesanos S.L.	C/Martin De Vargas 3			Madrid	**	28005	ES 	
+30	RE0008		Revoltade Kft	Bp. 1066. O utca 42 fsz			Budapest	**	1066	HU 	
+30	RE0008	01    	Revoltade Kft	Bp.1066 O utca 42 fsz			Budapest	**	1066	HU 	
+30	RH0001		Rhythm & Dance	98 Wellgate		Rotherham	South Yorks	**	S60 2PD	UK 	
+30	RH0002		Rhythm and Power School snc	Via Nuova Ponente			Sacile	**	3307	IT 	
+30	RI0001		Ritm Marseille	16 Rue Sainte			Marseille	**	13001	FR 	
+30	RI0002		Rico's Tanzsport	und Freizeitbedarf	Messerschmittstr. 18		Kempten	**	87439	DE 	
+30	RI0002	01    	Ricos Transportbedarf	Rudolf Walch	Obere Eicher Strasse 15		Kempten	**	87435	DE 	
+30	RN0001		RnB Dancewear	22 Lister Road	North West Industrial Estate	Peterlee	Co Durham	**	SR8 2RB	UK 	
+30	RN0001	01    	Rock A Bye baby/ RnB Dancewear	22 Lister Road	North West Industrial Estate	Petertree	Co Durham	**	SR8 2RB	UK 	
+30	RO0001		Roynon Dancewear	18 Obelisk Road		Woolston	Southampton	**	SO19 9BN	UK 	
+30	RO0002		Robics	Oude Vaartplaats 49			Antwerpen	**	2000	BE 	
+30	RO0003		Rondo	Meduliceva 8			Zagreb	**	10000	HR 	
+30	RO0004		Royal Ballet Boutique	1 Sina Atr			Nicosia	**	1702	CY 	
+30	RO0005		ROSET-IDEAT OY	TEERISUONKUJA 1 a			Helsinki	**	00700	FI 	
+30	RO0007		Romatex	Centro Comm. Das Antas Loja 55	R. Prof. Bento Jesus Caraca 93		Porto	**	4200-131	PT 	
+30	RO0008		Arte Y Ensayo	Rosa Maria Ruiz  Benavides	C/Jesus Del Gran Poder 39	Butron	 Sevilla	**	41002	ES 	
+30	RO0009		Rosario Roman s.l	c/ Garcia Lovera S/N			Cordoba	**	14002	ES 	
+30	RO0011		Royal Danish Ballet	Det Kongelie Teater	August Bournevilles Passage 2-8		Copenhagen	**	DK-1055	DK 	
+30	RO0013		Royal Ballet	C/o Cat Ladd	Royal Opera House	Covent Garden	London	**	WC2E 9DD	UK 	
+30	RO0013	01    	Jane Latimer  - Royal Ballet	C/o Bloch	35 Drury Lane	Covent Garden	London	**	WC2B 5RH	UK 	
+30	RO0014		Royal Ballet School	Millis Faust	C/o Bloch UK LTD	35 Drury Lane, Covent Garden	London	**	WC2B 5RH	UK 	
+30	RO0015		Rosso Agnese	Via Roma 81	Camisano Vicentino		Vicenza	**	36043	IT 	
+30	RO0016		The RDB School	Det Kongelige Teater / The Royal Danish	August Bournonvilles Passage 8		Copenhagen	**	DK-1017	DK 	
+30	RO0017		The Royal Swedish Ballet Schoo	Kungliga Svenska Balettskolan	Soeder Maelarstrand 39		Stockholm	**	S-118 25	SE 	
+30	RS0001		RS Dance	Spruce Lodge	2 Pine Walk	Elloughton	East Yorks	**	HU15 1LP	UK 	
+30	RU0001		RUDOLF DISTRIBUZIONE srl	Via Cavaro, 29			Cagliari (CA)	**	09131	IT 	
+30	RU0004		Fundacion Corella Ballet	RUTH SANZ MORENO	CL 601 KM 116	Palazuelos de Eresma	Segovia	**	40194	ES 	
+30	SA0001		Sanderson Dance & Fitness Cent	10 Churchill Way		Nelson	Lancashire	**	BB9 6RT	UK 	
+30	SA0002		Salsa spol. S. r.o.	Michal Sejkora	V Slavetine 2632/23		Prague 9	**	19300	CZ 	
+30	SA0002	01    	Michal Sejkora	Zdenka Stepanka 1879/4			Ostrava	**	70800	UK 	
+30	SA0006		Saak Achter Het Station	Verlengte Staten Laan 53			Hertogenbosch	**	5223LD's	NL 	
+30	SA0015		CHOREGRAPHIC  K'Danse	14 Avenue Du 24 Aout			Antibes	**	06600	FR 	
+30	SA0018		Salters Footwear Ltd	T/A Splitz Dancewear	Traders Outlet (ground floor)	3-7 Tatton Road, Sale	Cheshire	**	M33 7EB	UK 	
+30	SA0019		Salsa4you e.U	Stefan Stacher	Franzensgasse 10/1		Wien	**	1050	AT 	
+30	SA0020		Sansha France	52 Rue De Clichy			Paris	**	75009	FR 	
+30	SA0021		Sabine Carl Ballettbedarf	Mainstrasse 9			Dormitz	**	91077	DE 	
+30	SA0027		Saleri Francesco - Articoli Da	Via S. Rocchino, 59			BRESCIA	**	25123	IT 	
+30	SA0027	01    	Articoli Danza	Via G.Marconi, 28/D			BRESCIA	**	25123	IT 	
+30	SA0028		San-Marie Stage School	San -Marie Studios	Guildprime Business Centre	Southend Road	Billericay	**	CM11 2PZ	UK 	
+30	SA0029		Sarl Jo-Li / Fame	37 Rue Guersant			Paris	**	75017	FR 	
+30	SC0001		Scarletts	75 Cavendish Place		Eastbourne	East Sussex	**	BN21 3RR	UK 	
+30	SC0001	01    	SCARLETTS DANCEWEAR	75 Cavendish Place		Eastbourne	West Sussex	**	BN21 3RR	UK 	
+30	SC0003		Scarpette Rosse S.n.C.	di Roberto Moratti & C.	Via Sant' Eustacchio 39/A		Brescia	**	25128	IT 	
+30	SC0004		Scarpette Rosse s.a.s	di Paola Ripamonti e C.	Piazza Salera, 10		OMEGNA (VB)	**	28887	IT 	
+30	SC0005		Scarpette Rosse S.n.C.	Viale della Repubblica 43			Prato (PO)	**	59100	IT 	
+30	SC0006		Scarpette Rosse SNC	Via Calchera 47			Viterbo	**	110	IT 	
+30	SC0007		Scarpette Rosse s.n.c.	di Bedeschi & di Fiorino	Via Monzermone 8/A		Reggio Emilia (RE)	**	42100	IT 	
+30	SC0008		Scottish Ballet, The	Tramway	25 Albert Drive		Glasgow	**	G41 2PE	UK 	
+30	SC0009		Skandinavisk Dance & Gym Shop	Gamla Brogatan 34			Stockholm	**	S-11120	SE 	
+30	SC0009	01    	Scandanavian Dance	Norregade 26			Copenhagen	**	1165	DK 	
+30	SC0009	02    	Gamla Brogatan 34				Stockholm	**	S-11120	SE 	
+30	SC0009	03    	Dansbutiken I City AB (DA0124)	Vasagatan 48			GOETEBORG	**	41137	SE 	
+30	SC0010		Schuhhaus Rebenstorf	Markstr 26			Winsen	**	21423	DE 	
+30	SC0011		Scarlett di Alessandra	del Gaudio	Via S.F Saverio 42		Avellino	**	83100	IT 	
+30	SC0012		Scarpette Rosa di Claudia Licc	Via Marano Pianura, 17			Marano Di Napoli	**	80016	IT 	
+30	SC0014		Schubert Ballett & Showstudio	Gotte 2	Lieferadress Gotte 2		Ahaus/Graes	**	48683	DE 	
+30	SE0003		Sellerie du BAB / Cadence	4 Allee de Cadran	Le Busquet		Anglet	**	64600	FR 	
+30	SH0002		Sherbet Dance	1 Albemarle Street	South Shields	Tyne & Wear	Durham	**	NE33 1LZ	UK 	
+30	SH0003		Sherida Bridget LTD	T/A Sherries	186 Bexley Road	Eltham	London	**	SE9 2PH	UK 	
+30	SH0004		Showcase Dancewear	13 Montpellier Arcade		Cheltenham	Gloucestershire	**	GL50 1SU	UK 	
+30	SH0005		Showstopper	13, Parsons Street		Banbury	Oxfordshire	**	OX16 8LW	UK 	
+30	SH0006		Showstoppers/Dancewear Central	Pennine Business Park	Pilsworth Road	Heywood	Lancashire	**	OL10 2TL	UK 	
+30	SH0007		Showstoppers	337 London Road	Hilsea	Portsmouth	Hampshire	**	PO2 9HQ	UK 	
+30	SH0008		Showtime	22 Queen Street		Gravesend	Kent	**	DA12 2EE	UK 	
+30	SH0010		Shall we Dance?	Via Roma 34			San Geennaro Vesuvia	**	8004	IT 	
+30	SH0011		Shantala	di Rampazzo Donatella	Via Genova 1		Padova (PD)	**	35100	IT 	
+30	SH0015		Showtime	648 Prescot Road			Liverpool	**	L13 5XE	UK 	
+30	SH0019		Shoe Tree Dance Centre	27 Grovsvenor Street		Stalybridge	Cheshire	**	SK15 2JN	UK 	
+30	SH0021		Shopping Danse - SAS Dencelia	5 rue des Corbieres			Elne	**	66200	FR 	
+30	SI0004		Simply Sports Ltd	60 Station Road East		Oxted	Surrey	**	RH8 0PG	UK 	
+30	SK0001		Skoulaxenou Nikoleta	56-62 El. Venizelou Str			Athens	**	14231	GR 	
+30	SL0002		SLP Dancewear	5 Chapel Lane	Garforth		Leeds	**	LS25 1AG	UK 	
+30	SL0003		SLO MOTION s.r.o	Komenskeho 21			Sturovo	**	943 01	SK 	
+30	SL0003	01    	LEMONGRASS KFT.	KUT UTCA 10.			SOLYMAR	**	2083	HU 	
+30	SM0001		Smiths of Greenock	36 West Blackhall Street			Greenock	**	PA15 TUU	UK 	
+30	SN0001		Sneakers & Dance City	di M Rebuffa	Via Milano 42	Vigliano Biellese	Biella	**	13856	IT 	
+30	SO0003		South African Ballet	The Sth African Ballet Theatre	PO BOX 291 990	MELVILLE 2109	JOHANNESBURG	**	2109	ZA 	
+30	SO0003	01    	South African Ballet	c/o Bloch	25 Drury Lane	Covent Garden	London	**	WC2B 5RH	UK 	
+30	SP0001		Spotlight	186 Victoria Road	Old Town	Swindon	Wiltshire	**	SN1 3DF	UK 	
+30	SP0001	01    	Shane Eagles	33 Castle Dore	Freshbrook		Swindon	**	SN5 8PQ	UK 	
+30	SP0002		Spotlight Ltd	145 Passfield Avenue		Eastleigh	Southampton	**	SO50 9NH	UK 	
+30	SP0004		Sport Pro	34 Rue Victor Hugo			Pont l'Abbe	**	29120	FR 	
+30	SP0005		Sport-Shop Sarl	2 Rue Beranger			Grenoble	**	38000	FR 	
+30	SP0007		Spazio Danza	Di Amanda Vinciguerra	Via Gaetano Rossi 18		Bellona (CE)	**	81041	IT 	
+30	SP0008		Spazio Danza (Torino)	Corso Francia 266			Ubicaz-Via del Circu	**		IT 	
+30	SP0009		Sport e Danza (Pescara)	Via Raffaello 72/ 73			Pescara	**	65124	IT 	
+30	SP0010		Sportlandia	di Miriam Tomacelli Manghisi	Via Ten. Sbiroli, 32		Putignano (BA)	**	70017	IT 	
+30	SP0011		Sports Sud Loire	5 Avenue Jules Verne	B.P 93305	Saint Sebastien Sur Loire	St Sebastien sur Loi	**	44230	FR 	
+30	SP0012		Spunky Action S.R.L.	Via Sansovino 217			Torino	**	10151	IT 	
+30	SP0012	01    	Spunky Action S.R.L.	Via Moretta 20/B			Torino	**	10138	IT 	
+30	SP0014		Sportmoden Mroczek	Heidelberger Landstr 194			Darmstadt	**	64297	DE 	
+30	SP0015		Sporama SARL	1 Rue Miot			Bastia	**	20200	FR 	
+30	SP0017		Sports House Keller	1 pl. du Theatre			Luxembourg	**	L-2613	LU 	
+30	SP0018		Sport und Rehabedarf	Georg Seisenberger	Im Winkel 3b		Straubing	**	94315	DE 	
+30	SP0020		Sporthuis Olympia, Jan Klein	Grote Beekstraat 1			HW Venlo	**	5911	NL 	
+30	SP0022		Sportia Hameenlinna	Sportii Ruponen	Tiirioensuontie 2		Haemeenlinna	**	13130	FI 	
+30	SP0031		Sport 2000 - Energy Sport	Zac Gray Sud			Gray	**	70100	FR 	
+30	SP0032		Sport 2000 Le Quesnoy	Centre Cial	Les Portes de l Avesnois		Le Quesnoy	**	59530	FR 	
+30	SP0033		Sport 2000 - EURL CIREBIREDE	54 bis rue de la Republique	Zone Com. E. LECLERC		Barbezieux	**	16300	FR 	
+30	SP0034		SPORT 2000-SARL BACKSPORT	ZAC BELLOC	3 Rue des remouleurs		LESPARRE	**	33340	FR 	
+30	SP0035		SPORT 2000 BAIN	SARL BAIN Sports	2 rue des Freres Lumiere		Guichen	**	35580	FR 	
+30	SP0035	01    	SPORT 2000 BAIN	PA Chateau Gaillard	Rue des Estuaires		Bain de Bretagne	**	35470	FR 	
+30	SP0036		SPORT 2000 Lunel	Centre Cial Les portes de la mer			Lunel	**	34400	FR 	
+30	SP0037		SARL Sport Agathois	Ctre Commercial Intermarche	Bd Rene Cassin		AGDE	**	34300	FR 	
+30	SP0038		Sport 2000 Sarl Run Sport 46	759 Chemin Belle Croix			Cahors	**	46000	FR 	
+30	SP0039		Sport Weckenbrock	Sport and Mode Weckenbrok GmbH	Suedfeld 47		Marienfeld	**	33428	DE 	
+30	SR0001		La Boutique de la Dance	S.R. Dance	40, rue Raspail		Toulouse	**	31400	FR 	
+30	SR0001	01    	S.R. Dance	40, boulevard Raspail			Toulouse	**	31400	FR 	
+30	ST0001		Stagedoor 	84 Broadway			Essex	**	SS9 1AE	UK 	
+30	ST0002		Stagedoor 	2 Invicta Parade, High Street	Sidcup		Kent	**	DA14 6ER	UK 	
+30	ST0003		Stage Door	92 Elm Grove		Southsea	Hampshire	**	PO5 1LN	UK 	
+30	ST0003	01    	1a The Precinct	Portsmouth Road		Horndean	Hampshire	**	PO8 9LA	UK 	
+30	ST0004		Stagedoor	3 Exchange Street		Normanton	West Yorkshire	**	WF6 2AA	UK 	
+30	ST0005		Stagedoor 	112, High Street		Stevenage	Hertfordshire	**	SG1 3DW	UK 	
+30	ST0006		Stagedoor Stockport	16-20, Little Under Bank		Stockport	Cheshire	**	SK1 1JT	UK 	
+30	ST0007		Stages	5a London Road		Aylesbury	Buckinghamshire	**	HP22 5HG	UK 	
+30	ST0008		Stagestruck	24 Derwent Street			Sunderland	**	SR1 3NU	UK 	
+30	ST0008	01    	24 DERWENT STREET	SUNDERLAND				**	SR1 3NU	UK 	
+30	ST0009		Stagewear Boutique	9 Ansdell Road, Pembetoh		Wigan	Lancashire	**	WN5 9HH	UK 	
+30	ST0010		Stageworks Worldwide	Blackpool Pleasure Beach	525 Oc	Blackpool	Lancashire	**	FY4 1EZ	UK 	
+30	ST0012		Starburst	6 / 8 Akroyd Place		Halifax	Yorkshire	**	HX1 1YH	UK 	
+30	ST0013		Starmaker Leisure Ltd	296 Lancaster Road	Torrisholme	Morecambe	Lancashire	**	LA4 6LY	UK 	
+30	ST0013	01    	Starmaker Leisure Ltd	296 Lancaster Road	Torrisholme	Morecambe	Lancashire	**	LA4 6LY	UK 	
+30	ST0014		Starmaker	69 High Street		Epping	Essex	**	CM16 4BA	UK 	
+30	ST0015		Starr Lite	11a Market Place		Dunmow	Essex	**	CM6 1AX	UK 	
+30	ST0016		Sue Hill Dance Limited T/A	Bath  Dancewear	4 Fortescue Road Radstock	Bath	Somerset	**	BA3 3PH	UK 	
+30	ST0017		Stepin Out At Linfoots	46 Walmgate		York	Yorkshire	**	YO1 2TJ	UK 	
+30	ST0018		Stepping Out	72 London Road	Apsley	Hemel Hempstead	Hertfordshire	**	HP3 9SD	UK 	
+30	ST0019		Milton-Regency T/A	Strictly Dancing	50 Stone Road, Trent Vale	Stoke on Trent	Staffordshire	**	ST4 6SN	UK 	
+30	ST0020		Strictly Dancing	13 Cannon Street 		Preston	Lancashire	**	PR1 3NR	UK 	
+30	ST0021		Struts	1, Chapel Street		Carlisle	Cumbria	**	CA1 1JA	UK 	
+30	ST0022		Studio Dancewear Ltd.	29 Winner Street		Paignton	Devon	**	TQ3 3BN	UK 	
+30	ST0024		Straek & Boej	Silegade 7			Copenhagen	**	1113	DK 	
+30	ST0025		Stala Danse	16 rue de la Lionne			Orleans	**	45000	FR 	
+30	ST0026		Stanlowa / Paris Opera	250 Faubourg St. Honore			Paris	**	75008	FR 	
+30	ST0027		Stepp by tutu	Burgermeister- Smidt- Str. 15			Bremerhaven	**	27568	DE 	
+30	ST0029		Studio Wear	Espenstrasse 2			Wuppertal	**	42119	DE 	
+30	ST0030		COSPO ART GMBH	Foehrenhang 17			Michendorf	**	14552	DE 	
+30	ST0030	01    	COSPO ART GmbH	Foehrenhang 17			Michendorf	**	14552	DE 	
+30	ST0031		Stelle	di Rana Angelo	Via A. Gimma 108		Bari (BA)	**	70121	IT 	
+30	ST0032		Stelle	di Rana Anglelo	Via Sen. Palummo 14-16		Molfetta (BA)	**	70056	IT 	
+30	ST0033		Step by Step	Via 2 Giugno 03		Peschiera Borromeo	Milano	**	20068	IT 	
+30	ST0034		Step In Time	di Morniroli Silvia	Via Galileo Galilei n.4	Somma Lombardo	Varese	**	21019	IT 	
+30	ST0035		Stockholms Dansservice	Hornsgatan 71			Stockholm	**	S-118 49	SE 	
+30	ST0037		Strassshop.de	Dirk Buchmann	Fritz-Reuter-Str. 40		Bremerhaven	**	27568	DE 	
+30	ST0039		Stardust	Partridges Yard	Monks Hill,	Smarden,	Kent	**	TN27 8QJ	UK 	
+30	ST0039	01    	Stardust	Partridges Yards	Month Hills	Smarden	Kent	**	TN27 8QJ	UK 	
+30	ST0041		STRISKA	Hans-Jurgen Baron	Westendstr. 12		Kassel	**	34117	DE 	
+30	ST0041	01    	STRISKA	Hans-Jurgen Baron	Westendstr. 12		Kassel	**	34117	DE 	
+30	ST0043		Studio Claquette	Haupstr 45			Heidelberg	**	69117	DE 	
+30	ST0043	01    	Atzelhof-Apothe	Steuben			Heidelberg	**	69117	DE 	
+30	ST0044		Steptoe Dansmode BV	C.U. Beverenstraat 36	Dordrecht		Netherlands	**	3311 LJ	NL 	
+30	ST0045		Stars	8The Colwell Centre		Weymouth	Dorset	**	DT4 8NJ	UK 	
+30	ST0046		Stages Dance & Gym Wear	5a London Road	Aston Clinton		Bucks	**	HP22 5HG	UK 	
+30	ST0048		Stefanie Body Wear	Stefanie Manzinger	Fischbrunnerplatz 1		Eggenfelden	**	84307	DE 	
+30	ST0049		Stagestruck	11Salisbury Arcade	Bar Street	Scarborough	N Yorks	**	YO11 2EF	UK 	
+30	ST0051		ARTE LIBERA S.L	c./131 n18 pta3		La Canada-Paterna	Valencia	**	46182	ES 	
+30	ST0051	01    	Studio 1	C./BODEGUETES, 97		RIBA-ROJA DE TURIA	Valencia	**	46190	ES 	
+30	ST0052		Stardust Costumes Ltd	41 Tamworth Street			Lichfield	**	WS13 1JW	UK 	
+30	ST0052	01    	41Tamworth Street				Lichfield	**	WS13 1JW	UK 	
+30	ST0053		Stage Door Ventures	2 Piggottshill lane	Harpenden		Hertfordshire	**	AL5 1LH	UK 	
+30	ST0054		Star Dancing	Unit 13 Evans Business Centre	Orion Business Park, Orion Way	Tyne Tunnel Trading Estate	North Shields	**	NE29 7SN	UK 	
+30	ST0054	01    	Star Dancing	Unit 13 Evans Business Centre	Orion Business Park	Tyne Trading Business Estate	North Shields	**	NE29 7SN	UK 	
+30	ST0055		Styl Danse	8 Square de la bouquerie			Nimes	**	30000	FR 	
+30	ST0057		Stella Sougioultzi	126 Lamprou Katsoni STR.			Moschato	**	18344	GR 	
+30	ST0058		SN Leisure (UK) Ltd	T/A Step N Pump	243 Wellingborough Road		Northampton	**	NN3 3QE	UK 	
+30	ST0059		Stop to Go	Via 4 Novembre 3			Acqui Terme (AT)	**	15011	IT 	
+30	ST0060		Stefanos Bakalis	62 Arapaki STR			Kallithea	**	17676	GR 	
+30	ST0060	01    	Sportpower	62 Arapaki STR			Kallithea	**	17676	GR 	
+30	SU0001		Susie Q's	1 Plumtre Square	Hollowstone, 	Nottingham	Nottinghamshire	**	NG1 1JF	UK 	
+30	SU0002		Suzanne's Dance Supplies	69 Swakeley's Road		Ickenham 	Middlesex	**	UB10 8DQ	UK 	
+30	SU0003		Suomen Tanssitarvike OY	t/a Dance Makers	Aleksis Kivenkatu 32-34		Helsinki	**	00510	FI 	
+30	SU0004		Success Tanzsportbedarf	KORNMARKT 8			NUERNBERG	**	90402	DE 	
+30	SU0005		Susanne J.Tanzboutique	Webereistr. 12			Bielefeld	**	33602	DE 	
+30	SU0005	01    	Susanne Jucikas	IM SIEKERFELDE 1			Bielefeld	**	33604	DE 	
+30	SU0007		Sugarplum Dancewear	3 Granard Road	Wandworth Common		London	**	SW12 8UJ	UK 	
+30	SU0007	01    	Sugarplum Dancewear	Attn Diane Harris, Unit 1010	Unit 1, Gresham Way	Wimbledon	London	**	SW19 8DW	UK 	
+30	SU0008		Sul filo della danza	Via Rosetti 19			Cirie (to)	**	10073	IT 	
+30	SW0001		SWAN DIFFUSION S.A.R.L.	63 Rue de Hyeres	Parc De La Millone	Six - Fours Les Plages		**	83140	FR 	
+30	SW0002		Swingtap S.A.R.L.	21 Rue Keller			Paris	**	75011	FR 	
+30	SW0003		Swing	Schwetzinger Str 24			Mannheim	**	68165	DE 	
+30	SW0004		Swanson Sports	Unit 1 Midholme Busby Road	Clarkston		Glasgow	**	G76 7AX	UK 	
+30	SW0005		SW Sport	Centre Commercial LeClerc	Rue de petit Locher		Fondettes	**	37230	FR 	
+30	SW0006		Sweaty Betty	11-12 Lettice Street	Fulham		London	**	SW6 4EH	UK 	
+30	SW0006	01    	Elite Group Logistics	Wortley Moor Road	Wortley		Leeds	**	LS12 4JH	UK 	
+30	TA0001		Taylor Maid	550 Hessle Road		Hull	East Yorkshire	**	H43 5BL	UK 	
+30	TA0002		Tanz Topshop	Koppstr. 25			Wien	**	1160	AT 	
+30	TA0003		Tanzladen e.U	Monika Rosenberg	Hochstrabe 5		Bad Voslau	**	2540	AT 	
+30	TA0003	01    	Tanz-Laden Rosenberg	Dr. Karl Rennergasse 31/1			Kottingbrunn	**	A-2542	AT 	
+30	TA0006		Tabeo - Der Tanzshop	Berliner Str. 9B			Forchheim	**	91301	DE 	
+30	TA0006	01    	Tabeo - Der Tanzshop	Berliner Str. 9B			Forchheim	**	91301	DE 	
+30	TA0007		Tanz & Ballettshop Brenner	Wilhelmstr. 23			Heilbronn	**	74072	DE 	
+30	TA0008		Tanz Bazar	An der Stadtmauer 3			Bergheim	**	50126	DE 	
+30	TA0009		ballare	Sonja Kahles	Goethestrasse 76		Roedermark	**	63322	DE 	
+30	TA0010		Tanz und Ballettladen	Helmut Ewert	Dobbenweg 7		Bremen	**	28203	DE 	
+30	TA0011		Tanz- und Sportmode Hiss	Patricia Hiss	Theodor-Heuss-Strasse 21		Harthausen	**	67376	DE 	
+30	TA0011	01    	Tanz- und Sportmode Hiss	Patricia Hiss	Tullastrasse 5		Speyer	**	67346	DE 	
+30	TA0012		Tanzversand Dieter Balsies	Eckernforder Str.341			Kiel	**	24107	DE 	
+30	TA0013		Raili Odenthal	Nussallee 23			Huerth	**	50354	DE 	
+30	TA0014		Tanz-Bedarf.de	Klosterstr. 1a			Bruggen	**	41379	DE 	
+30	TA0015		Tanzboutique Ernst	Gottesauer Platz 3			Karlsruhe	**	76131	DE 	
+30	TA0015	01    	Tanzboutique Ernst	Gottesauer Platz 3			Karlsruhe	**	76131	DE 	
+30	TA0019		Tanzboutique You can dance	Geschwister-Scholl-Platz 11			Aschaffenburg	**	63741	DE 	
+30	TA0020		Tanzboutique Herschel	Q4, 10			Mannheim	**	68161	DE 	
+30	TA0021		Tanzetage	Gutenbergstr. 11			Bremerhaven	**	27570	DE 	
+30	TA0023		Tanzladen Dresden	Schweriner Str.35			Dresden	**	01067	DE 	
+30	TA0024		Tanzladen	Inh. Silke Schreiber und	Margit Lalla	Doedter Str. 10 - Elbershallen	Hagen	**	58095	DE 	
+30	TA0026		Tanzmode Graf	Lerchenweg 12			Dreieich / Dreieiche	**	63303	DE 	
+30	TA0026	01    	Tanz-Boutique Arabesque	Fahrgasse 31			Dreieich	**	63303	DE 	
+30	TA0030		Tanzschuhlager	Hamburger-Landstr. 2			Wentorf	**	21465	DE 	
+30	TA0032		Tanzshop Wagenbach	Muehlstrasse 12			Freiberg  am Neckar	**	71691	DE 	
+30	TA0032	01    	Tanzshop Wagenbach	Muehlstrasse 12			Freiberg am Neckar	**	71691	DE 	
+30	TA0033		Tanzshop Wesel	Reeser Landstr. 9			Wesel	**	46483	DE 	
+30	TA0034		Tanz-shop.net	Onlineshop fuer Tanzbedarf	Eldenaer Str. 60		Berlin	**	10247	DE 	
+30	TA0036		Tanzsportbedarf  Wandel	Bergerstrasse 55			Frankfurt	**	60316	DE 	
+30	TA0038		Tanzsportlaedchen	Inhaberin Monika Niesl	Donnersbergerstr. 48		Muenchen	**	80634	DE 	
+30	TA0039		Tanzschuhe Pagels	Markstr.293			Krefeld	**	47804	DE 	
+30	TA0041		Tanztraeume	Steinfurter Str. 53			Muenster	**	48149	DE 	
+30	TA0043		Tanzzentrum Burghausen	Burgkirchner Str. 62a			Burghausen	**	84489	DE 	
+30	TA0044		Tienda Tamara	c/ Santa Maria 5 (Tamara)			Jerez De La Frontera	**	11402	ES 	
+30	TA0045		Tanz Doch Mal	Claudia Rudat	Mussbacher Str. 18		Limburgerhof	**	67117	DE 	
+30	TA0045	01    	Tanzschule Nagel	An der Fohlenweide 13			Mutterstadt	**	67112	DE 	
+30	TA0046		Tanzsportbedarf	Haschberger	Untere Bachgasse 3		Regensburg	**	93047	DE 	
+30	TA0047		Tanzboutique Dancing Queen	Grundweg 11			Auenwald	**	71549	DE 	
+30	TA0047	01    	Tanzboutique Dancing Queen	Frau Martina Idler	Schillerstr. 41		Backnang	**	71522	DE 	
+30	TA0049		Tanz und Ballettladen	Helmut Erwert	Lavesstr. 4/5		Hannover	**	30159	DE 	
+30	TA0052		Tacco & Punta di Izzo Isidoro	Corso Avezzano, 55			Torre Del Greco (NA)	**	80059	IT 	
+30	TA0053		Tanzmode Berlin	Knaackstr.49			Berlin	**	10435	DE 	
+30	TA0057		Tap 2 Toe	23 Peckers Hill Road	Sutton	St Helens	Merseyside	**	WA9 3LQ	UK 	
+30	TA0058		Tanz Boutique	Béatrice Ducard	Thomasstrasse 4		Bad Homburg	**	61348	DE 	
+30	TA0059		Tanzbschuh-Boutique-Quasdorf	Wolfengasse 4			Friedberg	**	61169	DE 	
+30	TA0060		Tacco Matto	di Bricconi Angelo	Piazza Vittorio Veneto 15		Seregno (MI)	**	20038	IT 	
+30	TA0062		Tanzshop.de	Inh, Axinja Hueneke	Stettiner Str. 3		Speyer	**	67346	DE 	
+30	TA0064		Tanzkleidung Total	Florinsmarkt 14			Koblenz	**	56068	DE 	
+30	TA0065		Tallulahs	215a North Street	Romford		Essex	**	RM1 4QA	UK 	
+30	TA0066		Tanzfashion	Dammtor 9a			Gehrden	**	30989	DE 	
+30	TA0066	01    	Tanzfashion	Andreas Kopp	Hauptstr. 67 (HH)		Hannover	**	30457	DE 	
+30	TA0067		Tanzschuhe Blanke	Bunsenstr 7a			Barsinghausen	**	30890	DE 	
+30	TA0069		Thomas Bartau	Breiniger Berg 36			Stolberg	**	52223	DE 	
+30	TA0070		Taratata bvba	Rijksweg 158			Maasmechelen	**	3630	BE 	
+30	TA0072		Lasikuitutyoe Virtanen Oy	Suomen TanssiPuoti	Haemeentie 35		Turku	**	20540	FI 	
+30	TA0073		Tanssiina Oy	Yliopiston Katu 8			Jyvaskyla	**	40100	FI 	
+30	TA0074		Tanzschoen	Rheydter Str.36			Moenchengladbach	**	41065	DE 	
+30	TA0075		Tanz and Textildesign	Britta Gericke	Prenzlauer Promenade 148		Berlin Pankow	**	13189	DE 	
+30	TC0001		TCH - Sport	Frau Schmid - Bakenhus	Im Gohlen 5-7		Rastede	**	26180	DE 	
+30	TE0001		Arcades - Terpsichore	2 Rue de la Prefecture			Clermont-Ferrand	**	63000	FR 	
+30	TE0002		Techwear s.r.l.	Via Penne 29			Chieti Scalo	**	66013	IT 	
+30	TE0003		Teatro Alla Scala	C/O Antonio Cunsolo	Via Filodrammatici 2		Milano	**	20121	IT 	
+30	TE0004		Tersicore Srl	Via Napoli	6/8 - Cantanzaro		Lido (CZ)	**	88063	IT 	
+30	TE0005		TENDANCE	Mr Cagnin	30 rue du 35eme regiment	d aviation	BRON	**	69500	FR 	
+30	TE0005	01    	Tendance	Mr Cagnin	5 square des Narcisses		CHASSIEU	**	69680	FR 	
+30	TE0006		Temira Ltd	PO Box 59			Sofia	**	1592	BG 	
+30	TE0006	01    	nauchno Proizvodstvena Zona	Gara Iskur -Sever St  5010 #1			Sofia	**	1528	BG 	
+30	TE0009		Tesco	Commercial Payables Department	Tesco House, Maes-Y-Coed Road	Llanishen	Cardiff	**	CF14 4TT	UK 	
+30	TE0011		Megastore Diensten B.V.	Postbus 95			DEDEMSVAART	**	7700AB	NL 	
+30	TE0011	01    	Megastore Diensten B.V.	Pascalstraat 5			DEDEMSVAART	**	7701SE	NL 	
+30	TE0012		TECNICA SPORT S.R.L.	VIA AQUILEIA  N.38			PALERMO	**	90144	IT 	
+30	TF0001		TFS School & D/W	45 Spital Street		Dartford	Kent	**	DA1 2DX	UK 	
+30	TH0001		That's Entertainment	53, London Road		Liverpool	Lancashire	**	L3 8HY	UK 	
+30	TH0002		The Clobber Shop	27 Brizen Lane	Leckhampton	Cheltenham	Gloucesteshire	**	GL53 ONG	UK 	
+30	TH0003		The Dance Shop	72 The High Street	Gorleston	Great Yarmouth	Norfolk	**	NR31 6RQ	UK 	
+30	TH0004		Unique Dancewear	9 Turlands Close			Coventry	**	CV2 2PT	UK 	
+30	TH0005		The Studio Shop	57 Chapel Streeet		Belper	Derbyshire	**	DE56 1AR	UK 	
+30	TH0006		Theatrical Supplies Limited	56 Welford Road		Leicester	Leicestershire	**	LE2 7AA	UK 	
+30	TH0007		Thomas Terlau Ballettbedarf	Dorfstrasse 44a			Meerbusch	**	40667	DE 	
+30	TH0008		The Dancers Shop	Monastiriou 315	Menemenh,		Thessaloniki 	**	54628	GR 	
+30	TH0009		The Dance Studio	Sliema Road			Kappara	**	SGN 4410	MT 	
+30	TH0012		Thetru BV	Plataanstraat 4			Venray	**	5802 EJ	NL 	
+30	TH0014		The Studio Dance Shop	47 Birch Walk	Danycraig	Porthcawl	Mid Glamorgan	**	CF34 9EE	UK 	
+30	TH0015		Be Dazzled	Unit10	Canal Works, Leverton Rd	Retford	Notts	**	DN22 6QF	UK 	
+30	TH0016		Det NY Theater	GI Kongevej 29			Copenhagen	**	1610	DK 	
+30	TH0018		The Dance Locker	53 Great Norwood Street	Cheltenham		Gloucestershire	**	GL50 2BQ	UK 	
+30	TH0024		Chiswick Arts Theatre Studio	2 Bellmont Road	Chiswick		London	**	W4 5BQ	UK 	
+30	TH0025		The Dance Shop	158 Halifax Road	Wadsley Bridge		Sheffield	**	S6 1LH	UK 	
+30	TH0026		The Dancers Shop	4 Deerfield Close	Bramley	Tadley	Hampshire	**	RG26 5UP	UK 	
+30	TH0027		Lincolnshire Dance	The Dance Box	8 Dixon Way		Lincoln	**	LN6 7DG	UK 	
+30	TH0028		The Pantomime Theatre	C/o Margot Barlebo Rasmussen	Pantomimeteatret Tivoli A/S	Vesterbrogade 3	Copenhagen V	**	1630	DK 	
+30	TH0028	01    	The Pantomime Theatre	C/o Margot Barlebo	Pantomimeteatret, Tivoli	Vesterbrogade	Kobenhaven	**	DK-1630	DK 	
+30	TH0029		The Little Fairy Boutique	53 Orchard Lane	Beighton		Sheffield	**	S29 1EW	UK 	
+30	TH0031		The TUTU Shop	2-4 Pendarves Street	Beacon	Camborne	Cornwall	**	TR0014	UK 	
+30	TH0032		The Academy of Dance & Art LTU	PO Box 1238 Karen			Nairobi	**	00502	KE 	
+30	TH0032	01    	Pernille Duckworth  c/o	Fred Black Insurance Brokers	1st Floor Langata House	Wilson Airport	Nairobi	**	00502	KE 	
+30	TH0033		The Gingerbread House	Unit 11	Town Square	Syston	Leicester	**	LE7 1GZ	UK 	
+30	TH0034		Thighs The Limit	70A Mardol		Shrewsbury	Shropshire	**	SY1 1PZ	UK 	
+30	TH0035		The Sports Shop	12 Honey Street		Bodmin	Cornwall	**	PL31 2DN	UK 	
+30	TH0036		The Dance Shop(Colchester)LTD	45 Old Forge Road	Layer de la Haye	Colchester	Essex	**	CO2 0JT	UK 	
+30	TH0036	01    	The Dance Shop (Colchester)	4 Portal Precinct	Off Sir Isaacs Walk		Colchester	**	CO1 1JJ	UK 	
+30	TI0001		Tip Toes	1 Collingwood Place		Blackpool	Lancashire	**	FY3 8HU	UK 	
+30	TI0005		Tigris Sport	Rijselsestraat 2			Kortrijk	**	8500	BE 	
+30	TI0007		Time To Dance	Herenstraat 6			Wateringen	**	2291 BG	NL 	
+30	TI0007	01    	Time To Dance	Herenstraat 6			Wateringen	**	2291 BG	NL 	
+30	TI0008		TINY TWIRLS	ZA DES VERNAYS			DOUSSARD	**	74210	FR 	
+30	TO0001		To Dance Ltd	3a High Street		Fareham	Hampshire	**	PO16 7AN	UK 	
+30	TO0002		Top DanSe	33 Avenue Jean Jaures			Bois d'Arcy	**	78390	FR 	
+30	TO0004		Top Tanz Schuhvertrieb	Brunnentalstr. 90			Tuttlingen	**	78532	DE 	
+30	TO0005		Top Dance Prato S.r.L.	Via San Michele 12			Prato (PO)	**	59100	IT 	
+30	TO0006		Top Line	di Zoppi Cinzia	Piazzale S. Ilario 3/D		Parma (PR)	**	43126	IT 	
+30	TO0008		Touza Todo Danza	Calle Santa Clara N.12 Bajo			Pontevedra	**	36002	ES 	
+30	TO0011		Todo Para La Danza	C/ SAGI- BARBA, 17	Polop De La Marina		Alicante (España)	**	03520	ES 	
+30	TO0014		Total Sporting Solutions	76b Bedwas Road	Caerphilly		Mid Glamorgan	**	CF83 3AT	UK 	
+30	TO0015		To The Pointe	Chambouler	Rue De La Girouette	St Savlour	Guernsey C.l	**	GY7 9NB	UK 	
+30	TO0016		Tony Pryce Retail Limited	Unit 1 The Vennland Centre	Ponsford Road	Minehead	Somerset	**	TA24 5DX	UK 	
+30	TO0017		Tomas kukucka CouCou Company	M.R.Stefanika 3			Velky krtis	**	99001	SK 	
+30	TO0017	01    	Tomas kukucka	Trieda SNP 7			Banska Bystrica	**	97401	SK 	
+30	TR0001		Treading the Boards	46 Lugley Street		Newport	Isle of Wight	**	PO30 5HD	UK 	
+30	TR0002		Trimbles	59 Windmill Hill		Enfield	Middlesex	**	EN2 7AF	UK 	
+30	TR0003		Tres Chic Tanzsport	Am Kunstfeld 21e			Koln	**	51069	DE 	
+30	TR0003	01    	Tres Chic Tanzsport	Frau Prinz	Ronsahler Str 30/Halle 5		Koln	**	51069	DE 	
+30	TR0004		Tricot	Neckarstr. 20			Darmstadt	**	64283	DE 	
+30	TR0005		Trotters Childrenswear	& Accessories Ltd	Unit 2, Hurlingham Business Pk	Sullivan Road	London	**	SW6 3DU	UK 	
+30	TR0005	01    	Trotters Childrenswear	& Accessories Ltd	34 Kings Road		London	**	SW3 4UD	UK 	
+30	TR0005	02    	Trotters Childrenswear	& Accessories Ltd	127 Kensington High St		London	**	W8 5SF	UK 	
+30	TR0005	03    	Trotters Childrenswear	& Accessories Ltd	86 Northcote Road		London	**	SW11 6QN	UK 	
+30	TR0005	04    	Trotters Childrenswear	& Accessories Ltd	Unit 6, White Lion Walk	Guildford	Surrey	**	GU1 3DN	UK 	
+30	TR0005	05    	Trotters Childrenswear	& Accessories Ltd	84 Turnham Green Lane		London	**	W4 1QN	UK 	
+30	TR0005	06    	Trotters	84 Turnham Green Terrace			London	**	W4 1QN	UK 	
+30	TR0006		Traumtanzer	Dreuge Mesk 9			Neuenkirchen	**	49434	DE 	
+30	TR0007		TRIUNFO store Roma Sas	Viale Appio Claudio, 324/G			Roma	**	00175	IT 	
+30	TR0009		Triathlet SRL	Viale Strasburgo, 354			Palermo	**	90146	IT 	
+30	TS0001		Tsitsela Athamantia	56 SOURMENON STR			KALAMARIA	**	55131	GR 	
+30	TS0004		Tsampazi Argyro	96 Mitropoleos STR			Thessaloniki	**	54622	GR 	
+30	TT0001		Tanzschuhe & Ballettbedarf	Frau Dau	Wolfgang-Heinze-Str. 10		Leipzig	**	04277	DE 	
+30	TU0001		Tutus & Tiaras	25 High Street		Irthlingborough	Northamptonshire	**	NN9 5TE	UK 	
+30	TU0002		Tu Danse	The Carlton Building		Peterborough	Cambridgeshire	**	PE1 5YD	UK 	
+30	TU0004		Tutu 2 Tango Ltd	5 Church Street	First Floor	Basingstoke	Hampshire	**	RG21 7QE	UK 	
+30	TU0006		Tutu - Ballettmodern	Bindergasse 10			Lindau-Bodensee	**	88131	DE 	
+30	TU0007		Tutto Danza	di Cartuccia Junghee	Via dei Tigli 13		Osimo (AN)	**	60027	IT 	
+30	TU0008		Tu-Tu Danza	C/Pi I Maragall 9			Vigo (Pontevedra)	**	36202	ES 	
+30	TU0009		Tu Tu Dancewear	5 Preseli Grove	Inglebey	Stockton On Tees	Middlesbrough	**	TS17 5HB	UK 	
+30	TU0010		Tutu Dancewear	2 Old Hall Road		Chesterfield	Derbyshire	**	S40 3RG	UK 	
+30	TU0010	01    	Tutu Dancewear	2 Old Hall Road		Chesterfield	Derbyshire	**	S40 3RG	UK 	
+30	TW0001		Twinkle Toes	1 Newcastle House	Barkerend Road	Bradford	West Yorkshire	**	BD1 4AP	UK 	
+30	TW0002		Twixt 'n Teens	16 Kyle Street		Ayr	Ayrshire	**	KA7 1RZ	UK 	
+30	TW0004		Twirlies	4 Moor Lane		Clitheroe	Lancashire	**	BB7B 1BE	UK 	
+30	TX0001		Txelo's Consuelo Rios 02	C/Serapio Mugica 26 Bajo			Irun	**	20302	ES 	
+30	UA0001		Mika Frankaite-UAB Dance Maker	PC Parkas Outlet	Verkiug. 29,  korp. 15.		Vilnius	**	09108	LT 	
+30	UA0002		UAB Puantas	Snipiskiy qt. 2			Vilnius	**	LT09309	LT 	
+30	UA0003		UAB Mano valsas	Medziotoju g.12-19	Companies register 302296266		Klaipeda	**	LT-92240	LT 	
+30	UA0003	01    	UAB Mano valsas	Saltkalviu 6.3			Klaipeda	**	LT-91246	LT 	
+30	UN0003		Uniformbase	11 Railway Street	Chatham		Kent	**	ME5 9EF	UK 	
+30	UP0001		Up Market Dance	1A Bank Street		Ossett	West Yorkshire	**	WF5 8PS	UK 	
+30	UP0002		Upstage	Unit 1	New Buildings	Gandy Street	Exeter	**		UK 	
+30	UP0003		Uproar Dancewear	53 High Street North			Dunstable	**	LU6 1JF	UK 	
+30	UW0001		Uwe Stroms	Sportheim Barleben	Angerstr. 26		Barleben	**	39179	DE 	
+30	UW0001	01    	Gabi Stroms	Breiteweg 16			Barleben	**	39179	DE 	
+30	UW001 		Uwe Stroms	Sportheim Barleben	Angerstr. 26		Barleben	**	39179	DE 	
+30	UW001 	01    	Gabi Stroms	Breiteweg 16			Barleben	**	39179	DE 	
+30	VA0002		Variation Danse	5 Rue Tony Allard			Cannes	**	06400	FR 	
+30	VA0004		Van Beers bv	Mgr. Volkerstraat 33			Kaasheuvel	**	5171 JM	NL 	
+30	VA0005		Vasiliki Baba Zorba	41 - 43 Omirou Str			Athens	**	17122	GR 	
+30	VE0002		Version Danse	43 Rue Gambetta			La Rochelle	**	17000	FR 	
+30	VE0003		VERONARTE - RAFFAELE VENERI SP	GLAVNI TRG, 17B			Maribor	**	2000	SI 	
+30	VE0005		Veriannes Dancewear	207 London Road South	Lowestoft		Suffolk	**	NR330DS	UK 	
+30	VI0001		Victoria's	5 Holly Road	Thornton Cleveley's		Lancashire	**	FY5 4HH	UK 	
+30	VI0004		Victor Ullate Ballet	Avda.Valdelaparra 63	Pol.Industrial Alcobendas	Alcobendas	Madrid	**	28108	ES 	
+30	VI0005		Maros Kral	Moyzesova 22			Kosice	**	04001	SK 	
+30	VI0005	01    	Maros Kral	Moyzesova 22			Kosice	**	04001	SK 	
+30	VO0001		Vortice Dance Company	ESTRADA DE MINDE	Nº877, 2º ANDAR		FATIMA	**	2495-408	PT 	
+30	VO0002		Voila Danza	Di Mazzon Sonia	VIA CASELLE, 127		CAMPO SANMARTINO (PD	**	35010	IT 	
+30	VO0002	01    	VOILA DANZA	DI MAZZON SONIA	BORGO PADOVA, 7		CITTADELLA (PD)	**	35013	IT 	
+30	WA0001		Walsall Dance Shop	Butts Street 		Walsall	West Midlands	**	WS4 2BJ	UK 	
+30	WA0002		Wardrobes Dancewear	157 Becontree Avenue		Dagenham	Essex	**	RM8 2UL	UK 	
+30	WA0003		Wards Shoes	94-96 Shields Road	Byker	Newcastle Upon Tyne	Northumberland	**	NE6 1DS	UK 	
+30	WA0004		Wandsbeker Musikhaus Gmbh	Wandsbeker Konigstrasse 19			Hamburg	**	22041	DE 	
+30	WA0005		Waypride Ltd T/A Linedance Mag	Clare House	166 Lord Street		Southport	**	PR9 0QA	UK 	
+30	WA0006		Warehouse SBC	C.SO Vittoria Emanuele 24			Palo Del Colle BA	**	70027	IT 	
+30	WE0003		Weston Dancewear	34 Orchard Street		Weston Super Mare 	Somerset	**	BS23 1RQ	UK 	
+30	WE0004		West End Danceboutique	1018, Dumbarton Road			Glasgow	**	G14 9UJ	UK 	
+30	WE0005		Wear Moi (S.A.R.L)	1355 Avenue Draguignan	ZI Toulon EST -BP 203 La Garde		Toulon Cedex 09	**	83089	FR 	
+30	WE0006		Wellness Shop	Snc di Astolfi e Fidanza	Via della bufalotta 280/282		Roma	**	00139	IT 	
+30	WI0001		Wilhelm Schachtner	Edelhofgasse 6			Wien	**	1180	AT 	
+30	WI0002		Wiemert's Western World	Stadionvej 31 Assentoft			Randers	**	8900	DK 	
+30	WI0004		Winstone LTD T/A Nutcracker	2 Cleveley Avenue	Cleveleys		Lancs	**	FY5 2UH	UK 	
+30	WI0004	01    	Winstone LTD T/A Nutcracker	2 Cleveleys			Lancs	**	FY5 2UH	UK 	
+30	WI0006		MA.GI.SA.MI. s.r.l.	Via Ugo la Malfa, 38			Aprilia (LT)	**	04011	IT 	
+30	WI0006	01    	Wish Dance	Via Alcide Degasperi, 73/75			Aprilia (LT)	**	04011	IT 	
+30	WO0001		Workout of Weybridge	119, Outlands drive		Weybridge	Surrey	**	KT13 9LB	UK 	
+30	WO0002		World of Dance	Waterhouse Business Centre	Unit 36 Cromar Way	Chelmsford	Essex	**	CM1 2QE	UK 	
+30	WO0003		World of Dance	32 Country Arcade	Victoria Quarter	Briggate	Leeds	**	LS1 6BH	UK 	
+30	WO0004		Wowdancer	18 Bridge Street		Taunton, 	Somerset	**	TA1 1UB	UK 	
+30	WS0001		WSA Clothing LTD T/A Trutex	Unit 1	Duns Road Ind Estate	Greenlaw	Berwickshire	**	TD10 6XJ	UK 	
+30	WS0001	01    	Trutex Schoolwear & More	35B Argyle Street			Glasgow	**	G2 8AH	UK 	
+30	WS0001	02    	Trutex Schoolwear & More	288-304 Main Street		Wisham	North Larnarkshire	**	ML2 7ND	UK 	
+30	WS0001	03    	Trutex Schoolwear & More	32 Vicar Street			Falkirk	**	FK1 1JB	UK 	
+30	XO0001		XO SPORTS Salon 2	ZAC les Cognets Sud	18 rue de la Rose des Vents		ISTRES	**	13800	FR 	
+30	XO0001	01    	XO Sports Salon 2	Route de Pelissane Bat ESP1	Avenue du 18 juin		Salon de Provence	**	13800	FR 	
+30	XQ0001		Xquisite Dance By J	30F Park Road		Bingley	West Yorkshire	**	BD16 4JQ	UK 	
+30	YI0001		Yia Karjalan Sahko Oy	Porokylaoinkatu 14			Nurmes	**	75530	FI 	
+30	YO0001		Yorkshire Dance	13, Ropergate		Pontefract	Yorkshire	**	WF8 1LL	UK 	
+30	YO0002		Yoga House Lda - Dress Code	Rua Augusto Gil 110			Porto	**	4100-096	PT 	
+30	YO0003		YoDa-Yoga and Dance shop/Studi	Mandellstr. 1			Graz	**	8010	AT 	
+30	YU0001		Yuka	Avenue de L'Europe 74			Charleroi	**	6000	BE 	
+30	ZA0001		Zajec D.O.O	Stubicka 514	Donja Bistra		Croatia	**	10298	HR 	
+30	ZA0002		Zapatoes Ltd	34 Wayfarers Arcade	Lord Street		Southport	**	PR8 1NT	UK 	
+30	ZA0003		Zalando Gmbh	ZalandoSports	Sonnenburger Strasse 73		Berlin	**	10437	DE 	
+30	ZA0003	01    	Zalando GmbH	c/o MyBrands Zalando eLogistics GmbH Co	Havellandstrasse 6		Brieselang	**	14656	DE 	
+30	ZA0003	02    	Zalando GmbH	c/o MyBrands Zalando eLogistics GmbH Co	Maerkische Allee 4		Grossbeeren	**	14979	DE 	
+30	ZI0001		Zizel (Gizelle) Dancewear	3 Blaston Street Heraklion	Heraklion		Crete	**	71202	GR 	
+30	ZI0002		Zilio Annamaria	Via Antonio Somma 6			Udine (UD)	**	33100	IT 	
+30	ZO0001		Zoe Margarita Zevitsanou	34-38 Agiou Alexanthrou Str			Athens	**	17561	GR 	

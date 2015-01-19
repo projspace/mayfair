@@ -1,0 +1,3 @@
+<?
+	$validator=new Validation("summary");
+?>

@@ -1,0 +1,2 @@
+20				2		04/30/2013					0	000000		XXXX0191				HSSL					USD	12.50	1		dname	670 Park Avenue	Park Avenue	Moody	Saint Clair	AL	35004	US	1234567890	marian@webstarsltd.com				dname	670 Park Avenue	Park Avenue	Moody	Saint Clair	AL	35004	US			8.00		Y																						0
+20				2		05/22/2013					5257939806	015677		XXXX8217				5776 CHE Sz 7					USD	1.00	1									US						Emil Muthu	no address yet			Alachua	FL	32615	US			0.00		Y																						0

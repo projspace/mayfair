@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:jwplayer="http://developer.longtailvideo.com/trac/" xmlns:media="http://search.yahoo.com/mrss/"> 
+<channel> 
+  <title>Related Videos</title>
+  <item> 
+    <title>Bloch Tap On</title>
+    <description>This is the description</description>
+    <media:content url="http://youtu.be/8Gjbtz21S0E" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/1.jpg" />
+    <jwplayer:duration>33.03</jwplayer:duration>
+  </item> 
+  <item> 
+    <title>Bloch Tap Flex Slip On</title>
+    <media:content url="http://youtu.be/EjfICr2YisI" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/2.jpg" />
+    <description>This is the description</description>
+    <jwplayer:duration>888.06</jwplayer:duration>
+  </item> 
+  <item> 
+    <title>Leo&#39;s Giordano Jazz</title>
+    <media:content url="http://youtu.be/DaMR25DUBLc" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/3.jpg" />
+    <description>This is the description</description>
+    <jwplayer:duration>653.79</jwplayer:duration>
+  </item> 
+</channel> 
+</rss>

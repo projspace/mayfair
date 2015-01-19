@@ -1,0 +1,20 @@
+<?
+	$db->Execute(
+		sprintf("
+			UPDATE
+				cms_pages_listings
+			SET
+				title=%s
+				,content=%s
+			WHERE
+				id=%u
+			AND
+				pageid=%u
+		"
+			,$db->Quote($_POST['title'])
+			,$db->Quote($_POST['content'])
+			,$_POST['listingid']
+			,$_POST['pageid']
+		)
+	);
+?>

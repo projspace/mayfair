@@ -1,0 +1,2 @@
+20				145		06/13/2012					2172776637	3HAKCX		XXXX2222				688478634929					USD	24.50	2		fname lname	25 Housel Avenue			Lyndonville	NY	14098	US	1234567890	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			24.42		Y																						8
+20				145		06/13/2012					2172776637	3HAKCX		XXXX2222				688478721391					USD	23.00	1		fname lname	25 Housel Avenue			Lyndonville	NY	14098	US	1234567890	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			24.42		Y																						8

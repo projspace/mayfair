@@ -1,0 +1,2 @@
+#RewriteEngine On
+#RewriteRule ^([a-z]*).php$ index.php?%{QUERY_STRING}

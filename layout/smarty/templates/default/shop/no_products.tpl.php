@@ -1,0 +1,1 @@
+<br /><b>Sorry, no products matching your query were found.</b>

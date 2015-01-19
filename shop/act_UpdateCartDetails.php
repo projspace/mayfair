@@ -1,0 +1,25 @@
+<?
+	$db->Execute(
+		$sql = sprintf("
+			UPDATE
+				shop_sessions
+			SET
+				discount_code=%s
+				,gift_message=%s
+				,delivery_country_id=%u
+				,billing_country_id=%u
+				,gift_voucher=%f
+				,packing=%s
+			WHERE
+				session_id=%s
+		"
+			,$db->Quote(safe($_REQUEST['discount_code']))
+			,$db->Quote(safe($_REQUEST['gift_message']))
+			,$config['defaultcountry_id']//,$_REQUEST['country_id']
+			,$config['defaultcountry_id']
+			,$_REQUEST['gift_voucher']
+			,$_REQUEST['packing']?$packing['value']:'NULL'
+			,$db->Quote($session->session_id)
+		)
+	);
+?>

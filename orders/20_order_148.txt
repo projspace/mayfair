@@ -1,0 +1,2 @@
+20				148		06/13/2012					2172776731	56BQ41		XXXX2222				8857015119614					USD	55.00	3		fname lname	670 Park Avenue			Moody	AL	35004	US	phone	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			1.00	.1000	Y																						0
+20				148		06/13/2012					2172776731	56BQ41		XXXX2222				8857015095093					USD	50.00	3		fname lname	670 Park Avenue			Moody	AL	35004	US	phone	marian@webstarsltd.com	PARF			fname lname	address city					zip	US			1.00	.1000	Y																						0

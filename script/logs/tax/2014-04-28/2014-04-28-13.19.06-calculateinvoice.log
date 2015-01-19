@@ -1,0 +1,400 @@
+
+Action: calculateinvoice
+Params: 
+invoice::__set_state(array(
+   'customerIdentifier' => 'Bita',
+   'customerName' => NULL,
+   'exempt' => NULL,
+   'exemptionCertificate' => NULL,
+   'exemptionReason' => NULL,
+   'invoiceDate' => '2014-04-28T13:19:05',
+   'invoiceNumber' => NULL,
+   'invoiceType' => 'INVOICE',
+   'lineItems' => 
+  array (
+    0 => 
+    lineItem::__set_state(array(
+       'customReference' => '2440',
+       'lineItemNumber' => 1,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '6801619126EC',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 115,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Alabama, 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 86.25,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+    1 => 
+    lineItem::__set_state(array(
+       'customReference' => '2428',
+       'lineItemNumber' => 2,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '680162011',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 65,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Alabama, 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 48.75,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+  ),
+))
+Result: 
+stdClass::__set_state(array(
+   'CalculateInvoiceResult' => 
+  stdClass::__set_state(array(
+     'resultType' => 'SUCCESS',
+     'lineItemBundles' => 
+    stdClass::__set_state(array(
+       'addressForTax' => 
+      stdClass::__set_state(array(
+         'address' => '8844 BEVERLY BLVD',
+         'city' => 'LOS ANGELES',
+         'country' => 'USA',
+         'fullFipsCode' => '06037',
+         'latitude' => 34.077056,
+         'longitude' => -118.384966,
+         'state' => 'CA',
+         'zip' => '90048-2411',
+      )),
+       'lineItems' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'customReference' => '2440',
+           'lineItemNumber' => 1,
+           'productCode' => '6801619126EC',
+           'quantity' => 1,
+           'nonTaxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 0,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+           'salesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 115,
+             'dollars' => 115,
+             'negative' => false,
+          )),
+           'shipFromAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Los Angeles, CA 90048-2411',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'shipToAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Alabama, CA 90048-2411',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'taxAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 35,
+             'decimalValue' => 10.35,
+             'dollars' => 10,
+             'negative' => false,
+          )),
+           'taxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 115,
+             'dollars' => 115,
+             'negative' => false,
+          )),
+           'taxes' => 
+          array (
+            0 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '06',
+               'jurisdictionLevel' => 'STATE',
+               'jurisdictionName' => 'California',
+               'effectiveRate' => 0.0625,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 19,
+                 'decimalValue' => 7.19,
+                 'dollars' => 7,
+                 'negative' => false,
+              )),
+            )),
+            1 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037',
+               'jurisdictionLevel' => 'COUNTY',
+               'jurisdictionName' => 'LOS ANGELES',
+               'effectiveRate' => 0.0125,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 44,
+                 'decimalValue' => 1.44,
+                 'dollars' => 1,
+                 'negative' => false,
+              )),
+            )),
+            2 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037L',
+               'jurisdictionLevel' => 'SPECIAL',
+               'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+               'effectiveRate' => 0.015,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 73,
+                 'decimalValue' => 1.73,
+                 'dollars' => 1,
+                 'negative' => false,
+              )),
+            )),
+          ),
+           'unitPrice' => 
+          stdClass::__set_state(array(
+             'cents' => 25,
+             'decimalValue' => 86.25,
+             'dollars' => 86,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'customReference' => '2428',
+           'lineItemNumber' => 2,
+           'productCode' => '680162011',
+           'quantity' => 1,
+           'nonTaxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 0,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+           'salesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 65,
+             'dollars' => 65,
+             'negative' => false,
+          )),
+           'shipFromAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Los Angeles, CA 90048-2411',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'shipToAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Alabama, CA 90048-2411',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'taxAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 85,
+             'decimalValue' => 5.85,
+             'dollars' => 5,
+             'negative' => false,
+          )),
+           'taxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 65,
+             'dollars' => 65,
+             'negative' => false,
+          )),
+           'taxes' => 
+          array (
+            0 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '06',
+               'jurisdictionLevel' => 'STATE',
+               'jurisdictionName' => 'California',
+               'effectiveRate' => 0.0625,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 6,
+                 'decimalValue' => 4.06,
+                 'dollars' => 4,
+                 'negative' => false,
+              )),
+            )),
+            1 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037',
+               'jurisdictionLevel' => 'COUNTY',
+               'jurisdictionName' => 'LOS ANGELES',
+               'effectiveRate' => 0.0125,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 81,
+                 'decimalValue' => 0.81,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+            2 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037L',
+               'jurisdictionLevel' => 'SPECIAL',
+               'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+               'effectiveRate' => 0.015,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 98,
+                 'decimalValue' => 0.98,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+          ),
+           'unitPrice' => 
+          stdClass::__set_state(array(
+             'cents' => 75,
+             'decimalValue' => 48.75,
+             'dollars' => 48,
+             'negative' => false,
+          )),
+        )),
+      ),
+       'recalculatedJurisdictions' => true,
+       'resultType' => 'FULL',
+       'taxes' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '06',
+           'jurisdictionLevel' => 'STATE',
+           'jurisdictionName' => 'California',
+           'effectiveRate' => 0.0625,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 25,
+             'decimalValue' => 11.25,
+             'dollars' => 11,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037',
+           'jurisdictionLevel' => 'COUNTY',
+           'jurisdictionName' => 'LOS ANGELES',
+           'effectiveRate' => 0.0125,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 25,
+             'decimalValue' => 2.25,
+             'dollars' => 2,
+             'negative' => false,
+          )),
+        )),
+        2 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037L',
+           'jurisdictionLevel' => 'SPECIAL',
+           'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+           'effectiveRate' => 0.015,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 70,
+             'decimalValue' => 2.7,
+             'dollars' => 2,
+             'negative' => false,
+          )),
+        )),
+      ),
+    )),
+     'totalExemptSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 0,
+       'dollars' => 0,
+       'negative' => false,
+    )),
+     'totalSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 180,
+       'dollars' => 180,
+       'negative' => false,
+    )),
+     'totalTax' => 
+    stdClass::__set_state(array(
+       'cents' => 20,
+       'decimalValue' => 16.2,
+       'dollars' => 16,
+       'negative' => false,
+    )),
+  )),
+))

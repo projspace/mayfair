@@ -1,0 +1,24 @@
+<?
+	$edits=$db->Execute(
+		sprintf("
+			SELECT
+				cms_pages.*
+				,cms_content.content
+			FROM
+				cms_pages
+				,cms_content
+			WHERE
+				cms_content.pageid=cms_pages.id
+			AND
+				cms_content.revision=cms_pages.content_revision
+			AND
+				cms_pages.pendingadd=1
+			AND
+				cms_pages.deleted=0
+			AND
+				cms_pages.siteid=%u
+		"
+			,$session->getValue("siteid")
+		)
+	);
+?>

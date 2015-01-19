@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Contact lens suppliers UK, Contact lens UK, Discount Contact Lens, Contact Lens Manufacturer, Contact lenses online, Online opticians, Acuvue, Focus Dailies</title>
+<meta name="description" content="Contact lens suppliers in UK offering Discount contact lens, Cheap contact lens, coloured contact lens, Acuvue, Focus Dailies, contact lens manufacturers UK, buy dicounted contact lens from our online web store.">
+<meta name="keywords" content="Contact lens UK, Contact lens suppliers, Buy lenses online, Contact lenses, Contact lens, Coloured contact lens, Cheap Contact lens, Acuvue, Online opticians, Focus Dailies, Contact Lens Manufacturers UK">
+<META NAME="abstract" CONTENT="Contact lens suppliers in UK offering Discount contact lens, Cheap contact lens, coloured contact lens, Acuvue, Focus Dailies, contact lens manufacturers Uk, buy dicounted contact lens from our online web store.">
+<meta name="language" content="EN">
+<meta name="robots" content="index,follow">
+<META NAME="GOOGLEBOT" CONTENT="INDEX, FOLLOW">
+<meta name="revisit-after" content="3 days">
+<meta name="document-classification" content="Contact Lens">
+<meta name="document-type" content="Public">
+<meta name="document-rating" content="Safe for Kids">
+<meta name="document-distribution" content="Global">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="<?= $config["dir"] ?>css/site.css" rel="stylesheet" type="text/css">
+<link href="<?= $config["dir"] ?>css/shop.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/javascript" src="<?= $config["dir"] ?>lib/rollovers.js"></script>
+<?= $elems->JavaScript(); ?>
+</head>
+
+<body onload="rollovers();">
+<script language=JavaScript>
+<!--
+var message="Function disabled.";function clickIE4(){if (event.button==2){alert(message);return false;}}
+function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}}
+if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;}else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;}
+document.oncontextmenu=new Function("alert(message);return false")
+// -->
+</script>
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="780">
+	<tr>
+		<td class="siteHeader">&nbsp;<img src="<?= $config["dir"] ?>images/new/bauschandlomb.gif" alt="Bausch & Lomb" width="60" height="36"><img src="<?= $config["dir"] ?>images/new/cibavision.gif" alt="Ciba Vision" width="65" height="36"><img src="<?= $config["dir"] ?>images/new/coopervision.gif" alt="Cooper Vision" width="113" height="36"><img src="<?= $config["dir"] ?>images/new/acuvue.gif" alt="Acuvue" width="116" height="36"></td>
+		<td class="siteHeader"><p align="right"><a href="<?= $config["dir"] ?>index.php"><img src="<?= $config["dir"] ?>images/new/logo.gif" border="0" width="86" height="121" alt="Direct Sight"></a></p></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="780">
+	<tr>
+		<td class="siteNav"><img src="<?= $config["dir"] ?>images/new/tel.gif" alt="CALL FREE: 0800 011 28 28" width="179" height="27"></td>
+		<td class="siteNavRight"><a href="<?= $config["dir"] ?>index.php"><img src="<?= $config["dir"] ?>images/new/home_off.gif" hsrc="<?= $config["dir"] ?>images/new/home_on.gif" border="0" width="54" height="27" alt="home"></a><a href="<?= $config["dir"] ?>index.php/fuseaction/home.content/page/faq"><img src="<?= $config["dir"] ?>images/new/faq_off.gif" hsrc="<?= $config["dir"] ?>images/new/faq_on.gif" border="0" width="50" height="27" alt="f.a.q."></a><a href="<?= $config["dir"] ?>index.php/fuseaction/home.content/page/customerservice"><img src="<?= $config["dir"] ?>images/new/service_off.gif" hsrc="<?= $config["dir"] ?>images/new/service_on.gif" border="0" width="124" height="27" alt="customer service"></a><a href="<?= $config["dir"] ?>index.php/fuseaction/shop.main"><img src="<?= $config["dir"] ?>images/new/shop_off.gif" hsrc="<?= $config["dir"] ?>images/new/shop_on.gif" border="0" width="49" height="27" alt="shop"></a><a href="<?= $config["dir"] ?>index.php/fuseaction/shop.search"><img src="<?= $config["dir"] ?>images/new/contacts_off.gif" hsrc="<?= $config["dir"] ?>images/new/contacts_on.gif" border="0" width="110" height="27" alt="a to z contacts"></a></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="780">
+	<tr>
+		<td class="siteNavBar"><img src="<?= $config["dir"] ?>images/new/eye.jpg" width="152" height="113" alt="Eye">
+<? echo $elems->CategoryNav(); ?>
+<? echo $elems->Cart(); ?>
+		</td>
+		<td class="siteContent">
+<?
+                echo $elems->BreadcrumbTrailUser($page);
+        echo $elems->Content();
+?>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="siteCopyright">&copy;2004 Direct Sight, All Rights Reserved | Site by <a href="http://www.budgetwebdesign.biz">BWD</a></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

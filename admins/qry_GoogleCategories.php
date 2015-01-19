@@ -1,0 +1,11 @@
+<?
+	$google_categories=$db->Execute(
+		sprintf("
+			SELECT
+				*
+			FROM
+				google_categories
+		"
+		)
+	);
+?>

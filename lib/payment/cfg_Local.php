@@ -1,0 +1,19 @@
+<?
+	$config["psp"]["name"]="Localhost";
+	$config["psp"]["key"]="@!a9nl-(+43p]?RWxIu]cs|wX?w!i`RlPi,aZh!QlfyhO.W/De@X&Z%Z4WZFA@b!"
+							."LWP^FeMtA<eNc9*pG@*b@+YduElmK6+a!p]5MTeq=V~J7zB3g!P!741!#h9NOQ<G"
+							.")BX8B9!mT5%(F!f!t*Eh?iK4g#lt!64Z`u|!9V+wz1W@JuTN!jV^D*n?3sx6^*IW"
+							."C6ck+4*J4T~UegRD-N)a!q?_o0r4DP(!G!WdW~,FwW[!-cKfjD!lhr!4+v*EBBwW"
+							."N_!EDpN`Jfkb=gU+M!,v8S^91nMO)1>T76],>gromIBZ~wP4:SF!!D]`jDmPLUBf"
+							."*2y%VB!zWLV!/IT#g8a=;Kg:S2I5v:C!G7k)!2Wt<n+Sp:tl<vIxl0*:@E_1W*MO"
+							."Q,?z~]xy,<=Oav:FXLKKO!u^sowEKHI]Vn7!!!jh=24^/uZ<U!-j`op/]#e!w4iu"
+							.":T);-1]=gzRbL:`4hoZ+8nS2E&4tE=?!=p=Lr=U*V`Dzid7#!em>p^)HRN.S%??R"
+							."9gt-9K3!9h9N@~R^UEJ9sK/NePw!0A,M<^Y!3YmuzT!7!VUGi[n#NfYOPKk16avx"
+							."!~!9>FYr2!OhOCA!vt-:hy]!7bC4!aFX]uJUg,Qlhon]#qgJoW.U9=c[uO[Bt3!S"
+							."2A&<]+QwQX~oDzBk8?q+MCh<r-Io!/Rwe*&!dR8y&vis,>]*bagq)W:^Aw8!>QD?"
+							."(nmp.!0#1fTLqZW<vFb<~~20J;+Z=OAK)/cX!p8_4QbMs3*wF&LE?WtZNbh!!Qs<"
+							."j#Wsox_y&(y!/X6Fv^CF>`aG!lZBuR,f]61RfB!>N&R!9l|#|lUl~F!TGN@Xc!t8"
+							."jaVjef3yO4=lel=hQMz!m%`#!P!t/lNnQ%!!;eMQJcQOQc7%@0Z&:!o`2!W,KO6_"
+							."JCt:!bWZvK-2RCwk*^D!I*#H<Xo`W.,vSZ.3gI,dG``>*)r^|ji2!YJ=5[!`gaJ4"
+							."8x*4&Z<*oN5u(mu!<!T8Asj!B!R`Kjr%X:-96nLdp![.R~vXn#x1ZZG!2]R[)HPw";
+?>

@@ -1,0 +1,14 @@
+.left{float:left;}
+.right{float:right;}
+th.right, td.right, th.left, td.left{float:none;}
+td.left{text-align:left;}
+td.right{text-align:right;}
+.l{text-align:left !important;}
+.r{text-align:right !important;}
+.c{text-align:center !important;}
+.b{font-weight:bold !important;}
+.i{font-style:italic !important;}
+.cl{clear:both !important;}
+.red{color:#f00 !important;}
+.green{color:green !important;}
+.hide, .none{display:none;}

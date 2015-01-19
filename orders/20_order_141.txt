@@ -1,0 +1,2 @@
+20				141		06/13/2012					2172776271	CCAX3N		XXXX0191				688478080450					USD	56.00	2		dname	25 Housel Avenue			Lyndonville	AL	14098	US	1234567890	marian@webstarsltd.com	PARF			dname	25 Housel Avenue			Lyndonville	AL	14098	US			28.91		Y																						0
+20				141		06/13/2012					2172776271	CCAX3N		XXXX0191				8857014018765					USD	27.95	2		dname	25 Housel Avenue			Lyndonville	AL	14098	US	1234567890	marian@webstarsltd.com	PARF			dname	25 Housel Avenue			Lyndonville	AL	14098	US			28.91		Y																						0

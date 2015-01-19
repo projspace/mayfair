@@ -1,0 +1,36 @@
+<?
+	$page=$db->Execute(
+		sprintf("
+			SELECT
+				lft
+				,rgt
+			FROM
+				cms_pages
+			WHERE
+				id=%u
+		"
+			,$_REQUEST['parent_id']
+		)
+	);
+	$trail=$db->Execute(
+		sprintf("
+			SELECT
+				id
+				,name
+			FROM
+				cms_pages
+			WHERE
+				lft<=%u
+			AND
+				rgt>=%u
+			AND
+				deleted=0
+			ORDER BY
+				lft
+			ASC
+		"
+			,$page->fields['lft']
+			,$page->fields['rgt']
+		)
+	);
+?>

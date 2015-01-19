@@ -1,0 +1,19 @@
+User-agent: Google
+Disallow : /cart/
+Disallow : /admin/
+Disallow : /admins/
+Disallow : /ajax/
+Disallow : /cache/
+Disallow : /classes/
+Disallow : /confirmation/
+Disallow : /css/
+Disallow : /js/
+Disallow : /mapdir/
+Disallow : /orders/
+Disallow : /script/
+Disallow : /shop/
+Disallow : /test/
+Disallow : /users/
+Disallow : /video/
+Disallow : /vlib/
+

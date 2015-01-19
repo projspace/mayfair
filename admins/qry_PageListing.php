@@ -1,0 +1,17 @@
+<?
+	$listing=$db->Execute(
+		sprintf("
+			SELECT
+				*
+			FROM
+				cms_pages_listings
+			WHERE
+				id=%u
+			AND
+				pageid=%u
+		"
+			,$_REQUEST['listingid']
+			,$_REQUEST['pageid']
+		)
+	);
+?>

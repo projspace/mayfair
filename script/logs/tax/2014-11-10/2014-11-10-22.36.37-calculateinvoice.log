@@ -1,0 +1,251 @@
+
+Action: calculateinvoice
+Params: 
+invoice::__set_state(array(
+   'customerIdentifier' => 'kyoko Jumonji',
+   'customerName' => NULL,
+   'exempt' => NULL,
+   'exemptionCertificate' => NULL,
+   'exemptionReason' => NULL,
+   'invoiceDate' => '2014-11-10T22:36:36',
+   'invoiceNumber' => NULL,
+   'invoiceType' => 'INVOICE',
+   'lineItems' => 
+  array (
+    0 => 
+    lineItem::__set_state(array(
+       'customReference' => '74',
+       'lineItemNumber' => 1,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => 'CH-1984 Rose',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 70,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => '30 Asilomar Rd',
+         'address2' => 'Laguna Niguel, California, 92677',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 70,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+  ),
+))
+Result: 
+stdClass::__set_state(array(
+   'CalculateInvoiceResult' => 
+  stdClass::__set_state(array(
+     'resultType' => 'SUCCESS',
+     'lineItemBundles' => 
+    stdClass::__set_state(array(
+       'addressForTax' => 
+      stdClass::__set_state(array(
+         'address' => '30 ASILOMAR RD',
+         'city' => 'LAGUNA NIGUEL',
+         'country' => 'USA',
+         'fullFipsCode' => '06059',
+         'latitude' => 33.504279,
+         'longitude' => -117.694552,
+         'state' => 'CA',
+         'zip' => '92677-1022',
+      )),
+       'lineItems' => 
+      stdClass::__set_state(array(
+         'customReference' => '74',
+         'lineItemNumber' => 1,
+         'productCode' => 'CH-1984 Rose',
+         'quantity' => 1,
+         'nonTaxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 0,
+           'dollars' => 0,
+           'negative' => false,
+        )),
+         'salesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 70,
+           'dollars' => 70,
+           'negative' => false,
+        )),
+         'shipFromAddress' => 
+        stdClass::__set_state(array(
+           'address1' => '8844 Beverly Blvd',
+           'address2' => 'Los Angeles, CA 90048-2411',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'shipToAddress' => 
+        stdClass::__set_state(array(
+           'address1' => '30 Asilomar Rd',
+           'address2' => 'Laguna Niguel, CA 92677-1022',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'taxAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 30,
+           'decimalValue' => 6.3,
+           'dollars' => 6,
+           'negative' => false,
+        )),
+         'taxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 70,
+           'dollars' => 70,
+           'negative' => false,
+        )),
+         'taxes' => 
+        array (
+          0 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '06',
+             'jurisdictionLevel' => 'STATE',
+             'jurisdictionName' => 'California',
+             'effectiveRate' => 0.0625,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 38,
+               'decimalValue' => 4.38,
+               'dollars' => 4,
+               'negative' => false,
+            )),
+          )),
+          1 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '037',
+             'jurisdictionLevel' => 'COUNTY',
+             'jurisdictionName' => 'LOS ANGELES',
+             'effectiveRate' => 0.0125,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 88,
+               'decimalValue' => 0.88,
+               'dollars' => 0,
+               'negative' => false,
+            )),
+          )),
+          2 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '037L',
+             'jurisdictionLevel' => 'SPECIAL',
+             'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+             'effectiveRate' => 0.015,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 5,
+               'decimalValue' => 1.05,
+               'dollars' => 1,
+               'negative' => false,
+            )),
+          )),
+        ),
+         'unitPrice' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 70,
+           'dollars' => 70,
+           'negative' => false,
+        )),
+      )),
+       'recalculatedJurisdictions' => true,
+       'resultType' => 'FULL',
+       'taxes' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '06',
+           'jurisdictionLevel' => 'STATE',
+           'jurisdictionName' => 'California',
+           'effectiveRate' => 0.0625,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 38,
+             'decimalValue' => 4.38,
+             'dollars' => 4,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037',
+           'jurisdictionLevel' => 'COUNTY',
+           'jurisdictionName' => 'LOS ANGELES',
+           'effectiveRate' => 0.0125,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 88,
+             'decimalValue' => 0.88,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+        )),
+        2 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037L',
+           'jurisdictionLevel' => 'SPECIAL',
+           'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+           'effectiveRate' => 0.015,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 5,
+             'decimalValue' => 1.05,
+             'dollars' => 1,
+             'negative' => false,
+          )),
+        )),
+      ),
+    )),
+     'totalExemptSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 0,
+       'dollars' => 0,
+       'negative' => false,
+    )),
+     'totalSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 70,
+       'dollars' => 70,
+       'negative' => false,
+    )),
+     'totalTax' => 
+    stdClass::__set_state(array(
+       'cents' => 30,
+       'decimalValue' => 6.3,
+       'dollars' => 6,
+       'negative' => false,
+    )),
+  )),
+))

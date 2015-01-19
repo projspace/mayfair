@@ -1,0 +1,546 @@
+
+Action: calculateinvoice
+Params: 
+invoice::__set_state(array(
+   'customerIdentifier' => 'Christine Arturo',
+   'customerName' => NULL,
+   'exempt' => NULL,
+   'exemptionCertificate' => NULL,
+   'exemptionReason' => NULL,
+   'invoiceDate' => '2013-09-03T18:15:11',
+   'invoiceNumber' => NULL,
+   'invoiceType' => 'INVOICE',
+   'lineItems' => 
+  array (
+    0 => 
+    lineItem::__set_state(array(
+       'customReference' => '1161',
+       'lineItemNumber' => 1,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '50126 Ivory Sz 9',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 64,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => 'Amer Acad Ophthal',
+         'address2' => 'San Francisco, California, 94109',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 64,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+    1 => 
+    lineItem::__set_state(array(
+       'customReference' => '1155',
+       'lineItemNumber' => 2,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '82093 Black Sz 9',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 72,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => 'Amer Acad Ophthal',
+         'address2' => 'San Francisco, California, 94109',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 72,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+    2 => 
+    lineItem::__set_state(array(
+       'customReference' => '1156',
+       'lineItemNumber' => 3,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '82093 Sand Sz 9',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 72,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => 'Amer Acad Ophthal',
+         'address2' => 'San Francisco, California, 94109',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 72,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+  ),
+))
+Result: 
+stdClass::__set_state(array(
+   'CalculateInvoiceResult' => 
+  stdClass::__set_state(array(
+     'resultType' => 'SUCCESS',
+     'lineItemBundles' => 
+    stdClass::__set_state(array(
+       'addressForTax' => 
+      stdClass::__set_state(array(
+         'address' => 'AMER ACAD OPHTHAL',
+         'city' => 'SAN FRANCISCO',
+         'country' => 'USA',
+         'fullFipsCode' => '06075',
+         'latitude' => 37.793720399,
+         'longitude' => -122.421949456,
+         'state' => 'CA',
+         'zip' => '94109',
+      )),
+       'lineItems' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'customReference' => '1161',
+           'lineItemNumber' => 1,
+           'productCode' => '50126 Ivory Sz 9',
+           'quantity' => 1,
+           'nonTaxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 0,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+           'salesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 64,
+             'dollars' => 64,
+             'negative' => false,
+          )),
+           'shipFromAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Los Angeles, CA 90048',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'shipToAddress' => 
+          stdClass::__set_state(array(
+             'address1' => 'Amer Acad Ophthal',
+             'address2' => 'San Francisco, California, 94109',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'taxAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 76,
+             'decimalValue' => 5.76,
+             'dollars' => 5,
+             'negative' => false,
+          )),
+           'taxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 64,
+             'dollars' => 64,
+             'negative' => false,
+          )),
+           'taxes' => 
+          array (
+            0 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '06',
+               'jurisdictionLevel' => 'STATE',
+               'jurisdictionName' => 'California',
+               'effectiveRate' => 0.0625,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 0,
+                 'decimalValue' => 4,
+                 'dollars' => 4,
+                 'negative' => false,
+              )),
+            )),
+            1 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037',
+               'jurisdictionLevel' => 'COUNTY',
+               'jurisdictionName' => 'LOS ANGELES',
+               'effectiveRate' => 0.0125,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 80,
+                 'decimalValue' => 0.8,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+            2 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037L',
+               'jurisdictionLevel' => 'SPECIAL',
+               'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+               'effectiveRate' => 0.015,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 96,
+                 'decimalValue' => 0.96,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+          ),
+           'unitPrice' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 64,
+             'dollars' => 64,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'customReference' => '1155',
+           'lineItemNumber' => 2,
+           'productCode' => '82093 Black Sz 9',
+           'quantity' => 1,
+           'nonTaxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 0,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+           'salesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+           'shipFromAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Los Angeles, CA 90048',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'shipToAddress' => 
+          stdClass::__set_state(array(
+             'address1' => 'Amer Acad Ophthal',
+             'address2' => 'San Francisco, California, 94109',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'taxAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 48,
+             'decimalValue' => 6.48,
+             'dollars' => 6,
+             'negative' => false,
+          )),
+           'taxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+           'taxes' => 
+          array (
+            0 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037',
+               'jurisdictionLevel' => 'COUNTY',
+               'jurisdictionName' => 'LOS ANGELES',
+               'effectiveRate' => 0.0125,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 90,
+                 'decimalValue' => 0.9,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+            1 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '06',
+               'jurisdictionLevel' => 'STATE',
+               'jurisdictionName' => 'California',
+               'effectiveRate' => 0.0625,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 50,
+                 'decimalValue' => 4.5,
+                 'dollars' => 4,
+                 'negative' => false,
+              )),
+            )),
+            2 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037L',
+               'jurisdictionLevel' => 'SPECIAL',
+               'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+               'effectiveRate' => 0.015,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 8,
+                 'decimalValue' => 1.08,
+                 'dollars' => 1,
+                 'negative' => false,
+              )),
+            )),
+          ),
+           'unitPrice' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+        )),
+        2 => 
+        stdClass::__set_state(array(
+           'customReference' => '1156',
+           'lineItemNumber' => 3,
+           'productCode' => '82093 Sand Sz 9',
+           'quantity' => 1,
+           'nonTaxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 0,
+             'dollars' => 0,
+             'negative' => false,
+          )),
+           'salesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+           'shipFromAddress' => 
+          stdClass::__set_state(array(
+             'address1' => '8844 Beverly Blvd',
+             'address2' => 'Los Angeles, CA 90048',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'shipToAddress' => 
+          stdClass::__set_state(array(
+             'address1' => 'Amer Acad Ophthal',
+             'address2' => 'San Francisco, California, 94109',
+             'country' => 'US',
+             'latitude' => 0,
+             'longitude' => 0,
+          )),
+           'taxAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 48,
+             'decimalValue' => 6.48,
+             'dollars' => 6,
+             'negative' => false,
+          )),
+           'taxableSalesAmount' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+           'taxes' => 
+          array (
+            0 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '06',
+               'jurisdictionLevel' => 'STATE',
+               'jurisdictionName' => 'California',
+               'effectiveRate' => 0.0625,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 50,
+                 'decimalValue' => 4.5,
+                 'dollars' => 4,
+                 'negative' => false,
+              )),
+            )),
+            1 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037',
+               'jurisdictionLevel' => 'COUNTY',
+               'jurisdictionName' => 'LOS ANGELES',
+               'effectiveRate' => 0.0125,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 90,
+                 'decimalValue' => 0.9,
+                 'dollars' => 0,
+                 'negative' => false,
+              )),
+            )),
+            2 => 
+            stdClass::__set_state(array(
+               'jurisdictionFips' => '037L',
+               'jurisdictionLevel' => 'SPECIAL',
+               'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+               'effectiveRate' => 0.015,
+               'taxationType' => 'SALES',
+               'totalTax' => 
+              stdClass::__set_state(array(
+                 'cents' => 8,
+                 'decimalValue' => 1.08,
+                 'dollars' => 1,
+                 'negative' => false,
+              )),
+            )),
+          ),
+           'unitPrice' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 72,
+             'dollars' => 72,
+             'negative' => false,
+          )),
+        )),
+      ),
+       'recalculatedJurisdictions' => true,
+       'resultType' => 'FALLBACK',
+       'taxes' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '06',
+           'jurisdictionLevel' => 'STATE',
+           'jurisdictionName' => 'California',
+           'effectiveRate' => 0.0625,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 0,
+             'decimalValue' => 13,
+             'dollars' => 13,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037',
+           'jurisdictionLevel' => 'COUNTY',
+           'jurisdictionName' => 'LOS ANGELES',
+           'effectiveRate' => 0.0125,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 60,
+             'decimalValue' => 2.6,
+             'dollars' => 2,
+             'negative' => false,
+          )),
+        )),
+        2 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037L',
+           'jurisdictionLevel' => 'SPECIAL',
+           'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+           'effectiveRate' => 0.015,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 12,
+             'decimalValue' => 3.12,
+             'dollars' => 3,
+             'negative' => false,
+          )),
+        )),
+      ),
+    )),
+     'totalExemptSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 0,
+       'dollars' => 0,
+       'negative' => false,
+    )),
+     'totalSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 208,
+       'dollars' => 208,
+       'negative' => false,
+    )),
+     'totalTax' => 
+    stdClass::__set_state(array(
+       'cents' => 72,
+       'decimalValue' => 18.72,
+       'dollars' => 18,
+       'negative' => false,
+    )),
+  )),
+))

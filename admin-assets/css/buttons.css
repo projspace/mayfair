@@ -1,0 +1,48 @@
+.button{float:left;display:block;background:url(../images/backgrounds/buttons-right.png) top right no-repeat;position:relative;height:39px;margin-left:5px;}
+.buttons-left-margin .button{margin-left:5px;}
+.buttons-right-margin .button{margin-right:5px;}
+.ie6 .button{margin-left:0;}
+    .ie7 .button input, .ie6 .button input{float:none;position:relative;left:-5px;padding-bottom:3px;}
+    .ie7 .button span, .ie6 .button span{float:left;}
+    .button span{background:url(../images/backgrounds/buttons-left.png) top left no-repeat;color:#FFF;font-size:24px;font-weight:bold;padding:5px 14px 5px;height:29px;display:block;margin-left:-5px;cursor:pointer;}
+    .button input{border:none;background:url(../images/backgrounds/buttons-left.png) top left no-repeat;color:#FFF;font-size:16px !important;font-weight:bold;margin:0;padding:0 14px 5px;height:100%;cursor:pointer;display:block;width
+:auto;margin-left:-5px;}
+    .ie6 .button span, .ie6 .button input{margin-left:0;}
+    .ie6 .button input{ padding-top:1px; }
+    #login .button input{ font-size:24px !important; }
+.button-small{height:28px;background-position:right -153px;text-shadow:#AB432C 1px 1px 0;}
+    .button-small span, .button-small input{height:18px;font-size:14px;background-position:left -153px;padding:7px 35px 3px 14px;}
+    .button-small input{height:28px;padding:0 15px;}
+    .button-small:hover{background-position:right -181px;}
+        .button-small:hover span, .button-small:hover input{background-position:left -181px;}
+        
+.button-small-add{height:28px;background-position:right -39px;text-shadow:#AB432C 1px 1px 0;}
+    .button-small-add span, .button-small-add input{height:18px;font-size:14px;background-position:left -39px;padding:7px 35px 3px 14px;}
+    .button-small-add input{height:28px;padding:0 35px 0 15px;}
+    .button-small-add:hover{background-position:right -67px;}
+        .button-small-add:hover span, .button-small-add:hover input{background-position:left -67px;}
+        
+    
+.button-grey{height:29px;background-position:right -95px;text-shadow:#FFF 1px 1px 0;}
+    .button-grey input, .button-grey span{height:19px;font-size:14px;background-position:left -95px;padding:7px 15px 3px;color:#4A4D4A;}
+    .button-grey input{height:29px;width:auto;padding:0 15px;}
+    .button-grey:hover{background-position:right -124px;}
+        .button-grey:hover span, .button-grey:hover input{background-position:left -124px;color:#333;}
+
+
+.button-grey-delete{height:29px;background-position:right -209px;text-shadow:#FFF 1px 1px 0;}
+    .button-grey-delete input, .button-grey-delete span{height:19px;font-size:14px;background-position:left -95px;padding:7px 30px 3px 15px;color:#4A4D4A;}
+    .button-grey-delete input{height:29px;width:auto;padding:0 30px 0 15px;}
+    .button-grey-delete:hover{background-position:right -238px;}
+        .button-grey-delete:hover span, .button-grey-delete:hover input{background-position:left -238px;color:#333;}
+        
+        
+        
+.button-help{height:29px;background-position:right -267px;text-shadow:#FFF 1px 1px 0;}
+    .button-help input, .button-help span{height:19px;font-size:14px;background-position:left -267px;padding:7px 30px 3px 15px;color:#4A4D4A;}
+    .button-help input{height:29px;width:auto;padding:0 30px 0 15px;}
+    .button-help:hover{background-position:right -296px;}
+        .button-help:hover span, .button-help:hover input{background-position:left -296px;color:#333;}
+
+    
+.buttons{margin-bottom:25px;}

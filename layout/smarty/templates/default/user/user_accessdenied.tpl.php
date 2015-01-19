@@ -1,0 +1,3 @@
+<div class="siteTitle">Sorry, you do not have access to this page</div>
+<p>There has been a problem logging you in, please check your username/password and <a href="{$config.dir}index.php/fuseaction/user.login">try again</a>.</p>
+<p>If you have forgotten your password, please <a href="{$config.dir}index.php/fuseaction/user.resetPassword/username/{$username}">click here</a> to have a new one sent to you.</p>

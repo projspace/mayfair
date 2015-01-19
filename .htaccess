@@ -1,0 +1,148 @@
+#DirectoryIndex index.html index.php
+Options -Indexes 
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+FileETag MTime Size
+<IfModule mod_expires.c>
+  # Enable expirations.
+  ExpiresActive On
+
+  # Cache all files for 1 month after access (A).
+  ExpiresDefault A2592000
+
+  <FilesMatch \.php$>
+    # Do not allow PHP scripts to be cached unless they explicitly send cache
+    # headers themselves. Otherwise all scripts would have to overwrite the
+    # headers set by mod_expires if they want another caching behavior.
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+#php_flag auto_detect_line_endings on
+
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 404 /index.php?fuseaction=home.404
+
+#### 301 Redirects #####
+#### END 301 Redirects #####
+
+RewriteRule ^index.php(.+)$ 			index.php?req=$1&%{QUERY_STRING}
+RewriteRule ^admin[/]*$ 				index.php?fuseaction=admin.login
+RewriteRule ^shop.main$ 				index.php?fuseaction=shop.main&%{QUERY_STRING}
+#RewriteRule ^links$ 					index.php?fuseaction=home.links&%{QUERY_STRING}
+RewriteRule ^sitemap$ 					index.php?fuseaction=home.sitemap&%{QUERY_STRING}
+
+RewriteRule ^search$ 					index.php?fuseaction=shop.search&%{QUERY_STRING}
+RewriteRule ^zip-search$ 				index.php?fuseaction=shop.postcode_search&%{QUERY_STRING}
+RewriteRule ^advancedSearch$ 			index.php?fuseaction=shop.advancedSearch&%{QUERY_STRING}
+RewriteRule ^categorySearch$ 			index.php?fuseaction=shop.categorySearch&%{QUERY_STRING}
+RewriteRule ^add$ 						index.php?fuseaction=shop.add&%{QUERY_STRING}
+RewriteRule ^increase$ 					index.php?fuseaction=shop.increase&%{QUERY_STRING}
+RewriteRule ^decrease$ 					index.php?fuseaction=shop.decrease&%{QUERY_STRING}
+RewriteRule ^update$ 					index.php?fuseaction=shop.update&%{QUERY_STRING}
+#RewriteRule ^remove$ 					index.php?fuseaction=shop.remove&%{QUERY_STRING}
+RewriteRule ^clear$ 					index.php?fuseaction=shop.clear&%{QUERY_STRING}
+RewriteRule ^cart$ 						index.php?fuseaction=shop.cart&%{QUERY_STRING}
+RewriteRule ^cart/remove/([0-9]+)		index.php?fuseaction=shop.remove&cart_id=$1&%{QUERY_STRING}
+RewriteRule ^page/([0-9]+)				index.php?fuseaction=home.content&pageid=$1&%{QUERY_STRING}
+RewriteRule ^checkout$ 					index.php?fuseaction=shop.checkout&%{QUERY_STRING}
+#RewriteRule ^delivery$ 				index.php?fuseaction=shop.delivery&%{QUERY_STRING}
+#RewriteRule ^delivery-failed$ 			index.php?fuseaction=shop.delivery&failed=1&%{QUERY_STRING}
+RewriteRule ^billing$ 					index.php?fuseaction=shop.billing&%{QUERY_STRING}
+RewriteRule ^callback$ 					index.php?fuseaction=shop.callback&%{QUERY_STRING}
+RewriteRule ^receipt$ 					index.php?fuseaction=shop.receipt&%{QUERY_STRING}
+RewriteRule ^cancel$ 					index.php?fuseaction=shop.cancelled&%{QUERY_STRING}
+RewriteRule ^google-code$ 				index.php?fuseaction=shop.google_code&%{QUERY_STRING}
+
+RewriteRule ^order-confirmation/([0-9a-f]{24,42})$ 			index.php?fuseaction=shop.finished&sess_id=$1&%{QUERY_STRING}
+RewriteRule ^order-confirmation/([0-9a-f]{24,42})/([0-9]{1})$ 	index.php?fuseaction=shop.finished&sess_id=$1&error_code=$2&%{QUERY_STRING}
+
+RewriteRule ^wishlist/add/([0-9]+)		index.php?fuseaction=shop.wishlist&act=add&cart_id=$1&%{QUERY_STRING}
+RewriteRule ^wishlist/insert/([0-9]+)/([0-9]+)/([0-9]+)		index.php?fuseaction=shop.wishlist&act=insert&product_id=$1&option_id=$2&quantity=$3&%{QUERY_STRING}
+RewriteRule ^wishlist/cart/([0-9]+)		index.php?fuseaction=shop.wishlist&act=move&wish_id=$1&%{QUERY_STRING}
+RewriteRule ^wishlist/remove/([0-9]+)	index.php?fuseaction=shop.wishlist&act=remove&wish_id=$1&%{QUERY_STRING}
+
+RewriteRule ^register$ 					index.php?fuseaction=user.register&%{QUERY_STRING}
+RewriteRule ^login$ 					index.php?fuseaction=user.login&%{QUERY_STRING}
+RewriteRule ^logout$ 					index.php?fuseaction=user.logout&%{QUERY_STRING}
+RewriteRule ^account$ 					index.php?fuseaction=user.main&%{QUERY_STRING}
+RewriteRule ^account/addAddress$ 		index.php?fuseaction=user.addAddress&%{QUERY_STRING}
+RewriteRule ^account/editAddress/([0-9]+)$ 		index.php?fuseaction=user.editAddress&address_id=$1&%{QUERY_STRING}
+RewriteRule ^account/editPassword$ 		index.php?fuseaction=user.editPassword&%{QUERY_STRING}
+RewriteRule ^account/orders$ 			index.php?fuseaction=user.orders&%{QUERY_STRING}
+RewriteRule ^account/order/([0-9]+)$ 	index.php?fuseaction=user.order&order_id=$1&%{QUERY_STRING}
+RewriteRule ^account/doRegister$ 		index.php?fuseaction=user.doRegister&%{QUERY_STRING}
+RewriteRule ^account/payment-update$ 	index.php?fuseaction=user.paymentUpdate&%{QUERY_STRING}
+RewriteRule ^account/payment-remove$ 	index.php?fuseaction=user.paymentRemove&%{QUERY_STRING}
+RewriteRule ^account/gift-registry$ 	index.php?fuseaction=user.giftRegistry&%{QUERY_STRING}
+RewriteRule ^account/gift-registry/([0-9]+)$ 	index.php?fuseaction=user.giftRegistryList&list_id=$1&%{QUERY_STRING}
+RewriteRule ^account/gift-registry/([0-9]+)/quantity/([0-9]+)$ 	index.php?fuseaction=user.editGiftRegistryListItemQuantity&list_id=$1&item_id=$2&%{QUERY_STRING}
+RewriteRule ^account/gift-registry/([0-9]+)/delete-remaining/([0-9]+)$ 	index.php?fuseaction=user.clearGiftRegistryListItemQuantity&list_id=$1&item_id=$2&%{QUERY_STRING}
+RewriteRule ^forgotten-password$ 		index.php?fuseaction=user.forgottenPassword&%{QUERY_STRING}
+RewriteRule ^shopsSearch$		 		index.php?fuseaction=user.shopsSearch&%{QUERY_STRING}
+
+RewriteRule ^deep-linking$ 				script/linking_blocks.php
+RewriteRule ^deep-linking/([0-9]+)$ 	script/deep_linking.php?block_id=$1&%{QUERY_STRING}
+
+RewriteRule ^homefs$ index.php?fuseaction=home.home_fs&%{QUERY_STRING}
+
+RewriteRule ^product/([^\/]*)$ 	index.php?fuseaction=shop.product&product_guid=$1&%{QUERY_STRING}
+RewriteRule ^quick-product/([^\/]*)$ 	index.php?fuseaction=shop.quick_product&product_guid=$1&%{QUERY_STRING}
+RewriteRule ^product/([^\/]*)/([0-9]+)$ 	index.php?fuseaction=shop.product&product_id=$2&%{QUERY_STRING}
+RewriteRule ^category/([^\/]*)/([0-9]+)$ 	index.php?fuseaction=shop.category&category_id=$2&%{QUERY_STRING}
+RewriteRule ^category/([^\/]*)/([0-9]+)/new$ 	index.php?fuseaction=shop.category&category_id=$2&type=new&%{QUERY_STRING}
+RewriteRule ^category/([^\/]*)/([0-9]+)/special$ 	index.php?fuseaction=shop.category&category_id=$2&type=special&%{QUERY_STRING}
+RewriteRule ^addReview/([0-9]+)$ 					index.php?fuseaction=shop.addReview&product_id=$1&%{QUERY_STRING}
+RewriteRule ^view-by-category$ 					index.php?fuseaction=shop.view_by_category&%{QUERY_STRING}
+RewriteRule ^shop-by-brand$ 					index.php?fuseaction=shop.shop_by_brand&%{QUERY_STRING}
+RewriteRule ^shop-by-brand/([0-9]+)$ 					index.php?fuseaction=shop.shop_by_brand&brand_id=$1&%{QUERY_STRING}
+
+RewriteRule ^fitting-guide$ index.php?fuseaction=home.content&pageid=19&%{QUERY_STRING}
+RewriteRule ^fitting-guide/category/([0-9]+)$ index.php?fuseaction=home.content&pageid=19&category_id=$1&%{QUERY_STRING}
+RewriteRule ^fitting-guide/product/([0-9]+)$ index.php?fuseaction=home.content&pageid=19&product_id=$1&%{QUERY_STRING}
+RewriteRule ^join$ index.php?fuseaction=home.content&pageid=20&%{QUERY_STRING}
+RewriteRule ^join/thank-you$ index.php?fuseaction=home.content&pageid=21&%{QUERY_STRING}
+RewriteRule ^order-thank-you$ index.php?fuseaction=home.content&pageid=22&%{QUERY_STRING}
+RewriteRule ^order-failed$ index.php?fuseaction=home.content&pageid=23&%{QUERY_STRING}
+RewriteRule ^order-thank-you-register$ index.php?fuseaction=home.content&pageid=24&%{QUERY_STRING}
+RewriteRule ^gift-voucher$ index.php?fuseaction=home.content&pageid=25&%{QUERY_STRING}
+RewriteRule ^promotional-code$ index.php?fuseaction=home.content&pageid=29&%{QUERY_STRING}
+RewriteRule ^write-a-review$ index.php?fuseaction=home.content&pageid=31&%{QUERY_STRING}
+RewriteRule ^sign-in$ index.php?fuseaction=home.content&pageid=33&%{QUERY_STRING}
+RewriteRule ^forgot-password/thank-you$ index.php?fuseaction=home.content&pageid=35&%{QUERY_STRING}
+RewriteRule ^fitting-guide/footwear$ index.php?fuseaction=home.content&pageid=37&%{QUERY_STRING}
+RewriteRule ^import_excel$ index.php?fuseaction=home.import_excel&%{QUERY_STRING}
+
+RewriteRule ^order-cancelled$ index.php?fuseaction=home.content&pageid=51
+RewriteRule ^catalogues$ index.php?fuseaction=home.catalogues&%{QUERY_STRING}
+RewriteRule ^press$ index.php?fuseaction=home.press&type=press&%{QUERY_STRING}
+RewriteRule ^press/([^/]+)$ index.php?fuseaction=home.viewPress&type=press&id=$1&%{QUERY_STRING}
+RewriteRule ^ads$ index.php?fuseaction=home.press&type=ads&%{QUERY_STRING}
+RewriteRule ^ads/([^/]+)$ index.php?fuseaction=home.viewPress&type=ads&id=$1&%{QUERY_STRING}
+
+RewriteRule ^gift-registry(.*)$ gift-bridal-registry$1 [L,R=301]
+
+RewriteRule ^gift-bridal-registry$ index.php?fuseaction=user.gift_lists&%{QUERY_STRING}
+RewriteRule ^gift-bridal-registry/setup$ index.php?fuseaction=user.gift_setup&%{QUERY_STRING}
+RewriteRule ^gift-bridal-registry/list/([^\/]*)$ index.php?fuseaction=user.gift_list&code=$1&%{QUERY_STRING}
+RewriteRule ^gift-bridal-registry/list/([^\/]*)/confirmation$ index.php?fuseaction=user.gift_list_confirmation&code=$1&%{QUERY_STRING}
+RewriteRule ^gift-bridal-registry/delivery$ index.php?fuseaction=home.content&pageid=53
+
+RewriteRule ^contact-us$ index.php?fuseaction=home.content&pageid=57
+RewriteRule ^shipping-information$ index.php?fuseaction=home.content&pageid=58
+RewriteRule ^store-location$ index.php?fuseaction=home.content&pageid=59
+RewriteRule ^order-status$ index.php?fuseaction=home.content&pageid=60
+RewriteRule ^gift-cards$ index.php?fuseaction=home.content&pageid=61
+RewriteRule ^international-visitors$ index.php?fuseaction=home.content&pageid=62
+RewriteRule ^terms-and-conditions$ index.php?fuseaction=home.content&pageid=63
+RewriteRule ^privacy-policy$ index.php?fuseaction=home.content&pageid=64
+RewriteRule ^shipping-policy$ index.php?fuseaction=home.content&pageid=65
+RewriteRule ^return-policy$ index.php?fuseaction=home.content&pageid=66
+RewriteRule ^registry-delivery$ index.php?fuseaction=home.content&pageid=67
+RewriteRule ^account$ index.php?fuseaction=home.content&pageid=68

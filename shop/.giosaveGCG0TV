@@ -1,0 +1,194 @@
+asd
+<article id="productImages">
+	<? if(count($images)): ?>
+	<div id="mainImage" style="background:url('<?=$images[0]['main'] ?>') no-repeat center center;">
+		<p><a rel="colorbox" href="<?=$images[0]['view'] ?>">Click image to zoom</a></p>
+	</div>
+	<? endif; ?>
+	
+	<? if($product['360_view'] && $image_360): ?>
+	<script language="javascript" type="text/javascript">
+	/* <![CDATA[ */
+		$(document).ready(function(){
+			$("a.360").colorbox({
+				opacity: 0.3
+				,initialWidth:10
+				,initialHeight:10
+				,iframe:true
+				,innerWidth:<?=$info_360[0] ?>
+				,innerHeight:<?=$info_360[1] ?>
+			});
+		});
+	/* ]]> */
+	</script>
+	<? endif; ?>
+	<? if($product['video_type']!=""): ?>
+	<script language="javascript" type="text/javascript">
+	/* <![CDATA[ */
+		$(document).ready(function(){
+			$("a.video_play").colorbox({
+				opacity: 0.3
+				,initialWidth:10
+				,initialHeight:10
+				,iframe:true
+				,innerWidth:600
+				,innerHeight:400
+			});
+		});
+	/* ]]> */
+	</script>
+	<? endif; ?>
+	<p class="player">
+	<?
+		$video_uploaded = false;
+		if($product['video_type']!="")
+		{
+			echo '<a class="video_play" href="'.$config['dir'].'index.php?fuseaction=shop.video&amp;product_id='.$product['id'].'" style="text-decoration: none;">Play video</a>';
+			$video_uploaded = true;
+		}
+		$audio_uploaded = false;
+		if($product['audio_type']!="")
+		{
+			$audio_uploaded = true;
+			if($video_uploaded)
+				echo '/audio';
+			else
+				echo 'Play audio';
+			echo ' <a href="#" id="button_pause"><img src="'.$config['layout_dir'].'images/icons/pause.gif" width="8" height="13" alt="Pause"/></a> <a href="'.$config['dir'].'downloads/product/audio/'.$product['id'].'.'.$product['audio_type'].'?time='.time().'" id="button_play"><img src="'.$config['layout_dir'].'images/icons/play.gif" width="10" height="13" alt="Play"/></a>';
+			?>
+			
+			<script language="javascript" type="text/javascript">
+				$().ready(function(){
+					var script = document.createElement('script');
+					script.type = 'text/javascript';
+					script.src = "<?=$config['layout_dir'] ?>js/wimpy_button_bridge.js";
+					$('head').append(script);
+					$("#button_play").click(function(){
+						wimpyButtonPause();
+						wimpyButtonPlay($(this).attr("href"));
+						return false;
+					});
+					$("#button_pause").click(function(){
+						wimpyButtonPause();
+						return false;
+					});
+				});
+			</script>
+			<?
+		}
+		if($product['360_view'] && $image_360)
+		{
+			if($video_uploaded || $audio_uploaded)
+				echo ' | ';
+			echo '360&deg; view <a href="'.$config['dir'].'index.php/fuseaction/shop.360_view/product_id/'.$product['id'].'" class="360"><img src="'.$config['layout_dir'].'images/icons/360.gif" width="14" height="17" alt="360"/></a>';
+		}
+	?>
+	</p>
+	<? 
+		if(count($images))
+		{
+			echo '<ul class="details">';
+			foreach($images as $row)
+				echo '<li><a href="'.$row['main'].'" rel="'.$row['view'].'"><img src="'.$row['thumb'].'" width="71" height="69" alt="*"/></a></li>';
+			echo '</ul>';
+		}
+	?>
+</article>
+<article id="productDescription">
+	<h2 class="productTitle"><?=htmlentities($product['name'], ENT_NOQUOTES, 'UTF-8') ?></h2>
+	<p class="bold"><? if($product['price_old']+0 > 0): ?><span class="discounted"><?=price($product['price_old']) ?></span> <? endif; ?><?=price($product['price']) ?></p>
+	<div><?=$product['description'] ?></div>
+	<script language="javascript" type="text/javascript">
+	/* <![CDATA[ */
+		$(document).ready(function(){
+			$('#productProperties').submit(function(){
+				var quantity = parseInt($('#quantity').val());
+				var error = false;
+				if(isNaN(quantity))
+					error = true;
+				else
+					if(quantity <= 0)
+						error = true;
+				$('#quantity').parent().css('border', '1px solid #B1B1B2');
+				if(error)
+				{
+					$('#quantity').parent().css('border', '1px solid #F00');
+					return false;
+				}
+			});
+		});
+	/* ]]> */
+	</script>
+	<? if($product['stock'] > $product['low_stock_trigger']): ?>
+	<form id="productProperties" action="<?=$config['dir'] ?>add" method="post">
+		<input type="hidden" name="category_id" value="<?=$product['category_id'] ?>" />
+		<input type="hidden" name="product_id" value="<?=$product['id'] ?>" />
+		
+		<ul class="selector">
+		<?
+			foreach($product['options'] as $option)
+			{
+				if(count($option['value']))
+				{
+					echo '<li><a class="arrowed" href="#">'.htmlentities($option['name'], ENT_NOQUOTES, 'UTF-8').'</a><dl>';
+					foreach($option['value'] as $index=>$value)
+					{
+						$value = htmlentities($value, ENT_NOQUOTES, 'UTF-8');
+						$price = $option['price'][$index]+0;
+						if($price > 0)
+						{
+							if($product['vat'])
+								$price = $price*(100+VAT)/100;
+							$value .= ' (+'.price($price).')';
+						}
+						echo '<dd><a href="#" rel="'.$index.'">'.$value.'</a></dd>';
+					}
+					echo '</dl><input type="hidden" name="option[]" value="" /></li>';
+				}
+			}
+		?>
+			<li class="quantity">
+				Quantity <a class="minus" href="#">-</a><input type="text" value="1" id="quantity" name="quantity" /><a class="plus" href="#">+</a>
+			</li>
+		</ul>
+		<br/>
+		<br/>
+		<br/>
+		<? 
+			if(count($warnings))
+			{
+				$messages = array();
+				$warning = array_shift($warnings);
+				$messages[] = '<p class="right">'.htmlentities(nl2br($warning['message']), ENT_NOQUOTES, 'UTF-8').'</p>';
+				if($warning['trigger'] == -1 && $warning = array_shift($warnings))
+					$messages[] = '<p class="right">'.htmlentities(nl2br($warning['message']), ENT_NOQUOTES, 'UTF-8').'</p>';
+				echo implode('', $messages);
+			}
+		?>
+		<p class="right"><input type="submit" name="submit" value="add to basket" class="redDoubleArrow" /></p>
+	</form>
+	<? endif; ?>
+</article>
+<article id="productReviews">
+	<? if(!$reviews->RecordCount()): ?>
+	<a href="<?=$config['dir'] ?>index.php/fuseaction/shop.addReview/product_id/<?=$product['id'] ?>" class="ownReview"><h3>Be the first reviewer on '<?=htmlentities($product['name'], ENT_NOQUOTES, 'UTF-8') ?>'</h3></a>
+	<? else: ?>
+	<a href="<?=$config['dir'] ?>index.php/fuseaction/shop.addReview/product_id/<?=$product['id'] ?>" class="ownReview">Write your own review</a>
+	<h3>Customer reviews</h3>
+	<dl class="reviews">
+	<?
+		while($row = $reviews->FetchRow())
+		{
+			$stars = '';
+			for($i=1;$i<=$row['rating'];$i++)
+				$stars .= '<img class="star" src="'.$config['layout_dir'].'images/icons/star.gif" width="9" height="9" alt="Star"/>';
+			for(;$i<=5;$i++)
+				$stars .= '<img class="star" src="'.$config['layout_dir'].'images/icons/star-empty.gif" width="9" height="9" alt="Star Empty"/>';
+			echo '
+				<dt>'.htmlentities($row['name'].', '.$row['location'], ENT_NOQUOTES, 'UTF-8').' '.$stars.'</dt>
+				<dd>'.htmlentities(strip_tags($row['description']), ENT_NOQUOTES, 'UTF-8').'</dd>';
+		}
+	?>
+	</dl>
+	<? endif; ?>
+</article>

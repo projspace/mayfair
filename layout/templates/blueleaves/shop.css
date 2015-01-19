@@ -1,0 +1,103 @@
+a img { border: none; }
+button { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 90%; color: #49515C; background-image: url(/images/button.png); background-repeat: no-repeat; height: 22px; width: 82px; border: none; }
+input.submit { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.8em; color: #49515C; background-image: url(/images/button.png); background-repeat: no-repeat; height: 22px; width: 82px; border: none; }
+div.right { text-align: right; margin-top: 5px; }
+/* Tags */
+label { display: inline; font-weight: bold; width: 15em; float: left; font-size: 90%; }
+select { float: left; }
+input { }
+textarea { }
+br { clear: both; }
+
+/* Error Messages */
+div.error { font-family: Verdana, Arial, sans-serif; border-top: 1px solid #E0B2B2; border-left: 1px solid #E0B2B2; border-bottom: 1px solid #990000; border-right: 1px solid #990000; background-color: #FFF0F0; color: #990000; padding: 5px 5px 5px 43px; margin: 10px 0px 10px 0px; text-align: left; background: url(/images/admin/error.png) 5px 5px no-repeat #FFF0F0; }
+div.error h3 { font-size: 1.2em; font-weight: bold; color: #990000; margin: 0px; }
+div.error hr { border-bottom: 1px solid #E0B2B2; border-top: none; border-left: none; border-right: none; height: 1px; }
+div.alert p { font-size: 10px; color: #990000; font-weight: normal; margin: 0px; padding: 0px; }
+div.alert a { font-weight: bold; }
+
+/* Shared Classes */
+div.heading { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; overflow: hidden; clear: both; }
+div.heading h1 { font-size: 1.6em !important; margin: 0.3em 0 0.3em 0; float: left; }
+span.price { float: right; font-size: 1.2em; font-weight: bold; margin: 0.3em 0 0.3em 0; color: #333333; width: auto; }
+
+/* Category */
+div.shopContent { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; padding: 0px; }
+div.shopContent p { padding: 0px;}
+
+/* Products in category/search results */
+div.products { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; width: 100%; overflow: hidden; margin-top: 0px;}
+div.products form { display: inline; }
+div.products h2 { float: left; }
+div.products span.price { margin: 0 !important; }
+div.products .image { clear: left; float: left; width: 93px; }
+div.products .image img { background: #49515C; }
+div.products .body { clear: both; }
+div.products .description { clear: right; float: left; width: 520px; }
+div.products .options { clear: right; }
+div.products .actions { clear: both; float: right; padding: 5px 0px 5px 0px; }
+div.products .add { height: 22px; width: 82px; border: none; float: right; }
+div.products .more { height: 22px; width: 82px; border: none; float: right; margin-right: 4px; }
+
+/* Product Details */
+div.product { overflow: hidden; }
+div.product form { display: inline; }
+div.product .images {background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; text-align: center; padding: 5px; }
+div.product .images img { vertical-align: middle; }
+div.product .imagelabel { display: block; text-align: center; margin-bottom: 5px; }
+div.product .body { clear: both; }
+div.product .description { clear: both; background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; padding: 5px 0px; margin-bottom: 5px; }
+div.product .options { clear: both; background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 5px 0px; margin-bottom: 5px; }
+div.product .actions { clear: both; float: right; padding: 0px 0px 5px 0px; }
+div.product .add { height: 22px; width: 82px; border: none; float: right; }
+
+/* Options */
+div.option { clear: both; float: left; padding-bottom: 4px; }
+
+/* Categories */
+.categories { border: 1px solid #ddd; width: 100%; font-size: 100%; border-spacing: 1px; margin-bottom: 5px; }
+.categories td { width: 25%; text-align: center; padding: 4px; background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; font-size: 90%; }
+.categories td a { color: #49515C; font-weight: bold; }
+
+/* Cart */
+div.cart { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; overflow: hidden; margin-bottom: 5px; }
+div.cart h1 { color: #49515C; margin: 7px 5px;}
+
+div.cartfooter { float: right; text-align: right; background: #FFFFFF; padding: 5px 6px 0px 0px; }
+div.cartfooter a { cursor: pointer; }
+
+table.cart { width: 100%; clear: both; border-collapse: collapse; font-size: 100%; }
+table.cart td form { display: inline; margin-top: 2px; }
+table.cart a { color: inherit; }
+table.cart th { background-color: #49515C; color: #FFFFFF; padding: 2px 1px 2px 1px; }
+table.cart .numerical { text-align: right; }
+table.cart td { color: #333333; }
+table.cart .action { padding-right: 5px; text-align: right; color: #FFFFFF; }
+table.cart .light { background-color: #F7F9FB; }
+table.cart .dark { background-color: #eee; }
+table.cart .lightbottom { background-color: #F7F9FB; border-bottom: 1px solid #49515C; }
+table.cart .darkbottom { background-color: #eee; border-bottom: 1px solid #49515C; }
+
+/* Checkout */
+div.checkout { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; overflow: hidden; }
+div.checkout h1 { color: #49515C; margin: 7px 5px;}
+div.checkoutContent { background: #fff url(/layout/templates/blueleaves/img/para_bg.jpg) repeat-x; border-top: 1px solid #ddd; padding: 5px; margin-bottom: 5px; }
+
+div.checkoutfooter { float: right; text-align: right; background: #FFFFFF; padding: 5px 6px 0px 0px; }
+div.checkoutfooter a { cursor: pointer; }
+
+table.checkout { width: 100%; clear: both; border-collapse: collapse; font-size: 100%; }
+table.checkout form { display: inline; }
+table.checkout a { color: inherit; }
+table.checkout th { background-color: #49515C; color: #FFFFFF; padding: 5px 1px 5px 1px; }
+table.checkout .numerical { text-align: right; }
+table.checkout td { color: #333333; }
+table.checkout td input { width: 4em; }
+table.checkout .action { padding-right: 5px; text-align: right; color: #FFFFFF; }
+table.checkout .light { background-color: #F7F9FB; }
+table.checkout .dark { background-color: #DFE9F2; }
+table.checkout .lightbottom { background-color: #F7F9FB; border-bottom: 2px solid #49515C; }
+table.checkout .darkbottom { background-color: #DFE9F2; border-bottom: 2px solid #49515C; }
+
+/* PSP Form */
+div.checkoutform { padding-top: 10px; }

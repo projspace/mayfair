@@ -1,0 +1,11 @@
+<?
+	$user_accounts=$db->Execute(
+		sprintf("
+			SELECT
+				*
+			FROM
+				shop_user_accounts
+		"
+		)
+	);
+?>

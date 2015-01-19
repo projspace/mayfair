@@ -1,0 +1,93 @@
+<?
+	$db->SetTransactionMode("SERIALIZABLE");
+	$db->StartTrans();
+
+	//Get current ord and note the min ord is 1
+
+	$ord=$db->Execute(
+		sprintf("
+			SELECT
+				ord
+				,parent_id
+			FROM
+				cms_pages
+			WHERE
+				id=%u
+			AND
+				siteid=%u
+			AND
+				deleted=0
+		"
+			,$_POST['pageid']
+			,$session->getValue("siteid")
+		)
+	);
+	if($ord->RecordCount()==0)
+		$db->FailTrans();
+
+	echo $ord->fields['ord']."<br>1<br>";
+	if($ord->fields['ord']>1)
+	{
+		$getid=$db->Execute(
+			sprintf("
+				SELECT
+					id
+				FROM
+					cms_pages
+				WHERE
+					ord=%u
+				AND
+					parent_id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$ord->fields['ord']-1
+				,$ord->fields['parent_id']
+				,$session->getValue("siteid")
+			)
+		);
+		$db->Execute(
+			sprintf("
+				UPDATE
+					cms_pages
+				SET
+					ord=ord+1
+				WHERE
+					ord=%u
+				AND
+					parent_id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$ord->fields['ord']-1
+				,$ord->fields['parent_id']
+				,$session->getValue("siteid")
+			)
+		);
+
+		$db->Execute(
+			sprintf("
+				UPDATE
+					cms_pages
+				SET
+					ord=ord-1
+				WHERE
+					id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$_POST['pageid']
+				,$session->getValue("siteid")
+			)
+		);
+
+		$mptt->swap($getid->fields['id'],$_POST['pageid']);
+	}
+	$ok=$db->CompleteTrans();
+?>

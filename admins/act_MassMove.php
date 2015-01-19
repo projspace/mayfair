@@ -1,0 +1,90 @@
+<?
+	$db->SetTransactionMode("SERIALIZABLE");
+	$db->StartTrans();
+	
+	//Get max ord
+	$max = $db->Execute(
+		sprintf("
+			SELECT
+				MAX(ord) AS max
+			FROM
+				shop_products
+			WHERE
+				category_id=%u
+		"
+			,$_POST['category_id']
+		)
+	);
+	if(isset($_POST['ref']))
+	{
+		$query=sprintf("UPDATE
+					shop_refs
+				SET
+					category_id=%u
+				WHERE\n",$_POST['category_id']);
+		$count=0;
+		$num=count($_POST['ref']);
+		for($i=0;$i<$num;$i++)
+		{
+			if($i>0)
+				$query.="OR ";
+			$query.="id=%u\n";
+		}
+		$db->Execute(vsprintf($query,$_POST['ref']));
+	}
+	if(isset($_POST['product']))
+	{
+		$query=sprintf("UPDATE
+				shop_products
+			SET
+				category_id=%u
+				,ord=0
+			WHERE\n",$_POST['category_id']);
+		$count=0;
+		$num=count($_POST['product']);
+		for($i=0;$i<$num;$i++)
+		{
+			if($i>0)
+				$query.="OR ";
+			$query.="id=%u\n";
+		}
+		$db->Execute(vsprintf($query,$_POST['product']));
+		//Defragment
+		$products=$db->Execute(
+			sprintf("
+				SELECT
+					id
+				FROM
+					shop_products
+				WHERE
+					category_id=%u
+				AND
+					ord=0
+			"
+				,$_POST['category_id']
+			)
+		);
+		$count=1;
+		while($row=$products->FetchRow())
+		{
+			$db->Execute(
+				sprintf("
+					UPDATE
+						shop_products
+					SET
+						ord=%u
+					WHERE
+						id=%u
+				"
+					,$max->fields['max']+$count
+					,$row['id']
+				)
+			);
+			$count++;
+		}
+	}
+	
+	$ok=$db->CompleteTrans();
+	if(!$ok)
+    	error("There was a problem whilst mass moving the products, please try again.  If this persists please notify your designated support contact","Database Error");
+?>

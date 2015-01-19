@@ -1,0 +1,21 @@
+<?
+	$default=$db->Execute(
+		sprintf("
+			SELECT
+				id
+			FROM
+				cms_pages
+			WHERE
+				lft=%u
+			AND
+				siteid=%u
+		"
+			,1
+			,$config['siteid']
+		)
+	);
+	if($default->RecordCount()>0)
+		$pageid=$default->fields['id'];
+	else
+		error("Sorry, no pages have been added yet","Error");
+?>

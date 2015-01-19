@@ -1,0 +1,20 @@
+<?
+	$config['searchengine'][0]="ALTAVISTA";
+	$config['searchengine'][1]="ARCHITEXTSPIDER";
+	$config['searchengine'][2]="INFOSEEK";
+	$config['searchengine'][3]="LWPTRIVIAL";
+	$config['searchengine'][4]="LYCOSSPIDERTREX";
+	$config['searchengine'][5]="SCOOTER";
+	$config['searchengine'][6]="SEARCHAT";
+	$config['searchengine'][7]="SLURP";
+	$config['searchengine'][8]="SLURPSO";
+	$config['searchengine'][9]="ULTRASEEK";
+	$config['searchengine'][10]="WEBCRAWLER";
+	$config['searchengine'][11]="WEBCRAWLERADDURL";
+	$config['searchengine'][12]="GOOGLEBOT";
+	$config['searchengine'][13]="GOOGLEBOTIMAGE";
+	$config['searchengine'][14]="INKTOMI";
+	$config['searchengine'][15]="INKTOMISLURP";
+	$config['searchengine'][16]="MSNBOT";
+	$config['searchengine'][17]="BAIDUSPIDER";
+?>

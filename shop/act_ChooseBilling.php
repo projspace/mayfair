@@ -1,0 +1,48 @@
+<?
+	$billing=$db->Execute(
+		sprintf("
+			SELECT
+				*
+			FROM
+				shop_user_addresses
+			WHERE
+				account_id=%u
+			AND
+				id = %u
+		"
+			,$user_session->account_id
+			,safe($_REQUEST['address_id'])
+		)
+	);
+	$billing = $billing->FetchRow();
+	if($billing)
+		$db->Execute(
+			sprintf("
+				UPDATE
+					shop_sessions
+				SET
+					billing_name=%s
+					,billing_email=%s
+					,billing_phone=%s
+					,billing_line1=%s
+					,billing_line2=%s
+					,billing_line3=%s
+					,billing_line4=%s
+					,billing_postcode=%s
+					,billing_country_id=%u
+				WHERE
+					session_id=%s
+			"
+				,$db->Quote($billing['name'])
+				,$db->Quote($billing['email'])
+				,$db->Quote($billing['phone'])
+				,$db->Quote($billing['line1'])
+				,$db->Quote($billing['line2'])
+				,$db->Quote($billing['line3'])
+				,$db->Quote($billing['line4'])
+				,$db->Quote($billing['postcode'])
+				,$billing['country_id']
+				,$db->Quote($session->session_id)
+			)
+		);
+?>

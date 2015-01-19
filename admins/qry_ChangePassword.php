@@ -1,0 +1,23 @@
+<?
+	$check=$db->Execute(
+		sprintf("
+			SELECT
+				id
+			FROM
+				admin_accounts
+			WHERE
+				id=%u
+			AND
+				password=%s
+		"
+			,$session->account_id
+			,$db->Quote($_POST['password'])
+		)
+	);
+	if($check->RecordCount()>0)
+	{
+		$match=true;
+	}
+	else
+		$match=false;
+?>

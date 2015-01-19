@@ -1,0 +1,37 @@
+/* [ROOT] * /
+#menu > li.content > a{background-image:url('../images/icons/page.png');}
+#menu > li.articles > a{background-image:url('../images/icons/newspaper.png');}
+#menu > li.quiz > a{background-image:url('../images/icons/page_lightning.png');}
+#menu > li.shop > a{background-image:url('../images/icons/cart_add.png');}
+#menu > li.classifieds > a{background-image:url('../images/icons/tag_purple.png');}
+#menu > li.newsletter > a{background-image:url('../images/icons/newspaper.png');}
+#menu > li.acl > a{background-image:url('../images/icons/key.png');}
+
+/* [CHILDREN] * /
+#menu > li > ul > li.cms-pages > a{background-image:url('../images/icons/page_white.png');}
+#menu > li > ul > li.cms-blocks > a{background-image:url('../images/icons/application.png');}
+#menu > li > ul > li.cms-know > a{background-image:url('../images/icons/lightbulb.png');}
+#menu > li > ul > li.cms-videos > a{background-image:url('../images/icons/camera.png');}
+#menu > li > ul > li.cms-layouts > a{background-image:url('../images/icons/layout.png');}
+#menu > li > ul > li.cms-emails > a{background-image:url('../images/icons/email.png');}
+#menu > li > ul > li.cms-banners > a{background-image:url('../images/icons/images.png');}
+#menu > li > ul > li.cl-counties > a{background-image:url('../images/icons/map.png');}
+#menu > li > ul > li.cl-domenii > a{background-image:url('../images/icons/book.png');}
+#menu > li > ul > li.nl-members > a{background-image:url('../images/icons/group_link.png');}
+#menu > li > ul > li.nl-newsletters > a{background-image:url('../images/icons/newspaper.png');}
+#menu > li > ul > li.nl-send > a{background-image:url('../images/icons/newspaper_go.png');}
+#menu > li > ul > li.acl-admins > a{background-image:url('../images/icons/user.png');}
+#menu > li > ul > li.acl-groups > a{background-image:url('../images/icons/group.png');}
+#menu > li > ul > li.acl-actions > a{background-image:url('../images/icons/lightning.png');}
+
+#menu > li > ul > li.articles-articles > a{background-image:url('../images/icons/page_white.png');}
+#menu > li > ul > li.articles-featured > a{background-image:url('../images/icons/star.png');}
+#menu > li > ul > li.articles-must-read > a{background-image:url('../images/icons/exclamation.png');}
+#menu > li > ul > li.articles-cool-links > a{background-image:url('../images/icons/link.png');}
+
+#menu > li > ul > li.quiz-results > a{background-image:url('../images/icons/star.png');}
+#menu > li > ul > li.quiz-questions > a{background-image:url('../images/icons/help.png');}
+#menu > li > ul > li.quiz-start > a{background-image:url('../images/icons/page_go.png');}
+#menu > li > ul > li.quiz-end > a{background-image:url('../images/icons/page_save.png');}
+#menu > li > ul > li.quiz-failure > a{background-image:url('../images/icons/page_delete.png');}
+#menu > li > ul > li.quiz-block > a{background-image:url('../images/icons/application.png');}

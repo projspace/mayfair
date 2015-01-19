@@ -1,0 +1,15 @@
+<?
+	$db->Execute(
+		sprintf("
+			UPDATE
+				admin_accounts
+			SET
+				password=%s
+			WHERE
+				id=%u
+		"
+			,$db->Quote($_POST['newpassword'])
+			,$session->account_id
+		)
+	);
+?>

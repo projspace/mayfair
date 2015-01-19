@@ -1,0 +1,14 @@
+<?
+	$listings=$db->Execute(
+		sprintf("
+			SELECT
+				*
+			FROM
+				cms_pages_listings
+			WHERE
+				pageid=%u
+		"
+			,$_REQUEST['pageid']
+		)
+	);
+?>

@@ -1,0 +1,22 @@
+# Ignore path for uploaded product images
+images/product
+
+# Ignore Videos in the videos folder
+video/*.mp4
+video/*.mov
+
+# Ignore TMP files
+script/tmp_images
+images/tmp
+
+# Error Log
+error_log
+*/error_log
+
+# Remove Downloads from tracking
+downloads/*
+
+# Caching
+cache/search/*
+cache/smarty/*
+cache/temp/*

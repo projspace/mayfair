@@ -1,0 +1,2 @@
+20				142		06/13/2012					2172776436	2QBT5J		XXXX0191				test					USD	66.00	1		dname	25 Housel Avenue			Lyndonville	AL	14098	US	1234567890	marian@webstarsltd.com	PARF			dname	25 Housel Avenue			Lyndonville	AL	14098	US			37.24	.1000	Y																						0
+20				142		06/13/2012					2172776436	2QBT5J		XXXX0191				688478088333					USD	66.00	2		dname	25 Housel Avenue			Lyndonville	AL	14098	US	1234567890	marian@webstarsltd.com	PARF			dname	25 Housel Avenue			Lyndonville	AL	14098	US			37.24	.1000	Y																						0

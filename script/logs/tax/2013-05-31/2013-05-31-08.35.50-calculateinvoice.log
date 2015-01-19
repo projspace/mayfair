@@ -1,0 +1,157 @@
+
+Action: calculateinvoice
+Params: 
+invoice::__set_state(array(
+   'customerIdentifier' => 'Johanna Judah',
+   'customerName' => NULL,
+   'exempt' => NULL,
+   'exemptionCertificate' => NULL,
+   'exemptionReason' => NULL,
+   'invoiceDate' => '2013-05-31T08:35:50',
+   'invoiceNumber' => NULL,
+   'invoiceType' => 'INVOICE',
+   'lineItems' => 
+  array (
+    0 => 
+    lineItem::__set_state(array(
+       'customReference' => '504',
+       'lineItemNumber' => 1,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => '123321',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 1,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => 'delivery address',
+         'address2' => 'Alabama, 123432',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 1,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+  ),
+))
+Result: 
+stdClass::__set_state(array(
+   'CalculateInvoiceResult' => 
+  stdClass::__set_state(array(
+     'resultType' => 'SUCCESS',
+     'lineItemBundles' => 
+    stdClass::__set_state(array(
+       'addressForTax' => 
+      stdClass::__set_state(array(
+         'address' => 'delivery address',
+         'city' => 'Alabama',
+         'country' => 'US',
+         'latitude' => 0,
+         'longitude' => 0,
+         'state' => 'VA',
+         'zip' => '23432',
+      )),
+       'lineItems' => 
+      stdClass::__set_state(array(
+         'customReference' => '504',
+         'lineItemNumber' => 1,
+         'productCode' => '123321',
+         'quantity' => 1,
+         'nonTaxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 1,
+           'dollars' => 1,
+           'negative' => false,
+        )),
+         'salesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 1,
+           'dollars' => 1,
+           'negative' => false,
+        )),
+         'shipFromAddress' => 
+        stdClass::__set_state(array(
+           'address1' => '8844 Beverly Blvd',
+           'address2' => 'Los Angeles, CA 90048',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'shipToAddress' => 
+        stdClass::__set_state(array(
+           'address1' => 'delivery address',
+           'address2' => 'Alabama, 123432',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'taxAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 0,
+           'dollars' => 0,
+           'negative' => false,
+        )),
+         'taxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 0,
+           'dollars' => 0,
+           'negative' => false,
+        )),
+         'unitPrice' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 1,
+           'dollars' => 1,
+           'negative' => false,
+        )),
+      )),
+       'recalculatedJurisdictions' => true,
+       'resultType' => 'FULL',
+    )),
+     'totalExemptSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 1,
+       'dollars' => 1,
+       'negative' => false,
+    )),
+     'totalSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 1,
+       'dollars' => 1,
+       'negative' => false,
+    )),
+     'totalTax' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 0,
+       'dollars' => 0,
+       'negative' => false,
+    )),
+  )),
+))

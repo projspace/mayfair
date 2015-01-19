@@ -1,0 +1,1 @@
+<ul>{foreach from=$pages item=page}<li><a title="{$page.name|htmlentities}" href="{$config.dir}{$page.url}{$sid}">{$page.name|htmlentities}</a></li>{/foreach}<li><a title="Shop" href="{$config.dir}shop.main">Shop</a></li></ul>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:jwplayer="http://developer.longtailvideo.com/trac/" xmlns:media="http://search.yahoo.com/mrss/"> 
+<channel> 
+  <title>Related Videos</title>
+  <item> 
+    <title>Bloch Tap On</title>
+    <description>This is the description</description>
+    <media:content url="http://bloch-usa.dev4.clientproof.co.uk/video/TAP.mp4" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/dance_1.jpg" />
+    <jwplayer:duration>263.00</jwplayer:duration>
+  </item> 
+  <item> 
+    <title>Bloch Hip Hop</title>
+    <media:content url="http://bloch-usa.dev4.clientproof.co.uk/video/HIPHOPFINAL.mp4" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/dance_2.jpg" />
+    <description>This is the description</description>
+    <jwplayer:duration>268.00</jwplayer:duration>
+  </item> 
+  <item> 
+    <title>Bloch Ballet</title>
+    <media:content url="http://bloch-usa.dev4.clientproof.co.uk/video/BALLET.mp4" />
+    <media:thumbnail url="http://bloch-usa.dev4.clientproof.co.uk/video/dance_3.jpg" />
+    <description>This is the description</description>
+    <jwplayer:duration>293.00</jwplayer:duration>
+  </item> 
+</channel> 
+</rss>

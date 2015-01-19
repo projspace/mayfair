@@ -1,0 +1,251 @@
+
+Action: calculateinvoice
+Params: 
+invoice::__set_state(array(
+   'customerIdentifier' => 'Wei',
+   'customerName' => NULL,
+   'exempt' => NULL,
+   'exemptionCertificate' => NULL,
+   'exemptionReason' => NULL,
+   'invoiceDate' => '2014-05-26T15:41:18',
+   'invoiceNumber' => NULL,
+   'invoiceType' => 'INVOICE',
+   'lineItems' => 
+  array (
+    0 => 
+    lineItem::__set_state(array(
+       'customReference' => '284',
+       'lineItemNumber' => 1,
+       'nonTaxableSalesAmount' => NULL,
+       'productCode' => 'HPT010A42',
+       'quantity' => '1',
+       'salesAmount' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 235,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+       'shipFromAddress' => 
+      address::__set_state(array(
+         'address1' => '8844 Beverly Blvd',
+         'address2' => 'Los Angeles, CA 90048',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'shipFromLocation' => NULL,
+       'shipToAddress' => 
+      address::__set_state(array(
+         'address1' => '855 w el reprtto dr apt 59d',
+         'address2' => 'monterey park, California, 91754',
+         'jurisdictions' => NULL,
+         'resolvedDate' => NULL,
+      )),
+       'taxAmount' => NULL,
+       'taxableSalesAmount' => NULL,
+       'taxes' => NULL,
+       'unitPrice' => 
+      price::__set_state(array(
+         'cents' => NULL,
+         'decimalValue' => 235,
+         'dollars' => NULL,
+         'negative' => NULL,
+      )),
+    )),
+  ),
+))
+Result: 
+stdClass::__set_state(array(
+   'CalculateInvoiceResult' => 
+  stdClass::__set_state(array(
+     'resultType' => 'SUCCESS',
+     'lineItemBundles' => 
+    stdClass::__set_state(array(
+       'addressForTax' => 
+      stdClass::__set_state(array(
+         'address' => '855 W EL REPETTO DR APT 59D',
+         'city' => 'MONTEREY PARK',
+         'country' => 'USA',
+         'fullFipsCode' => '06037',
+         'latitude' => 34.046697,
+         'longitude' => -118.141167,
+         'state' => 'CA',
+         'zip' => '91754-5272',
+      )),
+       'lineItems' => 
+      stdClass::__set_state(array(
+         'customReference' => '284',
+         'lineItemNumber' => 1,
+         'productCode' => 'HPT010A42',
+         'quantity' => 1,
+         'nonTaxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 0,
+           'dollars' => 0,
+           'negative' => false,
+        )),
+         'salesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 235,
+           'dollars' => 235,
+           'negative' => false,
+        )),
+         'shipFromAddress' => 
+        stdClass::__set_state(array(
+           'address1' => '8844 Beverly Blvd',
+           'address2' => 'Los Angeles, CA 90048-2411',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'shipToAddress' => 
+        stdClass::__set_state(array(
+           'address1' => '855 w el reprtto dr apt 59d',
+           'address2' => 'monterey park, CA 91754-5272',
+           'country' => 'US',
+           'latitude' => 0,
+           'longitude' => 0,
+        )),
+         'taxAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 15,
+           'decimalValue' => 21.15,
+           'dollars' => 21,
+           'negative' => false,
+        )),
+         'taxableSalesAmount' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 235,
+           'dollars' => 235,
+           'negative' => false,
+        )),
+         'taxes' => 
+        array (
+          0 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '037',
+             'jurisdictionLevel' => 'COUNTY',
+             'jurisdictionName' => 'LOS ANGELES',
+             'effectiveRate' => 0.0125,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 94,
+               'decimalValue' => 2.94,
+               'dollars' => 2,
+               'negative' => false,
+            )),
+          )),
+          1 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '06',
+             'jurisdictionLevel' => 'STATE',
+             'jurisdictionName' => 'California',
+             'effectiveRate' => 0.0625,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 69,
+               'decimalValue' => 14.69,
+               'dollars' => 14,
+               'negative' => false,
+            )),
+          )),
+          2 => 
+          stdClass::__set_state(array(
+             'jurisdictionFips' => '037L',
+             'jurisdictionLevel' => 'SPECIAL',
+             'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+             'effectiveRate' => 0.015,
+             'taxationType' => 'SALES',
+             'totalTax' => 
+            stdClass::__set_state(array(
+               'cents' => 53,
+               'decimalValue' => 3.53,
+               'dollars' => 3,
+               'negative' => false,
+            )),
+          )),
+        ),
+         'unitPrice' => 
+        stdClass::__set_state(array(
+           'cents' => 0,
+           'decimalValue' => 235,
+           'dollars' => 235,
+           'negative' => false,
+        )),
+      )),
+       'recalculatedJurisdictions' => true,
+       'resultType' => 'FULL',
+       'taxes' => 
+      array (
+        0 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '06',
+           'jurisdictionLevel' => 'STATE',
+           'jurisdictionName' => 'California',
+           'effectiveRate' => 0.0625,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 69,
+             'decimalValue' => 14.69,
+             'dollars' => 14,
+             'negative' => false,
+          )),
+        )),
+        1 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037',
+           'jurisdictionLevel' => 'COUNTY',
+           'jurisdictionName' => 'LOS ANGELES',
+           'effectiveRate' => 0.0125,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 94,
+             'decimalValue' => 2.94,
+             'dollars' => 2,
+             'negative' => false,
+          )),
+        )),
+        2 => 
+        stdClass::__set_state(array(
+           'jurisdictionFips' => '037L',
+           'jurisdictionLevel' => 'SPECIAL',
+           'jurisdictionName' => 'DISTRICT TAX (LACT) (LATC), LOS ANGELES',
+           'effectiveRate' => 0.015,
+           'totalTax' => 
+          stdClass::__set_state(array(
+             'cents' => 53,
+             'decimalValue' => 3.53,
+             'dollars' => 3,
+             'negative' => false,
+          )),
+        )),
+      ),
+    )),
+     'totalExemptSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 0,
+       'dollars' => 0,
+       'negative' => false,
+    )),
+     'totalSales' => 
+    stdClass::__set_state(array(
+       'cents' => 0,
+       'decimalValue' => 235,
+       'dollars' => 235,
+       'negative' => false,
+    )),
+     'totalTax' => 
+    stdClass::__set_state(array(
+       'cents' => 15,
+       'decimalValue' => 21.15,
+       'dollars' => 21,
+       'negative' => false,
+    )),
+  )),
+))

@@ -1,0 +1,111 @@
+<?
+	$db->SetTransactionMode("SERIALIZABLE");
+	$db->StartTrans();
+
+	//Get current ord and max ord
+
+	$ord=$db->Execute(
+		sprintf("
+			SELECT
+				ord
+				,parent_id
+			FROM
+				cms_pages
+			WHERE
+				id=%u
+			AND
+				siteid=%u
+			AND
+				deleted=0
+		"
+			,$_POST['pageid']
+			,$session->getValue("siteid")
+		)
+	);
+	if($ord->RecordCount()==0)
+		$db->FailTrans();
+
+	$max=$db->Execute(
+		sprintf("
+			SELECT
+				MAX(ord) AS max
+			FROM
+				cms_pages
+			WHERE
+				parent_id=%u
+			AND
+				siteid=%u
+			AND
+				deleted=0
+		"
+			,$ord->fields['parent_id']
+			,$session->getValue("siteid")
+		)
+	);
+
+	echo $ord->fields['ord']."<br>".$max->fields['max']."<br>";
+	if($ord->fields['ord']<$max->fields['max'])
+	{
+		$getid=$db->Execute(
+			sprintf("
+				SELECT
+					id
+				FROM
+					cms_pages
+				WHERE
+					ord=%u
+				AND
+					parent_id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$ord->fields['ord']+1
+				,$ord->fields['parent_id']
+				,$session->getValue("siteid")
+			)
+		);
+		$db->Execute(
+			sprintf("
+				UPDATE
+					cms_pages
+				SET
+					ord=ord-1
+				WHERE
+					ord=%u
+				AND
+					parent_id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$ord->fields['ord']+1
+				,$ord->fields['parent_id']
+				,$session->getValue("siteid")
+			)
+		);
+
+		$db->Execute(
+			sprintf("
+				UPDATE
+					cms_pages
+				SET
+					ord=ord+1
+				WHERE
+					id=%u
+				AND
+					siteid=%u
+				AND
+					deleted=0
+			"
+				,$_POST['pageid']
+				,$session->getValue("siteid")
+			)
+		);
+
+		$mptt->swap($_POST['pageid'],$getid->fields['id']);
+	}
+	$ok=$db->CompleteTrans();
+?>

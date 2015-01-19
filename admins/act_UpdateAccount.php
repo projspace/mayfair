@@ -1,0 +1,47 @@
+<?
+	$db->SetTransactionMode("SERIALIZABLE");
+	$db->StartTrans();
+	
+	if($_POST['password'])
+		$db->Execute(
+			sprintf("
+				UPDATE
+					admin_accounts
+				SET
+					password=%s
+					,email=%s
+					,group_id=%u
+				WHERE
+					id=%u
+				AND
+					username!='admin'
+			"
+				,$db->Quote($_POST['password'])
+				,$db->Quote($_POST['email'])
+				,$_POST['group_id']
+				,$_POST['account_id']
+			)
+		);
+	else
+		$db->Execute(
+			sprintf("
+				UPDATE
+					admin_accounts
+				SET
+					email=%s
+					,group_id=%u
+				WHERE
+					id=%u
+				AND
+					username!='admin'
+			"
+				,$db->Quote($_POST['email'])
+				,$_POST['group_id']
+				,$_POST['account_id']
+			)
+		);
+		
+	$ok=$db->CompleteTrans();
+	if(!$ok)
+    	error("There was a problem whilst updating the account, please try again.  If this persists please notify your designated support contact","Database Error");
+?>

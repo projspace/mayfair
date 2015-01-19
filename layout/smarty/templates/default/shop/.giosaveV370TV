@@ -1,0 +1,85 @@
+
+{foreach from=$products item=product}
+	<div class="products">
+		<form method="post" action="{$config.dir}add">
+		{$sid_form}
+		<input type="hidden" name="category_id" value="{$category_id}" />
+		<input type="hidden" name="product_id" value="{$product.id}" />
+
+		<div class="title">
+			<h2><a href="{$config.dir}product/category_id/{$category_id}/product_id/{$product.id}{$sid}">{$product.brand_name} {$product.name}</a></h2>
+			<span class="price">
+				&pound;{$product.price|price}
+			</span>
+		</div>
+
+		<div class="body">
+			<div class="image">
+				<a href="{$config.dir}product/category_id/{$category_id}/product_id/{$product.id}{$sid}">
+				{if $product.imagetype!=""}
+					<img src="{$config.dir}images/product/thumbs/{$product.id}.{$product.imagetype}" alt="{$product.name}" />
+				{else}
+					<img src="{$config.dir}images/trans.gif" width="{$config.size.product.thumb.x}" height="{$config.size.product.thumb.x}" alt="No Image" />
+				{/if}
+				</a>
+			</div>
+			<div class="description">
+				{$product.description|strip_tags|truncate:80:"..."}
+			</div>
+			<div class="options">
+				{shop_options values=$option.value prices=$option.price selected=$option.selected}
+			</div>
+			<div class="actions">
+				{if $product_soldout eq 0}
+					<input type="image" class="add" src="{$config.dir}images/addtocart.png" alt="Add to Cart" />
+				{else}
+					Sold Out
+				{/if}
+				<a class="more" title="More Details &gt;" href="{$config.dir}index.php/fuseaction/shop.product/category_id/{$category_id}/product_id/{$product.id}{$sid}"><img src="{$config.dir}images/more.png" width="82" height="22" alt="More Details &gt;" /></a>
+			</div>
+		</div>
+		</form>
+	</div>
+{/foreach}
+
+<!--
+<table class="products" cellpadding="0" cellspacing="0" border="0">
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<th>brand</th>
+			<th>name</th>
+			{foreach from=$category.vars item=var}<th>{$var}</th>{/foreach}
+			<th class="right">price</th>
+			<th class="buttons">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		{foreach from=$products item=product}
+		<tr>
+			<td>{if $product.imagetype!=""}<a href="{$config.dir}index.php/fuseaction/shop.product/category_id/{$category_id}/product_id/{$product.id}{$sid}" title="Product Info"><img src="{$config.dir}images/product/thumbs/{if $product.parent_id>0}{$product.parent_id}{else}{$product.id}{/if}.{$product.imagetype}" alt="{$product.name}" /></a>{/if}</td>
+			<td>{$product.brand_name}</td>
+			<td>{$product.name}</td>
+			{foreach from=$category.vars item=var}<td>{$product.specs|varval:$var}</td>{/foreach}
+			<td align="right">&pound;{$product.price|price}</td>
+			<td>
+				<form method="post" action="{$config.dir}add">
+					{$sid_form}
+					<input type="hidden" name="product_id" value="{$product.id}" />
+					<input type="hidden" name="category_id" value="{$product.category_id}" />
+					<ul class="lifr" style="width: 100px;">
+						{$product.custom|icons}
+					</ul>
+					<br clear="all" />
+					<ul class="actions list3 fr">
+						<li><a href="{$config.dir}index.php/fuseaction/shop.product/category_id/{$category_id}/product_id/{$product.id}{$sid}" title="Product Info"><img src="{$config.dir}layout/templates/partridges/images/icons/product-info.gif" width="15" height="15" alt="Product Info" /></a></li>
+						<li><input type="text" class="quantity" value="1" name="quantity" /></li>
+						<li class="nom"><input class="image" type="image" src="{$config.dir}layout/templates/partridges/images/icons/add-2-basket.gif" name="add2basket" value="add2basket" alt="Add to Basket" title="Add to Basket" /></li>
+					</ul>
+				</form>
+			</td>
+		</tr>
+		{/foreach}
+	</tbody>
+</table>
+-->

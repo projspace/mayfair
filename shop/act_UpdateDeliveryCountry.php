@@ -1,0 +1,15 @@
+<?
+	$db->Execute(
+		sprintf("
+			UPDATE
+				shop_sessions
+			SET
+				delivery_country_id=%u
+			WHERE
+				session_id=%s
+		"
+			,$_POST['country_id']
+			,$db->Quote($session->session_id)
+		)
+	);
+?>

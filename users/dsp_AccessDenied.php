@@ -1,0 +1,2 @@
+<span class="siteTitle">Sorry, you do not have access to this page</span>
+<p>Theres been a problem logging you in, please check your username/password and <a href="<?= $config["dir"] ?>login">try again</a>.</p>

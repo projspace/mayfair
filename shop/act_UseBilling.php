@@ -1,0 +1,31 @@
+<?
+	$db->Execute(
+		sprintf("
+			UPDATE
+				shop_sessions
+			SET
+				billing_name=%s
+				,billing_email=%s
+				,billing_phone=%s
+				,billing_line1=%s
+				,billing_line2=%s
+				,billing_line3=%s
+				,billing_line4=%s
+				,billing_postcode=%s
+				,billing_country_id=%u
+			WHERE
+				session_id=%s
+		"
+			,$db->Quote(safe($_REQUEST['name']))
+			,$db->Quote(safe($_REQUEST['email']))
+			,$db->Quote(safe($_REQUEST['phone']))
+			,$db->Quote(safe($_REQUEST['line1']))
+			,$db->Quote(safe($_REQUEST['line2']))
+			,$db->Quote(safe($_REQUEST['line3']))
+			,$db->Quote(safe($_REQUEST['line4']))
+			,$db->Quote(safe($_REQUEST['postcode']))
+			,safe($_REQUEST['country_id'])
+			,$db->Quote($session->session_id)
+		)
+	);
+?>

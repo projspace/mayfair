@@ -1,0 +1,178 @@
+/* andreas08 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use in any way and for any purpose as long as the proper credits are given to the original designer. Version: 1.0, November 28, 2005 */
+
+/**************** Body and tag styles ****************/
+
+/**{margin:0; padding:0;}*/
+
+body{
+	font:76% Verdana,Tahoma,Arial,sans-serif;
+	line-height:1.4em;
+	text-align:center;
+	color:#303030;
+	background:#e8eaec;
+}
+
+a{
+	color:#467aa7;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:inherit;
+}
+
+a:hover{color:#2a5a8a; text-decoration:none; background-color:inherit;}
+
+p{padding:0 0 1.6em 0;}
+
+/**************** Header and navigation styles ****************/
+
+#container{
+	width:760px;
+	margin:20px auto;
+	padding:1px 0;
+	text-align:left;
+	background:#ffffff;
+	color:#303030;
+	border:2px solid #a0a0a0;
+}
+
+#header{
+	height:110px;
+	width:758px;
+	margin:0 1px 1px 1px;
+	padding: 0px;
+	background:#467aa7;
+	color:#ffffff;
+}
+
+#header h1{
+	padding:35px 0 0 20px;
+	margin: 0px;
+	font-size:2.4em;
+	background-color:inherit;
+	color:#ffffff;
+	letter-spacing:-2px;
+	font-weight:normal;
+}
+
+#header h2{
+	margin:10px 0 0 40px;
+	padding: 0px;
+	font-size:1.4em;
+	background-color:inherit;
+	color:#f0f2f4;
+	letter-spacing:-1px;
+	font-weight:normal;
+}
+
+#navigation{
+	height:2.2em;
+	line-height:2.2em;
+	width:758px;
+	margin:0 1px;
+	padding: 0px;
+	background:#578bb8;
+	color:#ffffff;
+}
+
+#navigation ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navigation li{
+	float:left;
+	list-style-type:none;
+	border-right:1px solid #ffffff;
+	white-space:nowrap;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navigation li a{
+	display:block;
+	padding:0 10px;
+	font-size:0.8em;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-decoration:none;
+	background-color:inherit;
+	color: #ffffff;
+}
+
+#breadcrumb {
+	padding: 5px 5px 5px 10px;
+	font-size: 0.8em;
+}
+
+* html #navigation a {width:1%;}
+
+#navigation .selected,#navigation a:hover{
+	background:#80b0da;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/**************** Content styles ****************/
+
+#content{
+	float:right;
+	width:570px;
+	font-size:0.9em;
+	padding:0 1px 10px 10px;
+}
+
+#content h2{
+	display:block;
+	margin:0 0 10px 0;
+	font-size:1.7em;
+	font-weight:normal;
+	letter-spacing:-1px;
+	color:#505050;
+	background-color:inherit;
+}
+
+#content p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/**************** Sidebar styles ****************/
+
+#sidebar{
+	float:left;
+	width:170px;
+	padding:0px 0 10px 1px;
+	line-height:1.4em;
+}
+
+#sidebar h2{
+	display:block;
+	margin:0 0 2px 0;
+	padding: 2px 0px 2px 5px;
+	font-size:1em;
+	font-weight:bold;
+	text-align:left;
+	letter-spacing:-1px;
+	color:#FFFFFF;
+	background-color:#467AA7;
+}
+
+#sidebar ul.categorynav {
+	margin: 0 0 10px 20px;
+	padding: 0px;
+}
+
+/**************** Footer styles ****************/
+
+#footer{
+	clear:both;
+	width:758px;
+	padding:5px 0;
+	margin:0 1px;
+	font-size:0.9em;
+	color:#f0f0f0;
+	background:#467aa7;
+}
+
+#footer p{padding:0; margin:0; text-align:center;}
+#footer a{color:#f0f0f0; background-color:inherit; font-weight:bold;}
+#footer a:hover{color:#ffffff; background-color:inherit; text-decoration: underline;}
+
