@@ -25,4 +25,4 @@ cache/temp/*
 debug*.txt
 
 # Configuration files
-lib/cfg_Config.php
+docroot/lib/cfg_Config.php
