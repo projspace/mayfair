@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Module for continuous integration.
+ */
+
+/**
+ * Helper function for reverting feature.
+ */
+function mayfair_util_features_revert($modules) {
+  module_load_include('inc', 'features', 'features.export');
+  features_include();
+  foreach ($modules as $module) {
+    $components = array();
+    if (($feature = feature_load($module, TRUE)) && module_exists($module)) {
+      // Forcefully revert all components of a feature.
+      foreach (array_keys($feature->info['features']) as $component) {
+        if (features_hook($component, 'features_revert')) {
+          $components[] = $component;
+        }
+      }
+    }
+    foreach ($components as $component) {
+      features_revert(array($module => array($component)));
+    }
+  }
+}

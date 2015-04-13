@@ -1,0 +1,4 @@
+name = Mayfair Updates
+description = Module for continous integration.
+core = 7.x
+package = Mayfair
