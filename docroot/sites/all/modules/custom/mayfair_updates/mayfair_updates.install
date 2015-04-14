@@ -3,3 +3,12 @@
  * @file
  * Install, update and uninstall functions for global functions.
  */
+
+/**
+ * Enable/disable modules.
+ */
+function mayfair_updates_update_7001() {
+  module_enable(array('email_registration'));
+  module_disable(array('profiler_builder'));
+  cache_clear_all();
+}
