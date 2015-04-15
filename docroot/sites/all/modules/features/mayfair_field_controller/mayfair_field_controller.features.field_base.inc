@@ -341,6 +341,25 @@ function mayfair_field_controller_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_mailchimp'
+  $field_bases['field_mailchimp'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_mailchimp',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'mailchimp_lists',
+    'settings' => array(
+      'double_opt_in' => 0,
+      'mc_list_id' => 'c6d4e817b0',
+      'send_welcome' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'mailchimp_lists_subscription',
+  );
+
   // Exported field_base: 'field_tags'
   $field_bases['field_tags'] = array(
     'active' => 1,
