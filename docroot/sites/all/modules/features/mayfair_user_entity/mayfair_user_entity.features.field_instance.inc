@@ -151,7 +151,7 @@ function mayfair_user_entity_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_mailchimp',
     'label' => 'Newsletter subscription',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'interest_groups_title' => 'Interest Groups',
       'mergefields' => array(
