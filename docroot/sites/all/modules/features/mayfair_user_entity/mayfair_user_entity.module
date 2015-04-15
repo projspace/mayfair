@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mayfair User Entity feature.
+ */
+
+include_once 'mayfair_user_entity.features.inc';

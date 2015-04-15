@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mayfair_field_controller.features.field_instance.inc
+ * mayfair_user_entity.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function mayfair_field_controller_field_default_field_instances() {
+function mayfair_user_entity_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'user-user-field_dob'
