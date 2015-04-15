@@ -1,0 +1,14 @@
+name = Mayfair Field Controller
+description = Field instances of Mayfair.
+core = 7.x
+package = Mayfair
+dependencies[] = date
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = user-user-field_dob
+features[field_instance][] = user-user-field_fname
+features[field_instance][] = user-user-field_lname
+features_exclude[field_base][field_fname] = field_fname
+features_exclude[field_base][field_lname] = field_lname
+features_exclude[field_base][field_dob] = field_dob
