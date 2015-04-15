@@ -13,6 +13,7 @@ function mayfair_user_entity_field_default_field_instances() {
   // Exported field_instance: 'user-user-field_dob'
   $field_instances['user-user-field_dob'] = array(
     'bundle' => 'user',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -52,7 +53,7 @@ function mayfair_user_entity_field_default_field_instances() {
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 4,
     ),
   );
