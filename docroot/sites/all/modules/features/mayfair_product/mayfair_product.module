@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mayfair Product feature.
+ */
+
+include_once 'mayfair_product.features.inc';

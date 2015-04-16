@@ -1,0 +1,16 @@
+name = Mayfair Customer
+description = Mayfair customer related features.
+core = 7.x
+package = Mayfair
+dependencies[] = addressfield
+dependencies[] = commerce_customer
+dependencies[] = commerce_customer_ui
+dependencies[] = commerce_features
+dependencies[] = commerce_shipping
+dependencies[] = features
+dependencies[] = mayfair_field_controller
+features[commerce_customer_type][] = billing
+features[commerce_customer_type][] = shipping
+features[features_api][] = api:2
+features[field_instance][] = commerce_customer_profile-billing-commerce_customer_address
+features[field_instance][] = commerce_customer_profile-shipping-commerce_customer_address

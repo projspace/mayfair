@@ -52,6 +52,30 @@ function mayfair_field_controller_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'commerce_cardonfile_profile'
+  $field_bases['commerce_cardonfile_profile'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(
+      0 => 'commerce_cardonfile',
+    ),
+    'field_name' => 'commerce_cardonfile_profile',
+    'indexes' => array(
+      'profile_id' => array(
+        0 => 'profile_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'commerce_customer',
+    'settings' => array(
+      'options_list_limit' => 50,
+      'profile_type' => 'billing',
+    ),
+    'translatable' => 0,
+    'type' => 'commerce_customer_profile_reference',
+  );
+
   // Exported field_base: 'commerce_customer_address'
   $field_bases['commerce_customer_address'] = array(
     'active' => 1,
@@ -88,6 +112,30 @@ function mayfair_field_controller_field_default_field_bases() {
     'settings' => array(
       'options_list_limit' => 50,
       'profile_type' => 'billing',
+    ),
+    'translatable' => 0,
+    'type' => 'commerce_customer_profile_reference',
+  );
+
+  // Exported field_base: 'commerce_customer_shipping'
+  $field_bases['commerce_customer_shipping'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(
+      0 => 'commerce_order',
+    ),
+    'field_name' => 'commerce_customer_shipping',
+    'indexes' => array(
+      'profile_id' => array(
+        0 => 'profile_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'commerce_customer',
+    'settings' => array(
+      'options_list_limit' => 50,
+      'profile_type' => 'shipping',
     ),
     'translatable' => 0,
     'type' => 'commerce_customer_profile_reference',
@@ -204,6 +252,30 @@ function mayfair_field_controller_field_default_field_bases() {
     'type' => 'commerce_product_reference',
   );
 
+  // Exported field_base: 'commerce_shipping_service'
+  $field_bases['commerce_shipping_service'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(
+      0 => 'commerce_line_item',
+    ),
+    'field_name' => 'commerce_shipping_service',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 1,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(),
+      'allowed_values_function' => 'commerce_shipping_service_options_list',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'commerce_total'
   $field_bases['commerce_total'] = array(
     'active' => 1,
@@ -246,6 +318,84 @@ function mayfair_field_controller_field_default_field_bases() {
     'settings' => array(),
     'translatable' => 0,
     'type' => 'commerce_price',
+  );
+
+  // Exported field_base: 'field_brand'
+  $field_bases['field_brand'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_brand',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'brands',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_category'
+  $field_bases['field_category'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_category',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'category',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_color'
+  $field_bases['field_color'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_color',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'color',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
   );
 
   // Exported field_base: 'field_dob'
@@ -360,13 +510,34 @@ function mayfair_field_controller_field_default_field_bases() {
     'type' => 'mailchimp_lists_subscription',
   );
 
-  // Exported field_base: 'field_tags'
-  $field_bases['field_tags'] = array(
+  // Exported field_base: 'field_product'
+  $field_bases['field_product'] = array(
     'active' => 1,
     'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_tags',
+    'field_name' => 'field_product',
+    'indexes' => array(
+      'product_id' => array(
+        0 => 'product_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'commerce_product_reference',
+    'settings' => array(
+      'options_list_limit' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'commerce_product_reference',
+  );
+
+  // Exported field_base: 'field_size'
+  $field_bases['field_size'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_size',
     'indexes' => array(
       'tid' => array(
         0 => 'tid',
@@ -377,7 +548,7 @@ function mayfair_field_controller_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'tags',
+          'vocabulary' => 'size',
           'parent' => 0,
         ),
       ),

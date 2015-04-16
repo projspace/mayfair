@@ -1,0 +1,16 @@
+name = Mayfair Product
+description = Mayfair product entity.
+core = 7.x
+package = Mayfair
+dependencies[] = commerce_features
+dependencies[] = commerce_price
+dependencies[] = commerce_product_ui
+dependencies[] = features
+dependencies[] = mayfair_field_controller
+dependencies[] = options
+dependencies[] = taxonomy
+features[commerce_product_type][] = product
+features[features_api][] = api:2
+features[field_instance][] = commerce_product-product-commerce_price
+features[field_instance][] = commerce_product-product-field_color
+features[field_instance][] = commerce_product-product-field_size
