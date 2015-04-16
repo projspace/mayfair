@@ -4,11 +4,22 @@
  * Install, update and uninstall functions for global functions.
  */
 
+module_load_include('module', 'mayfair_updates');
+
 /**
  * Enable/disable modules.
  */
 function mayfair_updates_update_7001() {
   module_enable(array('email_registration'));
   module_disable(array('profiler_builder'));
+  cache_clear_all();
+}
+
+/**
+ * Features enable & revert.
+ */
+function mayfair_updates_update_7002() {
+  module_enable(array('mayfair_field_controller', 'mayfair_user_entity'));
+  mayfair_util_features_revert(array('mayfair_field_controller', 'mayfair_user_entity'));
   cache_clear_all();
 }
