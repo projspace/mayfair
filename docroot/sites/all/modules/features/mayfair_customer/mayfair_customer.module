@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Mayfair Customer feature.
  */
+
+include_once 'mayfair_customer.features.inc';
