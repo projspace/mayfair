@@ -118,7 +118,11 @@ function mayfair_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    ''
+    'mayfair_field_controller',
+    'mayfair_customer',
+    'mayfair_product',
+    'mayfair_product_display',
+    'mayfair_user_entity'
   );
   features_revert($features);
   // ignore any rebuild messages
