@@ -24,6 +24,7 @@ features[field_instance][] = user-user-field_dob
 features[field_instance][] = user-user-field_fname
 features[field_instance][] = user-user-field_lname
 features[field_instance][] = user-user-field_mailchimp
+features[field_instance][] = user-user-field_phone
 features[filter][] = mailchimp_campaign
 features[variable][] = legal_display
 features[variable][] = mailchimp_api_key

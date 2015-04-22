@@ -37,6 +37,7 @@ features[field_base][] = field_fname
 features[field_base][] = field_image
 features[field_base][] = field_lname
 features[field_base][] = field_mailchimp
+features[field_base][] = field_phone
 features[field_base][] = field_product
 features[field_base][] = field_size
 features[taxonomy][] = brands
