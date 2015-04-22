@@ -96,38 +96,72 @@ function mayfair_product_display_strongarm() {
       'display' => array(
         'product:sku' => array(
           'default' => array(
+            'weight' => '6',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
             'weight' => '5',
             'visible' => FALSE,
           ),
         ),
         'product:title' => array(
           'default' => array(
+            'weight' => '7',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
             'weight' => '6',
             'visible' => FALSE,
           ),
         ),
         'product:status' => array(
           'default' => array(
-            'weight' => '9',
+            'weight' => '10',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
+            'weight' => '10',
             'visible' => FALSE,
           ),
         ),
         'product:commerce_price' => array(
           'default' => array(
-            'weight' => '1',
+            'weight' => '2',
+            'visible' => TRUE,
+          ),
+          'teaser' => array(
+            'weight' => '2',
             'visible' => TRUE,
           ),
         ),
         'product:field_color' => array(
           'default' => array(
-            'weight' => '7',
+            'weight' => '8',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
+            'weight' => '3',
             'visible' => FALSE,
           ),
         ),
         'product:field_size' => array(
           'default' => array(
-            'weight' => '8',
+            'weight' => '9',
             'visible' => FALSE,
+          ),
+          'teaser' => array(
+            'weight' => '4',
+            'visible' => FALSE,
+          ),
+        ),
+        'product:field_image' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'teaser' => array(
+            'weight' => '0',
+            'visible' => TRUE,
           ),
         ),
       ),
