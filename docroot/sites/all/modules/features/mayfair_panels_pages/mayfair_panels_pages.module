@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mayfair Panels Pages feature.
+ */
+
+include_once 'mayfair_panels_pages.features.inc';
