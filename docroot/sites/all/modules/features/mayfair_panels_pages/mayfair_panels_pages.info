@@ -1,0 +1,12 @@
+name = Mayfair Panels Pages
+description = Feature for Mayfair panels pages.
+core = 7.x
+package = Mayfair
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = panels
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = panels:layouts:1
+features[features_api][] = api:2
+features[page_manager_pages][] = home
+features[panels_layout][] = 3_region_stack

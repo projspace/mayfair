@@ -1,6 +1,6 @@
 ; Packaging information for mayfair
 name = "Mayfair"
-description = "Mayfair profile with Drupal commerce(with required modules), features, mayfair_updates."
+description = "Mayfair profile."
 exclusive = "1"
 core = "7.x"
 ; ----------
@@ -33,6 +33,13 @@ dependencies[] = commerce_product_pricing_ui
 dependencies[] = commerce_product_reference
 dependencies[] = commerce_product_ui
 dependencies[] = commerce_ui
+; Commerce (contrib)
+dependencies[] = commerce_authnet
+dependencies[] = commerce_cardonfile
+; Commerce (shipping)
+dependencies[] = commerce_shipping
+; Commerce Product Enhancements
+dependencies[] = commerce_product_attributes
 ; Core
 dependencies[] = block
 dependencies[] = color
@@ -60,23 +67,146 @@ dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
 ; Development
 dependencies[] = profiler_builder
 ; Fields
 dependencies[] = addressfield
+; MailChimp
+dependencies[] = mailchimp
+dependencies[] = mailchimp_activity
+dependencies[] = mailchimp_campaign
+dependencies[] = mailchimp_lists
+dependencies[] = mailchimp_signup
 ; Mayfair
 dependencies[] = mayfair_updates
 ; Other
+dependencies[] = email_registration
 dependencies[] = entity
 dependencies[] = entity_token
+dependencies[] = legal
+dependencies[] = libraries
 dependencies[] = pathauto
+dependencies[] = strongarm
 dependencies[] = token
 ; Rules
 dependencies[] = rules
 dependencies[] = rules_admin
+; Testing
+dependencies[] = commerce_cardonfile_testing
 ; Views
 dependencies[] = views
 dependencies[] = views_ui
 ; Features
 dependencies[] = features
+dependencies[] = commerce_features
+dependencies[] = mayfair_customer
+dependencies[] = mayfair_field_controller
+dependencies[] = mayfair_product
+dependencies[] = mayfair_product_display
+dependencies[] = mayfair_user_entity
+
+; ----------
+; Variables
+; ----------
+variables[additional_settings__active_tab_product] = 'edit-submission'
+variables[admin_theme] = 'seven'
+variables[anonymous] = 'Anonymous'
+variables[cache_class_cache_ctools_css] = 'CToolsCssCache'
+variables[comment_default_mode_product] = 1
+variables[comment_default_per_page_product] = '50'
+variables[comment_form_location_product] = 1
+variables[comment_preview_product] = '1'
+variables[comment_product] = '1'
+variables[comment_subject_field_product] = 1
+variables[commerce_customer_profile_billing_field] = 'commerce_customer_billing'
+variables[commerce_customer_profile_billing_profile_copy] = 1
+variables[commerce_customer_profile_billing_profile_copy_default] = 1
+variables[commerce_customer_profile_billing_profile_copy_source] = 'shipping'
+variables[commerce_customer_profile_shipping_field] = 'commerce_customer_shipping'
+variables[configurable_timezones] = 1
+variables[date_api_version] = '7.2'
+variables[date_default_timezone] = 'America/Adak'
+variables[date_first_day] = '1'
+variables[date_views_day_format_without_year] = 'l, F j'
+variables[date_views_day_format_with_year] = 'l, F j, Y'
+variables[date_views_month_format_without_year] = 'F'
+variables[date_views_month_format_with_year] = 'F Y'
+variables[date_views_week_format_without_year] = 'F j'
+variables[date_views_week_format_with_year] = 'F j, Y'
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][sku][weight] = '0'
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][title][weight] = '1'
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][status][weight] = '5'
+variables[field_bundle_settings_node__product][view_modes][teaser][custom_settings] = true
+variables[field_bundle_settings_node__product][view_modes][full][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][rss][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][search_index][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][search_result][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][token][custom_settings] = false
+variables[field_bundle_settings_node__product][extra_fields][form][title][weight] = '0'
+variables[field_bundle_settings_node__product][extra_fields][form][path][weight] = '5'
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][default][weight] = '5'
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][default][weight] = '6'
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][default][weight] = '9'
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][default][weight] = '1'
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][default][visible] = true
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][default][weight] = '7'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][default][weight] = '8'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][default][visible] = false
+variables[field_bundle_settings_user__user][extra_fields][form][account][weight] = '2'
+variables[field_bundle_settings_user__user][extra_fields][form][timezone][weight] = '3'
+variables[filter_fallback_format] = 'plain_text'
+variables[legal_display] = '3'
+variables[mailchimp_api_key] = 'ea3b07ea634bdc9a3654a2bed869999e-us10'
+variables[mailchimp_batch_limit] = '100'
+variables[menu_parent_product] = 'main-menu:0'
+variables[module_filter_recent_modules][date] = 1429076304
+variables[module_filter_recent_modules][date_api] = 1429076304
+variables[module_filter_recent_modules][date_popup] = 1429076304
+variables[module_filter_recent_modules][date_views] = 1429076304
+variables[module_filter_recent_modules][legal] = 1429076793
+variables[module_filter_recent_modules][strongarm] = 1429077631
+variables[module_filter_recent_modules][libraries] = 1429087161
+variables[module_filter_recent_modules][mailchimp] = 1429087190
+variables[module_filter_recent_modules][mailchimp_activity] = 1429087190
+variables[module_filter_recent_modules][mailchimp_campaign] = 1429087190
+variables[module_filter_recent_modules][mailchimp_lists] = 1429087190
+variables[module_filter_recent_modules][mailchimp_signup] = 1429087190
+variables[module_filter_recent_modules][commerce_authnet] = 1429186317
+variables[module_filter_recent_modules][commerce_cardonfile] = 1429186317
+variables[module_filter_recent_modules][commerce_product_attributes] = 1429186317
+variables[module_filter_recent_modules][commerce_features] = 1429186317
+variables[module_filter_recent_modules][commerce_cardonfile_testing] = 1429186317
+variables[module_filter_recent_modules][commerce_shipping_ui] = 1429186630
+variables[module_filter_recent_modules][commerce_shipping] = 1429186682
+variables[module_filter_recent_modules][profiler_builder] = 1429522703
+variables[node_admin_theme] = '1'
+variables[node_options_page][0] = 'status'
+variables[node_options_product][0] = 'status'
+variables[node_preview_product] = '1'
+variables[pathauto_blog_pattern] = 'blogs/[user:name]'
+variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_node_pattern] = 'content/[node:title]'
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_user_pattern] = 'users/[user:name]'
+variables[path_alias_whitelist][node] = true
+variables[path_alias_whitelist][taxonomy] = true
+variables[save_continue_product] = 'Save and add fields'
+variables[theme_default] = 'bartik'
+variables[user_cancel_method] = 'user_cancel_block'
+variables[user_default_timezone] = '0'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_path] = 'pictures'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = '1'
 

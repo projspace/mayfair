@@ -1,0 +1,52 @@
+From d115084de01f271fef710988e3e641fe2d9fe54f Mon Sep 17 00:00:00 2001
+From: Kristiaan Van den Eynde <magentix@gmail.com>
+Date: Mon, 29 Sep 2014 14:14:31 +0200
+Subject: [PATCH] Issue #2112755 by kristiaanvandeneynde, phenaproxima, ofry,
+ ruscoe: Fixed Call to a member function label() on a
+ non-object.
+
+---
+ entity.module |   20 ++++++++++++--------
+ 1 file changed, 12 insertions(+), 8 deletions(-)
+
+diff --git a/entity.module b/entity.module
+index d4a882c..215b708 100644
+--- a/entity.module
++++ b/entity.module
+@@ -184,8 +184,17 @@ function entity_ui_entity_page_view($entity) {
+  * Gets the page title for the passed operation.
+  */
+ function entity_ui_get_page_title($op, $entity_type, $entity = NULL) {
+-  module_load_include('inc', 'entity', 'includes/entity.ui');
+-  $label = entity_label($entity_type, $entity);
++  if (isset($entity)) {
++    module_load_include('inc', 'entity', 'includes/entity.ui');
++    $label = entity_label($entity_type, $entity);
++    list(, , $bundle) = entity_extract_ids($entity_type, $entity);
++  }
++  else {
++    $info = entity_get_info($entity_type);
++    $label = $info['label'];
++    $bundle = NULL;
++  }
++
+   switch ($op) {
+     case 'view':
+       return $label;
+@@ -200,12 +209,7 @@ function entity_ui_get_page_title($op, $entity_type, $entity = NULL) {
+     case 'export':
+       return t('Export @label', array('@label' => $label));
+   }
+-  if (isset($entity)) {
+-    list(, , $bundle) = entity_extract_ids($entity_type, $entity);
+-  }
+-  else {
+-    $bundle = NULL;
+-  }
++
+   return entity_ui_get_action_title($op, $entity_type, $bundle);
+ }
+ 
+-- 
+1.7.9.4
+

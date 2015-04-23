@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mayfair Product CT feature.
+ */
+
+include_once 'mayfair_product_display.features.inc';
