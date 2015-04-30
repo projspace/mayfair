@@ -1,0 +1,91 @@
+<?php
+/**
+ * @file
+ * Module for custom blocks preserved in code.
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+function mayfair_blocks_block_info() {
+  $blocks = array();
+
+  $blocks['top_links'] = array(
+    'info' => t('Top Links'),
+  );
+  $blocks['customer_service'] = array(
+    'info' => t('Customer Service'),
+  );
+  $blocks['online_order'] = array(
+    'info' => t('Online Order Services'),
+  );
+  $blocks['about_mayfair'] = array(
+    'info' => t('About Mayfair House'),
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function mayfair_blocks_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'top_links':
+      $block['subject'] = '';
+      $block['content'] = _top_links();
+      break;
+    case 'customer_service':
+      $block['subject'] = 'Customer Service';
+      $block['content'] = _customer_service_links();
+      break;
+    case 'online_order':
+      $block['subject'] = 'Online Order Services';
+      $block['content'] = _online_service_links();
+      break;
+    case 'about_mayfair':
+      $block['subject'] = 'About Mayfair House';
+      $block['content'] = _about_mayfair_links();
+      break;
+  }
+
+  return $block;
+}
+
+function _top_links() {
+  $output = "<li><ul><a href=''>Home</a></ul>";
+  $output .= "<ul><a href=''>Corporate Gifts</a></ul>";
+  $output .= "<ul><a href=''>Gift & Bridal Registry</a></ul>";
+  $output .= "<ul><a class= 'ctools-use-modal ctools-modal-modal-popup-medium' href= 'modal_forms/nojs/register'>Sign Up</a></ul>";
+  $output .= "<ul><a class= 'ctools-use-modal ctools-modal-modal-popup-small' href= 'modal_forms/nojs/login'>Login</a></ul></li>";
+
+  return $output;
+}
+
+function _customer_service_links() {
+  $output = "<li><ul>888-280-1988</ul>";
+  $output .= "<ul><a href=''>Contact Us</a></ul>";
+  $output .= "<ul><a href=''>Store Location</a></ul>";
+  $output .= "<ul><a href=''>Gift Registry</a></ul></li>";
+
+  return $output;
+}
+
+function _online_service_links() {
+  $output = "<ul><a href='cart'>My Cart</a></ul>";
+  $output .= "<ul><a href=''>Gift Cards</a></ul>";
+  $output .= "<ul><a href=''>International Visitors</a></ul></li>";
+
+  return $output;
+}
+
+function _about_mayfair_links() {
+  $output = "<li><ul><a href=''>Terms & Conditions</a></ul>";
+  $output .= "<ul><a href=''>Privacy Policy</a></ul>";
+  $output .= "<ul><a href=''>Shipping Policy</a></ul>";
+  $output .= "<ul><a href=''>Return Policy</a></ul></li>";
+
+  return $output;
+}
