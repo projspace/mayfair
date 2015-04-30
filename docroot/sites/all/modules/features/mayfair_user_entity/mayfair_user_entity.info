@@ -7,7 +7,6 @@ dependencies[] = date
 dependencies[] = email_registration
 dependencies[] = features
 dependencies[] = filter
-dependencies[] = legal
 dependencies[] = mailchimp
 dependencies[] = mailchimp_activity
 dependencies[] = mailchimp_campaign

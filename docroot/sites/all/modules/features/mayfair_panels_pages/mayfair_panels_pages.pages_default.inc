@@ -5,6 +5,113 @@
  */
 
 /**
+ * Implements hook_default_page_manager_handlers().
+ */
+function mayfair_panels_pages_default_page_manager_handlers() {
+  $export = array();
+
+  $handler = new stdClass();
+  $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
+  $handler->api_version = 1;
+  $handler->name = 'site_template__homepage';
+  $handler->task = 'site_template';
+  $handler->subtask = '';
+  $handler->handler = 'panel_context';
+  $handler->weight = 0;
+  $handler->conf = array(
+    'title' => 'Homepage',
+    'no_blocks' => 0,
+    'pipeline' => 'standard',
+    'body_classes_to_remove' => '',
+    'body_classes_to_add' => '',
+    'css_id' => '',
+    'css' => '',
+    'contexts' => array(),
+    'relationships' => array(),
+    'name' => 'homepage',
+    'access' => array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'front',
+          'settings' => NULL,
+          'not' => FALSE,
+        ),
+      ),
+      'logic' => 'and',
+    ),
+  );
+  $display = new panels_display();
+  $display->layout = 'twocol_stacked';
+  $display->layout_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'top' => NULL,
+      'left' => NULL,
+      'right' => NULL,
+      'bottom' => NULL,
+    ),
+  );
+  $display->cache = array();
+  $display->title = '';
+  $display->uuid = 'e1bd3aa4-798c-4cbd-8b1e-5c82345baec7';
+  $display->content = array();
+  $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-25af7dd2-7c84-4fe9-a6a7-906cf6768957';
+    $pane->panel = 'bottom';
+    $pane->type = 'panels_mini';
+    $pane->subtype = 'footer';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '25af7dd2-7c84-4fe9-a6a7-906cf6768957';
+    $display->content['new-25af7dd2-7c84-4fe9-a6a7-906cf6768957'] = $pane;
+    $display->panels['bottom'][0] = 'new-25af7dd2-7c84-4fe9-a6a7-906cf6768957';
+    $pane = new stdClass();
+    $pane->pid = 'new-ad85fbd8-3b2d-4ac9-8e24-db3f499e57d8';
+    $pane->panel = 'top';
+    $pane->type = 'panels_mini';
+    $pane->subtype = 'header';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'ad85fbd8-3b2d-4ac9-8e24-db3f499e57d8';
+    $display->content['new-ad85fbd8-3b2d-4ac9-8e24-db3f499e57d8'] = $pane;
+    $display->panels['top'][0] = 'new-ad85fbd8-3b2d-4ac9-8e24-db3f499e57d8';
+  $display->hide_title = PANELS_TITLE_NONE;
+  $display->title_pane = 'new-ad85fbd8-3b2d-4ac9-8e24-db3f499e57d8';
+  $handler->conf['display'] = $display;
+  $export['site_template__homepage'] = $handler;
+
+  return $export;
+}
+
+/**
  * Implements hook_default_page_manager_pages().
  */
 function mayfair_panels_pages_default_page_manager_pages() {
