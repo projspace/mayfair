@@ -182,14 +182,14 @@ function mayfair_panels_pages_default_panels_mini() {
     $display->content['new-4c4d225f-349f-4cb0-b557-796acd142dde'] = $pane;
     $display->panels['right'][0] = 'new-4c4d225f-349f-4cb0-b557-796acd142dde';
     $pane = new stdClass();
-    $pane->pid = 'new-d1d1c77a-1057-4c75-b9d3-b203126fef3b';
+    $pane->pid = 'new-ba44396d-17d8-425c-984c-a38c079b99b5';
     $pane->panel = 'top';
     $pane->type = 'block';
-    $pane->subtype = 'block-1';
+    $pane->subtype = 'mayfair_blocks-top_links';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_title' => 1,
+      'override_title' => 0,
       'override_title_text' => '',
       'override_title_heading' => 'h2',
     );
@@ -201,9 +201,9 @@ function mayfair_panels_pages_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = 'd1d1c77a-1057-4c75-b9d3-b203126fef3b';
-    $display->content['new-d1d1c77a-1057-4c75-b9d3-b203126fef3b'] = $pane;
-    $display->panels['top'][0] = 'new-d1d1c77a-1057-4c75-b9d3-b203126fef3b';
+    $pane->uuid = 'ba44396d-17d8-425c-984c-a38c079b99b5';
+    $display->content['new-ba44396d-17d8-425c-984c-a38c079b99b5'] = $pane;
+    $display->panels['top'][0] = 'new-ba44396d-17d8-425c-984c-a38c079b99b5';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $mini->display = $display;
