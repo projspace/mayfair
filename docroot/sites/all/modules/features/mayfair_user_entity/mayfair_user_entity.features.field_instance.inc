@@ -40,7 +40,7 @@ function mayfair_user_entity_field_default_field_instances() {
       'default_value2' => 'same',
       'default_value_code' => '',
       'default_value_code2' => '',
-      'user_register_form' => 1,
+      'user_register_form' => 0,
     ),
     'widget' => array(
       'active' => 1,
@@ -51,9 +51,9 @@ function mayfair_user_entity_field_default_field_instances() {
         'input_format_custom' => '',
         'label_position' => 'above',
         'text_parts' => array(),
-        'year_range' => '-3:+3',
+        'year_range' => '1930:-15',
       ),
-      'type' => 'date_select',
+      'type' => 'date_popup',
       'weight' => 2,
     ),
   );
@@ -76,10 +76,10 @@ function mayfair_user_entity_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_fname',
     'label' => 'First Name',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
-      'user_register_form' => 1,
+      'user_register_form' => 0,
     ),
     'widget' => array(
       'active' => 1,
@@ -110,10 +110,10 @@ function mayfair_user_entity_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_lname',
     'label' => 'Last Name',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
-      'user_register_form' => 1,
+      'user_register_form' => 0,
     ),
     'widget' => array(
       'active' => 1,
@@ -131,7 +131,7 @@ function mayfair_user_entity_field_default_field_instances() {
     'bundle' => 'user',
     'default_value' => array(
       0 => array(
-        'subscribe' => 0,
+        'subscribe' => 1,
       ),
     ),
     'deleted' => 0,
@@ -194,10 +194,10 @@ function mayfair_user_entity_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_phone',
     'label' => 'Phone',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'text_processing' => 0,
-      'user_register_form' => 1,
+      'user_register_form' => 0,
     ),
     'widget' => array(
       'active' => 1,
