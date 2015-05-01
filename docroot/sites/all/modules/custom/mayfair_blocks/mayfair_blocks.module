@@ -12,15 +12,19 @@ function mayfair_blocks_block_info() {
 
   $blocks['top_links'] = array(
     'info' => t('Top Links'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
   );
   $blocks['customer_service'] = array(
     'info' => t('Customer Service'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
   );
   $blocks['online_order'] = array(
     'info' => t('Online Order Services'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
   );
   $blocks['about_mayfair'] = array(
     'info' => t('About Mayfair House'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
   );
 
   return $blocks;
@@ -55,7 +59,6 @@ function mayfair_blocks_block_view($delta = '') {
 }
 
 function _top_links() {
-
   $output = "<li><ul><a href=''>Home</a></ul>";
   $output .= "<ul><a href=''>Corporate Gifts</a></ul>";
   $output .= "<ul><a href=''>Gift & Bridal Registry</a></ul>";
@@ -66,7 +69,6 @@ function _top_links() {
 }
 
 function _customer_service_links() {
-
   $output = "<li><ul>888-280-1988</ul>";
   $output .= "<ul><a href=''>Contact Us</a></ul>";
   $output .= "<ul><a href=''>Store Location</a></ul>";
@@ -76,7 +78,6 @@ function _customer_service_links() {
 }
 
 function _online_service_links() {
-
   $output = "<ul><a href='cart'>My Cart</a></ul>";
   $output .= "<ul><a href=''>Gift Cards</a></ul>";
   $output .= "<ul><a href=''>International Visitors</a></ul></li>";
@@ -85,7 +86,6 @@ function _online_service_links() {
 }
 
 function _about_mayfair_links() {
-
   $output = "<li><ul><a href=''>Terms & Conditions</a></ul>";
   $output .= "<ul><a href=''>Privacy Policy</a></ul>";
   $output .= "<ul><a href=''>Shipping Policy</a></ul>";
