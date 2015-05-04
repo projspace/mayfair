@@ -58,38 +58,56 @@ function mayfair_blocks_block_view($delta = '') {
   return $block;
 }
 
-function _top_links() {
-  $output = "<li><ul><a href=''>Home</a></ul>";
-  $output .= "<ul><a href=''>Corporate Gifts</a></ul>";
-  $output .= "<ul><a href=''>Gift & Bridal Registry</a></ul>";
-  $output .= "<ul><a class= 'ctools-use-modal ctools-modal-modal-popup-medium' href= 'modal_forms/nojs/register'>Sign Up</a></ul>";
-  $output .= "<ul><a class= 'ctools-use-modal ctools-modal-modal-popup-small' href= 'modal_forms/nojs/login'>Login</a></ul></li>";
+function mayfair_blocks_theme() {
+  $theme = array(
+    'top_links_block' => array(
+        'template' => 'theme/top_links_block',
+        'variables' => array(),
+      ),
+    'about_mayfair_links' => array(
+      'template' => 'theme/about_mayfair_links',
+      'variables' => array(),
+    ),
+    'online_service_links' => array(
+      'template' => 'theme/online_service_links',
+      'variables' => array(),
+    ),
+    'customer_service_links' => array(
+      'template' => 'theme/customer_service_links',
+      'variables' => array(),
+    ),
+  );
+  return $theme;
+}
 
-  return $output;
+function _top_links() {
+  $block = array(
+    'subject' => '',
+    'content' => theme('top_links_block', array()),
+  );
+  return $block;
 }
 
 function _customer_service_links() {
-  $output = "<li><ul>888-280-1988</ul>";
-  $output .= "<ul><a href=''>Contact Us</a></ul>";
-  $output .= "<ul><a href=''>Store Location</a></ul>";
-  $output .= "<ul><a href=''>Gift Registry</a></ul></li>";
-
-  return $output;
+  $block = array(
+    'subject' => '',
+    'content' => theme('customer_service_links', array()),
+  );
+  return $block;
 }
 
 function _online_service_links() {
-  $output = "<ul><a href='cart'>My Cart</a></ul>";
-  $output .= "<ul><a href=''>Gift Cards</a></ul>";
-  $output .= "<ul><a href=''>International Visitors</a></ul></li>";
-
-  return $output;
+  $block = array(
+    'subject' => '',
+    'content' => theme('online_service_links', array()),
+  );
+  return $block;
 }
 
 function _about_mayfair_links() {
-  $output = "<li><ul><a href=''>Terms & Conditions</a></ul>";
-  $output .= "<ul><a href=''>Privacy Policy</a></ul>";
-  $output .= "<ul><a href=''>Shipping Policy</a></ul>";
-  $output .= "<ul><a href=''>Return Policy</a></ul></li>";
-
-  return $output;
+  $block = array(
+    'subject' => '',
+    'content' => theme('about_mayfair_links', array()),
+  );
+  return $block;
 }
