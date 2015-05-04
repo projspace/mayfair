@@ -58,6 +58,9 @@ function mayfair_blocks_block_view($delta = '') {
   return $block;
 }
 
+/**
+ * Implements hook_theme().
+ */
 function mayfair_blocks_theme() {
   $theme = array(
     'top_links_block' => array(
