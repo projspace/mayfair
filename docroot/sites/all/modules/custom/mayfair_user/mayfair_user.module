@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Module for user related alteration.
+ */
+
+/**
+ * Implement hook_form_alter.
+ */
+function mayfair_user_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'user_register_form') {
+    $form['account']['mail']['#description'] = '';
+  }
+}
