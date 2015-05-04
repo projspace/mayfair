@@ -26,6 +26,10 @@ function mayfair_blocks_block_info() {
     'info' => t('About Mayfair House'),
     'cache' => DRUPAL_CACHE_GLOBAL,
   );
+  $blocks['stay_connected'] = array(
+    'info' => t('Stay Connected'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
 
   return $blocks;
 }
@@ -53,6 +57,10 @@ function mayfair_blocks_block_view($delta = '') {
       $block['subject'] = 'About Mayfair House';
       $block['content'] = _about_mayfair_links();
       break;
+    case 'stay_connected':
+      $block['subject'] = 'Stay Connected';
+      $block['content'] = _stay_connected_links();
+      break;
   }
 
   return $block;
@@ -74,6 +82,9 @@ function mayfair_blocks_theme() {
     ),
     'customer_service_links' => array(
       'template' => 'theme/customer_service_links',
+    ),
+    'stay_connected_links' => array(
+      'template' => 'theme/stay_connected_links',
     ),
   );
   return $theme;
@@ -107,6 +118,14 @@ function _about_mayfair_links() {
   $block = array(
     'subject' => '',
     'content' => array('#markup' => theme('about_mayfair_links')),
+  );
+  return $block;
+}
+
+function _stay_connected_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('stay_connected_links')),
   );
   return $block;
 }
