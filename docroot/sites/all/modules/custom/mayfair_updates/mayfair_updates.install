@@ -43,3 +43,12 @@ function mayfair_updates_update_7004() {
   mayfair_util_features_revert(array('mayfair_field_controller', 'mayfair_product', 'mayfair_product_display', 'mayfair_panels_pages'));
   cache_clear_all();
 }
+
+/**
+ * Modules & features enable.
+ */
+function mayfair_updates_update_7005() {
+  module_enable(array('mayfair_blocks', 'mayfair_user', 'mayfair_user_entity'));
+  mayfair_util_features_revert(array('mayfair_user_entity', 'mayfair_panels_pages'));
+  cache_clear_all();
+}

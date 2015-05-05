@@ -1,0 +1,131 @@
+<?php
+/**
+ * @file
+ * Module for custom blocks preserved in code.
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+function mayfair_blocks_block_info() {
+  $blocks = array();
+
+  $blocks['top_links'] = array(
+    'info' => t('Top Links'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+  $blocks['customer_service'] = array(
+    'info' => t('Customer Service'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+  $blocks['online_order'] = array(
+    'info' => t('Online Order Services'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+  $blocks['about_mayfair'] = array(
+    'info' => t('About Mayfair House'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+  $blocks['stay_connected'] = array(
+    'info' => t('Stay Connected'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function mayfair_blocks_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'top_links':
+      $block['subject'] = '';
+      $block['content'] = _top_links();
+      break;
+    case 'customer_service':
+      $block['subject'] = 'Customer Service';
+      $block['content'] = _customer_service_links();
+      break;
+    case 'online_order':
+      $block['subject'] = 'Online Order Services';
+      $block['content'] = _online_service_links();
+      break;
+    case 'about_mayfair':
+      $block['subject'] = 'About Mayfair House';
+      $block['content'] = _about_mayfair_links();
+      break;
+    case 'stay_connected':
+      $block['subject'] = 'Stay Connected';
+      $block['content'] = _stay_connected_links();
+      break;
+  }
+
+  return $block;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function mayfair_blocks_theme() {
+  $theme = array(
+    'top_links_block' => array(
+        'template' => 'theme/top_links_block',
+      ),
+    'about_mayfair_links' => array(
+      'template' => 'theme/about_mayfair_links',
+    ),
+    'online_service_links' => array(
+      'template' => 'theme/online_service_links',
+    ),
+    'customer_service_links' => array(
+      'template' => 'theme/customer_service_links',
+    ),
+    'stay_connected_links' => array(
+      'template' => 'theme/stay_connected_links',
+    ),
+  );
+  return $theme;
+}
+
+function _top_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('top_links_block')),
+  );
+  return $block;
+}
+
+function _customer_service_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('customer_service_links')),
+  );
+  return $block;
+}
+
+function _online_service_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('online_service_links')),
+  );
+  return $block;
+}
+
+function _about_mayfair_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('about_mayfair_links')),
+  );
+  return $block;
+}
+
+function _stay_connected_links() {
+  $block = array(
+    'subject' => '',
+    'content' => array('#markup' => theme('stay_connected_links')),
+  );
+  return $block;
+}
