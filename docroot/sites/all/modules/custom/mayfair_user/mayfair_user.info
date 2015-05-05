@@ -1,0 +1,4 @@
+name = Mayfair User
+description = User related alteration for Mayfair house.
+core = 7.x
+package = Mayfair
