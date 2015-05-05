@@ -52,3 +52,11 @@ function mayfair_updates_update_7005() {
   mayfair_util_features_revert(array('mayfair_user_entity', 'mayfair_panels_pages'));
   cache_clear_all();
 }
+
+/**
+ * Modules enable - modal_form & theme_config.
+ */
+function mayfair_updates_update_7006() {
+  module_enable(array('mayfair_theme_config', 'modal_forms'));
+  cache_clear_all();
+}
