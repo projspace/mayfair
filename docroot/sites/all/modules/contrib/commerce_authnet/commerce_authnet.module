@@ -108,7 +108,7 @@ function commerce_authnet_aim_void_access($order, $transaction) {
 
   // Return FALSE if it is more than 24 hours since the last update to the
   // transaction, as it will already have been settled.
-  if (time() - $transaction->changed > 2600 * 24) {
+  if (time() - $transaction->changed > 3600 * 24) {
     return FALSE;
   }
 
@@ -363,7 +363,7 @@ function commerce_authnet_aim_submit_form_submit($payment_method, $pane_form, $p
       $transaction->message = t('Invalid @amount transaction not attempted.', array('@amount' => commerce_currency_format($charge['amount'], $charge['currency_code'])));
       commerce_payment_transaction_save($transaction);
 
-      drupal_set_message('We encountered an error processing your transaction. Please contact us to resolve the issue.', 'error');
+      drupal_set_message(t('We encountered an error processing your transaction. Please contact us to resolve the issue.'), 'error');
       return FALSE;
     }
   }
@@ -418,7 +418,7 @@ function commerce_authnet_aim_submit_form_submit($payment_method, $pane_form, $p
   );
 
   // Prepare the billing address for use in the request.
-  if ($order_wrapper->commerce_customer_billing->value()){
+  if (isset($order->commerce_customer_billing) && $order_wrapper->commerce_customer_billing->value()){
     $billing_address = $order_wrapper->commerce_customer_billing->commerce_customer_address->value();
 
     if (empty($billing_address['first_name'])) {
@@ -441,6 +441,29 @@ function commerce_authnet_aim_submit_form_submit($payment_method, $pane_form, $p
   }
   else {
     $billing_address = array();
+  }
+
+  // Prepare the shipping address for use in the request.
+  if (isset($order->commerce_customer_shipping) && $order_wrapper->commerce_customer_shipping->value()) {
+    $shipping_address = $order_wrapper->commerce_customer_shipping->commerce_customer_address->value();
+
+    if (empty($shipping_address['first_name'])) {
+      $name_parts = explode(' ', $shipping_address['name_line']);
+      $shipping_address['first_name'] = array_shift($name_parts);
+      $shipping_address['last_name'] = implode(' ', $name_parts);
+    }
+
+    $nvp += array(
+      // Customer shipping Address
+      'x_ship_to_first_name' => substr($shipping_address['first_name'], 0, 50),
+      'x_ship_to_last_name' => substr($shipping_address['last_name'], 0, 50),
+      'x_ship_to_company' => substr($shipping_address['organisation_name'], 0, 50),
+      'x_ship_to_address' => substr($shipping_address['thoroughfare'], 0, 60),
+      'x_ship_to_city' => substr($shipping_address['locality'], 0, 40),
+      'x_ship_to_state' => substr($shipping_address['administrative_area'], 0, 40),
+      'x_ship_to_zip' => substr($shipping_address['postal_code'], 0, 20),
+      'x_ship_to_country' => $shipping_address['country'],
+    );
   }
 
   // Submit the request to Authorize.Net.
@@ -517,7 +540,10 @@ function commerce_authnet_aim_submit_form_submit($payment_method, $pane_form, $p
     }
 
     // First look to see if we already have cards on file for the user.
-    $stored_cards = commerce_cardonfile_load_multiple_by_uid($order->uid, $payment_method['instance_id']);
+    $stored_cards = array();
+    if (!user_is_anonymous()) {
+      $stored_cards = commerce_cardonfile_load_multiple_by_uid($order->uid, $payment_method['instance_id']);
+    }
     $add_to_profile = NULL;
 
     // If we didn't find any, attempt to make a new Customer Profile now.
@@ -749,7 +775,7 @@ function commerce_authnet_cim_cardonfile_charge($payment_method, $card_data, $or
         ),
       ),
     ),
-    'extraOptions' => '<![CDATA[x_delim_data=TRUE&amp;x_delim_char=|&amp;x_encap_char="&amp;x_solution_id=A1000009&amp;x_currency_code=' . $charge['currency_code'] . '&amp;x_customer_ip=' . substr(ip_address(), 0, 15) . ']]>',
+    'extraOptions' => '<![CDATA[x_delim_data=TRUE&amp;x_delim_char=|&amp;x_encap_char="&amp;x_solution_id=A1000009&amp;x_currency_code=' . $charge['currency_code'] . '&amp;x_customer_ip=' . substr(ip_address(), 0, 15) . '&amp;x_email_customer=' . $payment_method['settings']['email_customer'] . ']]>',
   );
 
   // If we get a response from the API server...
@@ -811,7 +837,7 @@ function commerce_authnet_cim_cardonfile_charge($payment_method, $card_data, $or
       return FALSE;
     }
 
-    return;
+    return (isset($transaction->status)) ? $transaction->status : TRUE;
   }
   elseif ((string) $xml_response->messages->message->code == 'E00040') {
     // If the response indicated a non-existent profile, deactive it now.
@@ -834,7 +860,8 @@ function commerce_authnet_cim_cardonfile_update($form, &$form_state, $payment_me
   // Extract the Customer Profile and Payment Profile IDs from the remote_id.
   list($cim_customer_profile_id, $cim_payment_profile_id) = explode('|', $card_data->remote_id);
 
-  if ($form_state['values']['credit_card']['number'] != $form['credit_card']['number']['#default_value']) {
+  if (!empty($form_state['values']['credit_card']['number']) &&
+    $form_state['values']['credit_card']['number'] != $form['credit_card']['number']['#default_value']) {
     $number = $form_state['values']['credit_card']['number'];
   }
   else {
@@ -939,6 +966,39 @@ function commerce_authnet_cim_billto_array($order) {
 }
 
 /**
+ * Generates a shipTo array for CIM API requests.
+ *
+ * @param $order
+ *   The order object containing the shipping information used for the billTo.
+ *
+ * @return
+ *   An array used to generate the shipTo XML in CIM API requests.
+ */
+function commerce_authnet_cim_shipto_array($order) {
+  // Prepare the shipping address for use in the request.
+  $order_wrapper = entity_metadata_wrapper('commerce_order', $order);
+  $shipping_address = $order_wrapper->commerce_customer_shipping->commerce_customer_address->value();
+
+  // Ensure we have a first and last name in the address.
+  if (empty($shipping_address['first_name'])) {
+    $name_parts = explode(' ', $shipping_address['name_line']);
+    $shipping_address['first_name'] = array_shift($name_parts);
+    $shipping_address['last_name'] = implode(' ', $name_parts);
+  }
+
+  // Return the shipTo array.
+  return array(
+    'firstName' => substr($shipping_address['first_name'], 0, 50),
+    'lastName' => substr($shipping_address['last_name'], 0, 50),
+    'company' => substr($shipping_address['organisation_name'], 0, 50),
+    'address' => substr($shipping_address['thoroughfare'], 0, 60),
+    'city' => substr($shipping_address['locality'], 0, 40),
+    'state' => substr($shipping_address['administrative_area'], 0, 40),
+    'zip' => substr($shipping_address['postal_code'], 0, 20),
+    'country' => $shipping_address['country'],
+  );
+}
+/**
  * Generates a creditCard array for CIM API requests.
  *
  * @param $payment_details
@@ -996,6 +1056,15 @@ function commerce_authnet_cim_create_customer_profile_request($payment_method, $
       ),
     ),
   );
+
+  // Add the shipping address if available.
+  if (isset($order->commerce_customer_shipping)) {
+    $order_wrapper = entity_metadata_wrapper('commerce_order', $order);
+
+    if ($order_wrapper->commerce_customer_shipping->value()) {
+      $api_request_data['profile']['shipToList'] = commerce_authnet_cim_shipto_array($order);
+    }
+  }
 
   // If the order is anonymous, unset the merchantCustomerId from the request.
   if (empty($api_request_data['profile']['merchantCustomerId'])) {
@@ -1132,7 +1201,7 @@ function commerce_authnet_aim_request($payment_method, $nvp = array()) {
   );
 
   // Allow modules to alter parameters of the API request.
-  drupal_alter('commerce_authnet_aim_request', $nvp);
+  drupal_alter('commerce_authnet_aim_request', $nvp, $payment_method);
 
   // Log the request if specified.
   if ($payment_method['settings']['log']['request'] == 'request') {
@@ -1206,9 +1275,9 @@ function commerce_authnet_aim_server_url($txn_mode) {
   switch ($txn_mode) {
     case AUTHNET_TXN_MODE_LIVE:
     case AUTHNET_TXN_MODE_LIVE_TEST:
-      return 'https://secure.authorize.net/gateway/transact.dll';
+      return variable_get('commerce_authnet_aim_server_url_live', 'https://secure.authorize.net/gateway/transact.dll');
     case AUTHNET_TXN_MODE_DEVELOPER:
-      return 'https://test.authorize.net/gateway/transact.dll';
+      return variable_get('commerce_authnet_aim_server_url_dev', 'https://test.authorize.net/gateway/transact.dll');
   }
 }
 
@@ -1270,7 +1339,7 @@ function commerce_authnet_cim_request($payment_method, $request_type, $api_reque
   commerce_simplexml_add_children($api_request_element, $api_request_data);
 
   // Allow modules an opportunity to alter the request before it is sent.
-  drupal_alter('commerce_authnet_cim_request', $api_request_element);
+  drupal_alter('commerce_authnet_cim_request', $api_request_element, $payment_method, $request_type);
 
   // Generate an XML string.
   $xml = $api_request_element->asXML();
@@ -1361,9 +1430,9 @@ function commerce_authnet_cim_server_url($txn_mode) {
   switch ($txn_mode) {
     case AUTHNET_TXN_MODE_LIVE:
     case AUTHNET_TXN_MODE_LIVE_TEST:
-      return 'https://api.authorize.net/xml/v1/request.api';
+      return variable_get('commerce_authnet_cim_server_url_live', 'https://api.authorize.net/xml/v1/request.api');
     case AUTHNET_TXN_MODE_DEVELOPER:
-      return 'https://apitest.authorize.net/xml/v1/request.api';
+      return variable_get('commerce_authnet_cim_server_url_dev', 'https://apitest.authorize.net/xml/v1/request.api');
   }
 }
 
@@ -1413,7 +1482,7 @@ function commerce_authnet_cim_transaction_element_name($txn_type) {
       return 'profileTransCaptureOnly';
     case COMMERCE_CREDIT_PRIOR_AUTH_CAPTURE:
       return 'profileTransPriorAuthCapture';
-    case COMMERCE_CREDIT_CREDT:
+    case COMMERCE_CREDIT_CREDIT:
       return 'profileTransRefund';
     case COMMERCE_CREDIT_VOID:
       return 'profileTransVoid';

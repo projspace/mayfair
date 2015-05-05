@@ -179,6 +179,11 @@ function commerce_authnet_aim_void_form_submit($form, &$form_state) {
 
     // Update the transaction message to show that it has been voided.
     $transaction->message .= '<br />' . t('Voided: @date', array('@date' => format_date(REQUEST_TIME, 'short')));
+
+    // Zero out transaction amount before saving,
+    // so original amount is not saved as a positive revenue transaction.
+    // Authorize.Net settles these as "0.00" (see the payload on a void response).
+    $transaction->amount = '000';
   }
   else {
     drupal_set_message(t('Void failed: @reason', array('@reason' => check_plain($response[3]))), 'error');
