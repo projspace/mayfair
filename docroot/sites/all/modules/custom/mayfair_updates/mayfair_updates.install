@@ -70,3 +70,12 @@ function mayfair_updates_update_7007() {
   mayfair_util_features_revert(array('mayfair_user_entity'));
   cache_clear_all();
 }
+
+/**
+ * Enabling & disabling modules.
+ */
+function mayfair_updates_update_7008() {
+  module_disable(array('legal'));
+  module_enable(array('disablepwstrength'));
+  cache_clear_all();
+}
