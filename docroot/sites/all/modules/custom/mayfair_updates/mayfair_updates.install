@@ -79,3 +79,11 @@ function mayfair_updates_update_7008() {
   module_enable(array('disablepwstrength'));
   cache_clear_all();
 }
+
+/**
+ * Enabling & disabling modules.
+ */
+function mayfair_updates_update_7009() {
+  module_enable(array('commerce_wishlist'));
+  cache_clear_all();
+}
