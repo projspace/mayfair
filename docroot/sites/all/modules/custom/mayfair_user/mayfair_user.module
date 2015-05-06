@@ -19,7 +19,7 @@ function mayfair_user_form_alter(&$form, &$form_state, $form_id) {
     $form['benefits_rewards'] = array(
       '#type' => 'item',
       '#markup' => '<div class = "benefits-rewards"> By signing up for a mayfairhouse.com account, <br>you will be able to enjoy all <a href="benefits-and-rewards">benefits and rewards</a><br> that we have to offer! </div>',
-      '#weight' => -1,
+      '#weight' => -100,
     );
     $form['terms_conditions'] = array(
       '#type' => 'item',
