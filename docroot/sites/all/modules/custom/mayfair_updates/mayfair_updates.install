@@ -87,3 +87,11 @@ function mayfair_updates_update_7009() {
   module_enable(array('commerce_wishlist'));
   cache_clear_all();
 }
+
+/**
+ * Enabling modules & features.
+ */
+function mayfair_updates_update_7010() {
+  module_enable(array('mayfair_commerce_views', 'commerce_couponprodref', 'commerce_coupon_ui'));
+  cache_clear_all();
+}
