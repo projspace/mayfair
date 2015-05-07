@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @file
+ * This contains code to register and support core migration for MayFair House
+ * Website.
+ */
+
+/**
+ * Implements hook_flush_caches().
+ */
+function mayfair_migrate_flush_caches() {
+  mayfair_migrate_register_migrations();
+}
+
+/**
+ * This function registers the migration for Mayfair house content migration.
+ */
+function mayfair_migrate_register_migrations() {
+  // These are our common arguments for all our migrations.
+  $common_arguments = array(
+    'group_name' => 'Mayfair Migration',
+  );
+
+  // Register Colors vocabulary term migration.
+  $arguments = $common_arguments + array(
+    'description' => t('Migration of Colors Vocabulary'),
+    'machine_name' => 'MayfairMigrateColorTerms',
+  );
+  Migration::registerMigration('MayFairMigrateColorTermMigration', $arguments['machine_name'], $arguments);
+
+  // Register Category vocabulary term migration.
+  $arguments = $common_arguments + array(
+    'description' => t('Migration of Category Vocabulary'),
+    'machine_name' => 'MayfairMigrateCategoryTerms',
+  );
+  Migration::registerMigration('MayFairMigrateCategoryTermMigration', $arguments['machine_name'], $arguments);
+
+  // Register Brands vocabulary term migration.
+  $arguments = $common_arguments + array(
+    'description' => t('Migration of Brands Vocabulary'),
+    'machine_name' => 'MayfairMigrateBrandTerms',
+  );
+  Migration::registerMigration('MayFairMigrateBrandTermMigration', $arguments['machine_name'], $arguments);
+
+  // Register Products migraiton.
+  $arguments = $common_arguments + array(
+    'description' => t('Migration of Products'),
+    'machine_name' => 'MayfairMigrateProducts',
+    'dependencies' => array('MayfairMigrateColorTerms', 'MayfairMigrateColorTerms'),
+  );
+  Migration::registerMigration('MayFairMigrateProductsNodeMigration', $arguments['machine_name'], $arguments);
+}
+
+
+/**
+ * Implements hook_migrate_api().
+ */
+function mayfair_migrate_migrate_api() {
+  $disable_hooks = array();
+  $api = array(
+    'api' => 2,
+    'groups' => array(
+      'Mayfair Migration' => array(
+        'title' => 'Mayfair Content migration',
+        'disable_hooks' => $disable_hooks,
+      ),
+    ),
+  );
+  return $api;
+}

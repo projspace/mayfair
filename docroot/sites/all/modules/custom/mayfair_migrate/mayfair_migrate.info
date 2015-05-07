@@ -1,0 +1,15 @@
+name = Mayfair Migrate
+description = Migration framework for MayFair House content migration.
+core = 7.x
+package = Mayfair
+
+dependencies[] = migrate
+
+; Node migration files.
+files[] = node/products.node.inc
+
+
+; Term migration files.
+files[] = term/colors.term.inc
+files[] = term/category.term.inc
+files[] = term/brands.term.inc

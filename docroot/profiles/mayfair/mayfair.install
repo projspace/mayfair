@@ -6,7 +6,7 @@
  */
 function mayfair_install() {
   // Enable some mayfair blocks.
-  $default_theme = 'bartik';
+  $default_theme = 'mayfair';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
@@ -118,7 +118,13 @@ function mayfair_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    ''
+    'mayfair_field_controller',
+    'mayfair_customer',
+    'mayfair_panels_pages',
+    'mayfair_product',
+    'mayfair_product_display',
+    'mayfair_theme_config',
+    'mayfair_user_entity'
   );
   features_revert($features);
   // ignore any rebuild messages

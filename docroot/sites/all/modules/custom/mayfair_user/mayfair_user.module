@@ -1,0 +1,37 @@
+<?php
+/**
+ * @file
+ * Module for user related alteration.
+ */
+
+/**
+ * Implement hook_form_alter.
+ */
+function mayfair_user_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'user_register_form') {
+    drupal_set_title('SIGN UP');
+    $form['account']['mail']['#description'] = '';
+    $form['actions']['submit']['#value'] = t('REGISTER');
+    $form['account']['conf_mail']['#title'] = t('CONFIRM EMAIL');
+    $form['account']['conf_mail']['#description'] = '';
+    $form['account']['pass']['#description'] = '';
+
+    $form['benefits_rewards'] = array(
+      '#type' => 'item',
+      '#markup' => '<div class = "benefits-rewards"> By signing up for a mayfairhouse.com account, <br>you will be able to enjoy all <a href="benefits-and-rewards">benefits and rewards</a><br> that we have to offer! </div>',
+      '#weight' => -100,
+    );
+    $form['terms_conditions'] = array(
+      '#type' => 'item',
+      '#markup' => '<div class = "terms-conditions"> By clicking "Register", you are agreeing to<br> our <a href="terms-conditions">terms & conditions</a>. </div>',
+      '#weight' => 10,
+    );
+  }
+  else if ($form_id == 'user_login') {
+    drupal_set_title('SIGN-IN');
+    $form['name']['#title'] = t('EMAIL');
+    $form['name']['#description'] = '';
+    $form['pass']['#description'] = '';
+    $form['actions']['submit']['#value'] = t('LOGIN');
+  }
+}

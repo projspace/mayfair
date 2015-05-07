@@ -1,7 +1,6 @@
 ; Packaging information for mayfair
 name = "Mayfair"
-description = "Mayfair profile with Drupal commerce(with required modules), features, mayfair_updates."
-exclusive = "1"
+description = ""
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -12,7 +11,9 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = module_filter
 ; Chaos tool suite
 dependencies[] = ctools
+dependencies[] = ctools_custom_content
 dependencies[] = page_manager
+dependencies[] = views_content
 ; Commerce
 dependencies[] = commerce
 dependencies[] = commerce_cart
@@ -33,6 +34,13 @@ dependencies[] = commerce_product_pricing_ui
 dependencies[] = commerce_product_reference
 dependencies[] = commerce_product_ui
 dependencies[] = commerce_ui
+; Commerce (contrib)
+dependencies[] = commerce_authnet
+dependencies[] = commerce_cardonfile
+; Commerce (shipping)
+dependencies[] = commerce_shipping
+; Commerce Product Enhancements
+dependencies[] = commerce_product_attributes
 ; Core
 dependencies[] = block
 dependencies[] = color
@@ -60,23 +68,196 @@ dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
 ; Development
+dependencies[] = devel
 dependencies[] = profiler_builder
 ; Fields
 dependencies[] = addressfield
+dependencies[] = field_slideshow
+; MailChimp
+dependencies[] = mailchimp
+dependencies[] = mailchimp_activity
+dependencies[] = mailchimp_campaign
+dependencies[] = mailchimp_lists
+dependencies[] = mailchimp_signup
 ; Mayfair
 dependencies[] = mayfair_updates
+dependencies[] = mayfair_user
+; Mayfair House
+dependencies[] = mayfair_blocks
 ; Other
+dependencies[] = email_registration
 dependencies[] = entity
 dependencies[] = entity_token
+dependencies[] = libraries
+dependencies[] = logo_block
+dependencies[] = modal_forms
 dependencies[] = pathauto
+dependencies[] = special_menu_items
+dependencies[] = strongarm
+dependencies[] = terms_of_use
 dependencies[] = token
+; Panels
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = panels_mini
+dependencies[] = panels_node
 ; Rules
 dependencies[] = rules
 dependencies[] = rules_admin
+; Testing
+dependencies[] = commerce_cardonfile_testing
 ; Views
 dependencies[] = views
 dependencies[] = views_ui
 ; Features
 dependencies[] = features
+dependencies[] = commerce_features
+dependencies[] = mayfair_customer
+dependencies[] = mayfair_field_controller
+dependencies[] = mayfair_panels_pages
+dependencies[] = mayfair_product
+dependencies[] = mayfair_product_display
+dependencies[] = mayfair_theme_config
+dependencies[] = mayfair_user_entity
+
+; ----------
+; Variables
+; ----------
+variables[additional_settings__active_tab_product] = 'edit-submission'
+variables[admin_theme] = 'seven'
+variables[anonymous] = 'Anonymous'
+variables[cache_class_cache_ctools_css] = 'CToolsCssCache'
+variables[comment_default_mode_product] = 1
+variables[comment_default_per_page_product] = '50'
+variables[comment_form_location_product] = 1
+variables[comment_preview_product] = '1'
+variables[comment_product] = '1'
+variables[comment_subject_field_product] = 1
+variables[commerce_customer_profile_billing_field] = 'commerce_customer_billing'
+variables[commerce_customer_profile_billing_profile_copy] = 1
+variables[commerce_customer_profile_billing_profile_copy_default] = 1
+variables[commerce_customer_profile_billing_profile_copy_source] = 'shipping'
+variables[commerce_customer_profile_shipping_field] = 'commerce_customer_shipping'
+variables[configurable_timezones] = 1
+variables[date_api_version] = '7.2'
+variables[date_default_timezone] = 'America/Adak'
+variables[date_first_day] = '1'
+variables[date_views_day_format_without_year] = 'l, F j'
+variables[date_views_day_format_with_year] = 'l, F j, Y'
+variables[date_views_month_format_without_year] = 'F'
+variables[date_views_month_format_with_year] = 'F Y'
+variables[date_views_week_format_without_year] = 'F j'
+variables[date_views_week_format_with_year] = 'F j, Y'
+variables[default_nodes_main] = '10'
+variables[default_page_manager_pages][home] = true
+variables[field_bundle_settings_commerce_product__product][view_modes][line_item][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_teaser][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][full][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][attribute_view][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][token][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][commerce_line_item_display][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][commerce_line_item_token][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_full][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_rss][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_search_index][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_search_result][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][view_modes][node_token][custom_settings] = false
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][sku][weight] = '0'
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][title][weight] = '1'
+variables[field_bundle_settings_commerce_product__product][extra_fields][form][status][weight] = '6'
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][sku][default][weight] = '-10'
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][sku][default][visible] = true
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][title][default][weight] = '-5'
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][title][default][visible] = true
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][status][default][weight] = '5'
+variables[field_bundle_settings_commerce_product__product][extra_fields][display][status][default][visible] = true
+variables[field_bundle_settings_node__product][view_modes][teaser][custom_settings] = true
+variables[field_bundle_settings_node__product][view_modes][full][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][rss][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][search_index][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][search_result][custom_settings] = false
+variables[field_bundle_settings_node__product][view_modes][token][custom_settings] = false
+variables[field_bundle_settings_node__product][extra_fields][form][title][weight] = '0'
+variables[field_bundle_settings_node__product][extra_fields][form][path][weight] = '5'
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][default][weight] = '6'
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][teaser][weight] = '5'
+variables[field_bundle_settings_node__product][extra_fields][display][product:sku][teaser][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][default][weight] = '7'
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][teaser][weight] = '6'
+variables[field_bundle_settings_node__product][extra_fields][display][product:title][teaser][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][default][weight] = '10'
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][teaser][weight] = '10'
+variables[field_bundle_settings_node__product][extra_fields][display][product:status][teaser][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][default][weight] = '2'
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][default][visible] = true
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][teaser][weight] = '2'
+variables[field_bundle_settings_node__product][extra_fields][display][product:commerce_price][teaser][visible] = true
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][default][weight] = '8'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][teaser][weight] = '3'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_color][teaser][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][default][weight] = '9'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][default][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][teaser][weight] = '4'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_size][teaser][visible] = false
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_image][default][weight] = '0'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_image][default][visible] = true
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_image][teaser][weight] = '0'
+variables[field_bundle_settings_node__product][extra_fields][display][product:field_image][teaser][visible] = true
+variables[field_bundle_settings_user__user][extra_fields][form][account][weight] = '4'
+variables[field_bundle_settings_user__user][extra_fields][form][timezone][weight] = '5'
+variables[filter_fallback_format] = 'plain_text'
+variables[image_jpeg_quality] = '100'
+variables[image_toolkit] = 'gd'
+variables[legal_display] = '3'
+variables[logo_block_link] = '<front>'
+variables[mailchimp_api_key] = 'ea3b07ea634bdc9a3654a2bed869999e-us10'
+variables[mailchimp_batch_limit] = '100'
+variables[menu_default_active_menus][0] = 'features'
+variables[menu_default_active_menus][1] = 'main-menu'
+variables[menu_default_active_menus][2] = 'management'
+variables[menu_default_active_menus][3] = 'navigation'
+variables[menu_default_active_menus][5] = 'user-menu'
+variables[menu_default_active_menus][6] = 'devel'
+variables[menu_parent_product] = 'main-menu:0'
+variables[module_filter_recent_modules][panels_everywhere] = 1430378725
+variables[module_filter_recent_modules][logo_block] = 1430384986
+variables[module_filter_recent_modules][legal] = 1430385925
+variables[module_filter_recent_modules][terms_of_use] = 1430385964
+variables[module_filter_recent_modules][special_menu_items] = 1430385991
+variables[module_filter_recent_modules][mayfair_blocks] = 1430727329
+variables[module_filter_recent_modules][mayfair_user] = 1430742638
+variables[node_admin_theme] = '1'
+variables[node_options_page][0] = 'status'
+variables[node_options_product][0] = 'status'
+variables[node_preview_product] = '1'
+variables[page_manager_node_view_disabled] = true
+variables[panels_everywhere_site_template_enabled] = true
+variables[pathauto_blog_pattern] = 'blogs/[user:name]'
+variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_node_pattern] = 'content/[node:title]'
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_user_pattern] = 'users/[user:name]'
+variables[path_alias_whitelist][node] = true
+variables[path_alias_whitelist][taxonomy] = true
+variables[save_continue_product] = 'Save and add fields'
+variables[site_frontpage] = 'node'
+variables[theme_default] = 'mayfair'
+variables[user_cancel_method] = 'user_cancel_block'
+variables[user_default_timezone] = '0'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_path] = 'pictures'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = '1'
 
