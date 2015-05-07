@@ -1,4 +1,4 @@
 name = Mayfair Blocks
 description = Customized blocks needed for Mayfair.
 core = 7.x
-package = Mayfair House
+package = Mayfair
