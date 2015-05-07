@@ -1,0 +1,4 @@
+name = Mayfair Commerce
+description = Mayfair house e-commerce related modification on the top of drupal commerce.
+core = 7.x
+package = Mayfair
