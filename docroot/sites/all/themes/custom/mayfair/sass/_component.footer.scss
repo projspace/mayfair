@@ -1,0 +1,22 @@
+.footer {
+  @include clearfix-micro;
+  background: #000;
+  color: #fff;
+  padding: 1rem 0;
+
+  ul {
+    list-style: none;
+    min-width: 20%;
+    float: left;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+}

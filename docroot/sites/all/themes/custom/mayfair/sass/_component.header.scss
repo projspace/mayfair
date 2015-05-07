@@ -1,0 +1,37 @@
+.header {
+  @include clearfix-micro;
+}
+
+.main-navigation {
+  @extend %list-bare;
+  background: $color-brand;
+  color: #fff;
+  text-align: right;
+
+  li {
+    border-right: 2px solid #fff;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  a {
+    @extend %link-dark;
+  }
+}
+
+.container-logo {
+  width: 50%;
+  float: left;
+
+  img {
+    padding-top: 1rem;
+    display: block;
+  }
+}
+.container-search-basket {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
