@@ -1,3 +1,16 @@
+%hide {
+  display: none;
+}
+
+%align-center {
+  top: 50% !important;
+  left: 50% !important;
+  -webkit-transform: translate(-52%, -50%);
+  -moz-transform: translate(-52%, -50%);
+  -ms-transform: translate(-52%, -50%);
+  transform: translate(-52%, -50%);
+}
+
 %reset-width {
   width: auto !important;
   height: auto !important;
@@ -109,7 +122,12 @@
   }
 }
 
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
 #modalContent {
+  @extend %align-center;
   background: #fff;
 
   a {
@@ -168,6 +186,10 @@
 
   .form-type-password-confirm {
     padding-bottom: 0;
+  }
+
+  .form-required {
+    display: none;
   }
 
   fieldset {

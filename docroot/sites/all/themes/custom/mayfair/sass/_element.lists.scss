@@ -1,15 +1,6 @@
-%link-bare {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-}
-
-%link-dark {
-  @extend %link-bare;
-  font-size: 14px;
-  font-weight: 100;
-  text-transform: uppercase;
-  padding: 0.425rem 0;
-  min-width: 11.875rem;
-  color: #fff;
+%list-bare {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }

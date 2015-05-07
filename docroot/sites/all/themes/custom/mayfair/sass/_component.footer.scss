@@ -1,13 +1,28 @@
-.footer {
+.pane-footer {
   @include clearfix-micro;
   background: #000;
   color: #fff;
   padding: 1rem 0;
 
+  .panel-display {
+    @extend %wrapper-container;
+  }
+
+  .pane-block {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
   ul {
-    list-style: none;
-    min-width: 20%;
-    float: left;
+    @extend %list-bare;
+    font-size: .875rem
+  }
+
+  .pane-title {
+    font-size: .875rem;
+    font-weight: bold;
+    margin-bottom: 0;
   }
   
   a {
@@ -18,5 +33,32 @@
   p {
     margin: 0;
     font-weight: bold;
+  }
+}
+
+.social-links-block {
+  a {
+    cursor: pointer;
+    display: inline-block;
+    height: 39px;
+    width: 39px;
+  }
+
+  .stay-connected-facebook {
+    a {
+      background: url("../images/social/facebook.png") no-repeat center;
+    }
+  }
+
+  .stay-connected-twitter {
+    a {
+      background: url("../images/social/twitter.png") no-repeat center;
+    }
+  }
+
+  .stay-connected-googleplus {
+    a {
+      background: url("../images/social/googleplus.png") no-repeat center;
+    }
   }
 }

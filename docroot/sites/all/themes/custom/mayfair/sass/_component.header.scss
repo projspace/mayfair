@@ -1,15 +1,39 @@
-.header {
-  @include clearfix-micro;
+// SHAME
+
+%wrapper-container {
+  max-width: 1270px;
+  margin: auto;
 }
 
-.main-navigation {
-  @extend %list-bare;
-  background: $color-brand;
-  color: #fff;
-  text-align: right;
+#skip-link {
+  margin: 0;
+}
+
+.ajax-progress-throbber {
+  position: absolute;
+}
+
+.modal-throbber-wrapper {
+  text-align: center;
+}
+
+.panel-2col-stacked .panel-col-top,
+.panels-flexible-region-3_region_stack-top_ {
+  width: 100%;
+}
+
+.pane-mayfair-blocks-top-links {
+  background: #000;
+
+  ul {
+    @extend %list-bare;
+    @extend %wrapper-container;
+    text-align: right;
+  }
 
   li {
     border-right: 2px solid #fff;
+    display: inline-block;
 
     &:last-child {
       border-right: none;
@@ -19,19 +43,5 @@
   a {
     @extend %link-dark;
   }
-}
 
-.container-logo {
-  width: 50%;
-  float: left;
-
-  img {
-    padding-top: 1rem;
-    display: block;
-  }
-}
-.container-search-basket {
-  width: 50%;
-  float: right;
-  text-align: right;
 }
