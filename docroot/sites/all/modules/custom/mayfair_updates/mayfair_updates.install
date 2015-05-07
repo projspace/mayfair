@@ -103,3 +103,11 @@ function mayfair_updates_update_7011() {
   module_enable(array('mayfair_commerce'));
   cache_clear_all();
 }
+
+/**
+ * Enabling modules.
+ */
+function mayfair_updates_update_7012() {
+  module_enable(array('inline_conditions', 'inline_entity_form', 'commerce_discount_extra', 'commerce_discount_product_category'));
+  cache_clear_all();
+}
