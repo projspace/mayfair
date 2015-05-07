@@ -8,6 +8,7 @@
   border: 15px solid #000;
   border-radius: 0;
   min-width: 29.6875rem;
+  position: relative;
 }
 
 %lb__title {
@@ -80,6 +81,34 @@
   font-size: .75rem;
 }
 
+%lb__close {
+  display: inline-block;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:after {
+    content: 'x';
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: .875rem;
+    font-weight: bold;
+  }
+}
+
+%lb__subscribe {
+  margin-bottom: 1rem;
+
+  .form-item {
+    padding: 0;
+  }
+
+  label:after {
+    content: '';
+  }
+}
+
 #modalContent {
   background: #fff;
 
@@ -131,5 +160,17 @@
   .terms-conditions {
     @extend %lb__text;
     @extend %lb__disclaimer;
+  }
+
+  .popups-close {
+    @extend %lb__close;
+  }
+
+  .form-type-password-confirm {
+    padding-bottom: 0;
+  }
+
+  fieldset {
+    @extend %lb__subscribe;
   }
 }
