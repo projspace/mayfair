@@ -19,17 +19,22 @@
     font-size: .875rem
   }
 
+  li {
+    display: inline-block;
+    padding-right: .25rem;
+  }
+
   .pane-title {
     font-size: .875rem;
     font-weight: bold;
     margin-bottom: 0;
   }
-  
+
   a {
     color: white;
     text-decoration: none;
   }
-  
+
   p {
     margin: 0;
     font-weight: bold;

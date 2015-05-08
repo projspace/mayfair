@@ -79,6 +79,7 @@
   font-size: .875rem;
   line-height: 1.25rem;
   min-width: 7.5rem;
+  text-transform: uppercase;
 }
 
 %lb__text {
@@ -129,6 +130,8 @@ input:-webkit-autofill {
 #modalContent {
   @extend %align-center;
   background: #fff;
+  bottom: 0;
+  height: 100%;
 
   a {
     color: #10a0e3;
@@ -189,7 +192,10 @@ input:-webkit-autofill {
   }
 
   .form-required {
-    display: none;
+    color: #f00;
+    position: relative;
+    left: -3px;
+    top: -5px;
   }
 
   fieldset {
