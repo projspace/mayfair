@@ -481,14 +481,14 @@ html {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000031}}
-.pane-mayfair-blocks-top-links a {
+.pane-mayfair-blocks-top-links ul a {
   display: inline-block;
   text-decoration: none;
   text-align: center;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000037}}
-.pane-mayfair-blocks-top-links a {
+.pane-mayfair-blocks-top-links ul a {
   font-size: 14px;
   font-weight: 100;
   text-transform: uppercase;
@@ -533,12 +533,12 @@ html {
 .pane-mayfair-blocks-top-links ul {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000339}}
 .pane-mayfair-blocks-top-links li {
   border-right: 2px solid #fff;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000343}}
 .pane-mayfair-blocks-top-links li:last-child {
   border-right: none;
 }

@@ -30,6 +30,10 @@
     @extend %list-bare;
     @extend %wrapper-container;
     text-align: right;
+
+    a {
+      @extend %link-dark;
+    }
   }
 
   li {
@@ -39,10 +43,6 @@
     &:last-child {
       border-right: none;
     }
-  }
-
-  a {
-    @extend %link-dark;
   }
 
 }
