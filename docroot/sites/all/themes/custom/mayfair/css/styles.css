@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.helpers\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.helpers\.scss}line{font-family:\000031}}
 .container-full {
   max-width: 1210px;
   margin: auto;
@@ -10,7 +10,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\000039}}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -23,7 +23,7 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000319}}
 body {
   margin: 0;
 }
@@ -36,7 +36,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000333}}
 article,
 aside,
 details,
@@ -57,7 +57,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000354}}
 audio,
 canvas,
 progress,
@@ -72,7 +72,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000367}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -82,7 +82,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000377}}
 [hidden],
 template {
   display: none;
@@ -93,7 +93,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000389}}
 a {
   background-color: transparent;
 }
@@ -101,7 +101,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\0000397}}
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +112,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003109}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -120,7 +120,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003117}}
 b,
 strong {
   font-weight: bold;
@@ -129,7 +129,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003126}}
 dfn {
   font-style: italic;
 }
@@ -138,7 +138,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003135}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -147,7 +147,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003144}}
 mark {
   background: #ff0;
   color: #000;
@@ -156,7 +156,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003153}}
 small {
   font-size: 80%;
 }
@@ -164,7 +164,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003161}}
 sub,
 sup {
   font-size: 75%;
@@ -173,12 +173,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003169}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003173}}
 sub {
   bottom: -0.25em;
 }
@@ -188,7 +188,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003184}}
 img {
   border: 0;
 }
@@ -196,7 +196,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003192}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -206,7 +206,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003203}}
 figure {
   margin: 1em 40px;
 }
@@ -214,7 +214,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003211}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -224,7 +224,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003221}}
 pre {
   overflow: auto;
 }
@@ -232,7 +232,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003229}}
 code,
 kbd,
 pre,
@@ -253,7 +253,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003252}}
 button,
 input,
 optgroup,
@@ -270,7 +270,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003266}}
 button {
   overflow: visible;
 }
@@ -281,7 +281,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003277}}
 button,
 select {
   text-transform: none;
@@ -294,7 +294,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003290}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -308,7 +308,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003302}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -317,7 +317,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003311}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -328,7 +328,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003322}}
 input {
   line-height: normal;
 }
@@ -340,7 +340,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003334}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -354,7 +354,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003346}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -365,7 +365,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003357}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -380,7 +380,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003370}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -389,7 +389,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003379}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -400,7 +400,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003390}}
 legend {
   border: 0;
   /* 1 */
@@ -411,7 +411,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003399}}
 textarea {
   overflow: auto;
 }
@@ -420,7 +420,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003408}}
 optgroup {
   font-weight: bold;
 }
@@ -430,26 +430,26 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003419}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.normalize\.scss}line{font-family:\00003424}}
 td,
 th {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.box-sizing\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.box-sizing\.scss}line{font-family:\000031}}
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.box-sizing\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.box-sizing\.scss}line{font-family:\000037}}
 *,
 *:before,
 *:after {
@@ -458,21 +458,21 @@ html {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.shared\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.shared\.scss}line{font-family:\000031}}
 html,
 body {
   height: 100%;
   overflow-y: scroll;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.shared\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_generic\.shared\.scss}line{font-family:\000037}}
 html {
   font-size: 16px;
   font-family: "Century Gothic", "avenir", sans-serif;
   line-height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.lists\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.lists\.scss}line{font-family:\000031}}
 .pane-mayfair-blocks-top-links ul, .pane-footer ul {
   list-style: none;
   margin-top: 0;
@@ -480,14 +480,14 @@ html {
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000031}}
 .pane-mayfair-blocks-top-links ul a {
   display: inline-block;
   text-decoration: none;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_element\.links\.scss}line{font-family:\000037}}
 .pane-mayfair-blocks-top-links ul a {
   font-size: 14px;
   font-weight: 100;
@@ -497,124 +497,124 @@ html {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\000033}}
 .pane-mayfair-blocks-top-links ul, .pane-footer .panel-display {
   max-width: 1270px;
   margin: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\000038}}
 #skip-link {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000312}}
 .ajax-progress-throbber {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000316}}
 .modal-throbber-wrapper {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000320}}
 .panel-2col-stacked .panel-col-top,
 .panels-flexible-region-3_region_stack-top_,
 .panels-flexible-region-3_region_stack-center {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000326}}
 .pane-mayfair-blocks-top-links {
   background: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000329}}
 .pane-mayfair-blocks-top-links ul {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000339}}
 .pane-mayfair-blocks-top-links li {
   border-right: 2px solid #fff;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.header\.scss}line{font-family:\0000343}}
 .pane-mayfair-blocks-top-links li:last-child {
   border-right: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\000031}}
 .pane-footer {
   background: #000;
   color: #fff;
   padding: 1rem 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\000033}}
 .pane-footer {
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\000037}}
 .pane-footer:before, .pane-footer:after {
   content: '';
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_tools\.mixins\.scss}line{font-family:\0000313}}
 .pane-footer:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000311}}
 .pane-footer .pane-block {
   width: 20%;
   display: inline-block;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000317}}
 .pane-footer ul {
   font-size: 0.875rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000322}}
 .pane-footer li {
   display: inline-block;
   padding-right: .25rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000327}}
 .pane-footer .pane-title {
   font-size: .875rem;
   font-weight: bold;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000333}}
 .pane-footer a {
   color: white;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000338}}
 .pane-footer p {
   margin: 0;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000345}}
 .social-links-block a {
   cursor: pointer;
   display: inline-block;
   height: 39px;
   width: 39px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000353}}
 .social-links-block .stay-connected-facebook a {
   background: url("../images/social/facebook.png") no-repeat center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000359}}
 .social-links-block .stay-connected-twitter a {
   background: url("../images/social/twitter.png") no-repeat center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.footer\.scss}line{font-family:\0000365}}
 .social-links-block .stay-connected-googleplus a {
   background: url("../images/social/googleplus.png") no-repeat center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\000035}}
 #modalContent {
   top: 50% !important;
   left: 50% !important;
@@ -624,14 +624,14 @@ html {
   transform: translate(-52%, -50%);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000314}}
 #modalContent .modal-content, #modalContent .modal-forms-modal-content {
   width: auto !important;
   height: auto !important;
   min-height: 11.25rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000320}}
 #modalContent .popups-container {
   border: 15px solid #000;
   border-radius: 0;
@@ -639,7 +639,7 @@ html {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000327}}
 #modalContent .modal-header {
   border-bottom: 1px solid #000;
   font-size: 1.5rem;
@@ -652,20 +652,20 @@ html {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000339}}
 #modalContent .modal-content {
   padding-top: 1.25rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000346}}
 #modalContent .form-item {
   padding-bottom: 1.75rem;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000351}}
 #modalContent label {
   display: inline-block;
   font-size: .875rem;
@@ -673,12 +673,12 @@ html {
   width: 11.25rem;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000358}}
 #modalContent label:after {
   content: ':';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000363}}
 #modalContent .form-text {
   border: 1px solid #8f8f8f;
   line-height: 1.5rem;
@@ -686,13 +686,13 @@ html {
   padding-left: .25rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000370}}
 #modalContent .form-actions {
   text-align: center;
   padding-bottom: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000375}}
 #modalContent .form-submit {
   background: #000;
   border: 0;
@@ -703,30 +703,30 @@ html {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000385}}
 #modalContent .benefits-rewards, #modalContent .terms-conditions {
   text-align: center;
   line-height: 1.3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000390}}
 #modalContent .benefits-rewards {
   font-size: .875rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000394}}
 #modalContent .terms-conditions {
   font-size: .75rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\0000398}}
 #modalContent .popups-close {
   display: inline-block;
   text-indent: -9999px;
   white-space: nowrap;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003104}}
 #modalContent .popups-close:after {
   content: 'x';
   position: absolute;
@@ -736,39 +736,37 @@ html {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003114}}
 #modalContent fieldset {
   margin-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003117}}
 #modalContent fieldset .form-item {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003121}}
 #modalContent fieldset label:after {
   content: '';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003126}}
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003130}}
 #modalContent {
   background: #fff;
-  bottom: 0;
-  height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003134}}
 #modalContent a {
   color: #10a0e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003188}}
 #modalContent .form-type-password-confirm {
   padding-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/mayfair\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/skippednote\/work\/mayfair-w\/docroot\/sites\/all\/themes\/custom\/mayfair\/sass\/_component\.lightbox\.scss}line{font-family:\00003192}}
 #modalContent .form-required {
   color: #f00;
   position: relative;
