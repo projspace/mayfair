@@ -1,0 +1,48 @@
+// SHAME
+
+%wrapper-container {
+  max-width: 1270px;
+  margin: auto;
+}
+
+#skip-link {
+  margin: 0;
+}
+
+.ajax-progress-throbber {
+  position: absolute;
+}
+
+.modal-throbber-wrapper {
+  text-align: center;
+}
+
+.panel-2col-stacked .panel-col-top,
+.panels-flexible-region-3_region_stack-top_,
+.panels-flexible-region-3_region_stack-center {
+  width: 100%;
+}
+
+.pane-mayfair-blocks-top-links {
+  background: #000;
+
+  ul {
+    @extend %list-bare;
+    @extend %wrapper-container;
+    text-align: right;
+
+    a {
+      @extend %link-dark;
+    }
+  }
+
+  li {
+    border-right: 2px solid #fff;
+    display: inline-block;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+}

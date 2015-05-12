@@ -11,8 +11,8 @@ function mayfair_user_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'user_register_form') {
     drupal_set_title('SIGN UP');
     $form['account']['mail']['#description'] = '';
-    $form['actions']['submit']['#value'] = t('REGISTER');
-    $form['account']['conf_mail']['#title'] = t('CONFIRM EMAIL');
+    $form['actions']['submit']['#value'] = t('Register');
+    $form['account']['conf_mail']['#title'] = t('Confirm email');
     $form['account']['conf_mail']['#description'] = '';
     $form['account']['pass']['#description'] = '';
 

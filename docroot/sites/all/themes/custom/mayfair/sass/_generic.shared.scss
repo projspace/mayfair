@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+html {
+  font-size: $base-font-size;
+  font-family: $type-primary;
+  line-height: $base-line-height;
+}
+
+body {
+}
