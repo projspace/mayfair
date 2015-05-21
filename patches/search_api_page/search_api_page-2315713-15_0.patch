@@ -1,0 +1,507 @@
+diff --git a/plugins/content_types/search_api_page_result.inc b/plugins/content_types/search_api_page_result.inc
+new file mode 100644
+index 0000000..f32d556
+--- /dev/null
++++ b/plugins/content_types/search_api_page_result.inc
+@@ -0,0 +1,155 @@
++<?php
++
++/*
++ * Plugins are described by creating a $plugin array which will be used by the
++ * system that includes this file.
++ */
++$plugin = array(
++  'single' => TRUE,
++  'title' => t('Search API page results'),
++  'icon' => 'icon_search.png',
++  'description' => t('The results of a Search API page search using keywords.'),
++  'required context' => new ctools_context_required(t('Keywords'), 'string'),
++  'category' => t('Widgets'),
++  'edit form' => 'search_api_page_result_content_type_edit_form',
++  'render callback' => 'search_api_page_result_content_type_render',
++  'admin title' => 'search_api_page_result_content_type_admin_title',
++  'defaults' => array(
++    'page' => '',
++    'per_page' => '',
++    'result_page_search_form'  => '',
++    'get_per_page' => '',
++    'view_mode' => '',
++  ),
++);
++
++/**
++ * Renders the custom content type.
++ */
++function search_api_page_result_content_type_render($subtype, $conf, $panel_args, $context) {
++  $search_info = search_api_page_load($conf['page']);
++  if (!$search_info) {
++    return;
++  }
++  $info = $search_info;
++
++  $keys = NULL;
++  if (!empty($context) && isset($context->data)) {
++    $keys = $context->data;
++  }
++
++  // Build the content type block.
++  $block = new stdClass();
++  $block->module  = 'search_api_page';
++  $block->delta   = 'result';
++
++  module_load_include('inc', 'search_api_page', 'search_api_page.pages');
++
++  $override_options = array(
++    'per_page' => $conf['per_page'],
++    'result_page_search_form' => $conf['result_page_search_form'],
++    'get_per_page' => $conf['get_per_page'],
++    'view_mode' => $conf['view_mode'],
++  );
++
++  $block->content = search_api_page_view($conf['page'], $keys, $override_options);
++
++  return $block;
++}
++
++/**
++ * Returns an edit form for custom type settings.
++ */
++function search_api_page_result_content_type_edit_form($form, &$form_state) {
++  $conf = $form_state['conf'];
++
++  $pages = array();
++  foreach (search_api_page_load_multiple(FALSE, array('enabled' => TRUE)) as $page => $info) {
++    $pages[$info->machine_name] = $info->name;
++  }
++
++  if (isset($conf['page'])) {
++    $info = search_api_page_load($page);
++    $index = search_api_index_load($info->index_id);
++  }
++
++  $form['page'] = array(
++    '#type' => 'select',
++    '#title' => t('Search API Page'),
++    '#options' => $pages,
++    '#default_value' => $conf['page'],
++    '#required' => TRUE,
++  );
++
++  $form['per_page'] = array(
++    '#type' => 'select',
++    '#title' => t('Results per page'),
++    '#description' => t('Select how many items will be displayed on one page of the search result.'),
++    '#options' => drupal_map_assoc(array(5, 10, 20, 30, 40, 50, 60, 80, 100)),
++    '#default_value' => $conf['per_page'],
++    '#required' => TRUE,
++  );
++
++  $form['result_page_search_form'] = array(
++    '#type' => 'checkbox',
++    '#title' => t('Show search form on result page'),
++    '#description' => t('Enable or disable the search form on the result page'),
++    '#default_value' => isset($conf['result_page_search_form']) ? $conf['result_page_search_form'] : TRUE,
++  );
++
++  $form['get_per_page'] = array(
++    '#type' => 'checkbox',
++    '#title' => t('Allow GET override'),
++    '#description' => t('Allow the „Results per page“ setting to be overridden from the URL, using the "per_page" GET parameter.<br />' .
++        'Example: <code>http://example.com/search_results?per_page=7</code>'),
++    '#default_value' => !empty($conf['get_per_page']),
++  );
++
++  $view_modes = array(
++    'search_api_page_result' => t('Themed as search results'),
++  );
++  // For entities, we also add all entity view modes.
++  if ($entity_info = entity_get_info($index->item_type)) {
++    foreach ($entity_info['view modes'] as $mode => $mode_info) {
++      $view_modes[$mode] = $mode_info['label'];
++    }
++  }
++  if (count($view_modes) > 1) {
++    $form['view_mode'] = array(
++      '#type' => 'select',
++      '#title' => t('View mode'),
++      '#options' => $view_modes,
++      '#description' => t('Select how search results will be displayed.'),
++      '#size' => 1,
++      '#default_value' => isset($conf['view_mode']) ? $conf['view_mode'] : 'search_api_page_result',
++      '#required' => TRUE,
++    );
++  }
++  else {
++    $form['view_mode'] = array(
++      '#type' => 'value',
++      '#value' => key($view_modes),
++    );
++  }
++
++  return $form;
++}
++
++/**
++ * Submit handler for the search form.
++ */
++function search_api_page_result_content_type_edit_form_submit($form, &$form_state) {
++  // Copy everything from our defaults.
++  foreach (array_keys($form_state['plugin']['defaults']) as $key) {
++    $form_state['conf'][$key] = $form_state['values'][$key];
++  }
++}
++
++/**
++ * Returns the administrative title for a type.
++ */
++function search_api_page_result_content_type_admin_title($subtype, $conf, $context) {
++  $info = search_api_page_load($conf['page']);
++  $page = isset($info->name) ? $info->name : t('Missing/broken type');
++  return t('%page Search API page search result', array('%page' => $page));
++}
+diff --git a/plugins/tasks/search_api_page.inc b/plugins/tasks/search_api_page.inc
+new file mode 100644
+index 0000000..404a4c8
+--- /dev/null
++++ b/plugins/tasks/search_api_page.inc
+@@ -0,0 +1,215 @@
++<?php
++
++/**
++ * @file
++ * Handles the 'search api page' override task.
++ *
++ * This plugin overrides [search_api_page_url] and reroutes it to the page
++ * manager, where a list of tasks can be used to service this request based upon
++ * criteria supplied by access plugins.
++ */
++
++/**
++ * Implements a specialized version of hook_page_manager_task_tasks().
++ *
++ * See api-task.html for more information.
++ */
++function search_api_page_search_api_page_page_manager_tasks() {
++  return array(
++    // This is a 'page' task and will fall under the page admin UI
++    'task type' => 'page',
++    'title' => t('Search API Page'),
++
++    // There are multiple search pages, let's override each of them
++    // separately.
++    'subtasks' => TRUE,
++    'subtask callback' => 'search_api_page_search_api_page_subtask',
++    'subtasks callback' => 'search_api_page_search_api_page_subtasks',
++
++    // Menu hooks so that we can alter the node/%node menu entry to point to us.
++    'hook menu alter' => 'search_api_page_search_api_page_menu_alter',
++
++    // This is task uses 'context' handlers and must implement these to give the
++    // handler data it needs.
++    'handler type' => 'context',
++    'get arguments' => 'search_api_page_search_api_page_get_arguments',
++    'get context placeholders' => 'search_api_page_search_api_page_get_contexts',
++    'access callback' => 'search_api_page_search_api_page_access_check',
++  );
++}
++
++/**
++ * Alters available menu items based on a defined task.
++ *
++ * Used as a "hook menu alter" callback in
++ * search_api_page_search_api_page_page_manager_tasks().
++ */
++function search_api_page_search_api_page_menu_alter(&$items, $task) {
++  // Go through each search page.
++  foreach (search_api_page_load_multiple(FALSE) as $page => $info) {
++    if (variable_get('search_api_page_search_api_page_disabled_' . $info->machine_name, TRUE)) {
++      continue;
++    }
++
++    $path = $info->path;
++    $callback = $items[$path]['page callback'];
++
++    if ($callback == 'search_api_page_view' || variable_get('page_manager_override_anyway', FALSE)) {
++      $items["$path"]['page callback'] = 'search_api_page_search_api_page_page';
++      $items["$path"]['file path'] = $task['path'];
++      $items["$path"]['file'] = $task['file'];
++    }
++    else {
++      // Automatically disable this task if it cannot be enabled.
++      variable_set('search_api_page_search_api_page_disabled_' . $page, TRUE);
++      if (!empty($GLOBALS['search_api_page_enabling_search_api_page'])) {
++        drupal_set_message(t('Page manager module is unable to enable @path because some other module already has overridden with %callback.', array('%callback' => $callback, '@path' => $path)), 'error');
++      }
++    }
++  }
++}
++
++/**
++ * Page callback: Displays a search page as a page manager task.
++ */
++function search_api_page_search_api_page_page($type) {
++  ctools_include('menu');
++
++  // Get the arguments and construct a keys string out of them.
++  $args = func_get_args();
++
++  // We have to remove the $type.
++  array_shift($args);
++
++  // And implode() it all back together.
++  $keys = $args ? implode('/', $args) : '';
++
++  // Load my task plugin
++  $task = page_manager_get_task('search_api_page');
++  $subtask = page_manager_get_task_subtask($task, $type);
++
++  // Load the node into a context.
++  ctools_include('context');
++  ctools_include('context-task-handler');
++  $contexts = ctools_context_handler_get_task_contexts($task, $subtask, array($keys));
++  $output = ctools_context_handler_render($task, $subtask, $contexts, array($keys));
++
++  if ($output !== FALSE) {
++    return $output;
++  }
++
++  $function = 'search_api_page_view';
++  foreach (module_implements('page_manager_override') as $module) {
++    $call = $module . '_page_manager_override';
++    if (($rc = $call('search_api_page')) && function_exists($rc)) {
++      $function = $rc;
++      break;
++    }
++  }
++
++  // Otherwise, fall back.
++
++  // Put the $type back on the arguments.
++  // Load the search page results with the given keywords.
++  module_load_include('inc', 'search_api_page', 'search_api_page.pages');
++  array_unshift($args, $type);
++
++  return $function($args);
++}
++
++/**
++ * Retrieves the arguments provided by this task handler.
++ *
++ * Since this is the node view and there is no UI on the arguments, we create
++ * dummy arguments that contain the needed data.
++ */
++function search_api_page_search_api_page_get_arguments($task, $subtask_id) {
++  return array(
++    array(
++      'keyword' => 'keywords',
++      'identifier' => t('Keywords'),
++      'id' => 1,
++      'name' => 'string',
++      'settings' => array('use_tail' => TRUE),
++    ),
++  );
++}
++
++/**
++ * Retrieves the context placeholders provided by this handler.
++ */
++function search_api_page_search_api_page_get_contexts($task, $subtask_id) {
++  return ctools_context_get_placeholders_from_argument(search_api_page_search_api_page_get_arguments($task, $subtask_id));
++}
++
++/**
++ * Enables or disables the page from the UI.
++ */
++function search_api_page_search_api_page_enable($cache, $status) {
++  variable_set('search_api_page_search_api_page_disabled_' . $cache->subtask_id, $status);
++
++  // Set a global flag so that the menu routine knows it needs
++  // to set a message if enabling cannot be done.
++  if (!$status) {
++    $GLOBALS['search_api_page_enabling_search_api_page'] = TRUE;
++  }
++}
++
++/**
++ * Retrieves all subtasks for a task.
++ */
++function search_api_page_search_api_page_subtasks($task) {
++  $return = array();
++  foreach (search_api_page_load_multiple(FALSE) as $page => $info) {
++    if ($info->path) {
++      // We don't pass the $info because the subtask build could be called
++      // singly without the $info when just the subtask needs to be built.
++      $return[$page] = search_api_page_search_api_page_build_subtask($task, $page);
++    }
++  }
++
++  return $return;
++}
++
++/**
++ * Retrieves a specific subtask.
++ */
++function search_api_page_search_api_page_subtask($task, $subtask_id) {
++  return search_api_page_search_api_page_build_subtask($task, $subtask_id);
++}
++
++/**
++ * Builds a subtask array for a given search page.
++ */
++function search_api_page_search_api_page_build_subtask($task, $page) {
++  $info = search_api_page_load($page);
++  return array(
++    'name' => $page,
++    'admin title' => $info->name,
++    'admin path' => "{$info->path}/!keywords",
++    'admin description' => t('Search API Page @name', array('@name' => $info->name)),
++    'admin type' => t('System'),
++    'row class' => empty($page->disabled) ? 'page-manager-enabled' : 'page-manager-disabled',
++    'storage' => t('In code'),
++    'disabled' => variable_get('search_api_page_search_api_page_disabled_' . $page, TRUE),
++    // This works for both enable AND disable
++    'enable callback' => 'search_api_page_search_api_page_enable',
++  );
++}
++
++/**
++ * Access callback: Determines if the given page is accessible.
++ *
++ * @param string $task
++ *   The task plugin.
++ * @param string $subtask_id
++ *   The subtask ID.
++ * @param array $contexts
++ *   The contexts loaded for the task.
++ *
++ * @return bool
++ *   TRUE if the current user can access the page, FALSE otherwise.
++ */
++function search_api_page_search_api_page_access_check($task, $subtask_id, $contexts) {
++  return user_access('access search_api_page');
++}
+diff --git a/search_api_page.module b/search_api_page.module
+index cc308d7..a54dab9 100755
+--- a/search_api_page.module
++++ b/search_api_page.module
+@@ -162,6 +162,7 @@ function search_api_page_block_view($delta) {
+     );
+     return $block;
+   }
++  return NULL;
+ }
+ 
+ /**
+@@ -258,6 +259,17 @@ function search_api_page_entity_property_info() {
+ }
+ 
+ /**
++ * Implements hook_ctools_plugin_directory().
++ *
++ * Lets the system know where our task and content_type plugins are.
++ */
++function search_api_page_ctools_plugin_directory($owner, $plugin_type) {
++  if ($owner == 'page_manager' || $owner == 'ctools') {
++    return 'plugins/' . $plugin_type;
++  }
++}
++
++/**
+  * Implements hook_search_api_index_update().
+  */
+ function search_api_page_search_api_index_update(SearchApiIndex $index) {
+@@ -280,6 +292,7 @@ function search_api_page_search_api_index_delete(SearchApiIndex $index) {
+   foreach (search_api_page_load_multiple(FALSE, array('index_id' => $index->machine_name)) as $page) {
+     search_api_page_delete($page->id);
+   }
++  return NULL;
+ }
+ 
+ /**
+diff --git a/search_api_page.pages.inc b/search_api_page.pages.inc
+index 7d99870..96f0b04 100644
+--- a/search_api_page.pages.inc
++++ b/search_api_page.pages.inc
+@@ -11,13 +11,22 @@
+  *   The search page's machine name.
+  * @param string|null $keys
+  *   The keys to search for.
++ * @param array $overridden_options
++ *   An associative array of page options that should be overridden for this
++ *   search only.
+  */
+-function search_api_page_view($id, $keys = NULL) {
++function search_api_page_view($id, $keys = NULL, $overridden_options = array()) {
+   $page = search_api_page_load($id);
+   if (!$page) {
+     return MENU_NOT_FOUND;
+   }
+ 
++  // Merge in overridden options.
++  if (!empty($overridden_options)) {
++    $page->original_options = $page->options;
++    $page->options = $overridden_options + $page->options;
++  }
++
+   // Pre-process keys (unescape \ and /).
+   if (isset($keys) && $keys !== '') {
+     $keys = explode("\\\\", $keys);
+@@ -38,7 +47,7 @@ function search_api_page_view($id, $keys = NULL) {
+   }
+ 
+   // Do a search if we have keys, or our empty behavior and facets dictate.
+-  if ($keys || !empty($page->options['empty_behavior'])) {
++  if (!empty($keys) || !empty($page->options['empty_behavior'])) {
+     // Override per_page setting with GET parameter.
+     $limit = $page->options['per_page'];
+     if (!empty($page->options['get_per_page'])
+@@ -59,7 +68,7 @@ function search_api_page_view($id, $keys = NULL) {
+       return $ret;
+     }
+ 
+-    if (!$results) {
++    if (empty($results)) {
+       return $ret;
+     }
+ 
+@@ -84,6 +93,10 @@ function search_api_page_view($id, $keys = NULL) {
+     $ret['results']['#view_mode'] = isset($page->options['view_mode']) ? $page->options['view_mode'] : 'search_api_page_result';
+     $ret['results']['#keys'] = $keys;
+     $ret['results']['#page'] = $page;
++    // Add a clean-up function to reset page options to their original values.
++    if (!empty($overridden_options)) {
++      $ret['results']['#post_render'] = array('search_api_page_reset_original_options');
++    }
+ 
+     // Load pager.
+     if ($results['result count'] > $limit) {
+@@ -209,6 +222,29 @@ function _search_api_page_map_languages($lang) {
+ }
+ 
+ /**
++ * Resets the page's options, if they were overridden, to their original values.
++ *
++ * Used as a "#post_render" callback for the search page results in
++ * search_api_page_view().
++ *
++ * @param string $children
++ *   The rendered output of the element.
++ * @param array $element
++ *   The rendered element.
++ *
++ * @return array
++ *   The processed rendered output of the element.
++ */
++function search_api_page_reset_original_options($children, array $element) {
++  $page = $element['#page'];
++  if (!empty($page->original_options)) {
++    $page->options = $page->original_options;
++    unset($page->original_options);
++  }
++  return $children;
++}
++
++/**
+  * Preprocess variables for search-api-page-results.tpl.php.
+  *
+  * @param array $variables
