@@ -7,10 +7,10 @@
 /**
  * Implement hook_form_alter.
  */
-function mayfair_commerce_form_alter(&$form, &$form_state, $form_id) {
-  if (strpos($form_id,'add_to_cart') !== false) {
-    $form['submit']['#value'] = 'ADD TO SHOPPING CART';
-    $form['add_to_wishlist']['#value'] = 'SAVE TO WISHLIST';
-    $form['add_to_wishlist']['#weight'] = 60;
-  }
-}
+//function mayfair_commerce_form_alter(&$form, &$form_state, $form_id) {
+//  if (stristr($form_id,'add_to_cart') !== false) {
+//    $form['submit']['#value'] = 'ADD TO SHOPPING CART';
+//    $form['add_to_wishlist']['#value'] = 'SAVE TO WISHLIST';
+//    $form['add_to_wishlist']['#weight'] = 60;
+//  }
+//}
